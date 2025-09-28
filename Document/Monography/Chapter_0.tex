@@ -1,0 +1,71 @@
+%------------------------------------------------------------------ DOCUMENT TYPE
+\documentclass[12pt]{report}
+%--------------------------------------------------------------------- LOAD PACKAGES AND COMMANDS
+\usepackage{monostyle} 
+%---------------------------------------------------------------------- BEGIN DOCUMENT
+\begin{document}
+%---------------------------------------------------------------------- TITTLE PAGE
+\begin{titlepage}
+\centering
+{\includegraphics[width=0.15\textwidth]{Universidad-de-los-Andes_logo.png}\par}
+\vspace{1cm}
+{\bfseries\LARGE Universidad de los Andes \par}
+\vspace{1cm}
+{\scshape\Large Physics department\par}
+\vspace{1cm}
+{\scshape\LARGE Measurement and Characterization of Granulation Pattern in the IAG Solar Flux Spectrum \par}
+\vspace{2cm}
+{\itshape\large BSc Physics Final Project \par}
+\vfill
+{\Large \textbf{Author:} \par}
+{\Large Claudia Alejandra Cuellar Nieto \par}
+{\Large \textbf{Advisor:} \par}
+{\Large Benjamin Oostra Vannoppen \par}
+\vfill
+{\Large Nov 2025 \par}
+\end{titlepage}
+%------------------------------------------------------------------------ ABSTRACT AND ACKNOWLOGMENTS
+\begin{abstract}
+    Hello, this is my work :D
+\end{abstract}
+
+\renewcommand{\abstractname}{Acknowledgements}
+
+\begin{abstract}
+Thanks  :b
+\end{abstract}
+%---------------------------------------------------------------------- TABLE OF CONTENTS
+\tableofcontents
+%---------------------------------------------------------------------- LIST OF FIGURES
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+%---------------------------------------------------------------------- CHAPTERS
+
+\chapter{Introduction: The Sun's granulation pattern}
+
+\input{Chapter_1}
+
+\chapter{Literature Review: Convective movement in the Sun}
+
+\input{Chapter_2}
+
+\chapter{Methodology: Analysis of IAG Solar Flux Spectrum}
+
+\input{Chapter_3}
+
+\chapter{Results and discussion: Granulation pattern and Characterization of chromodependence}
+
+\input{Chapter_4}
+
+\chapter{Conclusions}
+
+\input{Chapter_5}
+%------------------------------------------------------------------- BIBLIOGRAPHY AND CITATIONS
+\renewcommand{\refname}{Bibliography}
+\bibliographystyle{ieeetr}
+\bibliography{Bibliography.bib}
+\nocite{Aponte}
+\nocite{Stief_2019}
+
+\end{document}
