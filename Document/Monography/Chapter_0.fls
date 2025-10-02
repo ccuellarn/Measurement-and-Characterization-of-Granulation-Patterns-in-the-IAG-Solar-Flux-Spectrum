@@ -1,6 +1,6 @@
-PWD c:\Users\clauw\OneDrive\Escritorio\Monography
+PWD c:\Users\clauw\Documents\Programming\Final-Project\Document\Monography
 INPUT C:\Users\clauw\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\clauw\OneDrive\Escritorio\Monography\Chapter_0.tex
+INPUT c:\Users\clauw\Documents\Programming\Final-Project\Document\Monography\Chapter_0.tex
 OUTPUT Chapter_0.log
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
@@ -76,6 +76,14 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.s
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\physics\physics.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\physics\physics.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
@@ -177,8 +185,6 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\reru
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\Chapter_0.aux
 INPUT .\Chapter_0.aux
 INPUT Chapter_0.aux
@@ -290,11 +296,100 @@ INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT Chapter_4.tex
+INPUT .\Images\GranulationPattern_VIS.png
+INPUT .\Images\GranulationPattern_VIS.png
+INPUT .\Images\GranulationPattern_VIS.png
+INPUT .\Images\GranulationPattern_VIS.png
+INPUT .\Images\GranulationPattern_VIS.png
+INPUT .\Images\GranulationPattern_VIS.png
+INPUT .\Images\GranulationPattern_NIR.png
+INPUT .\Images\GranulationPattern_NIR.png
+INPUT .\Images\GranulationPattern_NIR.png
+INPUT .\Images\GranulationPattern_NIR.png
+INPUT .\Images\GranulationPattern_NIR.png
+INPUT .\Images\GranulationPattern_NIR.png
+INPUT .\Images\Chromocharacterization_VIS.png
+INPUT .\Images\Chromocharacterization_VIS.png
+INPUT .\Images\Chromocharacterization_VIS.png
+INPUT .\Images\Chromocharacterization_VIS.png
+INPUT .\Images\Chromocharacterization_VIS.png
+INPUT .\Images\Chromocharacterization_VIS.png
+INPUT .\Images\GranulationPattern_SPA.png
+INPUT .\Images\GranulationPattern_SPA.png
+INPUT .\Images\GranulationPattern_SPA.png
+INPUT .\Images\GranulationPattern_SPA.png
+INPUT .\Images\GranulationPattern_SPA.png
+INPUT .\Images\GranulationPattern_SPA.png
+INPUT .\Images\V_bins_VIS.png
+INPUT .\Images\V_bins_VIS.png
+INPUT .\Images\V_bins_VIS.png
+INPUT .\Images\V_bins_VIS.png
+INPUT .\Images\V_bins_VIS.png
+INPUT .\Images\V_bins_VIS.png
+INPUT .\Images\V_bins_SPA.png
+INPUT .\Images\V_bins_SPA.png
+INPUT .\Images\V_bins_SPA.png
+INPUT .\Images\V_bins_SPA.png
+INPUT .\Images\V_bins_SPA.png
+INPUT .\Images\V_bins_SPA.png
+INPUT .\Images\Velocity bins SPA.png
+INPUT .\Images\Velocity bins SPA.png
+INPUT .\Images\Velocity bins SPA.png
+INPUT .\Images\Velocity bins SPA.png
+INPUT .\Images\Velocity bins SPA.png
+INPUT .\Images\Velocity bins SPA.png
+INPUT .\Images\Velocity bins VIS.png
+INPUT .\Images\Velocity bins VIS.png
+INPUT .\Images\Velocity bins VIS.png
+INPUT .\Images\Velocity bins VIS.png
+INPUT .\Images\Velocity bins VIS.png
+INPUT .\Images\Velocity bins VIS.png
+INPUT .\Images\CBisector_VIS.png
+INPUT .\Images\CBisector_VIS.png
+INPUT .\Images\CBisector_VIS.png
+INPUT .\Images\CBisector_VIS.png
+INPUT .\Images\CBisector_VIS.png
+INPUT .\Images\CBisector_VIS.png
+INPUT .\Images\Cbisector_slopes.png
+INPUT .\Images\Cbisector_slopes.png
+INPUT .\Images\Cbisector_slopes.png
+INPUT .\Images\Cbisector_slopes.png
+INPUT .\Images\Cbisector_slopes.png
+INPUT .\Images\Cbisector_slopes.png
+INPUT .\Images\Sharpness_VIS.png
+INPUT .\Images\Sharpness_VIS.png
+INPUT .\Images\Sharpness_VIS.png
+INPUT .\Images\Sharpness_VIS.png
+INPUT .\Images\Sharpness_VIS.png
+INPUT .\Images\Sharpness_VIS.png
+INPUT .\Images\Sharpness_NIR.png
+INPUT .\Images\Sharpness_NIR.png
+INPUT .\Images\Sharpness_NIR.png
+INPUT .\Images\Sharpness_NIR.png
+INPUT .\Images\Sharpness_NIR.png
+INPUT .\Images\Sharpness_NIR.png
+INPUT .\Images\Sharpness_ALL.png
+INPUT .\Images\Sharpness_ALL.png
+INPUT .\Images\Sharpness_ALL.png
+INPUT .\Images\Sharpness_ALL.png
+INPUT .\Images\Sharpness_ALL.png
+INPUT .\Images\Sharpness_ALL.png
+INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
+INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
+INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
+INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
+INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
+INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
 INPUT .\Chapter_5.tex
 INPUT .\Chapter_5.tex
 INPUT .\Chapter_5.tex
 INPUT .\Chapter_5.tex
 INPUT Chapter_5.tex
+INPUT .\Chapter_6.tex
+INPUT .\Chapter_6.tex
+INPUT .\Chapter_6.tex
+INPUT .\Chapter_6.tex
+INPUT Chapter_6.tex
 INPUT .\Chapter_0.bbl
 INPUT .\Chapter_0.bbl
 INPUT Chapter_0.bbl
@@ -309,6 +404,8 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb

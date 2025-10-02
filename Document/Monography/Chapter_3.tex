@@ -1,13 +1,45 @@
 As the spectral analysis is complicated cause the convective motion, I take an computational approach leading an observational requirement to lead the research.
+This leading by the experience of professor Benjamin and the previous research.
+This research endeavor encompass both analytical and computational components. 
+For the last part, the programming language Python and Jupyter Notebook was used.
+The computational aspect focus on identifying the granulation pattern within the solar spectrum by calculating relative velocities using the wavelengths of Fe I. 
+All analysis data and code used in the process was uploaded to a GitHub repository, allowing anyone interested to reproduce the results and verify the authenticity of the conclusions presented. 
+Moreover, proper credit will be given to all previous work from other researchers.
 
 \section{Methodology}
-This research endeavor encompass both analytical and computational components. For the last part, the programming language Python and Jupyter Notebook was used.
+We follow the methodology established in previous studies \cite{Dravins_1981,Reiners_2016,Ellwarth_2023} , which utilized a selected list of Fe I lines. 
+These lines are ideal for this calibration due to their minimal thermal broadening and reduced susceptibility to other atmospheric affectations.
 
-The computational aspect focus on identifying the granulation pattern within the solar spectrum by calculating relative velocities using the wavelengths of Fe I. 
+The line up for the code was identify the Fe I lines in the IAG Solar Flux Atlas and the IAG Spatially Resolved Quiet Sun Atlas using
+the blend-free list of Fe I lines.
+Second, fit a fourth-grade polynomial fit due to the c-curved line profile bisector and find the observed wavelength.
+Then calculate the Doppler velocity, convective blueshift and flux with the fit.
+Finally, find the second derivate (core curvature) and the third derivate relation (bisector slope) for the curvature in the observed wavelength. 
+This last is develop in detail in the apendix B.
 
-All analysis data and code used in the process will be uploaded to a GitHub repository, allowing anyone interested to reproduce the results and verify the authenticity of the conclusions presented. Moreover, proper credit will be given to all previous work from other researchers.
-\section{Code optimization}
-\subsection{Z-score Standardization}
-\subsection{Blend-free Fe I line list}
 
-\section{Spatial resolved solar spectrum}
+\section{Blend-free Fe I line list}
+The previous methodology implemented the Nave et. al list of laboratory measured Fe I lines \cite{Nave_1994}. 
+This list classifies lines with a quality rating (A,B,C,D) with A be the most and best quality.
+However, not all the listed lines are clearly present in the solar spectrum, and within the near-infrared range, many lines are severely mixed.
+
+In collaboration with Professor Benjamin and Manuel Fuentes, we refined this list. 
+
+\subsection{Selection method for Fe I lines}
+This selection method has two different approaches: Computational and visual.
+First, we selected only quality A lines and then performed the next filters according to the statement of having an fourth order polynomial fit for the line core.
+\begin{itemize}
+\item The coefficient of the fourth grade term need to be positive and not too small cause it denotes a curve too big. This can be for a line, specially in the infrared, cause the big cores are related to atmospheric lines.
+\item The difference between extreme points of the fit need to be less than the half of the distance, that is a curve and not a slope.
+\item The absolute difference between the wavelength observed and the one from Nave list need to be less to $0.025\mathring{A}$.
+\end{itemize}
+
+The last part was a visual inspection to discard line mixes or absent from the solar spectrum. This part was divided between porfessor Benjamin and me.
+I used the visualizer (explained in detail in the apendix C) and profesor Benjamin use the great years of experience.
+Then I combined the list, made a check and profesor Benjamin check again.
+The discard part was only using the geometry of the curve and guidance of profesor Benjamin (and God).
+%Insert images for examples
+The new blend-free list improves our results, leading to cleaner graphics and characterization with less scatter in the data.
+Then we perform different graphics for our analysis conform we see it necesary for the characterization.
+
+In case of the IAG Spatially Resolved Quiet Sun Atlas we only use the $\mu=1$

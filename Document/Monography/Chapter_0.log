@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  28 SEP 2025 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  1 OCT 2025 22:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/clauw/OneDrive/Escritorio/Monography/Chapter_0.tex
-(c:/Users/clauw/OneDrive/Escritorio/Monography/Chapter_0.tex
+**c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex
+(c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -667,7 +667,16 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisrulewidth=\dimen181
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
+Package: physics 
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-09-02 L3 programming layer (loader) 
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count339
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
@@ -684,7 +693,7 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \Gin@req@width=\dimen183
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count339
+\c@float@type=\count340
 \float@exts=\toks32
 \float@box=\box101
 \@float@everytoks=\toks33
@@ -705,18 +714,18 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen191
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count340
-\c@continuedfloat=\count341
+\c@caption@flags=\count341
+\c@continuedfloat=\count342
 Package caption Info: float package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count342
+\c@subfigure=\count343
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count343
+\c@subtable=\count344
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen192
 \WF@size=\dimen193
-\c@WF@wrappedlines=\count344
+\c@WF@wrappedlines=\count345
 \WF@box=\box103
 \WF@everypar=\toks34
 Package: wrapfig 2003/01/31  v 3.6
@@ -756,14 +765,14 @@ Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/psfrag\psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count345
-\pfg@scount=\count346
+\pfg@pcount=\count346
+\pfg@scount=\count347
 \pfg@temp=\write3
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count347
-\c@@ppsavesec=\count348
-\c@@ppsaveapp=\count349
+\c@@pps=\count348
+\c@@ppsavesec=\count349
+\c@@ppsaveapp=\count350
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
@@ -813,13 +822,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count350
+\c@section@level=\count351
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen194
-\Hy@linkcounter=\count351
-\Hy@pagecounter=\count352
+\Hy@linkcounter=\count352
+\Hy@pagecounter=\count353
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -827,7 +836,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count353
+\Hy@SavedSpaceFactor=\count354
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -851,7 +860,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count354
+\c@Hy@tempcnt=\count355
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -863,7 +872,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count355
+\Fld@menulength=\count356
 \Field@Width=\dimen196
 \Fld@charsize=\dimen197
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -873,15 +882,15 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring ON on input line 6096.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count356
-\c@Item=\count357
-\c@Hfootnote=\count358
+\Hy@abspage=\count357
+\c@Item=\count358
+\c@Hfootnote=\count359
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count359
-\c@bookmark@seq@number=\count360
+\Fld@listcount=\count360
+\c@bookmark@seq@number=\count361
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -895,10 +904,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count361
-) (Chapter_0.aux)
+ (Chapter_0.aux
+
+LaTeX Warning: Label `Sharpness' multiply defined.
+
+)
 \openout1 = `Chapter_0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -953,7 +963,7 @@ Package hyperref Info: Link coloring ON on input line 6.
 \@outlinefile=\write4
 \openout4 = `Chapter_0.out'.
 
-<Universidad-de-los-Andes_logo.png, id=123, 385.44pt x 457.71pt>
+<Universidad-de-los-Andes_logo.png, id=159, 385.44pt x 457.71pt>
 File: Universidad-de-los-Andes_logo.png Graphic file (type png)
 <use Universidad-de-los-Andes_logo.png>
 Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 10.
@@ -992,7 +1002,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 ...e {2.8}Chromo-dependence}{14}{section.2.8}
+l.24 ...d Relative Velocity}{19}{subsection.2.4.2}
                                                   % [1
 
 ])
@@ -1012,94 +1022,224 @@ l.25 ...e {2.8}Chromo-dependence}{14}{section.2.8}
 
 ]
 Chapter 1.
-(Chapter_1.tex)
+(Chapter_1.tex
 
 [4
 
 ]
-Chapter 2.
-(Chapter_2.tex
 
-[5
-
-]
+[5]
 
 [6]
 
-[7]
+[7])
 
 [8]
+Chapter 2.
+(Chapter_2.tex
 
-[9]
-<Images/Granulation pattern.jpg, id=256, 505.89pt x 298.11375pt>
-File: Images/Granulation pattern.jpg Graphic file (type jpg)
-<use Images/Granulation pattern.jpg>
-Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 61.
-(pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
+[9
 
+]
 
-[10 <./Images/Granulation pattern.jpg>]
+[10]
 
 [11]
 
 [12]
-<Images/asymmetries.png, id=295, 438.13687pt x 236.38312pt>
+
+[13]
+
+[14]
+
+[15]
+<Images/Granulation pattern.jpg, id=385, 505.89pt x 298.11375pt>
+File: Images/Granulation pattern.jpg Graphic file (type jpg)
+<use Images/Granulation pattern.jpg>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 182.
+(pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
+
+
+[16]
+
+[17 <./Images/Granulation pattern.jpg>]
+
+[18]
+
+[19]
+<Images/asymmetries.png, id=433, 438.13687pt x 236.38312pt>
 File: Images/asymmetries.png Graphic file (type png)
 <use Images/asymmetries.png>
-Package pdftex.def Info: Images/asymmetries.png  used on input line 119.
+Package pdftex.def Info: Images/asymmetries.png  used on input line 269.
 (pdftex.def)             Requested size: 312.83247pt x 168.7818pt.
 
 
-[13])
+[20]
 
-[14 <./Images/asymmetries.png>]
+[21 <./Images/asymmetries.png>])
 
-[15]
+[22]
 Chapter 3.
-(Chapter_3.tex)
+(Chapter_3.tex
 
-[16
+[23
 
 ]
 
-[17]
+[24])
+
+[25]
 Chapter 4.
-(Chapter_4.tex)
+(Chapter_4.tex
+<Images/GranulationPattern_VIS.png, id=470, 867.24pt x 505.89pt>
+File: Images/GranulationPattern_VIS.png Graphic file (type png)
+<use Images/GranulationPattern_VIS.png>
+Package pdftex.def Info: Images/GranulationPattern_VIS.png  used on input line 7.
+(pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
+<Images/GranulationPattern_NIR.png, id=471, 867.24pt x 505.89pt>
+File: Images/GranulationPattern_NIR.png Graphic file (type png)
+<use Images/GranulationPattern_NIR.png>
+Package pdftex.def Info: Images/GranulationPattern_NIR.png  used on input line 8.
+(pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
 
-[18
+
+[26
 
 ]
+<Images/Chromocharacterization_VIS.png, id=476, 867.24pt x 505.89pt>
+File: Images/Chromocharacterization_VIS.png Graphic file (type png)
+<use Images/Chromocharacterization_VIS.png>
+Package pdftex.def Info: Images/Chromocharacterization_VIS.png  used on input line 16.
+(pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
+<Images/GranulationPattern_SPA.png, id=477, 867.24pt x 505.89pt>
+File: Images/GranulationPattern_SPA.png Graphic file (type png)
+<use Images/GranulationPattern_SPA.png>
+Package pdftex.def Info: Images/GranulationPattern_SPA.png  used on input line 26.
+(pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
+
+
+[27 <./Images/GranulationPattern_VIS.png> <./Images/GranulationPattern_NIR.png> <./Images/Chromocharacterization_VIS.png>]
+<Images/V_bins_VIS.png, id=485, 1236.5397pt x 630.9171pt>
+File: Images/V_bins_VIS.png Graphic file (type png)
+<use Images/V_bins_VIS.png>
+Package pdftex.def Info: Images/V_bins_VIS.png  used on input line 34.
+(pdftex.def)             Requested size: 268.14603pt x 136.80939pt.
+<Images/V_bins_SPA.png, id=486, 1230.0354pt x 630.9171pt>
+File: Images/V_bins_SPA.png Graphic file (type png)
+<use Images/V_bins_SPA.png>
+Package pdftex.def Info: Images/V_bins_SPA.png  used on input line 35.
+(pdftex.def)             Requested size: 268.14603pt x 137.53142pt.
+
+
+[28 <./Images/GranulationPattern_SPA.png>]
+<Images/Velocity bins SPA.png, id=493, 1445.4pt x 867.24pt>
+File: Images/Velocity bins SPA.png Graphic file (type png)
+<use Images/Velocity bins SPA.png>
+Package pdftex.def Info: Images/Velocity bins SPA.png  used on input line 42.
+(pdftex.def)             Requested size: 268.14603pt x 160.88681pt.
+<Images/Velocity bins VIS.png, id=494, 1445.4pt x 722.7pt>
+File: Images/Velocity bins VIS.png Graphic file (type png)
+<use Images/Velocity bins VIS.png>
+Package pdftex.def Info: Images/Velocity bins VIS.png  used on input line 43.
+(pdftex.def)             Requested size: 268.14603pt x 134.07234pt.
+
+
+[29 <./Images/V_bins_VIS.png> <./Images/V_bins_SPA.png>]
+<Images/CBisector_VIS.png, id=501, 867.24pt x 505.89pt>
+File: Images/CBisector_VIS.png Graphic file (type png)
+<use Images/CBisector_VIS.png>
+Package pdftex.def Info: Images/CBisector_VIS.png  used on input line 55.
+(pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
+<Images/Cbisector_slopes.png, id=502, 745.28438pt x 575.14874pt>
+File: Images/Cbisector_slopes.png Graphic file (type png)
+<use Images/Cbisector_slopes.png>
+Package pdftex.def Info: Images/Cbisector_slopes.png  used on input line 56.
+(pdftex.def)             Requested size: 268.14603pt x 206.93053pt.
+
+
+[30 <./Images/Velocity bins SPA.png> <./Images/Velocity bins VIS.png>]
+<Images/Sharpness_VIS.png, id=509, 867.24pt x 505.89pt>
+File: Images/Sharpness_VIS.png Graphic file (type png)
+<use Images/Sharpness_VIS.png>
+Package pdftex.def Info: Images/Sharpness_VIS.png  used on input line 63.
+(pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
+<Images/Sharpness_NIR.png, id=510, 867.24pt x 505.89pt>
+File: Images/Sharpness_NIR.png Graphic file (type png)
+<use Images/Sharpness_NIR.png>
+Package pdftex.def Info: Images/Sharpness_NIR.png  used on input line 64.
+(pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
+
+
+[31 <./Images/CBisector_VIS.png> <./Images/Cbisector_slopes.png>]
+<Images/Sharpness_ALL.png, id=517, 867.24pt x 505.89pt>
+File: Images/Sharpness_ALL.png Graphic file (type png)
+<use Images/Sharpness_ALL.png>
+Package pdftex.def Info: Images/Sharpness_ALL.png  used on input line 72.
+(pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
+
+
+[32 <./Images/Sharpness_VIS.png> <./Images/Sharpness_NIR.png>]
+<Images/ConvectiveBlueshift_VIS_Gray.png, id=524, 867.24pt x 505.89pt>
+File: Images/ConvectiveBlueshift_VIS_Gray.png Graphic file (type png)
+<use Images/ConvectiveBlueshift_VIS_Gray.png>
+Package pdftex.def Info: Images/ConvectiveBlueshift_VIS_Gray.png  used on input line 82.
+(pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
+)
+
+[33 <./Images/Sharpness_ALL.png> <./Images/ConvectiveBlueshift_VIS_Gray.png>]
 Chapter 5.
-(Chapter_5.tex) (Chapter_0.bbl
+(Chapter_5.tex) (Chapter_6.tex
 
-[19
+[34
+
+]
+Appendix A.
+
+
+[35
+
+]
+Appendix B.
+
+
+[36
+
+]
+Appendix C.
+) (Chapter_0.bbl
+
+[37
 
 ]
 
-[20
+[38
 
 ])
 
-[21] (Chapter_0.aux)
+[39] (Chapter_0.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Chapter_0.out' has not changed.
-(rerunfilecheck)             Checksum: 5AC098E5AE4C5EC8A5C7A4B12589C1A8;7251.
+(rerunfilecheck)             Checksum: AD4A52A7EA165F5AB908ED85008C755B;9664.
  ) 
 Here is how much of TeX's memory you used:
- 16738 strings out of 468130
- 276222 string characters out of 5430633
- 694326 words of memory out of 5000000
- 45019 multiletter control sequences out of 15000+600000
+ 17527 strings out of 468130
+ 289505 string characters out of 5430633
+ 707130 words of memory out of 5000000
+ 45750 multiletter control sequences out of 15000+600000
  635835 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,6n,93p,1220b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\clauw\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Chapter_0.pdf (24 pages, 409457 bytes).
+ 90i,7n,93p,618b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\clauw\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Chapter_0.pdf (42 pages, 2130675 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 644 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
