@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  29 SEP 2025 13:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  1 OCT 2025 22:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,69 +1108,50 @@ File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 \@quotelevel=\count502
 \@quotereset=\count503
-LaTeX Font Info:    Trying to load font information for T1+qpl on input line 66.
+LaTeX Font Info:    Trying to load font information for T1+qpl on input line 62.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qpl.fd
 File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
-) (main.aux
-
-LaTeX Warning: Label `fig:doubleMask' multiply defined.
-
-
-LaTeX Warning: Label `fig:doubleMask' multiply defined.
-
-
-LaTeX Warning: Label `fig:doubleMask' multiply defined.
-
-
-LaTeX Warning: Label `fig:doubleMask' multiply defined.
-
-
-LaTeX Warning: Label `fig:doubleMask' multiply defined.
-
-
-LaTeX Warning: Label `fig:doubleMask' multiply defined.
-
-)
+) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 66.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 66.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 62.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 62.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 66.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 66.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 62.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 62.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 66.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 66.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 62.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 62.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 66.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 66.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 62.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 62.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    ... okay on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1225,7 +1206,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 66.
+Package hyperref Info: Link coloring OFF on input line 62.
  (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -1243,8 +1224,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Command `\dddot' is already robust on input line 66.
-LaTeX Info: Command `\ddddot' is already robust on input line 66.
+LaTeX Info: Command `\dddot' is already robust on input line 62.
+LaTeX Info: Command `\ddddot' is already robust on input line 62.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
@@ -1267,831 +1248,228 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 66.
-Package biblatex Info: Reference segment=0 on input line 66.
+Package biblatex Info: Reference section=0 on input line 62.
+Package biblatex Info: Reference segment=0 on input line 62.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (main.nav)
-<images/HEP_Logo_White.png, id=16, 528.97626pt x 83.31125pt>
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 66.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 96.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-LaTeX Font Info:    Trying to load font information for OT1+qpl on input line 96.
+<images/Logo_White.png, id=16, 186.6975pt x 62.48344pt>
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 62.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 92.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+LaTeX Font Info:    Trying to load font information for OT1+qpl on input line 92.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ot1qpl.fd
 File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
 )
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 92.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 7.3pt on input line 96.
+(Font)              scaled to size 7.3pt on input line 92.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 5.5pt on input line 96.
+(Font)              scaled to size 5.5pt on input line 92.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 92.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 7.3pt on input line 96.
+(Font)              scaled to size 7.3pt on input line 92.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 5.5pt on input line 96.
+(Font)              scaled to size 5.5pt on input line 92.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 92.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 7.3pt on input line 96.
+(Font)              scaled to size 7.3pt on input line 92.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 5.5pt on input line 96.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+(Font)              scaled to size 5.5pt on input line 92.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 96.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 92.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 7.3pt on input line 96.
+(Font)              scaled to size 7.3pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 5.5pt on input line 96.
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 96.
+(Font)              scaled to size 5.5pt on input line 92.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 92.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 7.3pt on input line 96.
+(Font)              scaled to size 7.3pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 5.5pt on input line 96.
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 96.
+(Font)              scaled to size 5.5pt on input line 92.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 92.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 7.3pt on input line 96.
+(Font)              scaled to size 7.3pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 5.5pt on input line 96.
+(Font)              scaled to size 5.5pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 7.3pt on input line 96.
+(Font)              scaled to size 7.3pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 5.5pt on input line 96.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 96.
+(Font)              scaled to size 5.5pt on input line 92.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 92.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/eulervm\uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 7.3pt on input line 96.
+(Font)              scaled to size 7.3pt on input line 92.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 5.5pt on input line 96.
+(Font)              scaled to size 5.5pt on input line 92.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 6.5pt on input line 96.
+(Font)              scaled to size 6.5pt on input line 92.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 6.5pt on input line 96.
+(Font)              scaled to size 6.5pt on input line 92.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 6.5pt on input line 96.
+(Font)              scaled to size 6.5pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 6.5pt on input line 96.
+(Font)              scaled to size 6.5pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 6.5pt on input line 96.
+(Font)              scaled to size 6.5pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 6.5pt on input line 96.
+(Font)              scaled to size 6.5pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 6.5pt on input line 96.
+(Font)              scaled to size 6.5pt on input line 92.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 6.5pt on input line 96.
+(Font)              scaled to size 6.5pt on input line 92.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 10.95pt on input line 96.
+(Font)              scaled to size 10.95pt on input line 92.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 8.0pt on input line 96.
+(Font)              scaled to size 8.0pt on input line 92.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 6.1pt on input line 96.
+(Font)              scaled to size 6.1pt on input line 92.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 10.95pt on input line 96.
+(Font)              scaled to size 10.95pt on input line 92.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 96.
+(Font)              scaled to size 8.0pt on input line 92.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 6.1pt on input line 96.
+(Font)              scaled to size 6.1pt on input line 92.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 10.95pt on input line 96.
+(Font)              scaled to size 10.95pt on input line 92.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 96.
+(Font)              scaled to size 8.0pt on input line 92.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 6.1pt on input line 96.
+(Font)              scaled to size 6.1pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 10.95pt on input line 96.
+(Font)              scaled to size 10.95pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 8.0pt on input line 96.
+(Font)              scaled to size 8.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 6.1pt on input line 96.
+(Font)              scaled to size 6.1pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 10.95pt on input line 96.
+(Font)              scaled to size 10.95pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 96.
+(Font)              scaled to size 8.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 6.1pt on input line 96.
+(Font)              scaled to size 6.1pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 10.95pt on input line 96.
+(Font)              scaled to size 10.95pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 96.
+(Font)              scaled to size 8.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 6.1pt on input line 96.
+(Font)              scaled to size 6.1pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 10.95pt on input line 96.
+(Font)              scaled to size 10.95pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 8.0pt on input line 96.
+(Font)              scaled to size 8.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 6.1pt on input line 96.
+(Font)              scaled to size 6.1pt on input line 92.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.95pt on input line 96.
+(Font)              scaled to size 10.95pt on input line 92.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 8.0pt on input line 96.
+(Font)              scaled to size 8.0pt on input line 92.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 6.1pt on input line 96.
+(Font)              scaled to size 6.1pt on input line 92.
 
 
 [1
 
 {C:/Users/clauw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/px-lms.enc}]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 119.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/sampleMammogram.png, id=49, 415.5525pt x 221.628pt>
-File: images/sampleMammogram.png Graphic file (type png)
-<use images/sampleMammogram.png>
-Package pdftex.def Info: images/sampleMammogram.png  used on input line 119.
-(pdftex.def)             Requested size: 199.1693pt x 106.22467pt.
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 109.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 
 
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 119.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 109.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 [2
 
-{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec-sc.enc} <./images/HEP_Logo_White.png> <./images/sampleMammogram.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 135.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
+{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.enc} <./images/Logo_White.png>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 123.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 
 
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 135.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 123.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 [3
 
-{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.enc}]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 145.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/coeffComparison.png, id=113, 467.346pt x 175.857pt>
-File: images/coeffComparison.png Graphic file (type png)
-<use images/coeffComparison.png>
-Package pdftex.def Info: images/coeffComparison.png  used on input line 145.
-(pdftex.def)             Requested size: 278.83578pt x 104.92198pt.
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 130.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 
 
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 145.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 130.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 [4
 
- <./images/coeffComparison.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 168.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/darkField.png, id=142, 316.7835pt x 343.88475pt>
-File: images/darkField.png Graphic file (type png)
-<use images/darkField.png>
-Package pdftex.def Info: images/darkField.png  used on input line 168.
-(pdftex.def)             Requested size: 119.50279pt x 129.72256pt.
+{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}]
 
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 168.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 130.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 [5
 
- <./images/darkField.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 180.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
 
+]
 
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 180.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 130.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 [6
 
+
 ]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 193.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/doubleMask.png, id=196, 403.5075pt x 203.5605pt>
-File: images/doubleMask.png Graphic file (type png)
-<use images/doubleMask.png>
-Package pdftex.def Info: images/doubleMask.png  used on input line 193.
-(pdftex.def)             Requested size: 239.00558pt x 120.57487pt.
 
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 193.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 130.
+(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 [7
-
- <./images/doubleMask.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 206.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/singleMask.png, id=226, 336.0555pt x 151.16475pt>
-File: images/singleMask.png Graphic file (type png)
-<use images/singleMask.png>
-Package pdftex.def Info: images/singleMask.png  used on input line 206.
-(pdftex.def)             Requested size: 239.00558pt x 107.50993pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:doubleMask}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.206 \end{frame}
-                 
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 206.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[8
-
- <./images/singleMask.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 220.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 220.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[9
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 242.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/astolfoImages.png, id=278, 293.29575pt x 310.761pt>
-File: images/astolfoImages.png Graphic file (type png)
-<use images/astolfoImages.png>
-Package pdftex.def Info: images/astolfoImages.png  used on input line 242.
-(pdftex.def)             Requested size: 119.50279pt x 126.62094pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 242.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[10
-
- <./images/astolfoImages.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 259.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 259.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[11
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 283.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-LaTeX Font Info:    Trying to load font information for U+zeuex on input line 283.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/eulervm\uzeuex.fd
-File: uzeuex.fd 2005/01/11 v4.0 (WaS)
-)
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 10.95pt on input line 283.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 8.0pt on input line 283.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 6.0pt on input line 283.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 283.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[12
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 310.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/DPC.png, id=362, 599.23875pt x 227.04825pt>
-File: images/DPC.png Graphic file (type png)
-<use images/DPC.png>
-Package pdftex.def Info: images/DPC.png  used on input line 310.
-(pdftex.def)             Requested size: 239.00558pt x 90.55785pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 310.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[13
-
- <./images/DPC.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 335.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-Overfull \hbox (7.87927pt too wide) detected at line 335
-[][]\U/zeur/m/n/10.95 S[] \U/npxmia/m/it/10.95 = \OT1/qpl/m/n/10.95 1 \LMS/npxsy/m/n/10.95 ^^@ [] ^^A []
- []
-
-<images/DF.png, id=392, 601.0455pt x 192.72pt>
-File: images/DF.png Graphic file (type png)
-<use images/DF.png>
-Package pdftex.def Info: images/DF.png  used on input line 335.
-(pdftex.def)             Requested size: 239.00558pt x 76.63376pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 335.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[14
-
- <./images/DF.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 363.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 363.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[15
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 372.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/BOTH.png, id=449, 590.80725pt x 193.32225pt>
-File: images/BOTH.png Graphic file (type png)
-<use images/BOTH.png>
-Package pdftex.def Info: images/BOTH.png  used on input line 372.
-(pdftex.def)             Requested size: 398.3386pt x 130.34824pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 372.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[16
-
- <./images/BOTH.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 382.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 382.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[17
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 390.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/ATLAS.png, id=507, 366.168pt x 348.1005pt>
-File: images/ATLAS.png Graphic file (type png)
-<use images/ATLAS.png>
-Package pdftex.def Info: images/ATLAS.png  used on input line 390.
-(pdftex.def)             Requested size: 159.333pt x 151.4756pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 390.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[18
-
- <./images/ATLAS.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 401.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-File: images/singleMask.png Graphic file (type png)
-<use images/singleMask.png>
-Package pdftex.def Info: images/singleMask.png  used on input line 401.
-(pdftex.def)             Requested size: 239.00558pt x 107.50993pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:doubleMask}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.401 \end{frame}
-                 
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 401.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[19
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 415.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 415.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[20
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 424.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 424.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[21
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 438.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/Step1.png, id=611, 422.7795pt x 389.65575pt>
-File: images/Step1.png Graphic file (type png)
-<use images/Step1.png>
-Package pdftex.def Info: images/Step1.png  used on input line 438.
-(pdftex.def)             Requested size: 159.333pt x 146.85185pt.
-<images/Step1_.png, id=612, 401.70074pt x 377.61075pt>
-File: images/Step1_.png Graphic file (type png)
-<use images/Step1_.png>
-Package pdftex.def Info: images/Step1_.png  used on input line 438.
-(pdftex.def)             Requested size: 159.333pt x 149.77977pt.
-LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 6.2pt on input line 438.
-LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 6.2pt on input line 438.
-LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 6.2pt on input line 438.
-LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 6.2pt on input line 438.
-LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 6.2pt on input line 438.
-LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 6.2pt on input line 438.
-LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 6.2pt on input line 438.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 6.2pt on input line 438.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 438.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[22
-
- <./images/Step1.png> <./images/Step1_.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 445.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 445.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[23
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 459.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/Step2.png, id=665, 548.0475pt x 374.5995pt>
-File: images/Step2.png Graphic file (type png)
-<use images/Step2.png>
-Package pdftex.def Info: images/Step2.png  used on input line 459.
-(pdftex.def)             Requested size: 159.333pt x 108.90543pt.
-<images/Step2_.png, id=666, 552.26324pt x 373.395pt>
-File: images/Step2_.png Graphic file (type png)
-<use images/Step2_.png>
-Package pdftex.def Info: images/Step2_.png  used on input line 459.
-(pdftex.def)             Requested size: 159.333pt x 107.72911pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 459.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[24
-
- <./images/Step2.png> <./images/Step2_.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 473.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/Step3.png, id=694, 548.0475pt x 374.5995pt>
-File: images/Step3.png Graphic file (type png)
-<use images/Step3.png>
-Package pdftex.def Info: images/Step3.png  used on input line 473.
-(pdftex.def)             Requested size: 159.333pt x 108.90543pt.
-<images/Step3_.png, id=695, 534.19576pt x 381.22424pt>
-File: images/Step3_.png Graphic file (type png)
-<use images/Step3_.png>
-Package pdftex.def Info: images/Step3_.png  used on input line 473.
-(pdftex.def)             Requested size: 159.333pt x 113.70502pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 473.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[25
-
- <./images/Step3.png> <./images/Step3_.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 480.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 480.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[26
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 494.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/results/10umMult.pdf, id=749, 722.7pt x 505.89pt>
-File: images/results/10umMult.pdf Graphic file (type pdf)
-<use images/results/10umMult.pdf>
-Package pdftex.def Info: images/results/10umMult.pdf  used on input line 494.
-(pdftex.def)             Requested size: 179.25114pt x 125.4764pt.
-<images/results/100umMult.pdf, id=750, 722.7pt x 505.89pt>
-File: images/results/100umMult.pdf Graphic file (type pdf)
-<use images/results/100umMult.pdf>
-Package pdftex.def Info: images/results/100umMult.pdf  used on input line 494.
-(pdftex.def)             Requested size: 179.25114pt x 125.4764pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 494.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[27
-
- <./images/results/10umMult.pdf> <./images/results/100umMult.pdf>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 512.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 512.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[28
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 525.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/Esquema.jpg, id=842, 1180.41pt x 661.47125pt>
-File: images/Esquema.jpg Graphic file (type jpg)
-<use images/Esquema.jpg>
-Package pdftex.def Info: images/Esquema.jpg  used on input line 525.
-(pdftex.def)             Requested size: 239.00558pt x 133.927pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:doubleMask}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.525 \end{frame}
-                 
-Overfull \vbox (7.42465pt too high) detected at line 525
- []
-
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 525.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[29
-
- <./images/Esquema.jpg>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 536.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/Temporal.png, id=868, 606.01407pt x 429.10312pt>
-File: images/Temporal.png Graphic file (type png)
-<use images/Temporal.png>
-Package pdftex.def Info: images/Temporal.png  used on input line 536.
-(pdftex.def)             Requested size: 239.00558pt x 169.23524pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:doubleMask}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.536 \end{frame}
-                 
-Overfull \vbox (7.93263pt too high) detected at line 536
- []
-
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 536.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[30
-
- <./images/Temporal.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 546.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/PhaseIdealTrial.png, id=895, 921.552pt x 296.088pt>
-File: images/PhaseIdealTrial.png Graphic file (type png)
-<use images/PhaseIdealTrial.png>
-Package pdftex.def Info: images/PhaseIdealTrial.png  used on input line 546.
-(pdftex.def)             Requested size: 398.3386pt x 127.98401pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:doubleMask}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.546 \end{frame}
-                 
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 546.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[31
-
- <./images/PhaseIdealTrial.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 555.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-<images/Heya.png, id=923, 407.121pt x 186.6975pt>
-File: images/Heya.png Graphic file (type png)
-<use images/Heya.png>
-Package pdftex.def Info: images/Heya.png  used on input line 555.
-(pdftex.def)             Requested size: 398.3386pt x 182.68027pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:doubleMask}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.555 \end{frame}
-                 
-Overfull \vbox (6.67766pt too high) detected at line 555
- []
-
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 555.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[32
-
- <./images/Heya.png>]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 566.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 566.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[33
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 575.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 575.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[34
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 584.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 584.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[35
-
-]
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 589.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 589.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[36
-
-]
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 589.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[37
-
-
-]
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 589.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[38
-
-
-]
-
-File: images/HEP_Logo_White.png Graphic file (type png)
-<use images/HEP_Logo_White.png>
-Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 589.
-(pdftex.def)             Requested size: 144.52051pt x 22.76228pt.
-[39
 
 
 ]
@@ -2109,36 +1487,24 @@ Package pdftex.def Info: images/HEP_Logo_White.png  used on input line 589.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AEA4B6A8AE45636C75679C2F0DFA4493;93.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36994 strings out of 468130
- 720030 string characters out of 5430633
- 1450676 words of memory out of 5000000
- 64842 multiletter control sequences out of 15000+600000
- 734091 words of font info for 173 fonts, out of 8000000 for 9000
+ 36567 strings out of 468130
+ 711730 string characters out of 5430633
+ 1450687 words of memory out of 5000000
+ 64501 multiletter control sequences out of 15000+600000
+ 709835 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,131p,1979b,1551s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\clauw\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\clauw\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ectt0800.pk><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxmiaX.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxsys.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb>
-Output written on main.pdf (39 pages, 4708905 bytes).
+ <C:\Users\clauw\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxmiaX.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxsys.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb>
+Output written on main.pdf (7 pages, 262660 bytes).
 PDF statistics:
- 1320 PDF objects out of 1440 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

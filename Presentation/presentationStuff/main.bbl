@@ -329,63 +329,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{PhysRevApplied.19.054042}{article}{}{}
-    \name{author}{6}{}{%
-      {{hash=DA}{%
-         family={Doherty},
-         familyi={D\bibinitperiod},
-         given={Adam},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SS}{%
-         family={Savvidis},
-         familyi={S\bibinitperiod},
-         given={Savvas},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NLC}{%
-         family={Navarrete-Le\'on},
-         familyi={N\bibinithyphendelim L\bibinitperiod},
-         given={Carlos},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=GMF}{%
-         family={Gerli},
-         familyi={G\bibinitperiod},
-         given={Mattia\bibnamedelima F.M.},
-         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=OA}{%
-         family={Olivo},
-         familyi={O\bibinitperiod},
-         given={Alessandro},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=EM}{%
-         family={Endrizzi},
-         familyi={E\bibinitperiod},
-         given={Marco},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{DA+1}
-    \strng{fullhash}{DASSNLCGMFOAEM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevApplied.19.054042
-    \endverb
-    \field{issue}{5}
-    \field{pages}{054042}
-    \field{title}{Edge-Illumination X-Ray Dark-Field Tomography}
-    \field{volume}{19}
-    \field{year}{2023}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
   \entry{zamir_recent_2017}{article}{}{}
     \name{author}{8}{}{%
       {{hash=ZA}{%
@@ -569,6 +512,68 @@
     \verb NR Beneﬁts between Single-Mask Edge-Illumination and Free-Space Pro
     \verb pagation X-ray Phase C.pdf:application/pdf
     \endverb
+  \endentry
+
+  \entry{paganin_x-ray_2021}{incollection}{}{}
+    \name{author}{2}{}{%
+      {{hash=PDM}{%
+         family={Paganin},
+         familyi={P\bibinitperiod},
+         given={David\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Pelliccia},
+         familyi={P\bibinitperiod},
+         given={Daniele},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Electrical Engineering and Systems Science - Image and Video
+  Processing, Physics - Applied Physics, Physics - Medical Physics, Physics -
+  Optics}
+    \strng{namehash}{PDMPD1}
+    \strng{fullhash}{PDMPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    We outline some basics of imaging using both fully-coherent and
+  partially-coherent X-ray beams, with an emphasis on phase-contrast imaging.
+  We open with some of the basic notions of X-ray imaging, including the vacuum
+  wave equations and the physical meaning of the intensity and phase of complex
+  scalar fields. The projection approximation is introduced, together with the
+  concepts of attenuation contrast and phase contrast. We also outline the
+  multi-slice approach to X-ray propagation through thick samples or optical
+  elements, together with the Fresnel scaling theorem. Having introduced the
+  fundamentals, we then consider several aspects of the forward problem, of
+  modelling the formation of phase-contrast X-ray images. Several topics
+  related to this forward problem are considered, including the
+  transport-of-intensity equation, arbitrary linear imaging systems,
+  shift-invariant linear imaging systems, the transfer-function formalism,
+  blurring induced by finite source size, the space-frequency model for
+  partially-coherent fields, and the Fokker-Planck equation for paraxial X-ray
+  imaging. Having considered these means for modelling the formation of X-ray
+  phase-contrast images, we then consider aspects of the associated inverse
+  problem of phase retrieval. This concerns how one may decode phase-contrast
+  images to gain information regarding the sample-induced attenuation and phase
+  shift.%
+    }
+    \verb{eprint}
+    \verb 2011.05146 [eess]
+    \endverb
+    \field{pages}{63\bibrangedash 158}
+    \field{shorttitle}{X-ray phase-contrast imaging}
+    \field{title}{X-ray phase-contrast imaging: a broad overview of some
+  fundamentals}
+    \field{volume}{218}
+    \field{langid}{english}
+    \verb{file}
+    \verb PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\W5TI3AQA\\Paganin and Pell
+    \verb iccia - 2021 - X-ray phase-contrast imaging a broad overview of some
+    \verb fundamentals.pdf:application/pdf
+    \endverb
+    \field{eprinttype}{arxiv}
+    \field{year}{2021}
   \endentry
 
   \entry{astolfo_effect_2022}{article}{}{}
@@ -812,6 +817,63 @@
     \field{urlyear}{2025}
   \endentry
 
+  \entry{PhysRevApplied.19.054042}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=DA}{%
+         family={Doherty},
+         familyi={D\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Savvidis},
+         familyi={S\bibinitperiod},
+         given={Savvas},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NLC}{%
+         family={Navarrete-Le\'on},
+         familyi={N\bibinithyphendelim L\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GMF}{%
+         family={Gerli},
+         familyi={G\bibinitperiod},
+         given={Mattia\bibnamedelima F.M.},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Olivo},
+         familyi={O\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Endrizzi},
+         familyi={E\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DASSNLCGMFOAEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevApplied.19.054042
+    \endverb
+    \field{issue}{5}
+    \field{pages}{054042}
+    \field{title}{Edge-Illumination X-Ray Dark-Field Tomography}
+    \field{volume}{19}
+    \field{year}{2023}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{brombal_geant4_2022}{article}{}{}
     \name{author}{5}{}{%
       {{hash=BL}{%
@@ -983,68 +1045,6 @@
     \field{urlday}{30}
     \field{urlmonth}{03}
     \field{urlyear}{2025}
-  \endentry
-
-  \entry{paganin_x-ray_2021}{incollection}{}{}
-    \name{author}{2}{}{%
-      {{hash=PDM}{%
-         family={Paganin},
-         familyi={P\bibinitperiod},
-         given={David\bibnamedelima M.},
-         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=PD}{%
-         family={Pelliccia},
-         familyi={P\bibinitperiod},
-         given={Daniele},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \keyw{Electrical Engineering and Systems Science - Image and Video
-  Processing, Physics - Applied Physics, Physics - Medical Physics, Physics -
-  Optics}
-    \strng{namehash}{PDMPD1}
-    \strng{fullhash}{PDMPD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    We outline some basics of imaging using both fully-coherent and
-  partially-coherent X-ray beams, with an emphasis on phase-contrast imaging.
-  We open with some of the basic notions of X-ray imaging, including the vacuum
-  wave equations and the physical meaning of the intensity and phase of complex
-  scalar fields. The projection approximation is introduced, together with the
-  concepts of attenuation contrast and phase contrast. We also outline the
-  multi-slice approach to X-ray propagation through thick samples or optical
-  elements, together with the Fresnel scaling theorem. Having introduced the
-  fundamentals, we then consider several aspects of the forward problem, of
-  modelling the formation of phase-contrast X-ray images. Several topics
-  related to this forward problem are considered, including the
-  transport-of-intensity equation, arbitrary linear imaging systems,
-  shift-invariant linear imaging systems, the transfer-function formalism,
-  blurring induced by finite source size, the space-frequency model for
-  partially-coherent fields, and the Fokker-Planck equation for paraxial X-ray
-  imaging. Having considered these means for modelling the formation of X-ray
-  phase-contrast images, we then consider aspects of the associated inverse
-  problem of phase retrieval. This concerns how one may decode phase-contrast
-  images to gain information regarding the sample-induced attenuation and phase
-  shift.%
-    }
-    \verb{eprint}
-    \verb 2011.05146 [eess]
-    \endverb
-    \field{pages}{63\bibrangedash 158}
-    \field{shorttitle}{X-ray phase-contrast imaging}
-    \field{title}{X-ray phase-contrast imaging: a broad overview of some
-  fundamentals}
-    \field{volume}{218}
-    \field{langid}{english}
-    \verb{file}
-    \verb PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\W5TI3AQA\\Paganin and Pell
-    \verb iccia - 2021 - X-ray phase-contrast imaging a broad overview of some
-    \verb fundamentals.pdf:application/pdf
-    \endverb
-    \field{eprinttype}{arxiv}
-    \field{year}{2021}
   \endentry
 \enddatalist
 \endinput
