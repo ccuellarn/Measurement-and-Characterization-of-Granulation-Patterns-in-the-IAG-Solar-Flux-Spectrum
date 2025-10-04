@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  1 OCT 2025 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  4 OCT 2025 08:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1496,13 +1496,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  36567 strings out of 468130
  711730 string characters out of 5430633
- 1450687 words of memory out of 5000000
+ 1449701 words of memory out of 5000000
  64501 multiletter control sequences out of 15000+600000
  709835 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,131p,1979b,1551s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\clauw\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxmiaX.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxsys.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb>
-Output written on main.pdf (7 pages, 262660 bytes).
+Output written on main.pdf (7 pages, 263816 bytes).
 PDF statistics:
  326 PDF objects out of 1000 (max. 8388607)
  30 named destinations out of 1000 (max. 500000)

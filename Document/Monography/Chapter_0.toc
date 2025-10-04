@@ -1,41 +1,41 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{List of Figures}{3}{chapter*.1}%
-\contentsline {chapter}{\numberline {1}Introduction: The Sun's granulation pattern}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Convective motion}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Solar granulation pattern}{5}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}The three signatures of convection}{6}{subsection.1.2.1}%
-\contentsline {section}{\numberline {1.3}IAG Solar Flux Atlas}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}IAG Spatially Resolved Quiet Sun Atlas}{7}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Motivation}{7}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Literature Review: Convective movement in the Sun}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The Solar interior and the Solar outer atmosphere}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}The Solar Convection Zone}{10}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}The convection movement}{11}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Dynamics of solar convection}{11}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}The Schwarzchild Condition}{12}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}The parcel argument}{12}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Contributions on angular momentum}{14}{subsection.2.2.5}%
-\contentsline {section}{\numberline {2.3}The Solar Photosphere}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Static photosphere: Limb darkening phenomenon}{15}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Dynamic photosphere. The C-curved profile bisector.}{15}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Solar granulation pattern}{16}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Convective Blueshift}{18}{subsection.2.4.1}%
-\contentsline {subsubsection}{Relativistic Doppler Effect}{18}{section*.4}%
-\contentsline {subsection}{\numberline {2.4.2}Convective Blueshift and Relative Velocity}{19}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}The three signature of convective motion}{19}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Line broadening}{19}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Line profile bisector asymmetry}{20}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Line-depth dependent shifts}{21}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6}Teluric Absorption Lines}{22}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Methodology: The blend-free list of Fe I lines}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Methodology}{23}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Blend-free Fe I line list}{24}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Selection method for Fe I lines}{24}{subsection.3.2.1}%
-\contentsline {chapter}{\numberline {4}Results and discussion: Granulation pattern and Characterization of chromodependence}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}The third signature: Chromodependence on the granulation pattern}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}The first and second signature: Detailed view of line broadening and asymmetry}{30}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Higher quality graphs}{33}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Conclusions}{34}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Z-score Standardization}{35}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}The third derivate relation}{36}{appendix.1.B}%
-\contentsline {chapter}{\numberline {C}Visualizer for outliers}{37}{appendix.1.C}%
+\contentsline {chapter}{\numberline {1}Introduction: The Sun's granulation pattern}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Convective motion}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Solar granulation pattern}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}The three signatures of convection}{7}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}IAG Solar Flux Atlas}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.4}IAG Spatially Resolved Quiet Sun Atlas}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Motivation}{8}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Literature Review: Convective movement in the Sun}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The solar interior and the solar outer atmosphere}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}The Solar Convection Zone}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The convection movement}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Dynamics of solar convection}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}The Schwarzchild Condition}{14}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}The parcel argument}{14}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Contributions on angular momentum}{16}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}The Solar Photosphere}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Static photosphere: Limb darkening phenomenon}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Dynamic photosphere. The C-curved profile bisector.}{18}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Solar granulation pattern}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Convective Blueshift}{20}{subsection.2.4.1}%
+\contentsline {subsubsection}{Relativistic Doppler Effect}{20}{section*.6}%
+\contentsline {subsection}{\numberline {2.4.2}Convective Blueshift and Relative Velocity}{21}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}The three signature of convective motion}{21}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Line broadening}{21}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Line profile bisector asymmetry}{22}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Line-depth dependent shifts}{23}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Teluric Absorption Lines}{24}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Methodology: The blend-free list of Fe I lines}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Methodology}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Blend-free Fe I line list}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Selection method for Fe I lines}{26}{subsection.3.2.1}%
+\contentsline {chapter}{\numberline {4}Results and discussion: Granulation pattern and Characterization of chromodependence}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}The third signature: Chromodependence on the granulation pattern}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The first and second signature: Detailed view of line broadening and asymmetry}{32}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Higher quality graphs}{35}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusions}{36}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Z-score Standardization}{37}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}The third derivate relation}{38}{appendix.1.B}%
+\contentsline {chapter}{\numberline {C}Visualizer for outliers}{39}{appendix.1.C}%
