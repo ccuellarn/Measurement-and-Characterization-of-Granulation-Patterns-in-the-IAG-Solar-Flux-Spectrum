@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  4 OCT 2025 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  5 OCT 2025 15:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,6 +756,11 @@ Package: nextpage 2009/09/03 v1.1a additional page commands
 \afterepigraphskip=\skip90
 \epigraphwidth=\skip91
 \epigraphrule=\skip92
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 \AP@output=\toks35
@@ -963,7 +968,7 @@ Package hyperref Info: Link coloring ON on input line 6.
 \@outlinefile=\write4
 \openout4 = `Chapter_0.out'.
 
-<Universidad-de-los-Andes_logo.png, id=159, 385.44pt x 457.71pt>
+<Universidad-de-los-Andes_logo.png, id=143, 385.44pt x 457.71pt>
 File: Universidad-de-los-Andes_logo.png Graphic file (type png)
 <use Universidad-de-los-Andes_logo.png>
 Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 10.
@@ -997,12 +1002,16 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 ...d Relative Velocity}{21}{subsection.2.4.2}
+l.23 ...granulation pattern}{20}{subsection.2.4.4}
                                                   % [1
 
 ])
@@ -1039,7 +1048,7 @@ Chapter 1.
 [9]
 Chapter 2.
 (Chapter_2.tex
-<Images/Granulation pattern.jpg, id=325, 505.89pt x 298.11375pt>
+<Images/Granulation pattern.jpg, id=328, 505.89pt x 298.11375pt>
 File: Images/Granulation pattern.jpg Graphic file (type jpg)
 <use Images/Granulation pattern.jpg>
 Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 14.
@@ -1051,7 +1060,7 @@ Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 14.
 ]
 File: Images/Granulation pattern.jpg Graphic file (type jpg)
 <use Images/Granulation pattern.jpg>
-Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 27.
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 29.
 (pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
 
 
@@ -1062,198 +1071,229 @@ Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 27.
 [13]
 
 [14]
+File: Images/Granulation pattern.jpg Graphic file (type jpg)
+<use Images/Granulation pattern.jpg>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 105.
+(pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
+File: Images/Granulation pattern.jpg Graphic file (type jpg)
+<use Images/Granulation pattern.jpg>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 120.
+(pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
+
 
 [15]
+File: Images/Granulation pattern.jpg Graphic file (type jpg)
+<use Images/Granulation pattern.jpg>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 132.
+(pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
+
 
 [16]
+File: Images/Granulation pattern.jpg Graphic file (type jpg)
+<use Images/Granulation pattern.jpg>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 146.
+(pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
+
 
 [17]
 File: Images/Granulation pattern.jpg Graphic file (type jpg)
 <use Images/Granulation pattern.jpg>
-Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 197.
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 167.
 (pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
+<Images/asymmetries.png, id=415, 438.13687pt x 236.38312pt>
+File: Images/asymmetries.png Graphic file (type png)
+<use Images/asymmetries.png>
+Package pdftex.def Info: Images/asymmetries.png  used on input line 188.
+(pdftex.def)             Requested size: 312.83247pt x 168.7818pt.
 
 
 [18]
 
-[19]
+[19 <./Images/asymmetries.png>]
+File: Images/Granulation pattern.jpg Graphic file (type jpg)
+<use Images/Granulation pattern.jpg>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 216.
+(pdftex.def)             Requested size: 312.83247pt x 184.35098pt.
+
 
 [20]
 
-[21]
-<Images/asymmetries.png, id=447, 438.13687pt x 236.38312pt>
-File: Images/asymmetries.png Graphic file (type png)
-<use Images/asymmetries.png>
-Package pdftex.def Info: Images/asymmetries.png  used on input line 284.
-(pdftex.def)             Requested size: 312.83247pt x 168.7818pt.
+LaTeX Warning: Reference `relative velocity' on page 21 undefined on input line 232.
 
+
+
+[21]
+File: Images/Granulation pattern.jpg Graphic file (type jpg)
+<use Images/Granulation pattern.jpg>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 254.
+(pdftex.def)             Requested size: 312.83247pt x 184.35098pt.
+)
 
 [22]
-
-[23 <./Images/asymmetries.png>])
-
-[24]
 Chapter 3.
 (Chapter_3.tex
 
-[25
+[23
 
 ]
 
-[26])
+[24])
 
-[27]
+[25]
 Chapter 4.
 (Chapter_4.tex
-<Images/GranulationPattern_VIS.png, id=484, 867.24pt x 505.89pt>
+<Images/GranulationPattern_VIS.png, id=477, 867.24pt x 505.89pt>
 File: Images/GranulationPattern_VIS.png Graphic file (type png)
 <use Images/GranulationPattern_VIS.png>
 Package pdftex.def Info: Images/GranulationPattern_VIS.png  used on input line 7.
 (pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
-<Images/GranulationPattern_NIR.png, id=485, 867.24pt x 505.89pt>
+<Images/GranulationPattern_NIR.png, id=478, 867.24pt x 505.89pt>
 File: Images/GranulationPattern_NIR.png Graphic file (type png)
 <use Images/GranulationPattern_NIR.png>
 Package pdftex.def Info: Images/GranulationPattern_NIR.png  used on input line 8.
 (pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
 
 
-[28
+[26
 
 ]
-<Images/Chromocharacterization_VIS.png, id=491, 867.24pt x 505.89pt>
+<Images/Chromocharacterization_VIS.png, id=483, 867.24pt x 505.89pt>
 File: Images/Chromocharacterization_VIS.png Graphic file (type png)
 <use Images/Chromocharacterization_VIS.png>
 Package pdftex.def Info: Images/Chromocharacterization_VIS.png  used on input line 16.
 (pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
-<Images/GranulationPattern_SPA.png, id=492, 867.24pt x 505.89pt>
+<Images/GranulationPattern_SPA.png, id=484, 867.24pt x 505.89pt>
 File: Images/GranulationPattern_SPA.png Graphic file (type png)
 <use Images/GranulationPattern_SPA.png>
 Package pdftex.def Info: Images/GranulationPattern_SPA.png  used on input line 26.
 (pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
 
 
-[29 <./Images/GranulationPattern_VIS.png> <./Images/GranulationPattern_NIR.png> <./Images/Chromocharacterization_VIS.png>]
-<Images/V_bins_VIS.png, id=500, 1236.5397pt x 630.9171pt>
+[27 <./Images/GranulationPattern_VIS.png> <./Images/GranulationPattern_NIR.png> <./Images/Chromocharacterization_VIS.png>]
+<Images/V_bins_VIS.png, id=492, 1236.5397pt x 630.9171pt>
 File: Images/V_bins_VIS.png Graphic file (type png)
 <use Images/V_bins_VIS.png>
 Package pdftex.def Info: Images/V_bins_VIS.png  used on input line 34.
 (pdftex.def)             Requested size: 268.14603pt x 136.80939pt.
-<Images/V_bins_SPA.png, id=501, 1230.0354pt x 630.9171pt>
+<Images/V_bins_SPA.png, id=493, 1230.0354pt x 630.9171pt>
 File: Images/V_bins_SPA.png Graphic file (type png)
 <use Images/V_bins_SPA.png>
 Package pdftex.def Info: Images/V_bins_SPA.png  used on input line 35.
 (pdftex.def)             Requested size: 268.14603pt x 137.53142pt.
 
 
-[30 <./Images/GranulationPattern_SPA.png>]
-<Images/Velocity bins SPA.png, id=507, 1445.4pt x 867.24pt>
+[28 <./Images/GranulationPattern_SPA.png>]
+<Images/Velocity bins SPA.png, id=500, 1445.4pt x 867.24pt>
 File: Images/Velocity bins SPA.png Graphic file (type png)
 <use Images/Velocity bins SPA.png>
 Package pdftex.def Info: Images/Velocity bins SPA.png  used on input line 42.
 (pdftex.def)             Requested size: 268.14603pt x 160.88681pt.
-<Images/Velocity bins VIS.png, id=508, 1445.4pt x 722.7pt>
+<Images/Velocity bins VIS.png, id=501, 1445.4pt x 722.7pt>
 File: Images/Velocity bins VIS.png Graphic file (type png)
 <use Images/Velocity bins VIS.png>
 Package pdftex.def Info: Images/Velocity bins VIS.png  used on input line 43.
 (pdftex.def)             Requested size: 268.14603pt x 134.07234pt.
 
 
-[31 <./Images/V_bins_VIS.png> <./Images/V_bins_SPA.png>]
-<Images/CBisector_VIS.png, id=515, 867.24pt x 505.89pt>
+[29 <./Images/V_bins_VIS.png> <./Images/V_bins_SPA.png>]
+<Images/CBisector_VIS.png, id=508, 867.24pt x 505.89pt>
 File: Images/CBisector_VIS.png Graphic file (type png)
 <use Images/CBisector_VIS.png>
 Package pdftex.def Info: Images/CBisector_VIS.png  used on input line 55.
 (pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
-<Images/Cbisector_slopes.png, id=516, 745.28438pt x 575.14874pt>
+<Images/Cbisector_slopes.png, id=509, 745.28438pt x 575.14874pt>
 File: Images/Cbisector_slopes.png Graphic file (type png)
 <use Images/Cbisector_slopes.png>
 Package pdftex.def Info: Images/Cbisector_slopes.png  used on input line 56.
 (pdftex.def)             Requested size: 268.14603pt x 206.93053pt.
 
 
-[32 <./Images/Velocity bins SPA.png> <./Images/Velocity bins VIS.png>]
-<Images/Sharpness_VIS.png, id=523, 867.24pt x 505.89pt>
+[30 <./Images/Velocity bins SPA.png> <./Images/Velocity bins VIS.png>]
+<Images/Sharpness_VIS.png, id=516, 867.24pt x 505.89pt>
 File: Images/Sharpness_VIS.png Graphic file (type png)
 <use Images/Sharpness_VIS.png>
 Package pdftex.def Info: Images/Sharpness_VIS.png  used on input line 63.
 (pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
-<Images/Sharpness_NIR.png, id=524, 867.24pt x 505.89pt>
+<Images/Sharpness_NIR.png, id=517, 867.24pt x 505.89pt>
 File: Images/Sharpness_NIR.png Graphic file (type png)
 <use Images/Sharpness_NIR.png>
 Package pdftex.def Info: Images/Sharpness_NIR.png  used on input line 64.
 (pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
 
 
-[33 <./Images/CBisector_VIS.png> <./Images/Cbisector_slopes.png>]
-<Images/Sharpness_ALL.png, id=531, 867.24pt x 505.89pt>
+[31 <./Images/CBisector_VIS.png> <./Images/Cbisector_slopes.png>]
+<Images/Sharpness_ALL.png, id=524, 867.24pt x 505.89pt>
 File: Images/Sharpness_ALL.png Graphic file (type png)
 <use Images/Sharpness_ALL.png>
 Package pdftex.def Info: Images/Sharpness_ALL.png  used on input line 72.
 (pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
 
 
-[34 <./Images/Sharpness_VIS.png> <./Images/Sharpness_NIR.png>]
-<Images/ConvectiveBlueshift_VIS_Gray.png, id=539, 867.24pt x 505.89pt>
+[32 <./Images/Sharpness_VIS.png> <./Images/Sharpness_NIR.png>]
+<Images/ConvectiveBlueshift_VIS_Gray.png, id=531, 867.24pt x 505.89pt>
 File: Images/ConvectiveBlueshift_VIS_Gray.png Graphic file (type png)
 <use Images/ConvectiveBlueshift_VIS_Gray.png>
 Package pdftex.def Info: Images/ConvectiveBlueshift_VIS_Gray.png  used on input line 82.
 (pdftex.def)             Requested size: 268.14603pt x 156.41515pt.
 )
 
-[35 <./Images/Sharpness_ALL.png> <./Images/ConvectiveBlueshift_VIS_Gray.png>]
+[33 <./Images/Sharpness_ALL.png> <./Images/ConvectiveBlueshift_VIS_Gray.png>]
 Chapter 5.
 (Chapter_5.tex) (Chapter_6.tex
 
-[36
+[34
 
 ]
 Appendix A.
 
 
-[37
+[35
 
 ]
 Appendix B.
 
 
-[38
+[36
 
 ]
 Appendix C.
 ) (Chapter_0.bbl
 
-[39
+[37
 
 ]
 
-[40
+[38
 
 ])
 
-[41] (Chapter_0.aux)
+[39] (Chapter_0.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Chapter_0.out' has not changed.
-(rerunfilecheck)             Checksum: D5049E23F3DBB104F58FE2949AC56072;9664.
+(rerunfilecheck)             Checksum: 3DE55F688FE7C7B972C25C1E144E2C37;8844.
  ) 
 Here is how much of TeX's memory you used:
- 17535 strings out of 468130
- 289648 string characters out of 5430633
- 707445 words of memory out of 5000000
- 45754 multiletter control sequences out of 15000+600000
- 635835 words of font info for 72 fonts, out of 8000000 for 9000
+ 17757 strings out of 468130
+ 292280 string characters out of 5430633
+ 709808 words of memory out of 5000000
+ 45969 multiletter control sequences out of 15000+600000
+ 636492 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,7n,93p,618b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\clauw\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Chapter_0.pdf (44 pages, 2134021 bytes).
+ <C:\Users\clauw\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Chapter_0.pdf (42 pages, 2117735 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
- 398 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 646 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 366 words of extra memory for PDF output out of 10000 (max. 10000000)
 

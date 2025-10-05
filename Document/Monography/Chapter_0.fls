@@ -114,6 +114,8 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\epigraph\epigraph.s
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\epigraph\epigraph.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\nextpage\nextpage.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\nextpage\nextpage.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\wasysym\wasysym.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\wasysym\wasysym.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tools\afterpage.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tools\afterpage.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
@@ -254,6 +256,12 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\wasysym\uwasy.fd
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\wasysym\uwasy.fd
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\wasysym\uwasy.fd
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy8.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy6.tfm
 OUTPUT Chapter_0.toc
 INPUT .\Chapter_0.lof
 INPUT .\Chapter_0.lof
@@ -280,7 +288,18 @@ INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
@@ -292,11 +311,18 @@ INPUT .\Images\asymmetries.png
 INPUT .\Images\asymmetries.png
 INPUT .\Images\asymmetries.png
 INPUT .\Images\asymmetries.png
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
 INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex
 INPUT Chapter_3.tex
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
@@ -410,8 +436,6 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb

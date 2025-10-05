@@ -6,46 +6,46 @@ The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 Database file #1: Bibliography.bib
 Warning--entry type for "Aponte" isn't style-file defined
---line 38 of file Bibliography.bib
-You've used 17 entries,
+--line 29 of file Bibliography.bib
+You've used 18 entries,
             1876 wiz_defined-function locations,
-            602 strings with 6320 characters,
-and the built_in function-call counts, 3710 in all, are:
-= -- 361
-> -- 157
+            615 strings with 6660 characters,
+and the built_in function-call counts, 3910 in all, are:
+= -- 383
+> -- 161
 < -- 0
-+ -- 60
-- -- 43
-* -- 233
-:= -- 542
-add.period$ -- 23
-call.type$ -- 17
-change.case$ -- 13
++ -- 62
+- -- 44
+* -- 250
+:= -- 574
+add.period$ -- 24
+call.type$ -- 18
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 220
-empty$ -- 331
-format.name$ -- 43
-if$ -- 924
+cite$ -- 18
+duplicate$ -- 233
+empty$ -- 345
+format.name$ -- 44
+if$ -- 971
 int.to.chr$ -- 0
-int.to.str$ -- 17
+int.to.str$ -- 18
 missing$ -- 20
-newline$ -- 60
-num.names$ -- 17
-pop$ -- 55
+newline$ -- 63
+num.names$ -- 18
+pop$ -- 53
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 161
+skip$ -- 173
 stack$ -- 0
-substring$ -- 84
-swap$ -- 100
+substring$ -- 90
+swap$ -- 107
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 27
-width$ -- 19
-write$ -- 165
+while$ -- 29
+width$ -- 20
+write$ -- 176
 (There was 1 warning)
