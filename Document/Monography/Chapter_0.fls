@@ -279,139 +279,82 @@ INPUT .\Chapter_2.tex
 INPUT .\Chapter_2.tex
 INPUT .\Chapter_2.tex
 INPUT Chapter_2.tex
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\First take photosphere.jpg
+INPUT .\Images\First take photosphere.jpg
+INPUT .\Images\First take photosphere.jpg
+INPUT .\Images\First take photosphere.jpg
+INPUT .\Images\First take photosphere.jpg
+INPUT .\Images\First take photosphere.jpg
+INPUT .\Images\Parcel argument.jpg
+INPUT .\Images\Parcel argument.jpg
+INPUT .\Images\Parcel argument.jpg
+INPUT .\Images\Parcel argument.jpg
+INPUT .\Images\Parcel argument.jpg
+INPUT .\Images\Parcel argument.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Granules motion.jpg
+INPUT .\Images\Granules motion.jpg
+INPUT .\Images\Granules motion.jpg
+INPUT .\Images\Granules motion.jpg
+INPUT .\Images\Granules motion.jpg
+INPUT .\Images\Granules motion.jpg
+INPUT .\Images\C curved profile bisector.jpg
+INPUT .\Images\C curved profile bisector.jpg
+INPUT .\Images\C curved profile bisector.jpg
+INPUT .\Images\C curved profile bisector.jpg
+INPUT .\Images\C curved profile bisector.jpg
+INPUT .\Images\C curved profile bisector.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\asymmetries.png
-INPUT .\Images\asymmetries.png
-INPUT .\Images\asymmetries.png
-INPUT .\Images\asymmetries.png
-INPUT .\Images\asymmetries.png
-INPUT .\Images\asymmetries.png
-INPUT .\Images\asymmetries.png
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Asymmetries on typical lines.jpg
+INPUT .\Images\Asymmetries on typical lines.jpg
+INPUT .\Images\Asymmetries on typical lines.jpg
+INPUT .\Images\Asymmetries on typical lines.jpg
+INPUT .\Images\Asymmetries on typical lines.jpg
+INPUT .\Images\Asymmetries on typical lines.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Angular momentum.jpg
+INPUT .\Images\Angular momentum.jpg
+INPUT .\Images\Angular momentum.jpg
+INPUT .\Images\Angular momentum.jpg
+INPUT .\Images\Angular momentum.jpg
+INPUT .\Images\Angular momentum.jpg
 INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex
 INPUT Chapter_3.tex
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT Chapter_4.tex
-INPUT .\Images\GranulationPattern_VIS.png
-INPUT .\Images\GranulationPattern_VIS.png
-INPUT .\Images\GranulationPattern_VIS.png
-INPUT .\Images\GranulationPattern_VIS.png
-INPUT .\Images\GranulationPattern_VIS.png
-INPUT .\Images\GranulationPattern_VIS.png
-INPUT .\Images\GranulationPattern_NIR.png
-INPUT .\Images\GranulationPattern_NIR.png
-INPUT .\Images\GranulationPattern_NIR.png
-INPUT .\Images\GranulationPattern_NIR.png
-INPUT .\Images\GranulationPattern_NIR.png
-INPUT .\Images\GranulationPattern_NIR.png
-INPUT .\Images\Chromocharacterization_VIS.png
-INPUT .\Images\Chromocharacterization_VIS.png
-INPUT .\Images\Chromocharacterization_VIS.png
-INPUT .\Images\Chromocharacterization_VIS.png
-INPUT .\Images\Chromocharacterization_VIS.png
-INPUT .\Images\Chromocharacterization_VIS.png
-INPUT .\Images\GranulationPattern_SPA.png
-INPUT .\Images\GranulationPattern_SPA.png
-INPUT .\Images\GranulationPattern_SPA.png
-INPUT .\Images\GranulationPattern_SPA.png
-INPUT .\Images\GranulationPattern_SPA.png
-INPUT .\Images\GranulationPattern_SPA.png
-INPUT .\Images\V_bins_VIS.png
-INPUT .\Images\V_bins_VIS.png
-INPUT .\Images\V_bins_VIS.png
-INPUT .\Images\V_bins_VIS.png
-INPUT .\Images\V_bins_VIS.png
-INPUT .\Images\V_bins_VIS.png
-INPUT .\Images\V_bins_SPA.png
-INPUT .\Images\V_bins_SPA.png
-INPUT .\Images\V_bins_SPA.png
-INPUT .\Images\V_bins_SPA.png
-INPUT .\Images\V_bins_SPA.png
-INPUT .\Images\V_bins_SPA.png
-INPUT .\Images\Velocity bins SPA.png
-INPUT .\Images\Velocity bins SPA.png
-INPUT .\Images\Velocity bins SPA.png
-INPUT .\Images\Velocity bins SPA.png
-INPUT .\Images\Velocity bins SPA.png
-INPUT .\Images\Velocity bins SPA.png
-INPUT .\Images\Velocity bins VIS.png
-INPUT .\Images\Velocity bins VIS.png
-INPUT .\Images\Velocity bins VIS.png
-INPUT .\Images\Velocity bins VIS.png
-INPUT .\Images\Velocity bins VIS.png
-INPUT .\Images\Velocity bins VIS.png
-INPUT .\Images\CBisector_VIS.png
-INPUT .\Images\CBisector_VIS.png
-INPUT .\Images\CBisector_VIS.png
-INPUT .\Images\CBisector_VIS.png
-INPUT .\Images\CBisector_VIS.png
-INPUT .\Images\CBisector_VIS.png
-INPUT .\Images\Cbisector_slopes.png
-INPUT .\Images\Cbisector_slopes.png
-INPUT .\Images\Cbisector_slopes.png
-INPUT .\Images\Cbisector_slopes.png
-INPUT .\Images\Cbisector_slopes.png
-INPUT .\Images\Cbisector_slopes.png
-INPUT .\Images\Sharpness_VIS.png
-INPUT .\Images\Sharpness_VIS.png
-INPUT .\Images\Sharpness_VIS.png
-INPUT .\Images\Sharpness_VIS.png
-INPUT .\Images\Sharpness_VIS.png
-INPUT .\Images\Sharpness_VIS.png
-INPUT .\Images\Sharpness_NIR.png
-INPUT .\Images\Sharpness_NIR.png
-INPUT .\Images\Sharpness_NIR.png
-INPUT .\Images\Sharpness_NIR.png
-INPUT .\Images\Sharpness_NIR.png
-INPUT .\Images\Sharpness_NIR.png
-INPUT .\Images\Sharpness_ALL.png
-INPUT .\Images\Sharpness_ALL.png
-INPUT .\Images\Sharpness_ALL.png
-INPUT .\Images\Sharpness_ALL.png
-INPUT .\Images\Sharpness_ALL.png
-INPUT .\Images\Sharpness_ALL.png
-INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
-INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
-INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
-INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
-INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
-INPUT .\Images\ConvectiveBlueshift_VIS_Gray.png
 INPUT .\Chapter_5.tex
 INPUT .\Chapter_5.tex
 INPUT .\Chapter_5.tex
@@ -428,8 +371,6 @@ INPUT Chapter_0.bbl
 INPUT Chapter_0.aux
 INPUT .\Chapter_0.out
 INPUT .\Chapter_0.out
-INPUT C:\Users\clauw\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\clauw\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb

@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{Priest_1982}
+P.~Eric, {\em Solar magnetohydrodynamics}.
+\newblock Kluwer, 1982.
+
 \bibitem{Malherbe_2022}
 J.-M. Malherbe, ``Jules janssen, the birth of solar physics, the foundation of
   meudon observatory and the mont blanc adventure (1875-1895),'' {\em HAL
@@ -69,13 +73,12 @@ H.~H. Plaskett, ``Solar granulation,'' {\em Monthly Notices of the Royal
   Astronomical Society}, vol.~96, p.~402, Mar. 1936.
 \newblock ADS Bibcode: 1936MNRAS..96..402P.
 
-\bibitem{Priest_1982}
-P.~Eric, {\em Solar magnetohydrodynamics}.
-\newblock Kluwer, 1982.
-
 \bibitem{Carroll_Ostlie_2006}
 B.~Carroll and D.~Ostlie, {\em An Introduction to Modern Astrophysics}.
 \newblock Cambridge University Press, 2017.
+
+\bibitem{GitHub}
+C.~Cuellar, ``Final project.'' online, 2025.
 
 \bibitem{Aponte}
 J.~S. Aponte, ``Medición de la velocidad convectiva en la fotosfera solar,''

@@ -1,51 +1,37 @@
-As the spectral analysis is complicated cause the convective motion, I take an computational approach leading an observational requirement to lead the research.
-This leading by the experience of professor Benjamin and the previous research.
-This research endeavor encompass both analytical and computational components. 
-For the last part, the programming language Python and Jupyter Notebook was used.
-The computational aspect focus on identifying the granulation pattern within the solar spectrum by calculating relative velocities using the wavelengths of Fe I. 
-All analysis data and code used in the process was uploaded to a GitHub repository, allowing anyone interested to reproduce the results and verify the authenticity of the conclusions presented. 
+As the spectral analysis is complicated due to  convective motion this project takes a computational approach leading to an observational requirement, by the experience of professor Benjamin and previous research.
+For the computational part, the programming language Python and Jupyter Notebook was used.
+All analysis data and code used in the process was uploaded to a GitHub repository \cite{GitHub}, allowing anyone interested to reproduce the results and verify the authenticity of the conclusions presented. 
 Moreover, proper credit will be given to all previous work from other researchers.
 
-\section{Methodology}
-We follow the methodology established in previous studies \cite{Dravins_1981,Reiners_2016,Ellwarth_2023} , which utilized a selected list of Fe I lines. 
-These lines are ideal for this calibration due to their minimal thermal broadening and reduced susceptibility to other atmospheric affectations.
+We follow the methodology established in previous studies (see \cite{Dravins_1981} and references therein), which utilized a selected list of Fe I lines. 
+As mentioned before these lines are ideal for this calibration due to their minimal thermal broadening and reduced susceptibility to other atmospheric affectations.
 
-The line up for the code was identify the Fe I lines in the IAG Solar Flux Atlas and the IAG Spatially Resolved Quiet Sun Atlas using
-the blend-free list of Fe I lines.
-Second, fit a fourth-grade polynomial fit due to the c-curved line profile bisector and find the observed wavelength.
-Then calculate the Doppler velocity, convective blueshift and flux with the fit.
-Finally, find the second derivate (core curvature) and the third derivate relation (bisector slope) for the curvature in the observed wavelength. 
-This last is develop in detail in the apendix B.
+\section{Computational approach}
+The computational aspect focuses on identifying the granulation pattern within the solar spectrum by calculating relative velocities using the wavelengths of Fe I. 
 
+The line up was to identify the Fe I lines in the IAG Solar Flux Atlas and the IAG Spatially Resolved Quiet Sun Atlas using the blend-free list of Fe I lines.
+Second, fit a fourth-grade polynomial fit due to the c-curved line profile bisector and find the observed wavelength. For an optimal fit was used a z-score standardization on each line core, which is explained in appendix A.
+Then calculate the observed wavelength, Doppler velocity and convective blueshift based on the polynomial fit.
+Finally, find the values for the line core curvature (see equation \eqref{core curvature}) and the line core bisector slope (see equation \eqref{bisector slope}).
 
 \section{Blend-free Fe I line list}
-The previous methodology implemented the Nave et. al list of laboratory measured Fe I lines \cite{Nave_1994}. 
+The previous line up implemented the Nave et. al list of laboratory measured Fe I lines \cite{Nave_1994}. 
 This list classifies lines with a quality rating (A,B,C,D) with A be the most and best quality.
 However, not all the listed lines are clearly present in the solar spectrum, and within the near-infrared range, many lines are severely mixed.
 
-In collaboration with Professor Benjamin and Manuel Fuentes, we refined this list. 
+In collaboration with Professor Benjamin and Manuel Fuentes, we refined this list using different approaches. 
 
 \subsection{Selection method for Fe I lines}
-This selection method has two different approaches: Computational and visual.
-First, we selected only quality A lines and then performed the next filters according to the statement of having an fourth order polynomial fit for the line core.
-\begin{itemize}
-\item The coefficient of the fourth grade term need to be positive and not too small cause it denotes a curve too big. This can be for a line, specially in the infrared, cause the big cores are related to atmospheric lines.
-\item The difference between extreme points of the fit need to be less than the half of the distance, that is a curve and not a slope.
-\item The absolute difference between the wavelength observed and the one from Nave list need to be less to $0.025\mathring{A}$.
-\end{itemize}
+The process of selection has two different approaches: Computational and visual.
+First, we selected only quality A lines for the Nave list and then performed statistical filters according to the statement of having a fourth order polynomial fit for the line core.
 
-The last part was a visual inspection to discard line mixes or absent from the solar spectrum. This part was divided between porfessor Benjamin and me.
-I used the visualizer (explained in detail in the apendix C) and profesor Benjamin use the great years of experience.
-Then I combined the list, made a check and profesor Benjamin check again.
-The discard part was only using the geometry of the curve and guidance of profesor Benjamin (and God).
-%Insert images for examples
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.6\linewidth]{Granulation pattern.jpg}
-%     \caption{The first clear photgraphy of the photosphere where is visble the granulation pattern. Image taken from \cite{Malherbe_2022}}
-%     \label{Janssen photography}
-% \end{figure}
-The new blend-free list improves our results, leading to cleaner graphics and characterization with less scatter in the data.
-Then we perform different graphics for our analysis conform we see it necesary for the characterization.
+The filters consist of three general aspects.
+First, the coefficient of the fourth grade term needs to be positive and not too small because it denotes a wide curve. Specially, this can be for a line in the infrared due the big core curvatures are related to atmospheric lines.
+Second, the difference between extreme points of the fit needs to be less than half of the distance. This filter helps identify lines which are not slopes and have a core.
+Finally, the absolute difference between the wavelength observed and the emitted (from Nave list) needs to be less to $0.025\mathring{A}$.
 
-In case of the IAG Spatially Resolved Quiet Sun Atlas we only use the $\mu=1$ for the effect to eliminate the limb darkening effect in the spectrum.
+\subsection{Observational requirement}
+The last part of the selection was a visual inspection to discard line mixes or absent from the solar spectrum. The use of a visualizer application (explained in detail in the appendix C) was useful to see simultaneously the graphic for the line core and the behavior in the line core curvature, line bisector slope and granulation pattern plots.
+The discard part was using the geometry of the curve, behavior on plots and the guidance of professor Benjamin.
+
+The final part of the methodology was to perform different plots for our analysis. This is based on the requirement for the characterization.
