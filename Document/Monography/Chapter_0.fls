@@ -279,15 +279,19 @@ INPUT .\Chapter_2.tex
 INPUT .\Chapter_2.tex
 INPUT .\Chapter_2.tex
 INPUT Chapter_2.tex
-INPUT .\Images\Sun interior structure.jpg
-INPUT .\Images\Sun interior structure.jpg
-INPUT .\Images\Sun interior structure.jpg
-INPUT .\Images\Sun interior structure.jpg
-INPUT .\Images\Sun interior structure.jpg
-INPUT .\Images\Sun interior structure.jpg
-INPUT .\Images\Sun interior structure.jpg
-INPUT .\Images\Sun interior structure.jpg
-INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior.jpg
+INPUT .\Images\Sun interior.jpg
+INPUT .\Images\Sun interior.jpg
+INPUT .\Images\Sun interior.jpg
+INPUT .\Images\Sun interior.jpg
+INPUT .\Images\Sun interior.jpg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT .\Images\Sun exterior.jpg
+INPUT .\Images\Sun exterior.jpg
+INPUT .\Images\Sun exterior.jpg
+INPUT .\Images\Sun exterior.jpg
+INPUT .\Images\Sun exterior.jpg
+INPUT .\Images\Sun exterior.jpg
 INPUT .\Images\First take photosphere.jpg
 INPUT .\Images\First take photosphere.jpg
 INPUT .\Images\First take photosphere.jpg
@@ -324,9 +328,6 @@ INPUT .\Images\C curved profile bisector.jpg
 INPUT .\Images\C curved profile bisector.jpg
 INPUT .\Images\C curved profile bisector.jpg
 INPUT .\Images\C curved profile bisector.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
-INPUT .\Images\Granulation pattern.jpg
 INPUT .\Images\Asymmetries on typical lines.jpg
 INPUT .\Images\Asymmetries on typical lines.jpg
 INPUT .\Images\Asymmetries on typical lines.jpg
@@ -355,6 +356,82 @@ INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT Chapter_4.tex
+INPUT .\Images\Results\Curvature_VIS.pdf
+INPUT .\Images\Results\Curvature_VIS.pdf
+INPUT .\Images\Results\Curvature_VIS.pdf
+INPUT .\Images\Results\Curvature_VIS.pdf
+INPUT .\Images\Results\Curvature_VIS.pdf
+INPUT .\Images\Results\Curvature_VIS.pdf
+INPUT .\Images\Results\Curvature_NIR.pdf
+INPUT .\Images\Results\Curvature_NIR.pdf
+INPUT .\Images\Results\Curvature_NIR.pdf
+INPUT .\Images\Results\Curvature_NIR.pdf
+INPUT .\Images\Results\Curvature_NIR.pdf
+INPUT .\Images\Results\Curvature_NIR.pdf
+INPUT .\Images\Results\Sharpness_ALL.pdf
+INPUT .\Images\Results\Sharpness_ALL.pdf
+INPUT .\Images\Results\Sharpness_ALL.pdf
+INPUT .\Images\Results\Sharpness_ALL.pdf
+INPUT .\Images\Results\Sharpness_ALL.pdf
+INPUT .\Images\Results\Sharpness_ALL.pdf
+INPUT .\Images\Results\Bisector_VIS.pdf
+INPUT .\Images\Results\Bisector_VIS.pdf
+INPUT .\Images\Results\Bisector_VIS.pdf
+INPUT .\Images\Results\Bisector_VIS.pdf
+INPUT .\Images\Results\Bisector_VIS.pdf
+INPUT .\Images\Results\Bisector_VIS.pdf
+INPUT .\Images\Results\GranulationPattern_ALL.pdf
+INPUT .\Images\Results\GranulationPattern_ALL.pdf
+INPUT .\Images\Results\GranulationPattern_ALL.pdf
+INPUT .\Images\Results\GranulationPattern_ALL.pdf
+INPUT .\Images\Results\GranulationPattern_ALL.pdf
+INPUT .\Images\Results\GranulationPattern_ALL.pdf
+INPUT .\Images\Results\ColorCurves_VIS.pdf
+INPUT .\Images\Results\ColorCurves_VIS.pdf
+INPUT .\Images\Results\ColorCurves_VIS.pdf
+INPUT .\Images\Results\ColorCurves_VIS.pdf
+INPUT .\Images\Results\ColorCurves_VIS.pdf
+INPUT .\Images\Results\ColorCurves_VIS.pdf
+INPUT .\Images\Results\Relation_coef.pdf
+INPUT .\Images\Results\Relation_coef.pdf
+INPUT .\Images\Results\Relation_coef.pdf
+INPUT .\Images\Results\Relation_coef.pdf
+INPUT .\Images\Results\Relation_coef.pdf
+INPUT .\Images\Results\Relation_coef.pdf
+INPUT .\Images\Results\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Velocity bins VIS.pdf
+INPUT .\Images\Results\Velocity bins VIS.pdf
+INPUT .\Images\Results\Velocity bins VIS.pdf
+INPUT .\Images\Results\Velocity bins VIS.pdf
+INPUT .\Images\Results\Velocity bins VIS.pdf
+INPUT .\Images\Results\Velocity bins VIS.pdf
+INPUT .\Images\Results\Velocity bins SPA.pdf
+INPUT .\Images\Results\Velocity bins SPA.pdf
+INPUT .\Images\Results\Velocity bins SPA.pdf
+INPUT .\Images\Results\Velocity bins SPA.pdf
+INPUT .\Images\Results\Velocity bins SPA.pdf
+INPUT .\Images\Results\Velocity bins SPA.pdf
+INPUT .\Images\Results\Standard curve_Ellwarth.pdf
+INPUT .\Images\Results\Standard curve_Ellwarth.pdf
+INPUT .\Images\Results\Standard curve_Ellwarth.pdf
+INPUT .\Images\Results\Standard curve_Ellwarth.pdf
+INPUT .\Images\Results\Standard curve_Ellwarth.pdf
+INPUT .\Images\Results\Standard curve_Ellwarth.pdf
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
 INPUT .\Chapter_5.tex
 INPUT .\Chapter_5.tex
 INPUT .\Chapter_5.tex
@@ -381,6 +458,8 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb

@@ -10,9 +10,10 @@ As mentioned before these lines are ideal for this calibration due to their mini
 The computational aspect focuses on identifying the granulation pattern within the solar spectrum by calculating relative velocities using the wavelengths of Fe I. 
 
 The line up was to identify the Fe I lines in the IAG Solar Flux Atlas and the IAG Spatially Resolved Quiet Sun Atlas using the blend-free list of Fe I lines.
-Second, fit a fourth-grade polynomial fit due to the c-curved line profile bisector and find the observed wavelength. For an optimal fit was used a z-score standardization on each line core, which is explained in appendix A.
+Second, fit a fourth-grade polynomial fit due to the c-curved line profile bisector and find the observed wavelength. 
+For an optimal fit was used a z-score standardization on each line core, which is explained in appendix \ref{ap:zscore}.
 Then calculate the observed wavelength, Doppler velocity and convective blueshift based on the polynomial fit.
-Finally, find the values for the line core curvature (see equation \eqref{core curvature}) and the line core bisector slope (see equation \eqref{bisector slope}).
+Finally, find the values for the line core curvature (see equation \eqref{core curvature}) and the line core bisector slope (see equation \eqref{third derivate relation}).
 
 \section{Blend-free Fe I line list}
 The previous line up implemented the Nave et. al list of laboratory measured Fe I lines \cite{Nave_1994}. 
@@ -31,7 +32,7 @@ Second, the difference between extreme points of the fit needs to be less than h
 Finally, the absolute difference between the wavelength observed and the emitted (from Nave list) needs to be less to $0.025\mathring{A}$.
 
 \subsection{Observational requirement}
-The last part of the selection was a visual inspection to discard line mixes or absent from the solar spectrum. The use of a visualizer application (explained in detail in the appendix C) was useful to see simultaneously the graphic for the line core and the behavior in the line core curvature, line bisector slope and granulation pattern plots.
+The last part of the selection was a visual inspection to discard line mixes or absent from the solar spectrum. The use of a visualizer application (explained in detail in the appendix \ref{ap:visualizer}) was useful to see simultaneously the graphic for the line core and the behavior in the line core curvature, line bisector slope and granulation pattern plots.
 The discard part was using the geometry of the curve, behavior on plots and the guidance of professor Benjamin.
 
 The final part of the methodology was to perform different plots for our analysis. This is based on the requirement for the characterization.

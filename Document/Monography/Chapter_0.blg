@@ -5,41 +5,39 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 Database file #1: Bibliography.bib
-Warning--entry type for "Aponte" isn't style-file defined
---line 29 of file Bibliography.bib
 You've used 19 entries,
             1876 wiz_defined-function locations,
             621 strings with 6710 characters,
-and the built_in function-call counts, 4035 in all, are:
-= -- 394
+and the built_in function-call counts, 4041 in all, are:
+= -- 400
 > -- 165
 < -- 0
 + -- 64
 - -- 45
-* -- 255
-:= -- 592
-add.period$ -- 25
+* -- 256
+:= -- 598
+add.period$ -- 26
 call.type$ -- 19
 change.case$ -- 16
 chr.to.int$ -- 0
 cite$ -- 19
-duplicate$ -- 237
-empty$ -- 363
+duplicate$ -- 240
+empty$ -- 356
 format.name$ -- 45
-if$ -- 1003
+if$ -- 1001
 int.to.chr$ -- 0
 int.to.str$ -- 19
 missing$ -- 20
-newline$ -- 66
+newline$ -- 67
 num.names$ -- 19
-pop$ -- 59
+pop$ -- 55
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 177
+skip$ -- 174
 stack$ -- 0
 substring$ -- 90
-swap$ -- 107
+swap$ -- 108
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -47,5 +45,4 @@ type$ -- 0
 warning$ -- 0
 while$ -- 30
 width$ -- 21
-write$ -- 184
-(There was 1 warning)
+write$ -- 187

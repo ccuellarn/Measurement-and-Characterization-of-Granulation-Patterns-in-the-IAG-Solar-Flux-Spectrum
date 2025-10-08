@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  7 OCT 2025 00:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  7 OCT 2025 23:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -909,7 +909,14 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (Chapter_0.aux)
+ (Chapter_0.aux
+
+LaTeX Warning: Label `vel bins SPA' multiply defined.
+
+
+LaTeX Warning: Label `sub@vel bins SPA' multiply defined.
+
+)
 \openout1 = `Chapter_0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -964,7 +971,7 @@ Package hyperref Info: Link coloring ON on input line 6.
 \@outlinefile=\write4
 \openout4 = `Chapter_0.out'.
 
-<Universidad-de-los-Andes_logo.png, id=135, 385.44pt x 457.71pt>
+<Universidad-de-los-Andes_logo.png, id=171, 385.44pt x 457.71pt>
 File: Universidad-de-los-Andes_logo.png Graphic file (type png)
 <use Universidad-de-los-Andes_logo.png>
 Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 10.
@@ -1007,7 +1014,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 ...granulation pattern}{23}{subsection.2.4.4}
+l.23 ...granulation pattern}{21}{subsection.2.4.4}
                                                   % [1
 
 ])
@@ -1044,116 +1051,106 @@ Chapter 1.
 [9]
 Chapter 2.
 (Chapter_2.tex
-<Images/Sun interior structure.jpg, id=305, 539.616pt x 476.982pt>
-File: Images/Sun interior structure.jpg Graphic file (type jpg)
-<use Images/Sun interior structure.jpg>
-Package pdftex.def Info: Images/Sun interior structure.jpg  used on input line 14.
-(pdftex.def)             Requested size: 268.14603pt x 237.0275pt.
+<Images/Sun interior.jpg, id=373, 519.44063pt x 451.6875pt>
+File: Images/Sun interior.jpg Graphic file (type jpg)
+<use Images/Sun interior.jpg>
+Package pdftex.def Info: Images/Sun interior.jpg  used on input line 15.
+(pdftex.def)             Requested size: 214.51273pt x 186.53015pt.
+<Images/Sun exterior.jpg, id=374, 674.52pt x 596.2275pt>
+File: Images/Sun exterior.jpg Graphic file (type jpg)
+<use Images/Sun exterior.jpg>
+Package pdftex.def Info: Images/Sun exterior.jpg  used on input line 22.
+(pdftex.def)             Requested size: 214.51273pt x 189.614pt.
 
 
 [10
 
 ]
-File: Images/Sun interior structure.jpg Graphic file (type jpg)
-<use Images/Sun interior structure.jpg>
-Package pdftex.def Info: Images/Sun interior structure.jpg  used on input line 27.
-(pdftex.def)             Requested size: 268.14603pt x 237.0275pt.
 
-
-[11 <./Images/Sun interior structure.jpg>]
-<Images/First take photosphere.jpg, id=325, 359.54324pt x 527.571pt>
+[11 <./Images/Sun interior.jpg> <./Images/Sun exterior.jpg>]
+<Images/First take photosphere.jpg, id=393, 359.54324pt x 527.571pt>
 File: Images/First take photosphere.jpg Graphic file (type jpg)
 <use Images/First take photosphere.jpg>
-Package pdftex.def Info: Images/First take photosphere.jpg  used on input line 45.
-(pdftex.def)             Requested size: 268.14603pt x 393.47156pt.
+Package pdftex.def Info: Images/First take photosphere.jpg  used on input line 50.
+(pdftex.def)             Requested size: 245.79938pt x 360.67555pt.
 
 
-[12]
+[12 <./Images/First take photosphere.jpg>]
 
-[13 <./Images/First take photosphere.jpg>]
+[13]
 
 [14]
-<Images/Parcel argument.jpg, id=355, 600.44325pt x 331.2375pt>
+<Images/Parcel argument.jpg, id=428, 600.44325pt x 331.2375pt>
 File: Images/Parcel argument.jpg Graphic file (type jpg)
 <use Images/Parcel argument.jpg>
-Package pdftex.def Info: Images/Parcel argument.jpg  used on input line 107.
-(pdftex.def)             Requested size: 268.14603pt x 147.92332pt.
+Package pdftex.def Info: Images/Parcel argument.jpg  used on input line 112.
+(pdftex.def)             Requested size: 312.83247pt x 172.57301pt.
 
 
-[15]
-<Images/Granulation pattern.jpg, id=371, 505.89pt x 298.11375pt>
+[15 <./Images/Parcel argument.jpg>]
+<Images/Granulation pattern.jpg, id=440, 505.89pt x 298.11375pt>
 File: Images/Granulation pattern.jpg Graphic file (type jpg)
 <use Images/Granulation pattern.jpg>
-Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 129.
-(pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
-
-
-[16 <./Images/Parcel argument.jpg>]
-<Images/Limb darkening.jpg, id=383, 673.3155pt x 551.661pt>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 134.
+(pdftex.def)             Requested size: 312.83247pt x 184.35098pt.
+<Images/Limb darkening.jpg, id=446, 673.3155pt x 551.661pt>
 File: Images/Limb darkening.jpg Graphic file (type jpg)
 <use Images/Limb darkening.jpg>
-Package pdftex.def Info: Images/Limb darkening.jpg  used on input line 144.
+Package pdftex.def Info: Images/Limb darkening.jpg  used on input line 149.
 (pdftex.def)             Requested size: 268.14603pt x 219.69246pt.
 
 
-[17 <./Images/Granulation pattern.jpg>]
-<Images/Granules motion.jpg, id=392, 590.80725pt x 486.01575pt>
+[16 <./Images/Granulation pattern.jpg>]
+<Images/Granules motion.jpg, id=456, 590.80725pt x 486.01575pt>
 File: Images/Granules motion.jpg Graphic file (type jpg)
 <use Images/Granules motion.jpg>
-Package pdftex.def Info: Images/Granules motion.jpg  used on input line 156.
-(pdftex.def)             Requested size: 268.14603pt x 220.58871pt.
+Package pdftex.def Info: Images/Granules motion.jpg  used on input line 161.
+(pdftex.def)             Requested size: 312.83247pt x 257.34981pt.
 
 
-[18 <./Images/Limb darkening.jpg>]
-<Images/C curved profile bisector.jpg, id=401, 955.1685pt x 486.618pt>
+[17 <./Images/Limb darkening.jpg>]
+<Images/C curved profile bisector.jpg, id=465, 955.1685pt x 486.618pt>
 File: Images/C curved profile bisector.jpg Graphic file (type jpg)
 <use Images/C curved profile bisector.jpg>
-Package pdftex.def Info: Images/C curved profile bisector.jpg  used on input line 170.
-(pdftex.def)             Requested size: 268.14603pt x 136.6085pt.
+Package pdftex.def Info: Images/C curved profile bisector.jpg  used on input line 175.
+(pdftex.def)             Requested size: 335.17912pt x 170.75693pt.
 
 
-[19 <./Images/Granules motion.jpg>]
-File: Images/Granulation pattern.jpg Graphic file (type jpg)
-<use Images/Granulation pattern.jpg>
-Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 191.
-(pdftex.def)             Requested size: 268.14603pt x 158.01773pt.
+[18 <./Images/Granules motion.jpg>]
 
-
-[20 <./Images/C curved profile bisector.jpg>]
-<Images/Asymmetries on typical lines.jpg, id=419, 918.43124pt x 486.01575pt>
+[19 <./Images/C curved profile bisector.jpg>]
+<Images/Asymmetries on typical lines.jpg, id=482, 918.43124pt x 486.01575pt>
 File: Images/Asymmetries on typical lines.jpg Graphic file (type jpg)
 <use Images/Asymmetries on typical lines.jpg>
-Package pdftex.def Info: Images/Asymmetries on typical lines.jpg  used on input line 212.
-(pdftex.def)             Requested size: 312.83247pt x 165.54721pt.
+Package pdftex.def Info: Images/Asymmetries on typical lines.jpg  used on input line 209.
+(pdftex.def)             Requested size: 357.52576pt x 189.19682pt.
+
+
+[20 <./Images/Asymmetries on typical lines.jpg>]
+<Images/Granulation pattern Ellwarth.jpg, id=495, 855.195pt x 528.17325pt>
+File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
+<use Images/Granulation pattern Ellwarth.jpg>
+Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 237.
+(pdftex.def)             Requested size: 335.17912pt x 207.0022pt.
 
 
 [21]
-<Images/Granulation pattern Ellwarth.jpg, id=432, 855.195pt x 528.17325pt>
-File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
-<use Images/Granulation pattern Ellwarth.jpg>
-Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 240.
-(pdftex.def)             Requested size: 312.83247pt x 193.20474pt.
 
-
-[22 <./Images/Asymmetries on typical lines.jpg>]
-
-LaTeX Warning: Reference `relative velocity' on page 23 undefined on input line 256.
+LaTeX Warning: Reference `relative velocity' on page 22 undefined on input line 253.
 
 
 
-[23 <./Images/Granulation pattern Ellwarth.jpg>]
-<Images/Angular momentum.jpg, id=451, 585.387pt x 540.21825pt>
+[22 <./Images/Granulation pattern Ellwarth.jpg>]
+<Images/Angular momentum.jpg, id=515, 585.387pt x 540.21825pt>
 File: Images/Angular momentum.jpg Graphic file (type jpg)
 <use Images/Angular momentum.jpg>
-Package pdftex.def Info: Images/Angular momentum.jpg  used on input line 278.
+Package pdftex.def Info: Images/Angular momentum.jpg  used on input line 275.
 (pdftex.def)             Requested size: 312.83247pt x 288.69655pt.
 
 
+[23 <./Images/Angular momentum.jpg>])
+
 [24]
-
-[25 <./Images/Angular momentum.jpg>])
-
-[26]
 Chapter 3.
 (Chapter_3.tex
 Overfull \hbox (2.00095pt too wide) in paragraph at lines 6--8
@@ -1161,55 +1158,184 @@ Overfull \hbox (2.00095pt too wide) in paragraph at lines 6--8
  []
 
 
-LaTeX Warning: Reference `bisector slope' on page 27 undefined on input line 15.
 
-
-
-[27
+[25
 
 ]
 
-[28])
+[26])
 
-[29]
+[27]
 Chapter 4.
-(Chapter_4.tex)
+(Chapter_4.tex
+<Images/Results/Curvature_VIS.pdf, id=550, 867.24pt x 505.89pt>
+File: Images/Results/Curvature_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Curvature_VIS.pdf>
+Package pdftex.def Info: Images/Results/Curvature_VIS.pdf  used on input line 11.
+(pdftex.def)             Requested size: 491.59877pt x 286.77011pt.
+<Images/Results/Curvature_NIR.pdf, id=551, 867.24pt x 505.89pt>
+File: Images/Results/Curvature_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Curvature_NIR.pdf>
+Package pdftex.def Info: Images/Results/Curvature_NIR.pdf  used on input line 18.
+(pdftex.def)             Requested size: 491.59877pt x 286.77011pt.
 
-[30
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 10--22
+ [][] 
+ []
+
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 10--22
+ [] 
+ []
+
+
+
+[28
 
 ]
+Overfull \vbox (46.98193pt too high) has occurred while \output is active []
+
+
+
+[29 <./Images/Results/Curvature_VIS.pdf> <./Images/Results/Curvature_NIR.pdf>]
+<Images/Results/Sharpness_ALL.pdf, id=680, 867.24pt x 505.89pt>
+File: Images/Results/Sharpness_ALL.pdf Graphic file (type pdf)
+<use Images/Results/Sharpness_ALL.pdf>
+Package pdftex.def Info: Images/Results/Sharpness_ALL.pdf  used on input line 31.
+(pdftex.def)             Requested size: 491.59877pt x 286.77011pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+<Images/Results/Bisector_VIS.pdf, id=683, 867.24pt x 505.89pt>
+File: Images/Results/Bisector_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Bisector_VIS.pdf>
+Package pdftex.def Info: Images/Results/Bisector_VIS.pdf  used on input line 46.
+(pdftex.def)             Requested size: 491.59877pt x 286.77011pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 46--47
+ [][] 
+ []
+
+
+
+[30 <./Images/Results/Sharpness_ALL.pdf>]
+<Images/Results/GranulationPattern_ALL.pdf, id=743, 867.24pt x 505.89pt>
+File: Images/Results/GranulationPattern_ALL.pdf Graphic file (type pdf)
+<use Images/Results/GranulationPattern_ALL.pdf>
+Package pdftex.def Info: Images/Results/GranulationPattern_ALL.pdf  used on input line 61.
+(pdftex.def)             Requested size: 491.59877pt x 286.77011pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 61--62
+ [][] 
+ []
+
+
+
+[31 <./Images/Results/Bisector_VIS.pdf>]
+<Images/Results/ColorCurves_VIS.pdf, id=808, 867.24pt x 505.89pt>
+File: Images/Results/ColorCurves_VIS.pdf Graphic file (type pdf)
+<use Images/Results/ColorCurves_VIS.pdf>
+Package pdftex.def Info: Images/Results/ColorCurves_VIS.pdf  used on input line 76.
+(pdftex.def)             Requested size: 491.59877pt x 286.77011pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
+
+
+
+[32 <./Images/Results/GranulationPattern_ALL.pdf>]
+<Images/Results/Relation_coef.pdf, id=872, 1445.4pt x 361.35pt>
+File: Images/Results/Relation_coef.pdf Graphic file (type pdf)
+<use Images/Results/Relation_coef.pdf>
+Package pdftex.def Info: Images/Results/Relation_coef.pdf  used on input line 86.
+(pdftex.def)             Requested size: 402.21222pt x 100.55424pt.
+
+
+[33 <./Images/Results/ColorCurves_VIS.pdf> <./Images/Results/Relation_coef.pdf>]
+
+LaTeX Warning: Reference `velocity bins' on page 34 undefined on input line 116.
+
+<Images/Results/Velocity bins VIS_plot.pdf, id=974, 1233.84216pt x 629.66492pt>
+File: Images/Results/Velocity bins VIS_plot.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins VIS_plot.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins VIS_plot.pdf  used on input line 121.
+(pdftex.def)             Requested size: 446.9055pt x 228.07234pt.
+<Images/Results/Velocity bins SPA_plot.pdf, id=975, 1227.45894pt x 629.66492pt>
+File: Images/Results/Velocity bins SPA_plot.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins SPA_plot.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins SPA_plot.pdf  used on input line 128.
+(pdftex.def)             Requested size: 446.9055pt x 229.2541pt.
+
+
+[34]
+<Images/Results/Velocity bins VIS.pdf, id=983, 1445.4pt x 722.7pt>
+File: Images/Results/Velocity bins VIS.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins VIS.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins VIS.pdf  used on input line 142.
+(pdftex.def)             Requested size: 446.9055pt x 223.45023pt.
+<Images/Results/Velocity bins SPA.pdf, id=986, 1445.4pt x 867.24pt>
+File: Images/Results/Velocity bins SPA.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins SPA.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins SPA.pdf  used on input line 149.
+(pdftex.def)             Requested size: 446.9055pt x 268.14027pt.
+
+
+[35 <./Images/Results/Velocity bins VIS_plot.pdf> <./Images/Results/Velocity bins SPA_plot.pdf>]
+
+LaTeX Warning: Reference `velocity bins slopes values' on page 36 undefined on input line 158.
+
+
+
+[36 <./Images/Results/Velocity bins VIS.pdf> <./Images/Results/Velocity bins SPA.pdf>]
+<Images/Results/Standard curve_Ellwarth.pdf, id=1273, 867.24pt x 505.89pt>
+File: Images/Results/Standard curve_Ellwarth.pdf Graphic file (type pdf)
+<use Images/Results/Standard curve_Ellwarth.pdf>
+Package pdftex.def Info: Images/Results/Standard curve_Ellwarth.pdf  used on input line 169.
+(pdftex.def)             Requested size: 402.21222pt x 234.62659pt.
+File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
+<use Images/Granulation pattern Ellwarth.jpg>
+Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 174.
+(pdftex.def)             Requested size: 357.52576pt x 220.80772pt.
+
+
+[37])
+
+[38 <./Images/Results/Standard curve_Ellwarth.pdf>]
 Chapter 5.
 (Chapter_5.tex) (Chapter_6.tex
 
-[31
+[39
 
 ]
 Appendix A.
 
 
-[32
+[40
 
 ]
 Appendix B.
 
 
-[33
+[41
 
 ]
 Appendix C.
 ) (Chapter_0.bbl
 
-[34
+[42
 
 ]
 
-[35
+[43
 
 ]
 
-[36])
+[44])
 
-[37] (Chapter_0.aux)
+[45] (Chapter_0.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1218,21 +1344,24 @@ L3 programming layer <2025-09-02>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Chapter_0.out' has not changed.
-(rerunfilecheck)             Checksum: E8458267FFE9AEBAD75496092C91C744;8016.
+(rerunfilecheck)             Checksum: 5E16CC98D95999BEE873A0480DA2E93E;10386.
  ) 
 Here is how much of TeX's memory you used:
- 17684 strings out of 468130
- 290509 string characters out of 5430633
- 708193 words of memory out of 5000000
- 45907 multiletter control sequences out of 15000+600000
- 636155 words of font info for 74 fonts, out of 8000000 for 9000
+ 17854 strings out of 468130
+ 295869 string characters out of 5430633
+ 714168 words of memory out of 5000000
+ 46052 multiletter control sequences out of 15000+600000
+ 636455 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,6n,93p,617b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Chapter_0.pdf (40 pages, 1600149 bytes).
+ 90i,11n,93p,617b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Chapter_0.pdf (48 pages, 2125821 bytes).
 PDF statistics:
- 597 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
- 320 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1458 PDF objects out of 1728 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 457 words of extra memory for PDF output out of 10000 (max. 10000000)
 
