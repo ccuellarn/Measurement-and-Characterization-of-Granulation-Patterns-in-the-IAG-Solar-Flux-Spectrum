@@ -32,11 +32,6 @@ M.~Ellwarth, B.~Ehmann, S.~Schäfer, and A.~Reiners, ``Convective
 D.~F. Gray, ``The third signature of stelar granulation,'' {\em The
   Astrophysical Journal}, vol.~697, p.~1032, May 2009.
 
-\bibitem{Dravins_1981}
-D.~Dravins, L.~Lindegren, and A.~Nordlund, ``Solar granulation - influence of
-  convection on spectral line asymmetries and wavelength shifts,'' {\em
-  Astronomy and Astrophysics}, vol.~96, p.~345–364, Mar. 1981.
-
 \bibitem{Hamilton_1999}
 D.~Hamilton and J.~B. Lester, ``A technique for the study of stellar
   convection: The visible solar flux spectrum,'' {\em Publications of the
@@ -47,6 +42,11 @@ A.~Reiners, N.~Mrotzek, U.~Lemke, J.~Hinrichs, and K.~Reinsch, ``The iag solar
   flux atlas: Accurate wavelengths and absolute convective blueshift in
   standard solar spectra,'' {\em Astronomy and Astrophysics}, vol.~587, p.~A65,
   Mar. 2016.
+
+\bibitem{Dravins_1981}
+D.~Dravins, L.~Lindegren, and A.~Nordlund, ``Solar granulation - influence of
+  convection on spectral line asymmetries and wavelength shifts,'' {\em
+  Astronomy and Astrophysics}, vol.~96, p.~345–364, Mar. 1981.
 
 \bibitem{Gray_Pugh_2012}
 D.~F. Gray and T.~Pugh, ``The third signature of granulation in bright-giant
@@ -79,6 +79,12 @@ B.~Carroll and D.~Ostlie, {\em An Introduction to Modern Astrophysics}.
 
 \bibitem{GitHub}
 C.~Cuellar, ``Final project.'' online, 2025.
+
+\bibitem{Boyd_2014}
+J.~P. Boyd, {\em Solving Transcendental Equations: The Chebyshev Polynomial
+  Proxy and Other Numerical Rootfinders, Perturbation Series, and Oracles}.
+\newblock SIAM, Oct. 2014.
+\newblock Google-Books-ID: ANGgBAAAQBAJ.
 
 \bibitem{Aponte}
 J.~S. Aponte, {\em Medición de la velocidad convectiva en la fotosfera solar}.

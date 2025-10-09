@@ -40,5 +40,5 @@
 \contentsline {section}{\numberline {4.4}Higher quality graphs}{37}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Conclusions}{39}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Z-score Standardization}{40}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}The third derivate relation}{41}{appendix.1.B}%
-\contentsline {chapter}{\numberline {C}Visualizer for outliers}{42}{appendix.1.C}%
+\contentsline {chapter}{\numberline {B}The third derivate relation}{42}{appendix.1.B}%
+\contentsline {chapter}{\numberline {C}Visualizer for outliers}{43}{appendix.1.C}%

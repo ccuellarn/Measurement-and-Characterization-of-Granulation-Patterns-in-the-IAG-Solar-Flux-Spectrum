@@ -1,13 +1,52 @@
-
 \begin{appendices}
 \chapter{Z-score Standardization}\label{ap:zscore}
-This was for a problem present in the fit and we just use a acomputational stadarization in the selected bins of fits to make a standarization.
+In the process of calculate the four order polynomial fit the function np.poly.fit() presents an overstimation on the coefficients, due to the large difference of magnitude order between axis.
+To deal with this difference a z-score standardization was used on the selected bins of wavelengths around the observed wavelength. 
+This process helps to avoid the dominance of certain features over other due to diferences in their scales \cite{Boyd_2014}.
+
+The follow up for the standardization was applied the relation \eqref{z score} on the selected bins for wavelength.
+
+\begin{equation}
+\lambda_{scaled}= \frac{\lambda-\mu(\lambda)}{\sigma(\lambda)}
+\label{z score}
+\end{equation}
+
+Where $\mu(\lambda)$ refers to the mean and $\sigma(\lambda)$ to the standard deviation of the wavelength range. 
+As the wavelength was scaled, in terms of calculated derivates for the first and the second signature, a re-scaled for this values was necessary.
+Based on the definition for the standardization, the derivates follow the relation \eqref{re scaled derivates}.
+
+\begin{equation}
+ \frac{d}{d \lambda} = \frac{1}{\sigma(\lambda)} \frac{d}{d \lambda_{scaled}}
+\label{re scaled derivates}
+\end{equation}
+
+Taking the derivate of the expresion \eqref{z score} a factor related to the standard deviation appear.
+With this, the original values for derivates evaluated in the observed wavelength are expresed in equation \eqref{2 and 3 scaled derivate}
+
+\begin{equation}
+ \frac{d^2}{d \lambda^2} = \frac{1}{\sigma(\lambda)^2} \frac{d^2}{d \lambda_{scaled}^2} \quad \quad \frac{d^3}{d \lambda^3} = \frac{1}{\sigma(\lambda)^3} \frac{d^3}{d \lambda_{scaled}^3}
+\label{2 and 3 scaled derivate}
+\end{equation}
+
+This improved considerably the precision in the fit and there over the precision on the observed wavelength calculated.
 
 \chapter{The third derivate relation}\label{ap:third derivate}
 
-Or called the bisector slope. It was multiplied by the relation ($\frac{c}{\lambda}$) to see each clear in the graphic.
+Or called the bisector slope. 
+It was multiplied by the relation ($\frac{c}{\lambda}$) to see each clear in the graphic.
 
 \chapter{Visualizer for outliers}\label{ap:visualizer}
-Was an app made with Tkinter for help the visualization of outliers in the process of blendfree the Fe I list. There is in the Git hub 
+
+For the process of the blend-free list was created an app using the interface Tkinter with the objective for help the visualization of outliers.
+Two version of the visualizer were created.
+One just show the line core and forthh order polynomial fit as shown in the figure ().
+
+This helps for a first process where far separated lines were discarted.
+Then, we can perform the different calculations and use the second version of the visualizer (see figure ()).
+
+In this version the vision of the thre signature of conevction and the line core with the fit.
+Moreover, was resalted the correspond Fe I line on each graph to corroborated the behavior.
+Thanks to this the time expended seeing lines was reduced signficantly.
+
 
 \end{appendices}
