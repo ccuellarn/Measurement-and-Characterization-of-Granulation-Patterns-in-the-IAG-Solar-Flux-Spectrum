@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  8 OCT 2025 23:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  23 OCT 2025 21:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -904,12 +904,119 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip93
-))
+)) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\stix.sty
+Package: stix 2018/04/17 v1.1.3-latex STIX fonts support package
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
+)
+LaTeX Encoding Info:    Text command \textpertenthousand (encoding T1) is not declared on input line 51.
+LaTeX Encoding Info:    Redeclaring text command \textpertenthousand (encoding ?) on input line 52.
+Now handling font encoding LS1 ...
+... no UTF-8 mapping file for font encoding LS1
+Now handling font encoding LS2 ...
+... no UTF-8 mapping file for font encoding LS2
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `normal' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `bold' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> LS1/stix/m/n on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> LS1/stix/m/n on input line 77.
+\symbold-operators=\mathgroup7
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LS1/stixscr/m/n on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LS1/stixscr/m/n on input line 79.
+\symsymbols2=\mathgroup8
+\symsymbols3=\mathgroup9
+\symsymbols4=\mathgroup10
+\symintegrals=\mathgroup11
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+\symarrows1=\mathgroup12
+\symarrows2=\mathgroup13
+\symarrows3=\mathgroup14
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  LS1/stix/m/n --> LS1/stix/b/n on input line 89.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LS1/stixscr/m/n --> LS1/stixscr/b/n on input line 90.
+LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
+(Font)                  LS1/stixfrak/m/n --> LS1/stixfrak/b/n on input line 91.
+LaTeX Font Info:    Overwriting symbol font `symbols3' in version `bold'
+(Font)                  LS1/stixbb/m/n --> LS1/stixbb/b/n on input line 92.
+LaTeX Font Info:    Overwriting symbol font `symbols4' in version `bold'
+(Font)                  LS1/stixbb/m/it --> LS1/stixbb/b/it on input line 93.
+LaTeX Font Info:    Overwriting symbol font `integrals' in version `bold'
+(Font)                  LS2/stixcal/m/n --> LS2/stixcal/b/n on input line 94.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LS2/stixex/m/n --> LS2/stixex/b/n on input line 95.
+LaTeX Font Info:    Overwriting symbol font `arrows1' in version `bold'
+(Font)                  LS1/stixsf/m/n --> LS1/stixsf/b/n on input line 96.
+LaTeX Font Info:    Overwriting symbol font `arrows2' in version `bold'
+(Font)                  LS1/stixsf/m/it --> LS1/stixsf/b/it on input line 97.
+LaTeX Font Info:    Overwriting symbol font `arrows3' in version `bold'
+(Font)                  LS2/stixtt/m/n --> LS2/stixtt/b/n on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 109.
+LaTeX Info: Redefining \yen on input line 456.
+LaTeX Info: Redefining \circledR on input line 458.
+LaTeX Info: Redefining \checkmark on input line 460.
+LaTeX Info: Redefining \maltese on input line 461.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 698.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 699.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 700.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 701.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 702.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 703.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 704.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 705.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 707.
+LaTeX Font Info:    Redeclaring math accent \check on input line 708.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 716.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 728.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 729.
+LaTeX Info: Redefining \vdots on input line 1518.
+LaTeX Info: Redefining \cdots on input line 1522.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 1978.
+LaTeX Info: Redefining \not on input line 2144.
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (Chapter_0.aux
+LaTeX Font Info:    Trying to load font information for T1+stix on input line 8.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\t1stix.fd
+File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
+) (Chapter_0.aux
 
 LaTeX Warning: Label `vel bins SPA' multiply defined.
 
@@ -919,30 +1026,44 @@ LaTeX Warning: Label `sub@vel bins SPA' multiply defined.
 )
 \openout1 = `Chapter_0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 8.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for LS1+stix on input line 8.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stix.fd
+File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
+)
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for LS2+stix on input line 8.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stix.fd
+File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
+)
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Info: Command `\dddot' is already robust on input line 8.
+LaTeX Info: Command `\ddddot' is already robust on input line 8.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count362
@@ -958,7 +1079,13 @@ LaTeX Font Info:    ... okay on input line 6.
 \everyMPtoPDFconversion=\toks37
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -966,7 +1093,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 6.
+Package hyperref Info: Link coloring ON on input line 8.
  (Chapter_0.out) (Chapter_0.out)
 \@outlinefile=\write4
 \openout4 = `Chapter_0.out'.
@@ -974,7 +1101,7 @@ Package hyperref Info: Link coloring ON on input line 6.
 <Universidad-de-los-Andes_logo.png, id=171, 385.44pt x 457.71pt>
 File: Universidad-de-los-Andes_logo.png Graphic file (type png)
 <use Universidad-de-los-Andes_logo.png>
-Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 10.
+Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 12.
 (pdftex.def)             Requested size: 67.0331pt x 79.5976pt.
 
 
@@ -982,21 +1109,29 @@ Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 1
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
-{C:/Users/clauw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Universidad-de-los-Andes_logo.png>]
+{C:/Users/clauw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-t1.enc} <./Universidad-de-los-Andes_logo.png>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \end{abstract}
+l.32 \end{abstract}
                     [1]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \end{abstract}
+l.38 \end{abstract}
                     [1] (Chapter_0.toc
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1008,6 +1143,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 4.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 )
 
 
@@ -1024,6 +1179,11 @@ l.23 ...granulation pattern}{21}{subsection.2.4.4}
 
 
 [2] (Chapter_0.lof
+Overfull \hbox (8.56953pt too wide) in paragraph at lines 7--7
+ [][] [][][]\T1/stix/m/n/12 A view of gran-u-la-tion on the Sun's sur-face. The cen-tral re-gions ex-hibit blueshifts 
+ []
+
+
 
 [3
 
@@ -1044,19 +1204,19 @@ Chapter 1.
 
 [6]
 
-[7]
+[7])
 
-[8])
+[8]
 
 [9]
 Chapter 2.
 (Chapter_2.tex
-<Images/Sun interior.jpg, id=373, 519.44063pt x 451.6875pt>
+<Images/Sun interior.jpg, id=367, 519.44063pt x 451.6875pt>
 File: Images/Sun interior.jpg Graphic file (type jpg)
 <use Images/Sun interior.jpg>
 Package pdftex.def Info: Images/Sun interior.jpg  used on input line 15.
 (pdftex.def)             Requested size: 214.51273pt x 186.53015pt.
-<Images/Sun exterior.jpg, id=374, 674.52pt x 596.2275pt>
+<Images/Sun exterior.jpg, id=368, 674.52pt x 596.2275pt>
 File: Images/Sun exterior.jpg Graphic file (type jpg)
 <use Images/Sun exterior.jpg>
 Package pdftex.def Info: Images/Sun exterior.jpg  used on input line 22.
@@ -1068,7 +1228,7 @@ Package pdftex.def Info: Images/Sun exterior.jpg  used on input line 22.
 ]
 
 [11 <./Images/Sun interior.jpg> <./Images/Sun exterior.jpg>]
-<Images/First take photosphere.jpg, id=393, 359.54324pt x 527.571pt>
+<Images/First take photosphere.jpg, id=385, 359.54324pt x 527.571pt>
 File: Images/First take photosphere.jpg Graphic file (type jpg)
 <use Images/First take photosphere.jpg>
 Package pdftex.def Info: Images/First take photosphere.jpg  used on input line 50.
@@ -1076,24 +1236,29 @@ Package pdftex.def Info: Images/First take photosphere.jpg  used on input line 5
 
 
 [12 <./Images/First take photosphere.jpg>]
+Overfull \hbox (16.52148pt too wide) in paragraph at lines 75--82
+\T1/stix/m/n/12 Where from the H nu-clei is lib-er-ated an con-sid-er-able amount of high fre-cuency $\LS1/stix/m/it/12 ^^M\LS1/stix/m/n/12 *$\T1/stix/m/n/12 rays ($\LS1/stix/m/n/12 26\LS1/stix/m/it/12 :\LS1/stix/m/n/12 7\LS1/stix/m/it/12 MeV$\T1/stix/m/n/12 )
+ []
+
+
 
 [13]
-
-[14]
-<Images/Parcel argument.jpg, id=428, 600.44325pt x 331.2375pt>
+<Images/Parcel argument.jpg, id=413, 600.44325pt x 331.2375pt>
 File: Images/Parcel argument.jpg Graphic file (type jpg)
 <use Images/Parcel argument.jpg>
 Package pdftex.def Info: Images/Parcel argument.jpg  used on input line 112.
 (pdftex.def)             Requested size: 312.83247pt x 172.57301pt.
 
 
+[14]
+
 [15 <./Images/Parcel argument.jpg>]
-<Images/Granulation pattern.jpg, id=440, 505.89pt x 298.11375pt>
+<Images/Granulation pattern.jpg, id=432, 505.89pt x 298.11375pt>
 File: Images/Granulation pattern.jpg Graphic file (type jpg)
 <use Images/Granulation pattern.jpg>
 Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 134.
 (pdftex.def)             Requested size: 312.83247pt x 184.35098pt.
-<Images/Limb darkening.jpg, id=446, 673.3155pt x 551.661pt>
+<Images/Limb darkening.jpg, id=438, 673.3155pt x 551.661pt>
 File: Images/Limb darkening.jpg Graphic file (type jpg)
 <use Images/Limb darkening.jpg>
 Package pdftex.def Info: Images/Limb darkening.jpg  used on input line 149.
@@ -1101,7 +1266,7 @@ Package pdftex.def Info: Images/Limb darkening.jpg  used on input line 149.
 
 
 [16 <./Images/Granulation pattern.jpg>]
-<Images/Granules motion.jpg, id=456, 590.80725pt x 486.01575pt>
+<Images/Granules motion.jpg, id=448, 590.80725pt x 486.01575pt>
 File: Images/Granules motion.jpg Graphic file (type jpg)
 <use Images/Granules motion.jpg>
 Package pdftex.def Info: Images/Granules motion.jpg  used on input line 161.
@@ -1109,7 +1274,7 @@ Package pdftex.def Info: Images/Granules motion.jpg  used on input line 161.
 
 
 [17 <./Images/Limb darkening.jpg>]
-<Images/C curved profile bisector.jpg, id=465, 955.1685pt x 486.618pt>
+<Images/C curved profile bisector.jpg, id=457, 955.1685pt x 486.618pt>
 File: Images/C curved profile bisector.jpg Graphic file (type jpg)
 <use Images/C curved profile bisector.jpg>
 Package pdftex.def Info: Images/C curved profile bisector.jpg  used on input line 175.
@@ -1119,7 +1284,7 @@ Package pdftex.def Info: Images/C curved profile bisector.jpg  used on input lin
 [18 <./Images/Granules motion.jpg>]
 
 [19 <./Images/C curved profile bisector.jpg>]
-<Images/Asymmetries on typical lines.jpg, id=482, 918.43124pt x 486.01575pt>
+<Images/Asymmetries on typical lines.jpg, id=474, 918.43124pt x 486.01575pt>
 File: Images/Asymmetries on typical lines.jpg Graphic file (type jpg)
 <use Images/Asymmetries on typical lines.jpg>
 Package pdftex.def Info: Images/Asymmetries on typical lines.jpg  used on input line 209.
@@ -1127,7 +1292,7 @@ Package pdftex.def Info: Images/Asymmetries on typical lines.jpg  used on input 
 
 
 [20 <./Images/Asymmetries on typical lines.jpg>]
-<Images/Granulation pattern Ellwarth.jpg, id=495, 855.195pt x 528.17325pt>
+<Images/Granulation pattern Ellwarth.jpg, id=487, 855.195pt x 528.17325pt>
 File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
 <use Images/Granulation pattern Ellwarth.jpg>
 Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 237.
@@ -1141,7 +1306,7 @@ LaTeX Warning: Reference `relative velocity' on page 22 undefined on input line 
 
 
 [22 <./Images/Granulation pattern Ellwarth.jpg>]
-<Images/Angular momentum.jpg, id=515, 585.387pt x 540.21825pt>
+<Images/Angular momentum.jpg, id=507, 585.387pt x 540.21825pt>
 File: Images/Angular momentum.jpg Graphic file (type jpg)
 <use Images/Angular momentum.jpg>
 Package pdftex.def Info: Images/Angular momentum.jpg  used on input line 275.
@@ -1163,12 +1328,12 @@ Chapter 3.
 [27]
 Chapter 4.
 (Chapter_4.tex
-<Images/Results/Curvature_VIS.pdf, id=550, 867.24pt x 505.89pt>
+<Images/Results/Curvature_VIS.pdf, id=542, 867.24pt x 505.89pt>
 File: Images/Results/Curvature_VIS.pdf Graphic file (type pdf)
 <use Images/Results/Curvature_VIS.pdf>
 Package pdftex.def Info: Images/Results/Curvature_VIS.pdf  used on input line 11.
 (pdftex.def)             Requested size: 491.59877pt x 286.77011pt.
-<Images/Results/Curvature_NIR.pdf, id=551, 867.24pt x 505.89pt>
+<Images/Results/Curvature_NIR.pdf, id=543, 867.24pt x 505.89pt>
 File: Images/Results/Curvature_NIR.pdf Graphic file (type pdf)
 <use Images/Results/Curvature_NIR.pdf>
 Package pdftex.def Info: Images/Results/Curvature_NIR.pdf  used on input line 18.
@@ -1193,7 +1358,7 @@ Overfull \vbox (46.98193pt too high) has occurred while \output is active []
 
 
 [29 <./Images/Results/Curvature_VIS.pdf> <./Images/Results/Curvature_NIR.pdf>]
-<Images/Results/Sharpness_ALL.pdf, id=680, 867.24pt x 505.89pt>
+<Images/Results/Sharpness_ALL.pdf, id=672, 867.24pt x 505.89pt>
 File: Images/Results/Sharpness_ALL.pdf Graphic file (type pdf)
 <use Images/Results/Sharpness_ALL.pdf>
 Package pdftex.def Info: Images/Results/Sharpness_ALL.pdf  used on input line 31.
@@ -1203,7 +1368,7 @@ Overfull \hbox (44.69327pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
-<Images/Results/Bisector_VIS.pdf, id=683, 867.24pt x 505.89pt>
+<Images/Results/Bisector_VIS.pdf, id=675, 867.24pt x 505.89pt>
 File: Images/Results/Bisector_VIS.pdf Graphic file (type pdf)
 <use Images/Results/Bisector_VIS.pdf>
 Package pdftex.def Info: Images/Results/Bisector_VIS.pdf  used on input line 46.
@@ -1216,7 +1381,7 @@ Overfull \hbox (44.69327pt too wide) in paragraph at lines 46--47
 
 
 [30 <./Images/Results/Sharpness_ALL.pdf>]
-<Images/Results/GranulationPattern_ALL.pdf, id=743, 867.24pt x 505.89pt>
+<Images/Results/GranulationPattern_ALL.pdf, id=735, 867.24pt x 505.89pt>
 File: Images/Results/GranulationPattern_ALL.pdf Graphic file (type pdf)
 <use Images/Results/GranulationPattern_ALL.pdf>
 Package pdftex.def Info: Images/Results/GranulationPattern_ALL.pdf  used on input line 61.
@@ -1229,7 +1394,7 @@ Overfull \hbox (44.69327pt too wide) in paragraph at lines 61--62
 
 
 [31 <./Images/Results/Bisector_VIS.pdf>]
-<Images/Results/ColorCurves_VIS.pdf, id=808, 867.24pt x 505.89pt>
+<Images/Results/ColorCurves_VIS.pdf, id=800, 867.24pt x 505.89pt>
 File: Images/Results/ColorCurves_VIS.pdf Graphic file (type pdf)
 <use Images/Results/ColorCurves_VIS.pdf>
 Package pdftex.def Info: Images/Results/ColorCurves_VIS.pdf  used on input line 76.
@@ -1242,7 +1407,7 @@ Overfull \hbox (44.69327pt too wide) in paragraph at lines 76--77
 
 
 [32 <./Images/Results/GranulationPattern_ALL.pdf>]
-<Images/Results/Relation_coef.pdf, id=872, 1445.4pt x 361.35pt>
+<Images/Results/Relation_coef.pdf, id=864, 1445.4pt x 361.35pt>
 File: Images/Results/Relation_coef.pdf Graphic file (type pdf)
 <use Images/Results/Relation_coef.pdf>
 Package pdftex.def Info: Images/Results/Relation_coef.pdf  used on input line 86.
@@ -1253,12 +1418,12 @@ Package pdftex.def Info: Images/Results/Relation_coef.pdf  used on input line 86
 
 LaTeX Warning: Reference `velocity bins' on page 34 undefined on input line 116.
 
-<Images/Results/Velocity bins VIS_plot.pdf, id=974, 1233.84216pt x 629.66492pt>
+<Images/Results/Velocity bins VIS_plot.pdf, id=966, 1233.84216pt x 629.66492pt>
 File: Images/Results/Velocity bins VIS_plot.pdf Graphic file (type pdf)
 <use Images/Results/Velocity bins VIS_plot.pdf>
 Package pdftex.def Info: Images/Results/Velocity bins VIS_plot.pdf  used on input line 121.
 (pdftex.def)             Requested size: 446.9055pt x 228.07234pt.
-<Images/Results/Velocity bins SPA_plot.pdf, id=975, 1227.45894pt x 629.66492pt>
+<Images/Results/Velocity bins SPA_plot.pdf, id=967, 1227.45894pt x 629.66492pt>
 File: Images/Results/Velocity bins SPA_plot.pdf Graphic file (type pdf)
 <use Images/Results/Velocity bins SPA_plot.pdf>
 Package pdftex.def Info: Images/Results/Velocity bins SPA_plot.pdf  used on input line 128.
@@ -1266,12 +1431,12 @@ Package pdftex.def Info: Images/Results/Velocity bins SPA_plot.pdf  used on inpu
 
 
 [34]
-<Images/Results/Velocity bins VIS.pdf, id=983, 1445.4pt x 722.7pt>
+<Images/Results/Velocity bins VIS.pdf, id=975, 1445.4pt x 722.7pt>
 File: Images/Results/Velocity bins VIS.pdf Graphic file (type pdf)
 <use Images/Results/Velocity bins VIS.pdf>
 Package pdftex.def Info: Images/Results/Velocity bins VIS.pdf  used on input line 142.
 (pdftex.def)             Requested size: 446.9055pt x 223.45023pt.
-<Images/Results/Velocity bins SPA.pdf, id=986, 1445.4pt x 867.24pt>
+<Images/Results/Velocity bins SPA.pdf, id=978, 1445.4pt x 867.24pt>
 File: Images/Results/Velocity bins SPA.pdf Graphic file (type pdf)
 <use Images/Results/Velocity bins SPA.pdf>
 Package pdftex.def Info: Images/Results/Velocity bins SPA.pdf  used on input line 149.
@@ -1285,7 +1450,7 @@ LaTeX Warning: Reference `velocity bins slopes values' on page 36 undefined on i
 
 
 [36 <./Images/Results/Velocity bins VIS.pdf> <./Images/Results/Velocity bins SPA.pdf>]
-<Images/Results/Standard curve_Ellwarth.pdf, id=1273, 867.24pt x 505.89pt>
+<Images/Results/Standard curve_Ellwarth.pdf, id=1265, 867.24pt x 505.89pt>
 File: Images/Results/Standard curve_Ellwarth.pdf Graphic file (type pdf)
 <use Images/Results/Standard curve_Ellwarth.pdf>
 Package pdftex.def Info: Images/Results/Standard curve_Ellwarth.pdf  used on input line 169.
@@ -1348,17 +1513,17 @@ Package rerunfilecheck Info: File `Chapter_0.out' has not changed.
 (rerunfilecheck)             Checksum: 5E16CC98D95999BEE873A0480DA2E93E;10386.
  ) 
 Here is how much of TeX's memory you used:
- 17863 strings out of 468130
- 295998 string characters out of 5430633
- 714362 words of memory out of 5000000
- 46056 multiletter control sequences out of 15000+600000
- 636455 words of font info for 75 fonts, out of 8000000 for 9000
+ 20499 strings out of 468130
+ 329235 string characters out of 5430633
+ 718769 words of memory out of 5000000
+ 48644 multiletter control sequences out of 15000+600000
+ 695521 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,11n,93p,617b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Chapter_0.pdf (49 pages, 2131914 bytes).
+ 90i,11n,93p,617b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on Chapter_0.pdf (49 pages, 2127196 bytes).
 PDF statistics:
- 1473 PDF objects out of 1728 (max. 8388607)
+ 1450 PDF objects out of 1728 (max. 8388607)
  142 named destinations out of 1000 (max. 500000)
  457 words of extra memory for PDF output out of 10000 (max. 10000000)
 
