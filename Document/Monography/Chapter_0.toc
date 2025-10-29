@@ -24,8 +24,8 @@
 \contentsline {subsection}{\numberline {2.4.5}Chromodependence characterization}{22}{subsection.2.4.5}%
 \contentsline {chapter}{\numberline {3}Methodology: The blend-free list of Fe I lines}{25}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Computational approach}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Blend-free Fe I line list}{26}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Selection method for Fe I lines}{26}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.2}Blend-free Nave Fe I line list}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Selection process for blend-free Fe I lines}{26}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Observational requirement}{27}{subsection.3.2.2}%
 \contentsline {chapter}{\numberline {4}Results and discussion: Granulation pattern and Characterization of chromodependence}{28}{chapter.4}%
 \contentsline {section}{\numberline {4.1}The first signature}{28}{section.4.1}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  28 OCT 2025 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  29 OCT 2025 12:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1327,6 +1327,10 @@ Package pdftex.def Info: Images/Angular momentum.jpg  used on input line 279.
 Chapter 3.
 (Chapter_3.tex
 
+LaTeX Warning: Citation `Allende_Garcia_1988' on page 25 undefined on input line 14.
+
+
+
 [25
 
 ]
@@ -1526,7 +1530,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Chapter_0.out' has not changed.
-(rerunfilecheck)             Checksum: 97A87F5E0F9BEA7F174B17B7531EF2B0;10887.
+(rerunfilecheck)             Checksum: BB84DAD23DB368BC2E27D734DBC8CBFD;10978.
  ) 
 Here is how much of TeX's memory you used:
  20505 strings out of 468130
@@ -1537,7 +1541,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  90i,11n,93p,617b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Chapter_0.pdf (51 pages, 2138023 bytes).
+Output written on Chapter_0.pdf (51 pages, 2139228 bytes).
 PDF statistics:
  1466 PDF objects out of 1728 (max. 8388607)
  145 named destinations out of 1000 (max. 500000)
