@@ -144,7 +144,7 @@ Consequently, the disk intensity profile becomes more squared at increasing wave
     \label{squared profile}
 \end{figure}
 
-This effect is known as \textit{Limb darkening phenomenon}.
+This effect is known as \textit{Limb darkening phenomenon}, was discovered in 1907 by Halm \cite{Dravins_1981}.  
 The analysis of this effect provides a direct technique for determining the photosphere temperature structure along depth. 
 
 Furthermore, these granules has shown to be in continual motion (see figure \ref{motion granules}).
@@ -157,6 +157,8 @@ Furthermore, these granules has shown to be in continual motion (see figure \ref
 \end{figure}
 
 This perpetual motion across the layer generates asymmetries on the absorption lines. 
+For typical weaker lines the limb effect corresponds to $400m/s$, closer to the limb the gravitational redshift is observed.
+As explain Ellwarth et al. observations closer to the limb pass through the atmosphere a shallower angle, resulting in longer optical paths through high atmospheric layers \cite{Ellwarth_2023}.
 
 \subsection{Dynamic photosphere: The C-curved profile bisector.}
 Observing the dynamic of the granules, there appears a height dependence of the granular velocities: The velocity of an upward moving granule decays much less rapidly than its excess brightness. 
@@ -182,17 +184,18 @@ The signatures of convection in stars are described by Gray in his research \cit
 
 \subsection{Line broadening}
 Due to the limb darkening phenomenon and atmospheric absorption, there exists two types of line cores: Strongest and weaker lines \cite{Gray_Pugh_2012}.
-Where strongest refers to more curved than weaker lines.
+Stronger lines refers to more curved line cores than weaker lines.
 This effect is measurable with the second derivative in the observed wavelength, that represents the core curvature (see equation \eqref{core curvature}).
 
 \begin{equation}
-    C_c =  \lambda^2 \parens{\frac{d^2 p(\lambda)}{d \lambda^2}}
+    C_c =  \lambda_{obs}^2 \parens{\frac{d^2 p(\lambda_{obs})}{d \lambda_{obs}^2}}
     \label{core curvature}
 \end{equation}
 
-Where $p(\lambda)$ is the polynomial fit for the core evaluated on the observed wavelength.
-In the near infrared range we can denote natural bands or groups of lines  which are separated for the telluric elements, in other words, elements like oxygen and CO2 that are absorbed by the atmosphere.
-This range is invisible for the spectra, and it helps us to detect the natural bands in the near infrared curvature profile.
+Where $p(\lambda)$ is the polynomial fit for the core evaluated on the observed wavelength; and $\lambda_{obs}$ is the minimum of the polynomial fit.
+In the near infrared range we can denote natural bands or groups of lines  which are separated for the telluric elements. 
+In other words, elements like $O_2$ and $CO_2$ that are absorbed by the atmosphere.
+This wavelength range is invisible for the spectra, and it helps us to detect the natural bands in the near infrared curvature profile.
 
 \subsection{Line profile bisector asymmetry}
 As demonstrated by Nieminen \cite{Nieminen_2017}, the asymmetry occurs because the c-curved profile bisector reflects velocity variations and a bisector slope (see figure \ref{asymmetries on lines}).
@@ -206,17 +209,25 @@ As demonstrated by Nieminen \cite{Nieminen_2017}, the asymmetry occurs because t
 
 According to Kirchhoff's laws, absorption line formation requires lower temperature conditions, which are found precisely in the Sun's outermost atmospheric layers \cite{Carroll_Ostlie_2006}. 
 These regions not only provide the appropriate temperatures for absorption line formation but also exhibit comparatively higher opacity. 
-Among all available spectral lines, those from neutral iron (Fe I) are particularly valuable for solar granulation studies due to two key characteristics: they display significant opacity and relatively low thermal broadening. 
+Among all available spectral lines, those from neutral iron (Fe I) are particularly valuable for solar granulation studies due to two key characteristics: They display significant opacity and relatively low thermal broadening. 
 These properties make Fe I lines excellent tracers of granulation patterns in the solar photosphere \cite{Nieminen_2017}.
 
 These asymmetries can be measured using the third derivative relation for the line bisector (see equation \eqref{third derivative relation}).
 
 \begin{equation}
-    \frac{c}{\lambda}\parens{\frac{1}{3 C_c^2}}\parens{\frac{d^3 p(\lambda)}{d \lambda^3}}
+    \frac{c}{\lambda_{obs}}\parens{\frac{1}{3 C_c^2}}\parens{\frac{d^3 p(\lambda_{obs})}{d \lambda_{obs}^3}}
     \label{third derivate relation}
 \end{equation}
 
 Where $C_c$ refers to the core curvature in the equation \eqref{core curvature}.
+
+As the majority of stellar observations are made with lower-resolution spectrographs and often lower signal-to-noise ratios, there exists a necessity of study the granulation pattern.
+However, Gray and Oostra shown that exists another form of line profile bisector asymmetry called \textit{flux deficit}. 
+This phenomenon can be interpreted as flux imbalances on the redshifted part of the line due to loose radiative energy. 
+In consequence the bisector is inclined compared to the original.
+To treat with this asymmetry and calculate the flux deficit was suggested by the authors performs a difference beetwwen the altered profile and the original in order to find the flux distribution.
+The deficit position implieas an average velocity difference between granules and lanes of $\approx 4 km/s$.
+When the altered profile can be seen as the aproximate representation of the velocity distribution, to map the observed line bisector onto the third signature plot \cite{Gray_Oostra_2018}.
 
 \subsection{Line depth-dependent wavelength shifts}
 Many studies across the years have detected and observed the phenomena of wavelength shifts against the line depth, or as it is called, chromodependence in the granulation pattern.
@@ -255,7 +266,7 @@ Since the strength of the convective distortions and shifts as spectral lines va
 Recently, the emphasis on the measurement of granulation pattern has opened new interpretations to the line depth-dependent wavelength shifts.
 However, there is still no characterization for this phenomenon.
 
-In 2018 Gray and Oostra tried to establish a standard curve determined by the second grade polynomial fit to the solar granulation pattern.
+In 2018 Gray and Oostra tried to establish a standard curve determined by the third grade polynomial fit to the solar granulation pattern.
 Although, the authors just take into account the range of $4950\mathring{A}$ to $5700 \mathring{A}$ of the spectrum, avoiding the chromodependence in the weaker lines.
 This motivates us to search for a strong characterization and give the recipe for dealing with this phenomenon.
 
