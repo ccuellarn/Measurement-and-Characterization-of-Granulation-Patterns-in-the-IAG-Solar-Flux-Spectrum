@@ -37,12 +37,6 @@ D.~Hamilton and J.~B. Lester, ``A technique for the study of stellar
   convection: The visible solar flux spectrum,'' {\em Publications of the
   Astronomical Society of the Pacific}, vol.~111, p.~1132, Sept. 1999.
 
-\bibitem{Reiners_2016}
-A.~Reiners, N.~Mrotzek, U.~Lemke, J.~Hinrichs, and K.~Reinsch, ``The iag solar
-  flux atlas: Accurate wavelengths and absolute convective blueshift in
-  standard solar spectra,'' {\em Astronomy and Astrophysics}, vol.~587, p.~A65,
-  Mar. 2016.
-
 \bibitem{Dravins_1981}
 D.~Dravins, L.~Lindegren, and A.~Nordlund, ``Solar granulation - influence of
   convection on spectral line asymmetries and wavelength shifts,'' {\em
@@ -52,6 +46,12 @@ D.~Dravins, L.~Lindegren, and A.~Nordlund, ``Solar granulation - influence of
 D.~F. Gray and T.~Pugh, ``The third signature of granulation in bright-giant
   and supergiant stars,'' {\em The Astronomical Journal}, vol.~143, p.~92, Mar.
   2012.
+
+\bibitem{Reiners_2016}
+A.~Reiners, N.~Mrotzek, U.~Lemke, J.~Hinrichs, and K.~Reinsch, ``The iag solar
+  flux atlas: Accurate wavelengths and absolute convective blueshift in
+  standard solar spectra,'' {\em Astronomy and Astrophysics}, vol.~587, p.~A65,
+  Mar. 2016.
 
 \bibitem{Nave_1994}
 G.~Nave, S.~Johansson, R.~C.~M. Learner, A.~P. Thorne, and J.~W. Brault, ``A
@@ -63,11 +63,6 @@ A.~Cacciani, R.~Briguglio, F.~Massa, and P.~Rapex, ``Precise measurement of the
   solar gravitational red shift,'' {\em Celestial Mechanics and Dynamical
   Astronomy}, vol.~95, p.~425–437, May 2006.
 
-\bibitem{Gray_Oostra_2018}
-D.~F. Gray and B.~Oostra, ``The solar-flux third granulation signature,'' {\em
-  The Astrophysical Journal}, vol.~852, p.~42, Jan. 2018.
-\newblock ADS Bibcode: 2018ApJ...852...42G.
-
 \bibitem{Plaskett_1936}
 H.~H. Plaskett, ``Solar granulation,'' {\em Monthly Notices of the Royal
   Astronomical Society}, vol.~96, p.~402, Mar. 1936.
@@ -76,6 +71,11 @@ H.~H. Plaskett, ``Solar granulation,'' {\em Monthly Notices of the Royal
 \bibitem{Carroll_Ostlie_2006}
 B.~Carroll and D.~Ostlie, {\em An Introduction to Modern Astrophysics}.
 \newblock Cambridge University Press, 2017.
+
+\bibitem{Gray_Oostra_2018}
+D.~F. Gray and B.~Oostra, ``The solar-flux third granulation signature,'' {\em
+  The Astrophysical Journal}, vol.~852, p.~42, Jan. 2018.
+\newblock ADS Bibcode: 2018ApJ...852...42G.
 
 \bibitem{GitHub}
 C.~Cuellar, ``Final project.'' online, 2025.
