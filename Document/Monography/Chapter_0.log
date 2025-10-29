@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  28 OCT 2025 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  28 OCT 2025 23:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1203,7 +1203,7 @@ Chapter 1.
 ]
 
 [6]
-Overfull \hbox (7.2608pt too wide) in paragraph at lines 37--39
+Overfull \hbox (7.2608pt too wide) in paragraph at lines 37--40
 []\T1/stix/m/n/12 However, the first re-sult-ing gran-u-la-tion pat-tern ap-peared no-tably scat-tered and noisy, at-tributable
  []
 
@@ -1537,7 +1537,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  90i,11n,93p,617b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Chapter_0.pdf (51 pages, 2133330 bytes).
+Output written on Chapter_0.pdf (51 pages, 2133333 bytes).
 PDF statistics:
  1465 PDF objects out of 1728 (max. 8388607)
  146 named destinations out of 1000 (max. 500000)
