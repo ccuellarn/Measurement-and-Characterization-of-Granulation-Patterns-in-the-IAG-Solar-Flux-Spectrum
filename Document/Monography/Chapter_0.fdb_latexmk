@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Chapter_0"] 1761757335.93682 "Chapter_0.aux" "Chapter_0.bbl" "Chapter_0" 1761757438.89902 0
+["bibtex Chapter_0"] 1761757335.93682 "Chapter_0.aux" "Chapter_0.bbl" "Chapter_0" 1761757628.81831 0
   "./Bibliography.bib" 1761713632 8454 b216b3ac2c0ee130ef99c196bdaded18 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "Chapter_0.aux" 1761757437 21680 c2e9d8dccf7a87195796643a125b2f92 "pdflatex"
+  "Chapter_0.aux" 1761757627 21680 c2e9d8dccf7a87195796643a125b2f92 "pdflatex"
   (generated)
   "Chapter_0.bbl"
   "Chapter_0.blg"
   (rewritten before read)
-["pdflatex"] 1761757434.71262 "c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex" "Chapter_0.pdf" "Chapter_0" 1761757438.89976 0
+["pdflatex"] 1761757624.21796 "c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex" "Chapter_0.pdf" "Chapter_0" 1761757628.81913 0
   "C:/Users/clauw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761271538 400397 eaafdafe0c1b6cfb67ee542dfcd31c0f ""
   "C:/Users/clauw/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758906790 13286966 6bfabdd2b59e24f12407fa3df8d6f0e8 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-t1.enc" 1356261742 7013 c55cc8669071ac14036c4a0c96c16202 ""
@@ -148,18 +148,18 @@
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/wasysym.sty" 1579693002 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Chapter_0.aux" 1761757437 21680 c2e9d8dccf7a87195796643a125b2f92 "pdflatex"
+  "Chapter_0.aux" 1761757627 21680 c2e9d8dccf7a87195796643a125b2f92 "pdflatex"
   "Chapter_0.bbl" 1761757336 3968 414697282e3af61e35423d802d43d42a "bibtex Chapter_0"
-  "Chapter_0.lof" 1761757437 4275 9fe0cc085dd6793c5c53bb8d652559af "pdflatex"
-  "Chapter_0.out" 1761757437 10978 bb84dad23db368bc2e27d734dbc8cbfd "pdflatex"
+  "Chapter_0.lof" 1761757627 4275 9fe0cc085dd6793c5c53bb8d652559af "pdflatex"
+  "Chapter_0.out" 1761757627 10978 bb84dad23db368bc2e27d734dbc8cbfd "pdflatex"
   "Chapter_0.tex" 1761271522 2347 26e92b5f8f80f051c18f99eccf21103d ""
-  "Chapter_0.toc" 1761757437 4325 82140ff33c08d7cd6b45e88018e05434 "pdflatex"
+  "Chapter_0.toc" 1761757627 4325 82140ff33c08d7cd6b45e88018e05434 "pdflatex"
   "Chapter_1.tex" 1761710613 7883 274eec471d690f5d70b68391a4cf8dfe ""
   "Chapter_2.tex" 1761712867 22252 201095519a85ab8042bf5afcb5ec58f1 ""
-  "Chapter_3.tex" 1761757433 5040 fb7c8fbebc437ba3f9f2b4c073fac9f4 ""
+  "Chapter_3.tex" 1761757623 5070 d1531ab8663f13f05dd6915ade856def ""
   "Chapter_4.tex" 1761575974 11540 4e7d08b0cbe6b5268700ca4d8aab97a7 ""
   "Chapter_5.tex" 1761713431 600 59c5ce899eb1a4e1cf2bd3310bd56946 ""
-  "Chapter_6.tex" 1761575913 6949 baa97c92c9a3f29dda5a59a8bdba5668 ""
+  "Chapter_6.tex" 1761757622 6877 0d922a53247af0d1d5d060f37c23d99a ""
   "Images/Angular momentum.jpg" 1759815166 124160 2c71d2b469b0fd832a08ed081edc7677 ""
   "Images/Asymmetries on typical lines.jpg" 1759814870 80419 ed7fa5077735bee05d8081cfab39f7dc ""
   "Images/C curved profile bisector.jpg" 1759814694 156967 c870e3c1bad1d1cb61098c09c69e358f ""

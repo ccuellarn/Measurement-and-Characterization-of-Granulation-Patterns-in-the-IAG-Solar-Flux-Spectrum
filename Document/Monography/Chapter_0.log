@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  29 OCT 2025 12:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  29 OCT 2025 12:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1340,12 +1340,12 @@ LaTeX Warning: Citation `Allende_Garcia_1988' on page 25 undefined on input line
 [27]
 Chapter 4.
 (Chapter_4.tex
-<Images/Results/Curvature_VIS.pdf, id=547, 867.24pt x 505.89pt>
+<Images/Results/Curvature_VIS.pdf, id=548, 867.24pt x 505.89pt>
 File: Images/Results/Curvature_VIS.pdf Graphic file (type pdf)
 <use Images/Results/Curvature_VIS.pdf>
 Package pdftex.def Info: Images/Results/Curvature_VIS.pdf  used on input line 11.
 (pdftex.def)             Requested size: 491.59877pt x 286.77011pt.
-<Images/Results/Curvature_NIR.pdf, id=548, 867.24pt x 505.89pt>
+<Images/Results/Curvature_NIR.pdf, id=549, 867.24pt x 505.89pt>
 File: Images/Results/Curvature_NIR.pdf Graphic file (type pdf)
 <use Images/Results/Curvature_NIR.pdf>
 Package pdftex.def Info: Images/Results/Curvature_NIR.pdf  used on input line 18.
@@ -1370,7 +1370,7 @@ Overfull \vbox (46.98193pt too high) has occurred while \output is active []
 
 
 [29 <./Images/Results/Curvature_VIS.pdf> <./Images/Results/Curvature_NIR.pdf>]
-<Images/Results/Sharpness_ALL.pdf, id=677, 867.24pt x 505.89pt>
+<Images/Results/Sharpness_ALL.pdf, id=678, 867.24pt x 505.89pt>
 File: Images/Results/Sharpness_ALL.pdf Graphic file (type pdf)
 <use Images/Results/Sharpness_ALL.pdf>
 Package pdftex.def Info: Images/Results/Sharpness_ALL.pdf  used on input line 31.
@@ -1383,7 +1383,7 @@ Overfull \hbox (44.69327pt too wide) in paragraph at lines 31--32
 
 
 [30 <./Images/Results/Sharpness_ALL.pdf>]
-<Images/Results/Bisector_VIS.pdf, id=738, 867.24pt x 505.89pt>
+<Images/Results/Bisector_VIS.pdf, id=739, 867.24pt x 505.89pt>
 File: Images/Results/Bisector_VIS.pdf Graphic file (type pdf)
 <use Images/Results/Bisector_VIS.pdf>
 Package pdftex.def Info: Images/Results/Bisector_VIS.pdf  used on input line 54.
@@ -1399,7 +1399,7 @@ LaTeX Warning: Reference `third derivative relation' on page 31 undefined on inp
 
 
 [31 <./Images/Results/Bisector_VIS.pdf>]
-<Images/Results/GranulationPattern_ALL.pdf, id=801, 867.24pt x 505.89pt>
+<Images/Results/GranulationPattern_ALL.pdf, id=802, 867.24pt x 505.89pt>
 File: Images/Results/GranulationPattern_ALL.pdf Graphic file (type pdf)
 <use Images/Results/GranulationPattern_ALL.pdf>
 Package pdftex.def Info: Images/Results/GranulationPattern_ALL.pdf  used on input line 79.
@@ -1412,7 +1412,7 @@ Overfull \hbox (44.69327pt too wide) in paragraph at lines 79--80
 
 
 [32]
-<Images/Results/ColorCurves_VIS.pdf, id=808, 867.24pt x 505.89pt>
+<Images/Results/ColorCurves_VIS.pdf, id=809, 867.24pt x 505.89pt>
 File: Images/Results/ColorCurves_VIS.pdf Graphic file (type pdf)
 <use Images/Results/ColorCurves_VIS.pdf>
 Package pdftex.def Info: Images/Results/ColorCurves_VIS.pdf  used on input line 94.
@@ -1425,7 +1425,7 @@ Overfull \hbox (44.69327pt too wide) in paragraph at lines 94--95
 
 
 [33 <./Images/Results/GranulationPattern_ALL.pdf>]
-<Images/Results/Relation_coef.pdf, id=872, 1445.4pt x 361.35pt>
+<Images/Results/Relation_coef.pdf, id=873, 1445.4pt x 361.35pt>
 File: Images/Results/Relation_coef.pdf Graphic file (type pdf)
 <use Images/Results/Relation_coef.pdf>
 Package pdftex.def Info: Images/Results/Relation_coef.pdf  used on input line 104.
@@ -1436,12 +1436,12 @@ Package pdftex.def Info: Images/Results/Relation_coef.pdf  used on input line 10
 
 LaTeX Warning: Reference `velocity bins' on page 35 undefined on input line 134.
 
-<Images/Results/Velocity bins VIS_plot.pdf, id=975, 1233.84216pt x 629.66492pt>
+<Images/Results/Velocity bins VIS_plot.pdf, id=976, 1233.84216pt x 629.66492pt>
 File: Images/Results/Velocity bins VIS_plot.pdf Graphic file (type pdf)
 <use Images/Results/Velocity bins VIS_plot.pdf>
 Package pdftex.def Info: Images/Results/Velocity bins VIS_plot.pdf  used on input line 139.
 (pdftex.def)             Requested size: 446.9055pt x 228.07234pt.
-<Images/Results/Velocity bins SPA_plot.pdf, id=976, 1227.45894pt x 629.66492pt>
+<Images/Results/Velocity bins SPA_plot.pdf, id=977, 1227.45894pt x 629.66492pt>
 File: Images/Results/Velocity bins SPA_plot.pdf Graphic file (type pdf)
 <use Images/Results/Velocity bins SPA_plot.pdf>
 Package pdftex.def Info: Images/Results/Velocity bins SPA_plot.pdf  used on input line 146.
@@ -1449,12 +1449,12 @@ Package pdftex.def Info: Images/Results/Velocity bins SPA_plot.pdf  used on inpu
 
 
 [35]
-<Images/Results/Velocity bins VIS.pdf, id=983, 1445.4pt x 722.7pt>
+<Images/Results/Velocity bins VIS.pdf, id=984, 1445.4pt x 722.7pt>
 File: Images/Results/Velocity bins VIS.pdf Graphic file (type pdf)
 <use Images/Results/Velocity bins VIS.pdf>
 Package pdftex.def Info: Images/Results/Velocity bins VIS.pdf  used on input line 160.
 (pdftex.def)             Requested size: 446.9055pt x 223.45023pt.
-<Images/Results/Velocity bins SPA.pdf, id=986, 1445.4pt x 867.24pt>
+<Images/Results/Velocity bins SPA.pdf, id=987, 1445.4pt x 867.24pt>
 File: Images/Results/Velocity bins SPA.pdf Graphic file (type pdf)
 <use Images/Results/Velocity bins SPA.pdf>
 Package pdftex.def Info: Images/Results/Velocity bins SPA.pdf  used on input line 167.
@@ -1468,7 +1468,7 @@ LaTeX Warning: Reference `velocity bins slopes values' on page 37 undefined on i
 
 
 [37 <./Images/Results/Velocity bins VIS.pdf> <./Images/Results/Velocity bins SPA.pdf>]
-<Images/Results/Standard curve_Ellwarth.pdf, id=1273, 867.24pt x 505.89pt>
+<Images/Results/Standard curve_Ellwarth.pdf, id=1274, 867.24pt x 505.89pt>
 File: Images/Results/Standard curve_Ellwarth.pdf Graphic file (type pdf)
 <use Images/Results/Standard curve_Ellwarth.pdf>
 Package pdftex.def Info: Images/Results/Standard curve_Ellwarth.pdf  used on input line 187.
@@ -1541,7 +1541,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  90i,11n,93p,617b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Chapter_0.pdf (51 pages, 2139228 bytes).
+Output written on Chapter_0.pdf (51 pages, 2139164 bytes).
 PDF statistics:
  1466 PDF objects out of 1728 (max. 8388607)
  145 named destinations out of 1000 (max. 500000)
