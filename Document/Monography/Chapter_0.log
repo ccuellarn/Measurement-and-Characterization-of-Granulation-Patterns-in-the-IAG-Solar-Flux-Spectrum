@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  30 OCT 2025 12:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  30 OCT 2025 16:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2088,250 +2088,276 @@ Overfull \hbox (44.69327pt too wide) in paragraph at lines 241--242
 LaTeX Warning: Reference `Granulation solar flux' on page 50 undefined on input line 246.
 
 
-LaTeX Warning: Citation `Gray_Oostra_2018' on page 50 undefined on input line 250.
-
-
 
 [50]
 
-LaTeX Warning: File `Images/Results/ColorCurves_VIS.pdf' not found on input line 256.
+LaTeX Warning: Reference `velocity bins' on page 51 undefined on input line 251.
 
 
-Chapter_4.tex:256: Package pdftex.def Error: File `Images/Results/ColorCurves_VIS.pdf' not found: using draft setting.
+LaTeX Warning: File `Images/Results/Velocity bins VIS_plot.pdf' not found on input line 256.
+
+
+Chapter_4.tex:256: Package pdftex.def Error: File `Images/Results/Velocity bins VIS_plot.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.256 ...idth]{Images/Results/ColorCurves_VIS.pdf}
+l.256 ...mages/Results/Velocity bins VIS_plot.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 256--257
- [][] 
- []
+LaTeX Warning: File `Images/Results/Velocity bins SPA_plot.pdf' not found on input line 263.
+
+
+Chapter_4.tex:263: Package pdftex.def Error: File `Images/Results/Velocity bins SPA_plot.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 ...mages/Results/Velocity bins SPA_plot.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 
 [51]
-
-LaTeX Warning: Reference `Curves Solar Flux coef' on page 52 undefined on input line 262.
-
-
-LaTeX Warning: File `Images/Results/Relation_coef.pdf' not found on input line 266.
-
-
-Chapter_4.tex:266: Package pdftex.def Error: File `Images/Results/Relation_coef.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 ...ewidth]{Images/Results/Relation_coef.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \vbox (389.24829pt too high) has occurred while \output is active []
 
 
 
 [52]
 
-LaTeX Warning: Reference `values coefficients' on page 53 undefined on input line 271.
+LaTeX Warning: Reference `Velocity bins slopes' on page 53 undefined on input line 272.
 
 
-LaTeX Warning: Reference `Curves Solar Flux coef' on page 53 undefined on input line 287.
+LaTeX Warning: File `Images/Results/Velocity bins VIS.pdf' not found on input line 277.
 
 
-LaTeX Warning: Reference `Curves Solar Flux coef' on page 53 undefined on input line 287.
+Chapter_4.tex:277: Package pdftex.def Error: File `Images/Results/Velocity bins VIS.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 ...th]{Images/Results/Velocity bins VIS.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Images/Results/Velocity bins SPA.pdf' not found on input line 284.
+
+
+Chapter_4.tex:284: Package pdftex.def Error: File `Images/Results/Velocity bins SPA.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284 ...th]{Images/Results/Velocity bins SPA.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 
 [53]
-
-LaTeX Warning: Reference `velocity bins' on page 54 undefined on input line 296.
-
-
-LaTeX Warning: File `Images/Results/Velocity bins VIS_plot.pdf' not found on input line 301.
-
-
-Chapter_4.tex:301: Package pdftex.def Error: File `Images/Results/Velocity bins VIS_plot.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.301 ...mages/Results/Velocity bins VIS_plot.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Images/Results/Velocity bins SPA_plot.pdf' not found on input line 308.
-
-
-Chapter_4.tex:308: Package pdftex.def Error: File `Images/Results/Velocity bins SPA_plot.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 ...mages/Results/Velocity bins SPA_plot.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \vbox (367.49829pt too high) has occurred while \output is active []
 
 
 
 [54]
-Overfull \vbox (389.24829pt too high) has occurred while \output is active []
+
+LaTeX Warning: Reference `velocity bins SPA' on page 55 undefined on input line 293.
+
+
+LaTeX Warning: Reference `velocity bins VIS' on page 55 undefined on input line 293.
 
 
 
 [55]
 
-LaTeX Warning: Reference `Velocity bins slopes' on page 56 undefined on input line 317.
+LaTeX Warning: Reference `standard curve gray' on page 56 undefined on input line 337.
 
 
-LaTeX Warning: File `Images/Results/Velocity bins VIS.pdf' not found on input line 322.
+LaTeX Warning: Citation `Gray_Oostra_2018' on page 56 undefined on input line 337.
 
 
-Chapter_4.tex:322: Package pdftex.def Error: File `Images/Results/Velocity bins VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.322 ...th]{Images/Results/Velocity bins VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: File `Images/Results/ColorCurves_VIS.pdf' not found on input line 341.
 
 
-LaTeX Warning: Reference `vel bins plot VIS' on page 56 undefined on input line 323.
-
-
-LaTeX Warning: Reference `vel bins plot VIS' on page 56 undefined on input line 323.
-
-
-LaTeX Warning: File `Images/Results/Velocity bins SPA.pdf' not found on input line 329.
-
-
-Chapter_4.tex:329: Package pdftex.def Error: File `Images/Results/Velocity bins SPA.pdf' not found: using draft setting.
+Chapter_4.tex:341: Package pdftex.def Error: File `Images/Results/ColorCurves_VIS.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.329 ...th]{Images/Results/Velocity bins SPA.pdf}
+l.341 ...idth]{Images/Results/ColorCurves_VIS.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `vel bins plot SPA' on page 56 undefined on input line 330.
-
-
-LaTeX Warning: Reference `vel bins plot SPA' on page 56 undefined on input line 330.
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 341--342
+ [][] 
+ []
 
 
 
 [56]
-Overfull \vbox (367.49829pt too high) has occurred while \output is active []
+
+LaTeX Warning: File `Images/Results/ColorCurves_VIS.pdf' not found on input line 351.
+
+
+Chapter_4.tex:351: Package pdftex.def Error: File `Images/Results/ColorCurves_VIS.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.351 ...idth]{Images/Results/ColorCurves_VIS.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 351--352
+ [][] 
+ []
 
 
 
 [57]
 
-LaTeX Warning: Reference `velocity bins slopes values' on page 58 undefined on input line 338.
+LaTeX Warning: Reference `coeficients color curves' on page 58 undefined on input line 356.
 
 
-LaTeX Warning: Reference `Scattered points' on page 58 undefined on input line 344.
+LaTeX Warning: Reference `Curves Solar Flux coef' on page 58 undefined on input line 373.
 
 
-LaTeX Warning: Citation `Ellwarth_2023' on page 58 undefined on input line 344.
+LaTeX Warning: Reference `Curves Solar Flux coef' on page 58 undefined on input line 373.
 
 
-LaTeX Warning: File `Images/Results/Standard curve_Ellwarth.pdf' not found on input line 349.
+
+[58]
+Chapter_4.tex:377: Undefined control sequence.
+l.377 ...he curve for the range $4970-5700\matring
+                                                  {A}$ for the starting poin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Chapter_4.tex:349: Package pdftex.def Error: File `Images/Results/Standard curve_Ellwarth.pdf' not found: using draft setting.
+LaTeX Warning: Reference `color coefficients' on page 59 undefined on input line 377.
+
+
+LaTeX Warning: Reference `new standard curve' on page 59 undefined on input line 404.
+
+
+LaTeX Warning: Reference `new standard curve' on page 59 undefined on input line 404.
+
+
+LaTeX Warning: Reference `new standard curve' on page 59 undefined on input line 408.
+
+
+LaTeX Warning: Reference `color coefficients' on page 59 undefined on input line 408.
+
+
+
+[59]
+
+LaTeX Warning: Reference `Scattered points' on page 60 undefined on input line 419.
+
+
+LaTeX Warning: Citation `Ellwarth_2023' on page 60 undefined on input line 419.
+
+
+LaTeX Warning: File `Images/Results/Standard curve_Ellwarth.pdf' not found on input line 424.
+
+
+Chapter_4.tex:424: Package pdftex.def Error: File `Images/Results/Standard curve_Ellwarth.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.349 ...ages/Results/Standard curve_Ellwarth.pdf}
+l.424 ...ages/Results/Standard curve_Ellwarth.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
 <use Images/Granulation pattern Ellwarth.jpg>
-Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 354.
+Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 429.
 (pdftex.def)             Requested size: 357.52576pt x 220.80772pt.
 
 
-[58]
+[60]
 Overfull \vbox (43.77216pt too high) has occurred while \output is active []
 
 
 
-[59])
+[61])
 
-[60]
+[62]
 Chapter 5.
 (Chapter_5.tex) (Chapter_6.tex
 
-[61
+[63
 
 ]
 Appendix A.
 
-LaTeX Warning: Citation `Boyd_2014' on page 62 undefined on input line 5.
+LaTeX Warning: Citation `Boyd_2014' on page 64 undefined on input line 5.
 
 
-LaTeX Warning: Reference `z score' on page 62 undefined on input line 7.
+LaTeX Warning: Reference `z score' on page 64 undefined on input line 7.
 
 
-LaTeX Warning: Reference `re scaled derivates' on page 62 undefined on input line 16.
+LaTeX Warning: Reference `re scaled derivates' on page 64 undefined on input line 16.
 
 
-LaTeX Warning: Reference `z score' on page 62 undefined on input line 23.
+LaTeX Warning: Reference `z score' on page 64 undefined on input line 23.
 
 
-LaTeX Warning: Reference `2 and 3 scaled derivate' on page 62 undefined on input line 24.
+LaTeX Warning: Reference `2 and 3 scaled derivate' on page 64 undefined on input line 24.
 
-
-
-[62
-
-]
-
-[63]
-Appendix B.
 
 
 [64
 
 ]
+
+[65]
+Appendix B.
+
+
+[66
+
+]
 Appendix C.
 
 
-[65
+[67
 
 ]
 
-[66]) (Chapter_0.bbl
+[68]) (Chapter_0.bbl
 
-[67]
+[69]
 
-[68
+[70
 
 ]
 
-[69])
+[71])
 
 LaTeX Warning: Citation `Aponte' undefined on input line 73.
 
@@ -2340,7 +2366,7 @@ LaTeX Warning: Citation `Stief_2019' undefined on input line 74.
 
 
 
-[70] (Chapter_0.aux)
+[72] (Chapter_0.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -2359,20 +2385,20 @@ Package rerunfilecheck Warning: File `Chapter_0.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Chapter_0.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A8F7C1DB6C23658E2237BA1989BCE9D5;11518.
+(rerunfilecheck)             After:  43A42F64D819CADA1A26049297A8BE21;11211.
  ) 
 Here is how much of TeX's memory you used:
- 20794 strings out of 468130
- 341842 string characters out of 5430633
- 710679 words of memory out of 5000000
- 48907 multiletter control sequences out of 15000+600000
- 705622 words of font info for 121 fonts, out of 8000000 for 9000
+ 20772 strings out of 468130
+ 340694 string characters out of 5430633
+ 717679 words of memory out of 5000000
+ 48880 multiletter control sequences out of 15000+600000
+ 702893 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,11n,93p,617b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Chapter_0.pdf (73 pages, 1690256 bytes).
+Output written on Chapter_0.pdf (75 pages, 1695137 bytes).
 PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
+ 535 PDF objects out of 1000 (max. 8388607)
+ 187 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
