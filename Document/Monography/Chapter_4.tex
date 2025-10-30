@@ -1,76 +1,238 @@
 Our results were separated into the three signatures of convection around the main phenomenon of chromodependence.
 
-\section{The first signature}
+\section{The first signature: Line broadening}
 
-\subsection{Detailed view of line broadening}
-The core curvature was calculated following the equation \eqref{core curvature} and plotted against line depth as shown in figure \ref{Sharpness ranges}.
+\subsection{Line depth-dependence on line core curvature}
+The core curvature was calculated following the equation \eqref{core curvature} and plotted against line depth as shown in figure \ref{curvatures solar flux}.
 
 \begin{figure}[H]
      \centering
      \begin{subfigure}{1.1\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/Curvature_VIS.pdf}
-         \caption{Visible range.}
+         \caption{Line core curvature for the visible range in the Solar Flux Atlas. Is visible a characteristic curve with line depth-dependence along wavelength.}
 
          \label{curvature VIS}
      \end{subfigure}
 \hfill
      \begin{subfigure}{1.1\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/Curvature_NIR.pdf}
-         \caption{Near infrared range.}
+         \caption{Line core curvature for the near infrared range in the Solar Flux Atlas. Is visible a natural division for wavelengths in $11400 \mathring{A}$.}
          \label{curvature NIR}
      \end{subfigure}
 
-        \caption{Line core curvature in the Solar Flux Atlas. Is visible a characteristic curve with line depth-dependence along wavelength.}
-        \label{Sharpness ranges}
+        \label{curvatures solar flux}
 \end{figure}
 
-As shown in the figure \ref{curvature NIR}, the plot for the near infrared range is visible as a natural division for wavelengths in $11400 \mathring{A}$, which corresponds to telluric lines of absorption in the atmosphere. Plotting all ranges of the Solar Flux Atlas is visible a line depth-dependence along wavelength.
+As shown in the figure \ref{curvature NIR} for the near infrared range, is visible as a natural division for wavelengths in $11400 \mathring{A}$, which corresponds to telluric lines of absorption in the atmosphere. 
+Plotting all ranges of the Solar Flux Atlas is visible a line depth-dependence along wavelength.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.1\linewidth]{Images/Results/Sharpness_ALL.pdf}
     \caption{Line core curvature in the Solar Flux Atlas. The near infrared range presents a natural division due telluric lines in the atmosphere.}
-    \label{Sharpness}
+    \label{all curvature solar flux}
 \end{figure}
 
-As shown in figure \ref{Sharpness} the chromodepence presented on the third signature plot is characteristic of weaker lines. This type of lines are known to represent the lower potential excitations. In consequence, the dependence of line depth with the lower energy potential was studied.
+Despite the line depth-dependence shifts along wavelength is clear a linear tendency on the visible part of the atlas (see figure \ref{all curvature solar flux}).
+Then, a first order polynomial fit was fitted to the range $0.0-0.1F/F_c$ of line depth in the visible range of the Solar Flux Atlas where $F/F_c$ represents the normalised flux. 
 
-\subsection{Line depth dependence on lower energy potential}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Sharpness_ALL.pdf}
+    \caption{First order polynomial fit fitted to the range $0.0-0.1F/F_c$ of line depth in the visible range of the Solar Flux Atlas.}
+    \label{curvature slope VIS}
+\end{figure}
 
-The Nave list for Fe I lines included the values for the highest and the lowest potential energy potential. As the chromodepence is shown on weaker lines we study only the lowest potential energy.
+As can be seen in figure \ref{curvature slope VIS}, the slope has a value of $1.8739\times 10^{10}$.
+Due to the fact of non-chromodependence in this range, can be concluded that line core curvatures have a net dependence of the velocities and a non-dependence caused by atomic effects.
+To confirm this statement, was plotted the line core curvature for the visible range in the Spatially Resolved Quiet Sun Atlas with $\mu=0$ (see figure \ref{curvature SPA}).
+In other words, was plotted the same behavior for the disk flux of the Sun center, this type of data don't present the effect of rotation. 
 
-As shown in the figure () the relative velocity was plotted against lower potential energy, where it is not clear a strong shift on the velocity. However, if it creates velocity bins and plotted line depth against lower energy potential, it sees a dependency on the highest values for the lowest energy potential energy.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Sharpness_ALL.pdf}
+    \caption{Line core curvature for the visible range for disk center data from the Spatially Resolved Quiet Sun Atlas.}
+    \label{curvature SPA}
+\end{figure}
 
-With this we can give a sight that the chromodepence on the curvature and more characteristics is due to a shift on the lower potential energy dependending on the line depth.
+As shown in figure \ref{curvature slope SPA} calculating the first order polynomial fit was found the value of $2.9360\times 10^{10}$ for the slope.
 
-\section{The second signature}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Sharpness_ALL.pdf}
+    \caption{First order polynomial fit fitted to the range $0.0-0.1F/F_c$ of line depth in the visible range of the Spatially Resolved Quiet Sun Atlas.}
+    \label{curvature slope SPA}
+\end{figure}
 
-\subsection{Detailed view of line profile bisector asymmetry}
+This confirms the hypothesis that smallest line core curvature, or weaker lines, are displaced across the line depth as consequence of rotational Doppler effects.
+These weaker lines are known to represent the lower energy excitations. 
+In consequence, the dependence of line depth with lower excitation energy was studied.
 
-The figure \ref{C bisector graph} shows the behavior of the C-curved line profile bisector.
+\subsection{Line depth-dependence on lower excitation energy}
+
+The Nave list for Fe I lines \cite{Nave_1994} include the values for the highest and the lowest excitation energy.
+As shown in the figure \ref{lower energy ALL} the relative velocity was plotted against lower excitation energy, where it is not clear a strong shift on the velocity. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Sharpness_ALL.pdf}
+    \caption{Relative velocity against lower excitation energy for all the range in the Solar Flux Atlas}
+    \label{lower energy ALL}
+\end{figure}
+
+However, when the relative velocity are separated on bins of $50m/s$ and plot the lower excitation energy against line depth it can be seen shifts in the energy as shown in figure \ref{velocity bins energy plot ALL}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Sharpness_ALL.pdf}
+    \caption{Velocity bins of $50m/s$ across the figure \ref{lower energy ALL}, with this separation is visible the energy shift across line depth.}
+    \label{velocity bins energy plot ALL}
+\end{figure}
+
+The figure \ref{velocity bins energy ALL} explicitly shows the dependency on the highest values for the lowest excitation energy across the wavelength, which can be fitted as a first order polynomial fit.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Sharpness_ALL.pdf}
+    \caption{Individual plots of lower excitation energy across line depth representing each bin of velocity for the Solar Flux Atlas.}
+    \label{velocity bins energy ALL}
+\end{figure}
+
+For the range of velocity $-175m/s$ to $-525m/s$ the values for slopes are similar as shown in table \ref{coef velocity bins energy ALL}, whose indicates the same ratio of shifts in the energy.
+
+\begin{table}[H]
+\begin{tabular}{ccccc}
+\hline
+\textbf{Velocity bin} & \textbf{Shift} & \textbf{Slope} & \textbf{Error slope} & \textbf{Error shift} \\ \hline
+0 & 7.1636 & -4.5638 & 1.1564 & 0.9651 \\ \hline
+-50 & 5.0005 & -2.1781 & 0.8069 & 0.6495 \\ \hline
+-100 & 5.7114 & -3.1355 & 0.4958 & 0.3697 \\ \hline
+-150 & 5.1098 & -2.3102 & 0.8208 & 0.5688 \\ \hline
+-200 & 4.7782 & -2.1203 & 0.5594 & 0.3747 \\ \hline
+-250 & 4.6533 & -1.9361 & 0.4121 & 0.2588 \\ \hline
+-300 & 4.3146 & -1.6399 & 0.2408 & 0.1314 \\ \hline
+-350 & 4.1778 & -1.4534 & 0.2694 & 0.1251 \\ \hline
+-400 & 4.2510 & -1.4863 & 0.2683 & 0.1030 \\ \hline
+-450 & 3.9734 & -0.9916 & 0.2973 & 0.0982 \\ \hline
+-500 & 3.9506 & -1.4429 & 0.4428 & 0.1097 \\ \hline
+-550 & 3.9919 & -0.9308 & 0.7750 & 0.1497 \\ \hline
+\end{tabular}
+\caption{Values for the coefficients on the first order polynomial fit adjusted on te different velocity bins.}
+    \label{coef velocity bins energy ALL}
+\end{table}
+
+To corroborate the only energy-dependence the same analysis was realized on the Spatially Resolved Quiet Sun Atlas for $\mu=0$.
+The plot of relative velocity against lower excitation energy for this atlas presents the same behavior as the solar flux.
+However, performing the first order polynomial fits was found that the values of slopes are higher (see figure \ref{velocity bins energy SPA} and table \ref{coef velocity bins energy SPA}). 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Sharpness_ALL.pdf}
+    \caption{Individual plots of lower excitation energy across line depth representing each bin of velocity for the Spatially Resolved Quiet Sun Atlas.}
+    \label{velocity bins energy SPA}
+\end{figure}
+
+\begin{table}
+    \begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Velocity bin} & \textbf{Shift} & \textbf{Slope} & \textbf{Error slope} & \textbf{Error shift} \\ \hline
+0 & 7.1636 & -4.5638 & 1.1564 & 0.9651 \\ \hline
+-50 & 4.7903 & -1.9274 & 1.1583 & 0.9496 \\ \hline
+-100 & 5.5099 & -2.9149 & 2.0695 & 1.6744 \\ \hline
+-150 & 5.4525 & -2.7907 & 1.2421 & 0.9195 \\ \hline
+-200 & 5.3471 & -2.8771 & 0.9840 & 0.7277 \\ \hline
+-250 & 4.8238 & -2.1774 & 0.7516 & 0.5241 \\ \hline
+-300 & 3.8374 & -0.9802 & 0.3714 & 0.2419 \\ \hline
+-350 & 3.4399 & -0.3246 & 0.3473 & 0.1931 \\ \hline
+-400 & 3.8607 & -0.9455 & 0.3184 & 0.1511 \\ \hline
+-450 & 3.7832 & -0.7942 & 0.3032 & 0.1174 \\ \hline
+-500 & 3.7206 & -1.1728 & 0.4614 & 0.1291 \\ \hline
+-550 & 3.9324 & -1.8835 & 1.0826 & 0.1770 \\ \hline
+\end{tabular}
+    \caption{Values for the coefficients on the first order polynomial fit adjusted on te different velocity bins.}
+    \label{coef velocity bins energy SPA}
+\end{table}
+
+Then, the rotational doppler affected the energy...(\textit{argument on construction})
+
+\section{The second signature: Line profile bisector asymmetry}
+
+\subsection{The bisector slope}
+
+The line core bisector slope was calculated following the equation \eqref{third derivative relation} and plotted against line depth as shown in figure \ref{bisector VIS}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.1\linewidth]{Images/Results/Bisector_VIS.pdf}
-    \caption{Line profile bisector slope for the Solar Flux Atlas separated by wavelength range. The behavior of the plot is according to the C-curved shape of the line bisector affected by convection movement.}
-    \label{C bisector graph}
+    \caption{Line profile bisector slope for the visible range in the Solar Flux Atlas. The behavior of the plot is according to the C-curved shape of the line bisector affected by convection movement.}
+    \label{bisector VIS}
 \end{figure}
 
-The behavior of the plot is according to the C-curved shape of the line bisector affected by convection movement, and calculated following the equation \eqref{third derivative relation}.
+The weakest lines have a non c-curved profile bisector due to the small depth, so the bisector just shows an redshift or a slope. 
+On the other hand, the lines which are more deeper in the photosphere experimenting the convective blueshift in its totality, so the slope had to be negative.  
+However, the values for line depth which are in the middle represents equilibrium point where the convective cell overshoot come back due to gravitational forces.
+Then, a first order polynomial fit was adjusted to the range $0.3-0.6F/F_c$ as shown figure \ref{bisector slope VIS}.
 
-Hamilton and Lester () gives the sight of the mean bisectors following the granulation pattern behavior. Later, Gray and Oostra show that the bisectors need to follow the granulation pattern as the form of we calculated velocities and bisectors.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Bisector_VIS.pdf}
+    \caption{First order polynomial fit adjusted to the range $0.3-0.6F/F_c$ for the line bisector slopes.}
+    \label{bisector slope VIS}
+\end{figure}
 
-However there is an interesting phenomenon called Flux déficit. This can be interpreted as the radiation of black body, and the redshift of the line presents a displacement on the flux. This made a broadening on the line and a displacement of the bisector. 
+For a point of comparision, the same analysis was realized to the disk center spectra (see figure \ref{}).
 
-Following the Gray and Oostra method for the Planck distribution obtention, where the line analyzed is 6253 and the line altered is the line on the granulation pattern, was found a flux imbalance for and temperatures of the mean, the maximum and the HWM point of the bisector.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Bisector_VIS.pdf}
+    \caption{Line profile bisector slope for the visible range in the Spatially Resolved Quiet Sun Atlas.}
+    \label{bisector SPA}
+\end{figure}
 
-Taking the model on gray 2017, the respective temperatures are . The difference in temperature indicates a larger temperature difference.
+Where the center disk shows a small slope than all integrated flux, but with the same behavior (see figure \ref{bisector slope SPA}).
 
-The motivation is, naturally, that stellar observations are made with lower-resolution spectrographs and often lower signal-to-noise ratios than we have with the solar atlases (Gray, 2018).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Bisector_VIS.pdf}
+    \caption{First order polynomial fit adjusted to the range $0.3-0.6F/F_c$ for the line bisector slopes.}
+    \label{bisector slope SPA}
+\end{figure}
+ 
+This leads us to...(argument in process)
 
-\section{The third signature}
+\subsection{Flux deficit (in progress)}
 
-\subsection{Chromodependence on the granulation pattern}
+Due to radiation, the redshift part of a line is displced on the flux, inducing a rotation on the c-curved profile bisector.
+This phenomenon is called flux deficit.
+Hamilton and Lester \cite{Hamilton_1999} noticed that the behavior of the third signature mimics the bisectors
+gives the sight of the mean bisectors following the granulation pattern behavior, this last is discussed in the next section. 
+Later, Gray and Oostra \cite{Gray_Oostra_2018} show that the bisectors need to follow the granulation pattern as the form of we calculated velocities and bisectors.
+
+For comparision with Gray and Oostra work, was taken the line $6254.2850\mathring{A}$ as shown in figure \ref{bisector flux deficit}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Bisector_VIS.pdf}
+    \caption{C-curved line profile bisector for the $6254.2850\mathring{A}$ and the standard curve for the green range from the third signature plot.}
+    \label{bisector flux deficit}
+\end{figure}
+
+Following the same method, the figure \ref{flux deficit} shows a flux imbalance described on the distribution and temperatures of the mean, the maximum and the RMS point of the bisector.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{Images/Results/Bisector_VIS.pdf}
+    \caption{Flux deficit curve for the $6254.2850\mathring{A}$ and the temperatures of the mean, the maximum and the RMS point of the bisector.}
+    \label{flux deficit}
+\end{figure}
+
+Taking the model on Gray \cite{Gray_2005}, the respective temperatures are (). 
+
+As we found the standard curves for all the ranges, the same analysis was realized for a random line in the range of the respective standard curve.
+
+\section{The third signature: Line depth-dependence on wavelength shifts}
+
+\subsection{The granulation pattern}
 
 The granulation patterns for the IAG Solar Flux Atlas in all the wavelength range was obtained.
 

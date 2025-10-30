@@ -28,19 +28,20 @@
 \contentsline {subsection}{\numberline {3.2.1}Selection process for blend-free Fe I lines}{24}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Observational requirement}{25}{subsection.3.2.2}%
 \contentsline {chapter}{\numberline {4}Results and discussion: Granulation pattern and Characterization of chromodependence}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}The first signature}{26}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Detailed view of line broadening}{26}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Line depth dependence on lower energy potential}{29}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}The second signature}{29}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Detailed view of line profile bisector asymmetry}{29}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}The third signature}{31}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Chromodependence on the granulation pattern}{31}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Characterization of chromodepence on granulation pattern}{33}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Frequency shifts for rotation hypothesis}{36}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Higher quality graphs}{40}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusions}{43}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Z-score Standardization}{44}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}The third derivate relation}{46}{appendix.1.B}%
-\contentsline {chapter}{\numberline {C}Visualizer for outliers}{47}{appendix.1.C}%
-\contentsline {section}{\numberline {C.1}Test example}{47}{section.1.C.1}%
-\contentsline {section}{\numberline {C.2}Conditions justifications}{49}{section.1.C.2}%
+\contentsline {section}{\numberline {4.1}The first signature: Line broadening}{26}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Line depth-dependence on line core curvature}{26}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Line depth-dependence on lower excitation energy}{33}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}The second signature: Line profile bisector asymmetry}{40}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}The bisector slope}{40}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Flux deficit (in progress)}{46}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence on wavelength shifts}{49}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}The granulation pattern}{49}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Characterization of chromodepence on granulation pattern}{51}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Frequency shifts for rotation hypothesis}{54}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Higher quality graphs}{58}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusions}{61}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Z-score Standardization}{62}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}The third derivate relation}{64}{appendix.1.B}%
+\contentsline {chapter}{\numberline {C}Visualizer for outliers}{65}{appendix.1.C}%
+\contentsline {section}{\numberline {C.1}Test example}{65}{section.1.C.1}%
+\contentsline {section}{\numberline {C.2}Conditions justifications}{67}{section.1.C.2}%

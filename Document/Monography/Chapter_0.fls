@@ -410,6 +410,21 @@ INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT Chapter_4.tex
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathit.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathscr.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathex.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm-bold.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathfrak.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathbb.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathbbit.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathcal.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsf.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsfit.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-t1.enc
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-bold.tfm
 INPUT .\Images\Granulation pattern Ellwarth.jpg
