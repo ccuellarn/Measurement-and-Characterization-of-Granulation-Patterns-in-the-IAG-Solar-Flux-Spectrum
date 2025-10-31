@@ -1,10 +1,10 @@
 \begin{appendices}
 \chapter{Z-score Standardization}\label{ap:zscore}
-In the process of calculate the four order polynomial fit the function np.poly.fit() presents an overstimation on the coefficients, due to the large difference of magnitude order between axis.
+In the process of calculating the four order polynomial fit the function np.poly.fit () presents an over estimation on the coefficients, due to the large difference of magnitude order between axes.
 To deal with this difference a z-score standardization was used on the selected bins of wavelengths around the observed wavelength. 
-This process helps to avoid the dominance of certain features over other due to diferences in their scales \cite{Boyd_2014}.
+This process helps to avoid the dominance of certain features over others due to differences in their scales~\cite{Boyd_2014}.
 
-The follow up for the standardization was applied the relation \eqref{z score} on the selected bins for wavelength.
+The follow up for the standardization was applied the relation~\eqref{z score} on the selected bins for wavelength.
 
 \begin{equation}
 \lambda_{scaled}= \frac{\lambda-\mu(\lambda)}{\sigma(\lambda)}
@@ -12,16 +12,16 @@ The follow up for the standardization was applied the relation \eqref{z score} o
 \end{equation}
 
 Where $\mu(\lambda)$ refers to the mean and $\sigma(\lambda)$ to the standard deviation of the wavelength range. 
-As the wavelength was scaled, in terms of calculated derivates for the first and the second signature, a re-scaled for this values was necessary.
-Based on the definition for the standardization, the derivates follow the relation \eqref{re scaled derivates}.
+As the wavelength was scaled, in terms of calculated derivatives for the first and the second signature, a re-scaled for these values was necessary.
+Based on the definition for the standardization, the derivatives follow the relation \eqref{re scaled derivates}.
 
 \begin{equation}
  \frac{d}{d \lambda} = \frac{1}{\sigma(\lambda)} \frac{d}{d \lambda_{scaled}}
 \label{re scaled derivates}
 \end{equation}
 
-Taking the derivate of the expresion \eqref{z score} a factor related to the standard deviation appear.
-With this, the original values for derivates evaluated in the observed wavelength are expresed in equation \eqref{2 and 3 scaled derivate}
+Taking the derivative of the expression \eqref{z score} a factor related to the standard deviation appears.
+With this, the original values for derivatives evaluated in the observed wavelength are expressed in equation \eqref{2 and 3 scaled derivate}
 
 \begin{equation}
  \frac{d^2}{d \lambda^2} = \frac{1}{\sigma(\lambda)^2} \frac{d^2}{d \lambda_{scaled}^2} \quad \quad \frac{d^3}{d \lambda^3} = \frac{1}{\sigma(\lambda)^3} \frac{d^3}{d \lambda_{scaled}^3}
@@ -30,34 +30,32 @@ With this, the original values for derivates evaluated in the observed wavelengt
 
 This improved considerably the precision in the fit and there over the precision on the observed wavelength calculated.
 
-\chapter{The third derivate relation}\label{ap:third derivate}
+\chapter{The third derivate relation}\label{ap:third derivative}
 
 Or called the bisector slope. 
 It was multiplied by the relation ($\frac{c}{\lambda}$) to see each clear in the graphic.
 
 \chapter{Visualizer for outliers}\label{ap:visualizer}
 
-For the process of the blend-free list was created an app using the interface Tkinter with the objective to help the visualization of outliers.
-Two versions of the visualizer were created.
-One just shows the line core and fourth order polynomial fit as shown in the figure ().
+For the process of the blend-free list a visualizer was created using the library Tkinter with the objective to help the selection process of outliers.
+Two versions of the visualizer were created, separated by filters. The first filter only shows the geometry of the line core and the line profile bisector. The second filter, which uses the selected lines for the first one, shows the three signatures of convection and the behavior of the selected line in each one.
 
-This helps for a first process where far separated lines were discarded.
-Then, we can perform the different calculations (core curvature, velocity and bisector slope), and use the second version of the visualizer (see figure ()).
-
-In this version it can visualize the three signatures of convection and the line core with the fit. Moreover, was resalted the corresponding Fe I line on each graph to corroborate the behavior.
-Thanks to this software the time expended seeing lines was reduced significantly. Specially cause count with his own system to classification, adding lines to a Dataframe and save the image. Following the motivation we present the software on \href{https://github.com/ccuellarn/Final-Project}{GitHub} and its explained below.
+Thanks to this visualizer the time expended seeing lines was reduced significantly. Specially cause count with his own system to classification, adding lines to a Dataframe and save the images. Following the motivation this can be seen on \href{https://github.com/ccuellarn/Final-Project}{GitHub} and it's given a test example below.
 
 \section{Test example}
 
 The main code is in the file Visualizer.ipynb and the test example data are test.xlsx, feel free to change the type of data, the important is make a dataframe where the columns are [Wave , Flux] wavelength on Armstrong and flux normalized preferred. Then made another dataframe with the list of lines of Fe I.
 
-The function closer lines select the closer minimums of the FeI lines and save the wave flux of that minimum point and the Fe I line associated. Don't be confused, this is not the observed wavelength. This point is a reference for selecting the bins around the Fe I line. The function discards distances over 0.001A.
+Use the function closer lines to select the closer minimums of the Fe I lines, with the flux and Fe I line associated. Don't be confused, this is not the observed wavelength. This point is a reference for selecting the bins around the Fe I line. The function discards distances between minimums and Fe I line over $0.001\mathring{A}$. 
+Furthermore, assuming the statement that fourth order polynomial fits need to be convex, were discarded fits with the second order coefficient negative and equal to cero. For discarding the lines which don't belong to the spectrum an approximation was taken.
+A computational form of a slope can be seen as the difference between the maximum and minimum point of the list of points. In terms of flux if it is seen the distance can't be more than a half of the absolute difference. This lets us discard pronounced slopes without affecting or filtering weaker lines.
+Then use the function local points for selecting the bins of $0.1m\mathring{A}$ around the minimal point, each corresponding to one index on the closer lines dataframe. 
 
-Then the function local points select the bins of each corresponding to one index on the closer lines dataframe. Each bin of wavelength is for 0.1mA around the minimum point. 
+If it runs correctly, the graphics for the intervals (), (), and () need to be seen like figure ().
 
-The function Derivatives find the polynomial fourth order fit and calculate the minimum point with the fit, that is the observed wavelength. This returns a dataframe with the FeI line, flux fit and the minimum observed.
+The next function Fit Derivatives finds the fourth order polynomial fit and calculates the minimum point with the second derivative of the fit, that is the observed wavelength. This returns a dataframe with the Fe I line associated, the polynomial fit, and the observed wavelength. In parallel is calculated the bisectors of each line following the midpoint method, where equal points of flux are selected for comparison.
 
-In parallel are calculated the bisectors of each line following the midpoint method, where equal points of flux are selected for comparison.
+With this information can be used the first visualizer
 
 From this is the first visualizer that receives the local points, the values and the fit. This shows the line core and the fourth polynomial fit, in parallel is shown the bisector of each line in terms of velocity.
 
@@ -93,3 +91,5 @@ The next line helps to extract the lines to drop and remove it for the Dataframe
 Two is for observations on polynomial fits that derive for mathematics properties. The third born on the many observations that i realize after the creation of visualizer, I see the parameter of 0.001 for near lines and I put the value
 
 \end{appendices}
+
+

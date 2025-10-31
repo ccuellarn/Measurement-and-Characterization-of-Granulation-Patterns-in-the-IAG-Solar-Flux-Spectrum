@@ -428,18 +428,18 @@ INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT Chapter_4.tex
-INPUT .\Images\Results\Curvature_VIS.pdf
-INPUT .\Images\Results\Curvature_VIS.pdf
-INPUT .\Images\Results\Curvature_VIS.pdf
-INPUT .\Images\Results\Curvature_VIS.pdf
-INPUT .\Images\Results\Curvature_VIS.pdf
-INPUT .\Images\Results\Curvature_VIS.pdf
-INPUT .\Images\Results\Curvature_NIR.pdf
-INPUT .\Images\Results\Curvature_NIR.pdf
-INPUT .\Images\Results\Curvature_NIR.pdf
-INPUT .\Images\Results\Curvature_NIR.pdf
-INPUT .\Images\Results\Curvature_NIR.pdf
-INPUT .\Images\Results\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathit.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathscr.tfm
@@ -455,90 +455,108 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-ma
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsf.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsfit.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
-INPUT .\Images\Results\Curvature_ALL.pdf
-INPUT .\Images\Results\Curvature_ALL.pdf
-INPUT .\Images\Results\Curvature_ALL.pdf
-INPUT .\Images\Results\Curvature_ALL.pdf
-INPUT .\Images\Results\Curvature_ALL.pdf
-INPUT .\Images\Results\Curvature_ALL.pdf
-INPUT .\Images\Results\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\Curvature_SPA.pdf
-INPUT .\Images\Results\Curvature_SPA.pdf
-INPUT .\Images\Results\Curvature_SPA.pdf
-INPUT .\Images\Results\Curvature_SPA.pdf
-INPUT .\Images\Results\Curvature_SPA.pdf
-INPUT .\Images\Results\Curvature_SPA.pdf
-INPUT .\Images\Results\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\Velocity lower potential_ALL.pdf
-INPUT .\Images\Results\Velocity lower potential_ALL.pdf
-INPUT .\Images\Results\Velocity lower potential_ALL.pdf
-INPUT .\Images\Results\Velocity lower potential_ALL.pdf
-INPUT .\Images\Results\Velocity lower potential_ALL.pdf
-INPUT .\Images\Results\Velocity lower potential_ALL.pdf
-INPUT .\Images\Results\Velocity bins energy plot_ALL.pdf
-INPUT .\Images\Results\Velocity bins energy plot_ALL.pdf
-INPUT .\Images\Results\Velocity bins energy plot_ALL.pdf
-INPUT .\Images\Results\Velocity bins energy plot_ALL.pdf
-INPUT .\Images\Results\Velocity bins energy plot_ALL.pdf
-INPUT .\Images\Results\Velocity bins energy plot_ALL.pdf
-INPUT .\Images\Results\Velocity bins energy ALL.pdf
-INPUT .\Images\Results\Velocity bins energy ALL.pdf
-INPUT .\Images\Results\Velocity bins energy ALL.pdf
-INPUT .\Images\Results\Velocity bins energy ALL.pdf
-INPUT .\Images\Results\Velocity bins energy ALL.pdf
-INPUT .\Images\Results\Velocity bins energy ALL.pdf
-INPUT .\Images\Results\Velocity bins energy SPA.pdf
-INPUT .\Images\Results\Velocity bins energy SPA.pdf
-INPUT .\Images\Results\Velocity bins energy SPA.pdf
-INPUT .\Images\Results\Velocity bins energy SPA.pdf
-INPUT .\Images\Results\Velocity bins energy SPA.pdf
-INPUT .\Images\Results\Velocity bins energy SPA.pdf
-INPUT .\Images\Results\Bisector_VIS.pdf
-INPUT .\Images\Results\Bisector_VIS.pdf
-INPUT .\Images\Results\Bisector_VIS.pdf
-INPUT .\Images\Results\Bisector_VIS.pdf
-INPUT .\Images\Results\Bisector_VIS.pdf
-INPUT .\Images\Results\Bisector_VIS.pdf
-INPUT .\Images\Results\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Bisector_SPA.pdf
-INPUT .\Images\Results\Bisector_SPA.pdf
-INPUT .\Images\Results\Bisector_SPA.pdf
-INPUT .\Images\Results\Bisector_SPA.pdf
-INPUT .\Images\Results\Bisector_SPA.pdf
-INPUT .\Images\Results\Bisector_SPA.pdf
-INPUT .\Images\Results\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Flux deficit_6253.pdf
-INPUT .\Images\Results\Flux deficit_6253.pdf
-INPUT .\Images\Results\Flux deficit_6253.pdf
-INPUT .\Images\Results\Flux deficit_6253.pdf
-INPUT .\Images\Results\Flux deficit_6253.pdf
-INPUT .\Images\Results\Flux deficit_6253.pdf
-INPUT .\Images\Results\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Flux deficit curve_6253.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Velocity lower potential_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity lower potential_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity lower potential_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity lower potential_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity lower potential_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity lower potential_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy plot_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy plot_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy plot_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy plot_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy plot_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy plot_ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy ALL.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy SPA.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy SPA.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy SPA.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy SPA.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy SPA.pdf
+INPUT .\Images\Results\First signature\Velocity bins energy SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector ALL.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
+INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
+INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
 INPUT .\Images\Results\GranulationPattern_ALL.pdf
 INPUT .\Images\Results\GranulationPattern_ALL.pdf
 INPUT .\Images\Results\GranulationPattern_ALL.pdf

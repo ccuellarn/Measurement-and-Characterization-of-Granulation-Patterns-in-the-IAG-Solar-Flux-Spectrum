@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {2.4.5}Chromodependence characterization}{23}{subsection.2.4.5}%
 \contentsline {chapter}{\numberline {3}Methodology: The blend-free list of Fe I lines}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Computational approach}{27}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Blend-free Nave Fe I line list}{28}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Blend-free Fe I line Nave list}{28}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Selection process for blend-free Fe I lines}{28}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Observational requirement}{29}{subsection.3.2.2}%
 \contentsline {chapter}{\numberline {4}Results and discussion: The three sigantures of convection}{30}{chapter.4}%
@@ -33,14 +33,14 @@
 \contentsline {subsection}{\numberline {4.1.2}Line depth-dependence on lower excitation energy}{35}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}The second signature: Line profile bisector asymmetry}{40}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}The bisector slope}{40}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Flux deficit (in progress)}{45}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence on wavelength shifts}{47}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}The granulation pattern}{47}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Characterization of chromodepence on granulation pattern}{52}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Higher quality graphs}{55}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusions}{58}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Z-score Standardization}{59}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}The third derivate relation}{61}{appendix.1.B}%
-\contentsline {chapter}{\numberline {C}Visualizer for outliers}{62}{appendix.1.C}%
-\contentsline {section}{\numberline {C.1}Test example}{62}{section.1.C.1}%
-\contentsline {section}{\numberline {C.2}Conditions justifications}{64}{section.1.C.2}%
+\contentsline {subsection}{\numberline {4.2.2}Flux deficit (in progress)}{47}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence on wavelength shifts}{49}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}The granulation pattern}{49}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Characterization of chromodepence on granulation pattern}{54}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Higher quality graphs}{56}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusions}{59}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Z-score Standardization}{60}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}The third derivate relation}{62}{appendix.1.B}%
+\contentsline {chapter}{\numberline {C}Visualizer for outliers}{63}{appendix.1.C}%
+\contentsline {section}{\numberline {C.1}Test example}{63}{section.1.C.1}%
+\contentsline {section}{\numberline {C.2}Conditions justifications}{65}{section.1.C.2}%
