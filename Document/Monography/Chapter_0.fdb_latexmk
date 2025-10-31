@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Chapter_0"] 1761878376.42737 "Chapter_0.aux" "Chapter_0.bbl" "Chapter_0" 1761878380.12866 0
-  "./Bibliography.bib" 1761865087 8453 a206be146fc1778356a090802baf9563 ""
+["bibtex Chapter_0"] 1761887183.92962 "Chapter_0.aux" "Chapter_0.bbl" "Chapter_0" 1761887246.07717 0
+  "./Bibliography.bib" 1761878541 8439 3ca0dd9dfefbd72216e28b6a0b0ea57b ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "Chapter_0.aux" 1761878378 29628 451e1e678a3108dfa2d415ab1c027002 "pdflatex"
+  "Chapter_0.aux" 1761887244 30671 ee589b5c5242cc1e59e82e64d01d4781 "pdflatex"
   (generated)
   "Chapter_0.bbl"
   "Chapter_0.blg"
   (rewritten before read)
-["pdflatex"] 1761878376.86057 "c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex" "Chapter_0.pdf" "Chapter_0" 1761878380.12953 0
+["pdflatex"] 1761887242.05315 "c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex" "Chapter_0.pdf" "Chapter_0" 1761887246.07805 0
   "C:/Users/clauw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761271538 400397 eaafdafe0c1b6cfb67ee542dfcd31c0f ""
   "C:/Users/clauw/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758906790 13286966 6bfabdd2b59e24f12407fa3df8d6f0e8 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-t1.enc" 1356261742 7013 c55cc8669071ac14036c4a0c96c16202 ""
@@ -147,16 +147,16 @@
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/wasysym.sty" 1579693002 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Chapter_0.aux" 1761878378 29628 451e1e678a3108dfa2d415ab1c027002 "pdflatex"
-  "Chapter_0.bbl" 1761878376 3398 02037c652aea49c97d2377115951a8ff "bibtex Chapter_0"
-  "Chapter_0.lof" 1761878378 6525 38907e022d55fe0176dd7e515704ba5e "pdflatex"
-  "Chapter_0.out" 1761878378 11068 8f9788084800d3d6c6c9bfb254126bf9 "pdflatex"
+  "Chapter_0.aux" 1761887244 30671 ee589b5c5242cc1e59e82e64d01d4781 "pdflatex"
+  "Chapter_0.bbl" 1761887184 3398 6bfcf0fd1dff075a6d8bf91d62e46fa1 "bibtex Chapter_0"
+  "Chapter_0.lof" 1761887244 6945 b534f375f9229fa7d4c463cee24ce512 "pdflatex"
+  "Chapter_0.out" 1761887244 11574 0640eb0ee77aed591c2d905e4e2cc4bf "pdflatex"
   "Chapter_0.tex" 1761870353 2257 1286ba101b92d6e82ef5361fb2fc15d9 ""
-  "Chapter_0.toc" 1761878378 4342 61988183a893f374b4174229fe9cb1a0 "pdflatex"
+  "Chapter_0.toc" 1761887244 4436 1570896b94d9260e2525c2c0a8249535 "pdflatex"
   "Chapter_1.tex" 1761878371 7729 43cacb5b14284aa019f79dfac51bfa23 ""
-  "Chapter_2.tex" 1761712867 22252 201095519a85ab8042bf5afcb5ec58f1 ""
+  "Chapter_2.tex" 1761886492 24265 a73525a77b54ea5a089e7eacd1cb81db ""
   "Chapter_3.tex" 1761757623 5070 d1531ab8663f13f05dd6915ade856def ""
-  "Chapter_4.tex" 1761865428 23355 13ca2cca4c2406dcac48f2852ae92d7f ""
+  "Chapter_4.tex" 1761887240 23449 5f29257affe77cbd2eb7d99cd7646bc9 ""
   "Chapter_5.tex" 1761713431 600 59c5ce899eb1a4e1cf2bd3310bd56946 ""
   "Chapter_6.tex" 1761757622 6877 0d922a53247af0d1d5d060f37c23d99a ""
   "Images/Angular momentum.jpg" 1759815166 124160 2c71d2b469b0fd832a08ed081edc7677 ""
@@ -194,6 +194,7 @@
   "Images/Results/color curves.pdf" 1761863966 53640 ead1255ff7dcc2fe0ae84f18937191e9 ""
   "Images/Results/variance NIR.pdf" 1761864288 25504 4b48a4094237f70484d6c041215f8365 ""
   "Images/Results/variance VIS.pdf" 1761864167 26391 ac12e0fef6a4e16deb4913c3f4033420 ""
+  "Images/Standard curve gray.jpg" 1761885985 92782 2920f92a213807904fd11fb0e0760617 ""
   "Images/Sun exterior.jpg" 1759891080 121046 66c731a966769d13252dc7182ffb930b ""
   "Images/Sun interior.jpg" 1759890802 66853 2120c3eb537d6fb85508aecc58a09e73 ""
   "Universidad-de-los-Andes_logo.png" 1758906659 16892 f253520f4e8e6cc3a01a896469a5d4da ""
