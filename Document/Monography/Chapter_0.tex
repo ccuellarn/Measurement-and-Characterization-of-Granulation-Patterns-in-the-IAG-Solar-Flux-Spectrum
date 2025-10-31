@@ -1,9 +1,7 @@
 %------------------------------------------------------------------ DOCUMENT TYPE
 \documentclass[12pt]{report}
 %--------------------------------------------------------------------- LOAD PACKAGES AND COMMANDS
-\usepackage{monostyle} 
-\usepackage{stix}         
-\usepackage{amsmath}     
+\usepackage{monostyle}  
 %---------------------------------------------------------------------- BEGIN DOCUMENT
 \begin{document}
 %---------------------------------------------------------------------- TITTLE PAGE
@@ -16,8 +14,9 @@
 {\scshape\Large Physics department\par}
 \vspace{1cm}
 {\scshape\LARGE Measurement and Characterization of Granulation Pattern in the IAG Solar Flux Spectrum \par}
-\vspace{2cm}
-{\itshape\large BSc Physics Final Project \par}
+{\LARGE \textcolor{Miku}{First version} \par}
+\vspace{1cm}
+{\large BSc Physics Final Project \par}
 \vfill
 {\Large \textbf{Author:} \par}
 {\Large Claudia Alejandra Cuellar Nieto \par}
@@ -28,19 +27,18 @@
 \end{titlepage}
 %------------------------------------------------------------------------ ABSTRACT AND ACKNOWLOGMENTS
 \begin{abstract}
-    Hello, this is my work :D
+    Hello, this is my work:D
 \end{abstract}
 
 \renewcommand{\abstractname}{Acknowledgements}
 
 \begin{abstract}
-Thanks  :b
+
 \end{abstract}
 %---------------------------------------------------------------------- TABLE OF CONTENTS
 \tableofcontents
 %---------------------------------------------------------------------- LIST OF FIGURES
-\cleardoublepage
-\addcontentsline{toc}{chapter}{\listfigurename}
+\cleardoublepage\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
 %---------------------------------------------------------------------- CHAPTERS
 
@@ -48,7 +46,7 @@ Thanks  :b
 
 \input{Chapter_1}
 
-\chapter{Literature Review: Convective movement in the Sun}
+\chapter{Literature Review: Convective motion in the Sun}
 
 \input{Chapter_2}
 
@@ -56,7 +54,7 @@ Thanks  :b
 
 \input{Chapter_3}
 
-\chapter{Results and discussion: Granulation pattern and Characterization of chromodependence}
+\chapter{Results and discussion: The three sigantures of convection}
 
 \input{Chapter_4}
 
@@ -70,7 +68,5 @@ Thanks  :b
 \renewcommand{\refname}{Bibliography}
 \bibliographystyle{ieeetr}
 \bibliography{Bibliography.bib}
-\nocite{Aponte}
-\nocite{Stief_2019}
 
 \end{document}

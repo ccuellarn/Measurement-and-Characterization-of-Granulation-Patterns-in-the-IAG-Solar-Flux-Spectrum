@@ -1,5 +1,33 @@
 \begin{thebibliography}{10}
 
+\bibitem{Priest_1982}
+P.~Eric, {\em Solar magnetohydrodynamics}.
+\newblock Kluwer, 1982.
+
+\bibitem{Malherbe_2022}
+J.-M. Malherbe, ``Jules janssen, the birth of solar physics, the foundation of
+  meudon observatory and the mont blanc adventure (1875-1895),'' {\em HAL
+  CNRS}, Aug. 2022.
+
+\bibitem{Samir_pattern}
+S.~A. Hamouda, F.~F. Alfarjani, and F.~Y. Elfituri, ``Sunspots production and
+  relation to other phenomena: A review,'' {\em International Journal of
+  Science and Research Methodology}, 06 2018.
+
+\bibitem{Foukal_1990}
+F.~Peter, {\em Solar Astrophysics}.
+\newblock Cambridge research and instrumentation, 1990.
+
+\bibitem{Nieminen_2017}
+T.~A. Nieminen, ``Solar line asymmetries: Modelling the effect of granulation
+  on the solar spectrum,'' {\em arXiv}, Aug. 2017.
+\newblock arXiv:1708.06408 [astro-ph].
+
+\bibitem{Ellwarth_2023}
+M.~Ellwarth, B.~Ehmann, S.~Schäfer, and A.~Reiners, ``Convective
+  characteristics of fe i lines across the solar disc,'' {\em Astronomy and
+  Astrophysics}, vol.~680, p.~A62, Dec. 2023.
+
 \bibitem{Gray_2009}
 D.~F. Gray, ``The third signature of stelar granulation,'' {\em The
   Astrophysical Journal}, vol.~697, p.~1032, May 2009.
@@ -14,10 +42,6 @@ D.~Dravins, L.~Lindegren, and A.~Nordlund, ``Solar granulation - influence of
   convection on spectral line asymmetries and wavelength shifts,'' {\em
   Astronomy and Astrophysics}, vol.~96, p.~345–364, Mar. 1981.
 
-\bibitem{Foukal_1990}
-F.~Peter, {\em Solar Astrophysics}.
-\newblock Cambridge research and instrumentation, 1990.
-
 \bibitem{Gray_Pugh_2012}
 D.~F. Gray and T.~Pugh, ``The third signature of granulation in bright-giant
   and supergiant stars,'' {\em The Astronomical Journal}, vol.~143, p.~92, Mar.
@@ -29,39 +53,10 @@ A.~Reiners, N.~Mrotzek, U.~Lemke, J.~Hinrichs, and K.~Reinsch, ``The iag solar
   standard solar spectra,'' {\em Astronomy and Astrophysics}, vol.~587, p.~A65,
   Mar. 2016.
 
-\bibitem{Ellwarth_2023}
-M.~Ellwarth, B.~Ehmann, S.~Schäfer, and A.~Reiners, ``Convective
-  characteristics of fe i lines across the solar disc,'' {\em Astronomy and
-  Astrophysics}, vol.~680, p.~A62, Dec. 2023.
-
-\bibitem{Nave_1994}
-G.~Nave, S.~Johansson, R.~C.~M. Learner, A.~P. Thorne, and J.~W. Brault, ``A
-  new multiplet table for fe i,'' {\em The Astrophysical Journal Supplement
-  Series}, vol.~94, p.~221, Sept. 1994.
-
-\bibitem{Cacciani_2006}
-A.~Cacciani, R.~Briguglio, F.~Massa, and P.~Rapex, ``Precise measurement of the
-  solar gravitational red shift,'' {\em Celestial Mechanics and Dynamical
-  Astronomy}, vol.~95, p.~425–437, May 2006.
-
-\bibitem{Priest_1982}
-P.~Eric, {\em Solar magnetohydrodynamics}.
-\newblock Kluwer, 1982.
-
-\bibitem{Malherbe_2022}
-J.-M. Malherbe, ``Jules janssen, the birth of solar physics, the foundation of
-  meudon observatory and the mont blanc adventure (1875-1895),'' {\em HAL
-  CNRS}, Aug. 2022.
-
 \bibitem{Plaskett_1936}
 H.~H. Plaskett, ``Solar granulation,'' {\em Monthly Notices of the Royal
   Astronomical Society}, vol.~96, p.~402, Mar. 1936.
 \newblock ADS Bibcode: 1936MNRAS..96..402P.
-
-\bibitem{Samir_pattern}
-S.~A. Hamouda, F.~F. Alfarjani, and F.~Y. Elfituri, ``Sunspots production and
-  relation to other phenomena: A review,'' {\em International Journal of
-  Science and Research Methodology}, 06 2018.
 
 \bibitem{Carroll_Ostlie_2006}
 B.~Carroll and D.~Ostlie, {\em An Introduction to Modern Astrophysics}.
@@ -72,25 +67,19 @@ D.~F. Gray and B.~Oostra, ``The solar-flux third granulation signature,'' {\em
   The Astrophysical Journal}, vol.~852, p.~42, Jan. 2018.
 \newblock ADS Bibcode: 2018ApJ...852...42G.
 
-\bibitem{Nieminen_2017}
-T.~A. Nieminen, ``Solar line asymmetries: Modelling the effect of granulation
-  on the solar spectrum,'' {\em arXiv}, Aug. 2017.
-\newblock arXiv:1708.06408 [astro-ph].
+\bibitem{Nave_1994}
+G.~Nave, S.~Johansson, R.~C.~M. Learner, A.~P. Thorne, and J.~W. Brault, ``A
+  new multiplet table for fe i,'' {\em The Astrophysical Journal Supplement
+  Series}, vol.~94, p.~221, Sept. 1994.
+
+\bibitem{Gray_2005}
+D.~F. Gray, {\em The Observation and Analysis of Stellar Photospheres}.
+\newblock Cambridge University Press, 3~ed., 2005.
 
 \bibitem{Boyd_2014}
 J.~P. Boyd, {\em Solving Transcendental Equations: The Chebyshev Polynomial
   Proxy and Other Numerical Rootfinders, Perturbation Series, and Oracles}.
 \newblock SIAM, Oct. 2014.
 \newblock Google-Books-ID: ANGgBAAAQBAJ.
-
-\bibitem{Aponte}
-J.~S. Aponte, {\em Medición de la velocidad convectiva en la fotosfera solar}.
-\newblock Bachelor's thesis, Universidad de los Andes, 2017.
-
-\bibitem{Stief_2019}
-F.~Stief, J.~Löhner-Böttcher, W.~Schmidt, T.~Steinmetz, and R.~Holzwarth,
-  ``Convective blueshifts in the solar atmosphere - ii. high-accuracy
-  observations of the fe i 6173.3 Å line and deviations of full-disk
-  dopplergrams,'' {\em Astronomy \& Astrophysics}, vol.~622, p.~A34, Feb. 2019.
 
 \end{thebibliography}

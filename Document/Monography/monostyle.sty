@@ -24,6 +24,7 @@
 \usepackage{epigraph}
 \usepackage{wasysym}
 \usepackage{caption}
+\usepackage{stix}         
 
 %-------------------- edges
 \addtolength{\hoffset}{-1cm} %left edge
@@ -47,16 +48,8 @@
 % Hyperlinks
 % ----------
 \usepackage{xcolor} 
-\definecolor{miku}{RGB}{0, 152, 152}    
-
-\usepackage[bookmarks,bookmarksnumbered,
-    colorlinks=true,
-    linkcolor=miku,  
-    citecolor=miku,     
-    urlcolor=miku,    
-    filecolor=miku,      
-    pdfborder={0 0 0}
-]{hyperref}
+\definecolor{Miku}{RGB}{0,152,152}
+\definecolor{Ado}{HTML}{000E4F} 
 
 \renewcommand{\baselinestretch}{1.5}
 \newcommand{\deriv}[1]{\frac{\mathrm{d}}{\mathrm{d}x} (#1)}
@@ -65,4 +58,14 @@
 \newcommand\brac[1]{\left[ #1 \right]} 
 \newcommand{\Rarrow}{\quad \rightarrow \quad } 
 
-
+\usepackage[bookmarks,bookmarksnumbered,
+    colorlinks=true,
+    linkcolor=Miku,        
+    citecolor=Miku,       
+    urlcolor=Miku,        
+    filecolor=Miku,      
+    menucolor=Miku,        
+    runcolor=Miku,    
+    allcolors=Miku,       
+    pdfborder={0 0 0}
+]{hyperref}

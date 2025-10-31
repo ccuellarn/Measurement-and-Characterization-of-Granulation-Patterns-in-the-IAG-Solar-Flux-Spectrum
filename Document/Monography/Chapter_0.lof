@@ -1,38 +1,39 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The general structure of the Sun. Image modified from \cite {Priest_1982}.}}{8}{figure.caption.3}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The first clear photograph of the photosphere where the granulation pattern is visible. Image taken from \cite {Malherbe_2022}}}{9}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagram for the parcel of material displaced so slowly that remains in horizontal pressure. Image taken from \cite {Priest_1982}}}{12}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces A view of granulation on the Sun's surface. The central regions exhibit blueshifts while the edges display redshifts. Image taken from \cite {Samir_pattern}}}{13}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Squared profile for the disk intensity at increasing wavelengths. Image taken from \cite {Foukal_1990}}}{14}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces A time sequence showing granule evolution where the time intervals are about a minute. Image taken from \cite {Foukal_1990}}}{15}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The C-curved profile bisector. In the infrared shown to be less pronounced than violet range.}}{16}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Asymmetries on an average absorption line. Can be observed the differences in intensity redshift profile. Image taken from \cite {Nieminen_2017}}}{17}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Granulation pattern for the IAG spatially resolved quiet sun atlas, is shown to have a strong chromodependence in the weaker lines. Image taken from \cite {Ellwarth_2023}.}}{19}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Contributions on angular momentum. Image taken from \cite {Foukal_1990}.}}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The general structure of the Sun. Image modified from \cite {Priest_1982}.}}{11}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The first clear photograph of the photosphere where the granulation pattern is visible. Image taken from \cite {Malherbe_2022}}}{12}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagram for the parcel of material displaced so slowly that remains in horizontal pressure. Image taken from \cite {Priest_1982}}}{15}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A view of granulation on the Sun's surface. The central regions exhibit blueshifts while the edges display redshifts. Image taken from \cite {Samir_pattern}}}{16}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Squared profile for the disk intensity at increasing wavelengths. Image taken from \cite {Foukal_1990}}}{17}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A time sequence showing granule evolution where the time intervals are about a minute. Image taken from \cite {Foukal_1990}}}{18}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The C-curved profile bisector. In the infrared shown to be less pronounced than violet range.}}{19}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Asymmetries on an average absorption line. Can be observed the differences in intensity redshift profile. Image taken from \cite {Nieminen_2017}}}{20}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Granulation pattern for the IAG spatially resolved quiet sun atlas, is shown to have a strong chromodependence in the weaker lines. Image taken from \cite {Ellwarth_2023}.}}{22}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Contributions on angular momentum. Image taken from \cite {Foukal_1990}.}}{24}{figure.caption.13}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Line core curvature in the Solar Flux Atlas. The near infrared range presents a natural division due telluric lines in the atmosphere.}}{28}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces First order polynomial fit fitted to the range $0.0-0.1F/F_c$ of line depth in the visible range of the Solar Flux Atlas.}}{29}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Line core curvature for the visible range for disk center data from the Spatially Resolved Quiet Sun Atlas.}}{31}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces First order polynomial fit fitted to the range $0.0-0.1F/F_c$ of line depth in the visible range of the Spatially Resolved Quiet Sun Atlas.}}{32}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Relative velocity against lower excitation energy for all the range in the Solar Flux Atlas}}{34}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Velocity bins of $50m/s$ across the figure \ref {lower energy ALL}, with this separation is visible the energy shift across line depth.}}{35}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Individual plots of lower excitation energy across line depth representing each bin of velocity for the Solar Flux Atlas.}}{36}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Individual plots of lower excitation energy across line depth representing each bin of velocity for the Spatially Resolved Quiet Sun Atlas.}}{38}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Line core curvature in the Solar Flux Atlas. The near infrared range presents a natural division due telluric lines in the atmosphere.}}{31}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces First order polynomial fit fitted to the range $0.0-0.1F/F_c$ of line depth in the visible range of the Solar Flux Atlas.}}{32}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Line core curvature for the visible range for disk center data from the Spatially Resolved Quiet Sun Atlas.}}{33}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces First order polynomial fit fitted to the range $0.0-0.1F/F_c$ of line depth in the visible range of the Spatially Resolved Quiet Sun Atlas.}}{34}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Relative velocity against lower excitation energy for all the range in the Solar Flux Atlas}}{35}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Velocity bins of $50m/s$ across the figure \ref {lower energy ALL}, with this separation is visible the energy shift across line depth.}}{36}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Individual plots of lower excitation energy across line depth representing each bin of velocity for the Solar Flux Atlas.}}{37}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Individual plots of lower excitation energy across line depth representing each bin of velocity for the Spatially Resolved Quiet Sun Atlas.}}{39}{figure.caption.23}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Line profile bisector slope for the visible range in the Solar Flux Atlas. The behavior of the plot is according to the C-curved shape of the line bisector affected by convection movement.}}{41}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces First order polynomial fit adjusted to the range $0.3-0.6F/F_c$ for the line bisector slopes.}}{43}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Line profile bisector slope for the visible range in the Spatially Resolved Quiet Sun Atlas.}}{44}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces First order polynomial fit adjusted to the range $0.3-0.6F/F_c$ for the line bisector slopes.}}{45}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces C-curved line profile bisector for the $6254.2850\mathring {A}$ and the standard curve for the green range from the third signature plot.}}{47}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Flux deficit curve for the $6254.2850\mathring {A}$ and the temperatures of the mean, the maximum and the RMS point of the bisector.}}{48}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Granulation pattern obtained for the Solar Flux Atlas. The wavelength shift dependence is along the line depth.}}{50}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Comparision between atlases with velocity bins for the relation between wavelength and line depth. For each velocity bin was plotted wavelength against line depth to measure a frequency shift with a first order polynomial fit.}}{52}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Individual plots of lower excitation energy across line depth representing each bin of velocity.}}{54}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Standard curve given by Gray and Oostra and recalculated for comparision with the current work.}}{57}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Granulation pattern for the Solar Flux Atlas with color curves. The tendency on the curves is more pronounced in the violet and red range.}}{58}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces We realized the same graphic for the comparision with the Ellwarth article to show the less scattered points.}}{61}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces First order polynomial fit adjusted to the range $0.3-0.6F/F_c$ for the line bisector slopes.}}{42}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Line profile bisector slope for the visible range in the Spatially Resolved Quiet Sun Atlas.}}{43}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces First order polynomial fit adjusted to the range $0.3-0.6F/F_c$ for the line bisector slopes.}}{44}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces C-curved line profile bisector for the $6254.2850\mathring {A}$ and the standard curve for the green range from the third signature plot.}}{45}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Flux deficit curve for the $6254.2850\mathring {A}$ and the temperatures of the mean, the maximum and the RMS point of the bisector.}}{46}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Granulation pattern obtained for the Solar Flux Atlas. The wavelength shift dependence is along the line depth.}}{47}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Comparision between atlases with velocity bins for the relation between wavelength and line depth. For each velocity bin was plotted wavelength against line depth to measure a frequency shift with a first order polynomial fit.}}{48}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Individual plots of lower excitation energy across line depth representing each bin of velocity.}}{49}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Standard curve given by Gray and Oostra and recalculated for comparision with the current work.}}{51}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Granulation pattern for the Solar Flux Atlas with color curves. The tendency on the curves is more pronounced in the violet and red range.}}{52}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces We realized the same graphic for the comparision with the Ellwarth article to show the less scattered points.}}{55}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Variance of the observed wavelength altering the number of points on the fourth order polynomial fit}}{56}{figure.caption.41}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

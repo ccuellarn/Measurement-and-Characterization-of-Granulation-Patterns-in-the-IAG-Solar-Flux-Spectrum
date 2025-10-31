@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  30 OCT 2025 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  30 OCT 2025 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -761,6 +761,110 @@ Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 \symwasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\stix.sty
+Package: stix 2018/04/17 v1.1.3-latex STIX fonts support package
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
+)
+LaTeX Encoding Info:    Text command \textpertenthousand (encoding T1) is not declared on input line 51.
+LaTeX Encoding Info:    Redeclaring text command \textpertenthousand (encoding ?) on input line 52.
+Now handling font encoding LS1 ...
+... no UTF-8 mapping file for font encoding LS1
+Now handling font encoding LS2 ...
+... no UTF-8 mapping file for font encoding LS2
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `normal' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `bold' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> LS1/stix/m/n on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> LS1/stix/m/n on input line 77.
+\symbold-operators=\mathgroup7
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LS1/stixscr/m/n on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LS1/stixscr/m/n on input line 79.
+\symsymbols2=\mathgroup8
+\symsymbols3=\mathgroup9
+\symsymbols4=\mathgroup10
+\symintegrals=\mathgroup11
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+\symarrows1=\mathgroup12
+\symarrows2=\mathgroup13
+\symarrows3=\mathgroup14
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  LS1/stix/m/n --> LS1/stix/b/n on input line 89.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LS1/stixscr/m/n --> LS1/stixscr/b/n on input line 90.
+LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
+(Font)                  LS1/stixfrak/m/n --> LS1/stixfrak/b/n on input line 91.
+LaTeX Font Info:    Overwriting symbol font `symbols3' in version `bold'
+(Font)                  LS1/stixbb/m/n --> LS1/stixbb/b/n on input line 92.
+LaTeX Font Info:    Overwriting symbol font `symbols4' in version `bold'
+(Font)                  LS1/stixbb/m/it --> LS1/stixbb/b/it on input line 93.
+LaTeX Font Info:    Overwriting symbol font `integrals' in version `bold'
+(Font)                  LS2/stixcal/m/n --> LS2/stixcal/b/n on input line 94.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LS2/stixex/m/n --> LS2/stixex/b/n on input line 95.
+LaTeX Font Info:    Overwriting symbol font `arrows1' in version `bold'
+(Font)                  LS1/stixsf/m/n --> LS1/stixsf/b/n on input line 96.
+LaTeX Font Info:    Overwriting symbol font `arrows2' in version `bold'
+(Font)                  LS1/stixsf/m/it --> LS1/stixsf/b/it on input line 97.
+LaTeX Font Info:    Overwriting symbol font `arrows3' in version `bold'
+(Font)                  LS2/stixtt/m/n --> LS2/stixtt/b/n on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 109.
+LaTeX Info: Redefining \yen on input line 456.
+LaTeX Info: Redefining \circledR on input line 458.
+LaTeX Info: Redefining \checkmark on input line 460.
+LaTeX Info: Redefining \maltese on input line 461.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 698.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 699.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 700.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 701.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 702.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 703.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 704.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 705.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 707.
+LaTeX Font Info:    Redeclaring math accent \check on input line 708.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 716.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 728.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 729.
+LaTeX Info: Redefining \vdots on input line 1518.
+LaTeX Info: Redefining \cdots on input line 1522.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 1978.
+LaTeX Info: Redefining \not on input line 2144.
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 \AP@output=\toks35
@@ -796,7 +900,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+)) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
@@ -904,160 +1008,62 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip93
-)) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\stix.sty
-Package: stix 2018/04/17 v1.1.3-latex STIX fonts support package
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
-Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
-)
-LaTeX Encoding Info:    Text command \textpertenthousand (encoding T1) is not declared on input line 51.
-LaTeX Encoding Info:    Redeclaring text command \textpertenthousand (encoding ?) on input line 52.
-Now handling font encoding LS1 ...
-... no UTF-8 mapping file for font encoding LS1
-Now handling font encoding LS2 ...
-... no UTF-8 mapping file for font encoding LS2
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 76.
-LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
-(Font)              `letters' in the math version `normal' on input line 76.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> LS1/stix/m/it on input line 76.
-LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
-(Font)              `letters' in the math version `bold' on input line 76.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> LS1/stix/m/it on input line 76.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
-LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> LS1/stix/m/n on input line 77.
-LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> LS1/stix/m/n on input line 77.
-\symbold-operators=\mathgroup7
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
-LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 79.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> LS1/stixscr/m/n on input line 79.
-LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 79.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> LS1/stixscr/m/n on input line 79.
-\symsymbols2=\mathgroup8
-\symsymbols3=\mathgroup9
-\symsymbols4=\mathgroup10
-\symintegrals=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
-LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 84.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
-LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 84.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
-\symarrows1=\mathgroup12
-\symarrows2=\mathgroup13
-\symarrows3=\mathgroup14
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  LS1/stix/m/n --> LS1/stix/b/n on input line 89.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  LS1/stixscr/m/n --> LS1/stixscr/b/n on input line 90.
-LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
-(Font)                  LS1/stixfrak/m/n --> LS1/stixfrak/b/n on input line 91.
-LaTeX Font Info:    Overwriting symbol font `symbols3' in version `bold'
-(Font)                  LS1/stixbb/m/n --> LS1/stixbb/b/n on input line 92.
-LaTeX Font Info:    Overwriting symbol font `symbols4' in version `bold'
-(Font)                  LS1/stixbb/m/it --> LS1/stixbb/b/it on input line 93.
-LaTeX Font Info:    Overwriting symbol font `integrals' in version `bold'
-(Font)                  LS2/stixcal/m/n --> LS2/stixcal/b/n on input line 94.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  LS2/stixex/m/n --> LS2/stixex/b/n on input line 95.
-LaTeX Font Info:    Overwriting symbol font `arrows1' in version `bold'
-(Font)                  LS1/stixsf/m/n --> LS1/stixsf/b/n on input line 96.
-LaTeX Font Info:    Overwriting symbol font `arrows2' in version `bold'
-(Font)                  LS1/stixsf/m/it --> LS1/stixsf/b/it on input line 97.
-LaTeX Font Info:    Overwriting symbol font `arrows3' in version `bold'
-(Font)                  LS2/stixtt/m/n --> LS2/stixtt/b/n on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 102.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 109.
-LaTeX Info: Redefining \yen on input line 456.
-LaTeX Info: Redefining \circledR on input line 458.
-LaTeX Info: Redefining \checkmark on input line 460.
-LaTeX Info: Redefining \maltese on input line 461.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 698.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 699.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 700.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 701.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 702.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 703.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 704.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 705.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 707.
-LaTeX Font Info:    Redeclaring math accent \check on input line 708.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 716.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 728.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 729.
-LaTeX Info: Redefining \vdots on input line 1518.
-LaTeX Info: Redefining \cdots on input line 1522.
-LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 1978.
-LaTeX Info: Redefining \not on input line 2144.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+stix on input line 8.
+LaTeX Font Info:    Trying to load font information for T1+stix on input line 6.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
+) (Chapter_0.aux
+
+LaTeX Warning: Label `velocity bins SPA' multiply defined.
+
+
+LaTeX Warning: Label `velocity bins VIS' multiply defined.
+
 )
-No file Chapter_0.aux.
 \openout1 = `Chapter_0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 8.
-(C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 6.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for LS1+stix on input line 8.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for LS1+stix on input line 6.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for LS2+stix on input line 8.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for LS2+stix on input line 6.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Info: Command `\dddot' is already robust on input line 8.
-LaTeX Info: Command `\ddddot' is already robust on input line 8.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Info: Command `\dddot' is already robust on input line 6.
+LaTeX Info: Command `\ddddot' is already robust on input line 6.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count362
@@ -1073,13 +1079,7 @@ LaTeX Info: Command `\ddddot' is already robust on input line 8.
 \everyMPtoPDFconversion=\toks37
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -1087,14 +1087,15 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 8.
+Package hyperref Info: Link coloring ON on input line 6.
+ (Chapter_0.out) (Chapter_0.out)
 \@outlinefile=\write4
 \openout4 = `Chapter_0.out'.
 
-<Universidad-de-los-Andes_logo.png, id=3, 385.44pt x 457.71pt>
+<Universidad-de-los-Andes_logo.png, id=179, 385.44pt x 457.71pt>
 File: Universidad-de-los-Andes_logo.png Graphic file (type png)
 <use Universidad-de-los-Andes_logo.png>
-Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 12.
+Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 10.
 (pdftex.def)             Requested size: 67.0331pt x 79.5976pt.
 
 
@@ -1108,802 +1109,362 @@ Non-PDF special ignored!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 \end{abstract}
+l.31 \end{abstract}
                     [1]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 \end{abstract}
-                    [1]
-No file Chapter_0.toc.
+l.37 \end{abstract}
+                    [1] (Chapter_0.toc
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+)
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 ...ce characterization}{23}{subsection.2.4.5}
+                                                  % [1
+
+])
 \tf@toc=\write5
 \openout5 = `Chapter_0.toc'.
 
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.42 \cleardoublepage
-                      [1
-
-]
-No file Chapter_0.lof.
-\tf@lof=\write6
-\openout6 = `Chapter_0.lof'.
-
-
-
-[2
-
-
-]
-Chapter 1.
-(Chapter_1.tex
-
-LaTeX Warning: Citation `Gray_2009' on page 3 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Hamilton_1999' on page 3 undefined on input line 13.
-
-
-LaTeX Warning: Citation `Dravins_1981' on page 3 undefined on input line 13.
-
-
-LaTeX Warning: Citation `Gray_2009' on page 3 undefined on input line 13.
-
-
-LaTeX Warning: Citation `Foukal_1990' on page 3 undefined on input line 14.
+[2] (Chapter_0.lof
+Overfull \hbox (8.56953pt too wide) in paragraph at lines 7--7
+ [][] [][][]\T1/stix/m/n/12 A view of gran-u-la-tion on the Sun's sur-face. The cen-tral re-gions ex-hibit blueshifts 
+ []
 
 
 
 [3
 
+
 ]
 
-LaTeX Warning: Citation `Gray_Pugh_2012' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Citation `Gray_2009' on page 4 undefined on input line 19.
-
-
-LaTeX Warning: Citation `Gray_2009' on page 4 undefined on input line 23.
-
-
-LaTeX Warning: Citation `Gray_2009' on page 4 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Dravins_1981' on page 4 undefined on input line 26.
-
-
-
-[4]
-LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixscr.fd
-File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
-)
-LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixex.fd
-File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixfrak.fd
-File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
-)
-LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixbb.fd
-File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
-)
-LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixcal.fd
-File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definitions
-)
-LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixsf.fd
-File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
-)
-LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 34.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixtt.fd
-File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
-)
-
-LaTeX Warning: Citation `Reiners_2016' on page 5 undefined on input line 35.
-
-
-Overfull \hbox (7.2608pt too wide) in paragraph at lines 37--40
-[]\T1/stix/m/n/12 However, the first re-sult-ing gran-u-la-tion pat-tern ap-peared no-tably scat-tered and noisy, at-tributable
- []
-
-
-LaTeX Warning: Citation `Ellwarth_2023' on page 5 undefined on input line 43.
+[4])
+\tf@lof=\write6
+\openout6 = `Chapter_0.lof'.
 
 
 
 [5]
+Chapter 1.
+(Chapter_1.tex
 
-LaTeX Warning: Citation `Nave_1994' on page 6 undefined on input line 51.
+[6
 
+]
 
-LaTeX Warning: Citation `Cacciani_2006' on page 6 undefined on input line 55.
+[7]
 
-)
+[8])
 
-[6]
+[9]
 Chapter 2.
 (Chapter_2.tex
-<Images/Sun interior.jpg, id=54, 519.44063pt x 451.6875pt>
+<Images/Sun interior.jpg, id=405, 519.44063pt x 451.6875pt>
 File: Images/Sun interior.jpg Graphic file (type jpg)
 <use Images/Sun interior.jpg>
 Package pdftex.def Info: Images/Sun interior.jpg  used on input line 13.
 (pdftex.def)             Requested size: 214.51273pt x 186.53015pt.
-<Images/Sun exterior.jpg, id=55, 674.52pt x 596.2275pt>
+<Images/Sun exterior.jpg, id=406, 674.52pt x 596.2275pt>
 File: Images/Sun exterior.jpg Graphic file (type jpg)
 <use Images/Sun exterior.jpg>
 Package pdftex.def Info: Images/Sun exterior.jpg  used on input line 20.
 (pdftex.def)             Requested size: 214.51273pt x 189.614pt.
 
 
-LaTeX Warning: Citation `Priest_1982' on page 7 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Priest_1982' on page 7 undefined on input line 25.
-
-
-
-[7
+[10
 
 ]
 
-LaTeX Warning: Reference `sun interior' on page 8 undefined on input line 29.
-
-
-LaTeX Warning: Reference `sun outer atmosphere' on page 8 undefined on input line 35.
-
-
-LaTeX Warning: Citation `Priest_1982' on page 8 undefined on input line 39.
-
-
-LaTeX Warning: Citation `Priest_1982' on page 8 undefined on input line 40.
-
-
-
-[8 <./Images/Sun interior.jpg> <./Images/Sun exterior.jpg>]
-<Images/First take photosphere.jpg, id=67, 359.54324pt x 527.571pt>
+[11 <./Images/Sun interior.jpg> <./Images/Sun exterior.jpg>]
+<Images/First take photosphere.jpg, id=422, 359.54324pt x 527.571pt>
 File: Images/First take photosphere.jpg Graphic file (type jpg)
 <use Images/First take photosphere.jpg>
 Package pdftex.def Info: Images/First take photosphere.jpg  used on input line 46.
 (pdftex.def)             Requested size: 245.79938pt x 360.67555pt.
 
 
-LaTeX Warning: Citation `Malherbe_2022' on page 9 undefined on input line 47.
-
-
-LaTeX Warning: Citation `Malherbe_2022' on page 9 undefined on input line 47.
-
-
-LaTeX Warning: Reference `Janssen_1885' on page 9 undefined on input line 49.
-
-
-LaTeX Warning: Citation `Malherbe_2022' on page 9 undefined on input line 49.
-
-
-LaTeX Warning: Citation `Foukal_1990' on page 9 undefined on input line 51.
-
-
-LaTeX Warning: Citation `Plaskett_1936' on page 9 undefined on input line 53.
+LaTeX Warning: Reference `Janssen_1885' on page 12 undefined on input line 49.
 
 
 
-[9 <./Images/First take photosphere.jpg>]
+[12 <./Images/First take photosphere.jpg>]
 
-LaTeX Warning: Citation `Priest_1982' on page 10 undefined on input line 58.
-
-
-LaTeX Warning: Citation `Plaskett_1936' on page 10 undefined on input line 61.
-
-
-LaTeX Warning: Citation `Foukal_1990' on page 10 undefined on input line 62.
-
-
-LaTeX Warning: Reference `pp chain' on page 10 undefined on input line 65.
-
-
-LaTeX Warning: Citation `Foukal_1990' on page 10 undefined on input line 73.
-
-
-LaTeX Warning: Citation `Priest_1982' on page 10 undefined on input line 74.
-
-
-
-[10]
-
-LaTeX Warning: Reference `adiabatic radiative gradients' on page 11 undefined on input line 81.
-
-
-LaTeX Warning: Reference `radiative condition' on page 11 undefined on input line 88.
-
-
-LaTeX Warning: Reference `parcel argument' on page 11 undefined on input line 101.
-
-<Images/Parcel argument.jpg, id=84, 600.44325pt x 331.2375pt>
+[13]
+<Images/Parcel argument.jpg, id=449, 600.44325pt x 331.2375pt>
 File: Images/Parcel argument.jpg Graphic file (type jpg)
 <use Images/Parcel argument.jpg>
 Package pdftex.def Info: Images/Parcel argument.jpg  used on input line 105.
 (pdftex.def)             Requested size: 312.83247pt x 172.57301pt.
 
-LaTeX Warning: Citation `Priest_1982' on page 11 undefined on input line 106.
 
-
-LaTeX Warning: Citation `Priest_1982' on page 11 undefined on input line 106.
-
-
-
-[11]
-
-LaTeX Warning: Reference `Schwarzchild cond' on page 12 undefined on input line 111.
-
-
-LaTeX Warning: Citation `Foukal_1990' on page 12 undefined on input line 117.
-
-
-LaTeX Warning: Citation `Priest_1982' on page 12 undefined on input line 122.
-
-
-LaTeX Warning: Reference `photosphere visual' on page 12 undefined on input line 123.
-
-<Images/Granulation pattern.jpg, id=93, 505.89pt x 298.11375pt>
+[14]
+<Images/Granulation pattern.jpg, id=463, 505.89pt x 298.11375pt>
 File: Images/Granulation pattern.jpg Graphic file (type jpg)
 <use Images/Granulation pattern.jpg>
 Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 127.
 (pdftex.def)             Requested size: 312.83247pt x 184.35098pt.
 
-LaTeX Warning: Citation `Samir_pattern' on page 12 undefined on input line 128.
 
-
-LaTeX Warning: Citation `Samir_pattern' on page 12 undefined on input line 128.
-
-
-
-[12 <./Images/Parcel argument.jpg>]
-
-LaTeX Warning: Citation `Carroll_Ostlie_2006' on page 13 undefined on input line 133.
-
-
-LaTeX Warning: Citation `Dravins_1981' on page 13 undefined on input line 133.
-
-
-LaTeX Warning: Reference `squared profile' on page 13 undefined on input line 138.
-
-<Images/Limb darkening.jpg, id=101, 673.3155pt x 551.661pt>
+[15 <./Images/Parcel argument.jpg>]
+<Images/Limb darkening.jpg, id=474, 673.3155pt x 551.661pt>
 File: Images/Limb darkening.jpg Graphic file (type jpg)
 <use Images/Limb darkening.jpg>
 Package pdftex.def Info: Images/Limb darkening.jpg  used on input line 142.
 (pdftex.def)             Requested size: 268.14603pt x 219.69246pt.
 
-LaTeX Warning: Citation `Foukal_1990' on page 13 undefined on input line 143.
 
-
-LaTeX Warning: Citation `Foukal_1990' on page 13 undefined on input line 143.
-
-
-
-[13 <./Images/Granulation pattern.jpg>]
-
-LaTeX Warning: Citation `Dravins_1981' on page 14 undefined on input line 147.
-
-
-LaTeX Warning: Reference `motion granules' on page 14 undefined on input line 150.
-
-<Images/Granules motion.jpg, id=108, 590.80725pt x 486.01575pt>
+[16 <./Images/Granulation pattern.jpg>]
+<Images/Granules motion.jpg, id=485, 590.80725pt x 486.01575pt>
 File: Images/Granules motion.jpg Graphic file (type jpg)
 <use Images/Granules motion.jpg>
 Package pdftex.def Info: Images/Granules motion.jpg  used on input line 154.
 (pdftex.def)             Requested size: 312.83247pt x 257.34981pt.
 
-LaTeX Warning: Citation `Foukal_1990' on page 14 undefined on input line 155.
 
-
-LaTeX Warning: Citation `Foukal_1990' on page 14 undefined on input line 155.
-
-
-
-[14 <./Images/Limb darkening.jpg>]
-
-LaTeX Warning: Citation `Ellwarth_2023' on page 15 undefined on input line 161.
-
-
-LaTeX Warning: Citation `Foukal_1990' on page 15 undefined on input line 165.
-
-
-LaTeX Warning: Reference `c curved profile' on page 15 undefined on input line 166.
-
-<Images/C curved profile bisector.jpg, id=114, 955.1685pt x 486.618pt>
+[17 <./Images/Limb darkening.jpg>]
+<Images/C curved profile bisector.jpg, id=495, 955.1685pt x 486.618pt>
 File: Images/C curved profile bisector.jpg Graphic file (type jpg)
 <use Images/C curved profile bisector.jpg>
 Package pdftex.def Info: Images/C curved profile bisector.jpg  used on input line 170.
 (pdftex.def)             Requested size: 335.17912pt x 170.75693pt.
 
 
-[15 <./Images/Granules motion.jpg>]
+[18 <./Images/Granules motion.jpg>]
 
-LaTeX Warning: Citation `Gray_Pugh_2012' on page 16 undefined on input line 180.
-
-
-LaTeX Warning: Citation `Gray_2009' on page 16 undefined on input line 183.
-
-
-LaTeX Warning: Citation `Gray_Oostra_2018' on page 16 undefined on input line 183.
-
-
-LaTeX Warning: Citation `Gray_Pugh_2012' on page 16 undefined on input line 183.
-
-
-LaTeX Warning: Citation `Gray_Pugh_2012' on page 16 undefined on input line 186.
-
-
-LaTeX Warning: Reference `core curvature' on page 16 undefined on input line 188.
-
-
-
-[16 <./Images/C curved profile bisector.jpg>]
-
-LaTeX Warning: Citation `Nieminen_2017' on page 17 undefined on input line 201.
-
-
-LaTeX Warning: Reference `asymmetries on lines' on page 17 undefined on input line 201.
-
-<Images/Asymmetries on typical lines.jpg, id=129, 918.43124pt x 486.01575pt>
+[19 <./Images/C curved profile bisector.jpg>]
+<Images/Asymmetries on typical lines.jpg, id=513, 918.43124pt x 486.01575pt>
 File: Images/Asymmetries on typical lines.jpg Graphic file (type jpg)
 <use Images/Asymmetries on typical lines.jpg>
 Package pdftex.def Info: Images/Asymmetries on typical lines.jpg  used on input line 205.
 (pdftex.def)             Requested size: 357.52576pt x 189.19682pt.
 
-LaTeX Warning: Citation `Nieminen_2017' on page 17 undefined on input line 206.
 
+[20 <./Images/Asymmetries on typical lines.jpg>]
 
-LaTeX Warning: Citation `Nieminen_2017' on page 17 undefined on input line 206.
+LaTeX Warning: Reference `third derivative relation' on page 21 undefined on input line 215.
 
-
-LaTeX Warning: Citation `Carroll_Ostlie_2006' on page 17 undefined on input line 210.
-
-
-LaTeX Warning: Citation `Nieminen_2017' on page 17 undefined on input line 213.
-
-
-
-[17 <./Images/Asymmetries on typical lines.jpg>]
-
-LaTeX Warning: Reference `third derivative relation' on page 18 undefined on input line 215.
-
-
-LaTeX Warning: Reference `core curvature' on page 18 undefined on input line 222.
-
-
-LaTeX Warning: Citation `Gray_Oostra_2018' on page 18 undefined on input line 230.
-
-
-LaTeX Warning: Reference `granulation pattern' on page 18 undefined on input line 237.
-
-<Images/Granulation pattern Ellwarth.jpg, id=137, 855.195pt x 528.17325pt>
+<Images/Granulation pattern Ellwarth.jpg, id=526, 855.195pt x 528.17325pt>
 File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
 <use Images/Granulation pattern Ellwarth.jpg>
 Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 241.
 (pdftex.def)             Requested size: 335.17912pt x 207.0022pt.
 
-LaTeX Warning: Citation `Ellwarth_2023' on page 18 undefined on input line 242.
 
+[21]
 
-LaTeX Warning: Citation `Ellwarth_2023' on page 18 undefined on input line 242.
-
-
-
-[18]
-
-LaTeX Warning: Citation `Gray_Pugh_2012' on page 19 undefined on input line 246.
-
-
-LaTeX Warning: Citation `Dravins_1981' on page 19 undefined on input line 247.
-
-
-LaTeX Warning: Citation `Gray_2009' on page 19 undefined on input line 247.
-
-
-LaTeX Warning: Reference `relative velocity' on page 19 undefined on input line 257.
+LaTeX Warning: Reference `relative velocity' on page 22 undefined on input line 257.
 
 
 
-[19 <./Images/Granulation pattern Ellwarth.jpg>]
-
-LaTeX Warning: Citation `Gray_2009' on page 20 undefined on input line 263.
-
-
-LaTeX Warning: Citation `Foukal_1990' on page 20 undefined on input line 274.
-
-<Images/Angular momentum.jpg, id=151, 585.387pt x 540.21825pt>
+[22 <./Images/Granulation pattern Ellwarth.jpg>]
+<Images/Angular momentum.jpg, id=545, 585.387pt x 540.21825pt>
 File: Images/Angular momentum.jpg Graphic file (type jpg)
 <use Images/Angular momentum.jpg>
 Package pdftex.def Info: Images/Angular momentum.jpg  used on input line 279.
 (pdftex.def)             Requested size: 312.83247pt x 288.69655pt.
 
-LaTeX Warning: Citation `Foukal_1990' on page 20 undefined on input line 280.
 
+[23]
 
-LaTeX Warning: Citation `Foukal_1990' on page 20 undefined on input line 280.
+[24 <./Images/Angular momentum.jpg>])
 
-
-LaTeX Warning: Reference `angular momentum' on page 20 undefined on input line 284.
-
-
-LaTeX Warning: Citation `Foukal_1990' on page 20 undefined on input line 290.
-
-
-
-[20]
-
-[21 <./Images/Angular momentum.jpg>])
-
-[22]
+[25]
 Chapter 3.
 (Chapter_3.tex
 
-LaTeX Warning: Citation `Dravins_1981' on page 23 undefined on input line 5.
-
-
-LaTeX Warning: Citation `Allende_Garcia_1988' on page 23 undefined on input line 14.
-
-
-LaTeX Warning: Reference `ap:zscore' on page 23 undefined on input line 15.
-
-
-LaTeX Warning: Reference `core curvature' on page 23 undefined on input line 17.
-
-
-LaTeX Warning: Reference `third derivate relation' on page 23 undefined on input line 17.
-
-
-
-[23
-
-]
-
-LaTeX Warning: Citation `Nave_1994' on page 24 undefined on input line 20.
-
-
-
-[24]
-
-LaTeX Warning: Reference `ap:visualizer' on page 25 undefined on input line 39.
-
-)
-
-[25]
-Chapter 4.
-(Chapter_4.tex
-
-LaTeX Warning: Reference `core curvature' on page 26 undefined on input line 6.
-
-
-LaTeX Warning: Reference `curvatures solar flux' on page 26 undefined on input line 6.
-
-
-LaTeX Warning: File `Images/Results/Curvature_VIS.pdf' not found on input line 11.
-
-
-Chapter_4.tex:11: Package pdftex.def Error: File `Images/Results/Curvature_VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...xtwidth]{Images/Results/Curvature_VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Images/Results/Curvature_NIR.pdf' not found on input line 18.
-
-
-Chapter_4.tex:18: Package pdftex.def Error: File `Images/Results/Curvature_NIR.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ...xtwidth]{Images/Results/Curvature_NIR.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 10--22
- [][] 
- []
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 10--22
- [] 
- []
+LaTeX Warning: Citation `Allende_Garcia_1988' on page 26 undefined on input line 14.
 
 
 
 [26
 
 ]
-Overfull \vbox (444.20952pt too high) has occurred while \output is active []
 
-
-
-[27{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-
-LaTeX Warning: Reference `curvature NIR' on page 28 undefined on input line 26.
-
-
-LaTeX Warning: File `Images/Results/Sharpness_ALL.pdf' not found on input line 31.
-
-
-Chapter_4.tex:31: Package pdftex.def Error: File `Images/Results/Sharpness_ALL.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...newidth]{Images/Results/Sharpness_ALL.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 31--32
- [][] 
- []
-
-
-LaTeX Warning: Reference `all curvature solar flux' on page 28 undefined on input line 36.
-
-
+[27])
 
 [28]
+Chapter 4.
+(Chapter_4.tex
 
-LaTeX Warning: File `Images/Results/Sharpness_ALL.pdf' not found on input line 41.
-
-
-Chapter_4.tex:41: Package pdftex.def Error: File `Images/Results/Sharpness_ALL.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...newidth]{Images/Results/Sharpness_ALL.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Package caption Warning: \label without proper reference on input line 24.
+See the caption package documentation for explanation.
 
 
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 41--42
+LaTeX Warning: Reference `curvatures solar flux' on page 29 undefined on input line 7.
+
+<Images/Results/Curvature_VIS.pdf, id=586, 699.5776pt x 453.54947pt>
+File: Images/Results/Curvature_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Curvature_VIS.pdf>
+Package pdftex.def Info: Images/Results/Curvature_VIS.pdf  used on input line 12.
+(pdftex.def)             Requested size: 491.59877pt x 318.71432pt.
+<Images/Results/Curvature_NIR.pdf, id=587, 690.54385pt x 453.54947pt>
+File: Images/Results/Curvature_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Curvature_NIR.pdf>
+Package pdftex.def Info: Images/Results/Curvature_NIR.pdf  used on input line 19.
+(pdftex.def)             Requested size: 491.59877pt x 322.88052pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 11--23
  [][] 
  []
 
 
-LaTeX Warning: Reference `curvature slope VIS' on page 29 undefined on input line 46.
-
-
-LaTeX Warning: Reference `curvature SPA' on page 29 undefined on input line 48.
-
-
-
-[29]
-
-LaTeX Warning: File `Images/Results/Sharpness_ALL.pdf' not found on input line 53.
-
-
-Chapter_4.tex:53: Package pdftex.def Error: File `Images/Results/Sharpness_ALL.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...newidth]{Images/Results/Sharpness_ALL.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 53--54
- [][] 
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 11--23
+ [] 
  []
 
 
 
-[30]
+[29
 
-LaTeX Warning: Reference `curvature slope SPA' on page 31 undefined on input line 58.
-
-
-LaTeX Warning: File `Images/Results/Sharpness_ALL.pdf' not found on input line 62.
+]
+Overfull \vbox (102.3366pt too high) has occurred while \output is active []
 
 
-Chapter_4.tex:62: Package pdftex.def Error: File `Images/Results/Sharpness_ALL.pdf' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 ...newidth]{Images/Results/Sharpness_ALL.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[30 <./Images/Results/Curvature_VIS.pdf> <./Images/Results/Curvature_NIR.pdf>]
+<Images/Results/Curvature_ALL.pdf, id=716, 699.5776pt x 453.54947pt>
+File: Images/Results/Curvature_ALL.pdf Graphic file (type pdf)
+<use Images/Results/Curvature_ALL.pdf>
+Package pdftex.def Info: Images/Results/Curvature_ALL.pdf  used on input line 32.
+(pdftex.def)             Requested size: 491.59877pt x 318.71432pt.
 
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 32--33
+ [][] 
+ []
 
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 62--63
+<Images/Results/Curvature_Slope_VIS.pdf, id=718, 700.83229pt x 454.44344pt>
+File: Images/Results/Curvature_Slope_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Curvature_Slope_VIS.pdf>
+Package pdftex.def Info: Images/Results/Curvature_Slope_VIS.pdf  used on input line 42.
+(pdftex.def)             Requested size: 491.59877pt x 318.77391pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 42--43
  [][] 
  []
 
 
 
-[31]
+[31 <./Images/Results/Curvature_ALL.pdf>]
+<Images/Results/Curvature_SPA.pdf, id=780, 699.5776pt x 453.54947pt>
+File: Images/Results/Curvature_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Curvature_SPA.pdf>
+Package pdftex.def Info: Images/Results/Curvature_SPA.pdf  used on input line 54.
+(pdftex.def)             Requested size: 491.59877pt x 318.71432pt.
 
-[32]
-
-LaTeX Warning: Citation `Nave_1994' on page 33 undefined on input line 73.
-
-
-LaTeX Warning: Reference `lower energy ALL' on page 33 undefined on input line 74.
-
-
-LaTeX Warning: File `Images/Results/Sharpness_ALL.pdf' not found on input line 78.
-
-
-Chapter_4.tex:78: Package pdftex.def Error: File `Images/Results/Sharpness_ALL.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ...newidth]{Images/Results/Sharpness_ALL.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 78--79
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 54--55
  [][] 
  []
 
 
 
-[33]
+[32 <./Images/Results/Curvature_Slope_VIS.pdf>]
+<Images/Results/Curvature_Slope_SPA.pdf, id=854, 694.8098pt x 454.44344pt>
+File: Images/Results/Curvature_Slope_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Curvature_Slope_SPA.pdf>
+Package pdftex.def Info: Images/Results/Curvature_Slope_SPA.pdf  used on input line 63.
+(pdftex.def)             Requested size: 491.59877pt x 321.54068pt.
 
-LaTeX Warning: Reference `velocity bins energy plot ALL' on page 34 undefined on input line 83.
-
-
-LaTeX Warning: File `Images/Results/Sharpness_ALL.pdf' not found on input line 87.
-
-
-Chapter_4.tex:87: Package pdftex.def Error: File `Images/Results/Sharpness_ALL.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 ...newidth]{Images/Results/Sharpness_ALL.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 87--88
- [][] 
- []
-
-
-LaTeX Warning: Reference `lower energy ALL' on page 34 undefined on input line 88.
-
-
-LaTeX Warning: Reference `lower energy ALL' on page 34 undefined on input line 88.
-
-
-
-[34]
-
-LaTeX Warning: Reference `velocity bins energy ALL' on page 35 undefined on input line 92.
-
-
-LaTeX Warning: File `Images/Results/Sharpness_ALL.pdf' not found on input line 96.
-
-
-Chapter_4.tex:96: Package pdftex.def Error: File `Images/Results/Sharpness_ALL.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 ...newidth]{Images/Results/Sharpness_ALL.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 96--97
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
 
 
-[35]
+[33 <./Images/Results/Curvature_SPA.pdf>]
+<Images/Results/Velocity lower potential_ALL.pdf, id=920, 710.83842pt x 453.54947pt>
+File: Images/Results/Velocity lower potential_ALL.pdf Graphic file (type pdf)
+<use Images/Results/Velocity lower potential_ALL.pdf>
+Package pdftex.def Info: Images/Results/Velocity lower potential_ALL.pdf  used on input line 79.
+(pdftex.def)             Requested size: 491.59877pt x 313.6692pt.
 
-LaTeX Warning: Reference `coef velocity bins energy ALL' on page 36 undefined on input line 101.
-
-
-
-[36]
-
-LaTeX Warning: Reference `velocity bins energy SPA' on page 37 undefined on input line 126.
-
-
-LaTeX Warning: Reference `coef velocity bins energy SPA' on page 37 undefined on input line 126.
-
-
-LaTeX Warning: File `Images/Results/Sharpness_ALL.pdf' not found on input line 130.
-
-
-Chapter_4.tex:130: Package pdftex.def Error: File `Images/Results/Sharpness_ALL.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 ...ewidth]{Images/Results/Sharpness_ALL.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 130--131
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 79--80
  [][] 
  []
 
 
 
-[37]
+[34 <./Images/Results/Curvature_Slope_SPA.pdf>]
+<Images/Results/Velocity bins energy plot_ALL.pdf, id=995, 1433.62076pt x 1204.74211pt>
+File: Images/Results/Velocity bins energy plot_ALL.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins energy plot_ALL.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins energy plot_ALL.pdf  used on input line 88.
+(pdftex.def)             Requested size: 491.59877pt x 413.11803pt.
 
-LaTeX Warning: Reference `third derivative relation' on page 38 undefined on input line 162.
-
-
-LaTeX Warning: Reference `bisector VIS' on page 38 undefined on input line 162.
-
-
-LaTeX Warning: File `Images/Results/Bisector_VIS.pdf' not found on input line 166.
-
-
-Chapter_4.tex:166: Package pdftex.def Error: File `Images/Results/Bisector_VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 ...newidth]{Images/Results/Bisector_VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 88--89
+ [][] 
+ []
 
 
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 166--167
+
+[35 <./Images/Results/Velocity lower potential_ALL.pdf>]
+<Images/Results/Velocity bins energy ALL.pdf, id=1062, 1425.4354pt x 847.48743pt>
+File: Images/Results/Velocity bins energy ALL.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins energy ALL.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins energy ALL.pdf  used on input line 97.
+(pdftex.def)             Requested size: 491.59877pt x 292.28001pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 97--98
+ [][] 
+ []
+
+
+
+[36 <./Images/Results/Velocity bins energy plot_ALL.pdf>]
+
+[37 <./Images/Results/Velocity bins energy ALL.pdf>]
+<Images/Results/Velocity bins energy SPA.pdf, id=1194, 1425.4354pt x 847.48743pt>
+File: Images/Results/Velocity bins energy SPA.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins energy SPA.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins energy SPA.pdf  used on input line 131.
+(pdftex.def)             Requested size: 491.59877pt x 292.28001pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 131--132
  [][] 
  []
 
@@ -1911,462 +1472,222 @@ Overfull \hbox (44.69327pt too wide) in paragraph at lines 166--167
 
 [38]
 
-[39]
+LaTeX Warning: Reference `third derivative relation' on page 39 undefined on input line 163.
+
+<Images/Results/Bisector_VIS.pdf, id=1201, 701.80467pt x 453.54947pt>
+File: Images/Results/Bisector_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Bisector_VIS.pdf>
+Package pdftex.def Info: Images/Results/Bisector_VIS.pdf  used on input line 167.
+(pdftex.def)             Requested size: 491.59877pt x 317.71083pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 167--168
+ [][] 
+ []
+
+
+
+[39 <./Images/Results/Velocity bins energy SPA.pdf>]
 
 [40]
+<Images/Results/Bisector slope_VIS.pdf, id=1284, 712.78319pt x 454.44344pt>
+File: Images/Results/Bisector slope_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Bisector slope_VIS.pdf>
+Package pdftex.def Info: Images/Results/Bisector slope_VIS.pdf  used on input line 179.
+(pdftex.def)             Requested size: 491.59877pt x 313.42068pt.
 
-LaTeX Warning: Reference `bisector slope VIS' on page 41 undefined on input line 174.
-
-
-
-[41]
-
-LaTeX Warning: File `Images/Results/Bisector_VIS.pdf' not found on input line 178.
-
-
-Chapter_4.tex:178: Package pdftex.def Error: File `Images/Results/Bisector_VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 ...newidth]{Images/Results/Bisector_VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 178--179
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 179--180
  [][] 
  []
 
 
 
-[42]
+[41 <./Images/Results/Bisector_VIS.pdf>]
+<Images/Results/Bisector_SPA.pdf, id=1348, 695.78218pt x 453.54947pt>
+File: Images/Results/Bisector_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Bisector_SPA.pdf>
+Package pdftex.def Info: Images/Results/Bisector_SPA.pdf  used on input line 188.
+(pdftex.def)             Requested size: 491.59877pt x 320.46524pt.
 
-LaTeX Warning: Reference `' on page 43 undefined on input line 183.
-
-
-LaTeX Warning: File `Images/Results/Bisector_VIS.pdf' not found on input line 187.
-
-
-Chapter_4.tex:187: Package pdftex.def Error: File `Images/Results/Bisector_VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...newidth]{Images/Results/Bisector_VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 187--188
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 188--189
  [][] 
  []
 
 
 
-[43]
+[42 <./Images/Results/Bisector slope_VIS.pdf>]
+<Images/Results/Bisector slope_SPA.pdf, id=1422, 713.28506pt x 465.68857pt>
+File: Images/Results/Bisector slope_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Bisector slope_SPA.pdf>
+Package pdftex.def Info: Images/Results/Bisector slope_SPA.pdf  used on input line 197.
+(pdftex.def)             Requested size: 491.59877pt x 320.94884pt.
 
-LaTeX Warning: Reference `bisector slope SPA' on page 44 undefined on input line 192.
-
-
-LaTeX Warning: File `Images/Results/Bisector_VIS.pdf' not found on input line 196.
-
-
-Chapter_4.tex:196: Package pdftex.def Error: File `Images/Results/Bisector_VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...newidth]{Images/Results/Bisector_VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 196--197
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 197--198
  [][] 
  []
 
 
 
-[44]
+[43 <./Images/Results/Bisector_SPA.pdf>]
+<Images/Results/Flux deficit_6253.pdf, id=1488, 853.92775pt x 494.26971pt>
+File: Images/Results/Flux deficit_6253.pdf Graphic file (type pdf)
+<use Images/Results/Flux deficit_6253.pdf>
+Package pdftex.def Info: Images/Results/Flux deficit_6253.pdf  used on input line 216.
+(pdftex.def)             Requested size: 491.59877pt x 284.54979pt.
 
-LaTeX Warning: Citation `Hamilton_1999' on page 45 undefined on input line 207.
-
-
-LaTeX Warning: Citation `Gray_Oostra_2018' on page 45 undefined on input line 209.
-
-
-
-[45]
-
-LaTeX Warning: Reference `bisector flux deficit' on page 46 undefined on input line 211.
-
-
-LaTeX Warning: File `Images/Results/Bisector_VIS.pdf' not found on input line 215.
-
-
-Chapter_4.tex:215: Package pdftex.def Error: File `Images/Results/Bisector_VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 ...newidth]{Images/Results/Bisector_VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 215--216
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 216--217
  [][] 
  []
 
 
 
-[46]
+[44 <./Images/Results/Bisector slope_SPA.pdf>]
+<Images/Results/Flux deficit curve_6253.pdf, id=1561, 853.99802pt x 493.36444pt>
+File: Images/Results/Flux deficit curve_6253.pdf Graphic file (type pdf)
+<use Images/Results/Flux deficit curve_6253.pdf>
+Package pdftex.def Info: Images/Results/Flux deficit curve_6253.pdf  used on input line 225.
+(pdftex.def)             Requested size: 491.59877pt x 284.00604pt.
 
-LaTeX Warning: Reference `flux deficit' on page 47 undefined on input line 220.
-
-
-LaTeX Warning: File `Images/Results/Bisector_VIS.pdf' not found on input line 224.
-
-
-Chapter_4.tex:224: Package pdftex.def Error: File `Images/Results/Bisector_VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.224 ...newidth]{Images/Results/Bisector_VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 224--225
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 225--226
  [][] 
  []
 
 
 
-[47]
+[45 <./Images/Results/Flux deficit_6253.pdf>]
+<Images/Results/GranulationPattern_ALL.pdf, id=1630, 715.5435pt x 454.44344pt>
+File: Images/Results/GranulationPattern_ALL.pdf Graphic file (type pdf)
+<use Images/Results/GranulationPattern_ALL.pdf>
+Package pdftex.def Info: Images/Results/GranulationPattern_ALL.pdf  used on input line 242.
+(pdftex.def)             Requested size: 491.59877pt x 312.21413pt.
 
-LaTeX Warning: Citation `Gray_2005' on page 48 undefined on input line 229.
-
-
-LaTeX Warning: File `Images/Results/GranulationPattern_ALL.pdf' not found on input line 241.
-
-
-Chapter_4.tex:241: Package pdftex.def Error: File `Images/Results/GranulationPattern_ALL.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 ...mages/Results/GranulationPattern_ALL.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 241--242
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
 
 
-[48]
+[46 <./Images/Results/Flux deficit curve_6253.pdf>]
+<Images/Results/Velocity bins VIS_plot.pdf, id=1691, 1228.50975pt x 631.62537pt>
+File: Images/Results/Velocity bins VIS_plot.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins VIS_plot.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins VIS_plot.pdf  used on input line 257.
+(pdftex.def)             Requested size: 446.9055pt x 229.76549pt.
+<Images/Results/Velocity bins SPA_plot.pdf, id=1692, 1228.50975pt x 631.62537pt>
+File: Images/Results/Velocity bins SPA_plot.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins SPA_plot.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins SPA_plot.pdf  used on input line 264.
+(pdftex.def)             Requested size: 446.9055pt x 229.76549pt.
 
-[49]
 
-LaTeX Warning: Reference `Granulation solar flux' on page 50 undefined on input line 246.
+[47 <./Images/Results/GranulationPattern_ALL.pdf>]
+<Images/Results/Velocity bins VIS.pdf, id=1756, 1429.43312pt x 707.30061pt>
+File: Images/Results/Velocity bins VIS.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins VIS.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins VIS.pdf  used on input line 278.
+(pdftex.def)             Requested size: 446.9055pt x 221.12802pt.
+<Images/Results/Velocity bins SPA.pdf, id=1757, 1430.44043pt x 848.9498pt>
+File: Images/Results/Velocity bins SPA.pdf Graphic file (type pdf)
+<use Images/Results/Velocity bins SPA.pdf>
+Package pdftex.def Info: Images/Results/Velocity bins SPA.pdf  used on input line 285.
+(pdftex.def)             Requested size: 446.9055pt x 265.23138pt.
 
 
+[48 <./Images/Results/Velocity bins VIS_plot.pdf> <./Images/Results/Velocity bins SPA_plot.pdf>]
+
+[49 <./Images/Results/Velocity bins VIS.pdf> <./Images/Results/Velocity bins SPA.pdf>]
 
 [50]
+<Images/Results/Standard curve gray.pdf, id=2047, 709.40405pt x 565.09435pt>
+File: Images/Results/Standard curve gray.pdf Graphic file (type pdf)
+<use Images/Results/Standard curve gray.pdf>
+Package pdftex.def Info: Images/Results/Standard curve gray.pdf  used on input line 342.
+(pdftex.def)             Requested size: 491.59877pt x 391.60555pt.
 
-LaTeX Warning: Reference `velocity bins' on page 51 undefined on input line 251.
-
-
-LaTeX Warning: File `Images/Results/Velocity bins VIS_plot.pdf' not found on input line 256.
-
-
-Chapter_4.tex:256: Package pdftex.def Error: File `Images/Results/Velocity bins VIS_plot.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256 ...mages/Results/Velocity bins VIS_plot.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Images/Results/Velocity bins SPA_plot.pdf' not found on input line 263.
-
-
-Chapter_4.tex:263: Package pdftex.def Error: File `Images/Results/Velocity bins SPA_plot.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...mages/Results/Velocity bins SPA_plot.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 342--343
+ [][] 
+ []
 
 
 
-[51]
-Overfull \vbox (389.24829pt too high) has occurred while \output is active []
+[51 <./Images/Results/Standard curve gray.pdf>]
+<Images/Results/color curves.pdf, id=2114, 1432.10779pt x 848.39273pt>
+File: Images/Results/color curves.pdf Graphic file (type pdf)
+<use Images/Results/color curves.pdf>
+Package pdftex.def Info: Images/Results/color curves.pdf  used on input line 352.
+(pdftex.def)             Requested size: 491.59877pt x 291.22003pt.
+
+Overfull \hbox (44.69327pt too wide) in paragraph at lines 352--353
+ [][] 
+ []
 
 
 
-[52]
-
-LaTeX Warning: Reference `Velocity bins slopes' on page 53 undefined on input line 272.
-
-
-LaTeX Warning: File `Images/Results/Velocity bins VIS.pdf' not found on input line 277.
-
-
-Chapter_4.tex:277: Package pdftex.def Error: File `Images/Results/Velocity bins VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.277 ...th]{Images/Results/Velocity bins VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Images/Results/Velocity bins SPA.pdf' not found on input line 284.
-
-
-Chapter_4.tex:284: Package pdftex.def Error: File `Images/Results/Velocity bins SPA.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.284 ...th]{Images/Results/Velocity bins SPA.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
+[52 <./Images/Results/color curves.pdf>]
 
 [53]
-Overfull \vbox (367.49829pt too high) has occurred while \output is active []
-
-
-
-[54]
-
-LaTeX Warning: Reference `velocity bins SPA' on page 55 undefined on input line 293.
-
-
-LaTeX Warning: Reference `velocity bins VIS' on page 55 undefined on input line 293.
-
-
-
-[55]
-
-LaTeX Warning: Reference `standard curve gray' on page 56 undefined on input line 337.
-
-
-LaTeX Warning: Citation `Gray_Oostra_2018' on page 56 undefined on input line 337.
-
-
-LaTeX Warning: File `Images/Results/ColorCurves_VIS.pdf' not found on input line 341.
-
-
-Chapter_4.tex:341: Package pdftex.def Error: File `Images/Results/ColorCurves_VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.341 ...idth]{Images/Results/ColorCurves_VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 341--342
- [][] 
- []
-
-
-
-[56]
-
-LaTeX Warning: File `Images/Results/ColorCurves_VIS.pdf' not found on input line 351.
-
-
-Chapter_4.tex:351: Package pdftex.def Error: File `Images/Results/ColorCurves_VIS.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.351 ...idth]{Images/Results/ColorCurves_VIS.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (44.69327pt too wide) in paragraph at lines 351--352
- [][] 
- []
-
-
-
-[57]
-
-LaTeX Warning: Reference `coeficients color curves' on page 58 undefined on input line 356.
-
-
-LaTeX Warning: Reference `Curves Solar Flux coef' on page 58 undefined on input line 373.
-
-
-LaTeX Warning: Reference `Curves Solar Flux coef' on page 58 undefined on input line 373.
-
-
-
-[58]
-Chapter_4.tex:377: Undefined control sequence.
-l.377 ...he curve for the range $4970-5700\matring
-                                                  {A}$ for the starting poin...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `color coefficients' on page 59 undefined on input line 377.
-
-
-LaTeX Warning: Reference `new standard curve' on page 59 undefined on input line 404.
-
-
-LaTeX Warning: Reference `new standard curve' on page 59 undefined on input line 404.
-
-
-LaTeX Warning: Reference `new standard curve' on page 59 undefined on input line 408.
-
-
-LaTeX Warning: Reference `color coefficients' on page 59 undefined on input line 408.
-
-
-
-[59]
-
-LaTeX Warning: Reference `Scattered points' on page 60 undefined on input line 419.
-
-
-LaTeX Warning: Citation `Ellwarth_2023' on page 60 undefined on input line 419.
-
-
-LaTeX Warning: File `Images/Results/Standard curve_Ellwarth.pdf' not found on input line 424.
-
-
-Chapter_4.tex:424: Package pdftex.def Error: File `Images/Results/Standard curve_Ellwarth.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.424 ...ages/Results/Standard curve_Ellwarth.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Images/Results/Standard curve_Ellwarth.pdf, id=2209, 709.01913pt x 454.44344pt>
+File: Images/Results/Standard curve_Ellwarth.pdf Graphic file (type pdf)
+<use Images/Results/Standard curve_Ellwarth.pdf>
+Package pdftex.def Info: Images/Results/Standard curve_Ellwarth.pdf  used on input line 415.
+(pdftex.def)             Requested size: 402.21222pt x 257.80115pt.
 File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
 <use Images/Granulation pattern Ellwarth.jpg>
-Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 429.
+Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 420.
 (pdftex.def)             Requested size: 357.52576pt x 220.80772pt.
 
 
-[60]
-Overfull \vbox (43.77216pt too high) has occurred while \output is active []
+[54]
+<Images/Results/variance VIS.pdf, id=2215, 1431.47296pt x 708.24849pt>
+File: Images/Results/variance VIS.pdf Graphic file (type pdf)
+<use Images/Results/variance VIS.pdf>
+Package pdftex.def Info: Images/Results/variance VIS.pdf  used on input line 435.
+(pdftex.def)             Requested size: 446.9055pt x 221.11096pt.
+<Images/Results/variance NIR.pdf, id=2216, 1431.56328pt x 708.24849pt>
+File: Images/Results/variance NIR.pdf Graphic file (type pdf)
+<use Images/Results/variance NIR.pdf>
+Package pdftex.def Info: Images/Results/variance NIR.pdf  used on input line 442.
+(pdftex.def)             Requested size: 446.9055pt x 221.10016pt.
 
 
+[55 <./Images/Results/Standard curve_Ellwarth.pdf>])
 
-[61])
-
-[62]
+[56 <./Images/Results/variance VIS.pdf> <./Images/Results/variance NIR.pdf>]
 Chapter 5.
 (Chapter_5.tex) (Chapter_6.tex
 
-[63
+[57
 
 ]
 Appendix A.
 
-LaTeX Warning: Citation `Boyd_2014' on page 64 undefined on input line 5.
 
-
-LaTeX Warning: Reference `z score' on page 64 undefined on input line 7.
-
-
-LaTeX Warning: Reference `re scaled derivates' on page 64 undefined on input line 16.
-
-
-LaTeX Warning: Reference `z score' on page 64 undefined on input line 23.
-
-
-LaTeX Warning: Reference `2 and 3 scaled derivate' on page 64 undefined on input line 24.
-
-
-
-[64
+[58
 
 ]
 
-[65]
+[59]
 Appendix B.
 
 
-[66
+[60
 
 ]
 Appendix C.
 
 
-[67
+[61
 
 ]
 
-[68]) (Chapter_0.bbl
+[62]) (Chapter_0.bbl
 
-[69]
+[63]
 
-[70
+[64
 
-]
+])
 
-[71])
-
-LaTeX Warning: Citation `Aponte' undefined on input line 73.
-
-
-LaTeX Warning: Citation `Stief_2019' undefined on input line 74.
-
-
-
-[72] (Chapter_0.aux)
+[65] (Chapter_0.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -2376,29 +1697,23 @@ L3 programming layer <2025-09-02>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `Chapter_0.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Chapter_0.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  43A42F64D819CADA1A26049297A8BE21;11211.
+Package rerunfilecheck Info: File `Chapter_0.out' has not changed.
+(rerunfilecheck)             Checksum: 8F9788084800D3D6C6C9BFB254126BF9;11068.
  ) 
 Here is how much of TeX's memory you used:
- 20772 strings out of 468130
- 340694 string characters out of 5430633
- 717679 words of memory out of 5000000
- 48880 multiletter control sequences out of 15000+600000
- 702893 words of font info for 120 fonts, out of 8000000 for 9000
+ 20632 strings out of 468130
+ 334242 string characters out of 5430633
+ 731304 words of memory out of 5000000
+ 48745 multiletter control sequences out of 15000+600000
+ 699815 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,11n,93p,617b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Chapter_0.pdf (75 pages, 1695137 bytes).
+ 89i,11n,93p,617b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on Chapter_0.pdf (68 pages, 2716661 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 187 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2518 PDF objects out of 2984 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
+ 543 words of extra memory for PDF output out of 10000 (max. 10000000)
 
