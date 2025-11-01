@@ -245,7 +245,7 @@ The granulation patterns for the IAG Solar Flux Atlas in all the wavelength rang
 
 \begin{figure}[H]
     \centering
- \includegraphics[width=1.0\linewidth]{Images/Results/GranulationPattern_ALL.pdf}
+ \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/GranulationPattern_ALL.pdf}
     \caption{Granulation pattern obtained for the Solar Flux Atlas. The wavelength shift dependence is along the line depth.}\label{fig:Granulation solar flux}
 \end{figure}
 
@@ -260,12 +260,12 @@ The wavelengths from both atlases were then sorted into velocity bins of $50m/s$
 \begin{figure}[H]
      \centering
      \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Velocity bins VIS_plot.pdf}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity bins VIS_plot.pdf}
          \caption{Visible range for the Solar Flux Atlas.}\label{fig:vel bins plot VIS}
      \end{subfigure}
 \hfill
      \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Velocity bins SPA_plot.pdf}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity bins SPA_plot.pdf}
          \caption{Visible range for the Spatially Resolved Quiet Sun Atlas.}\label{fig:vel bins plot SPA}
      \end{subfigure}
 
@@ -277,12 +277,12 @@ For each velocity bin was plotted wavelength against line depth to measure a fre
 \begin{figure}[H]
      \centering
      \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Velocity bins VIS.pdf}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity bins VIS.pdf}
          \caption{Velocity bins of $50m/s$ for the Solar Flux Atlas.}\label{fig:vel bins VIS}
      \end{subfigure}
 \hfill
      \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Velocity bins SPA.pdf}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity bins SPA.pdf}
          \caption{Velocity bins of $50m/s$ for the Spatially Resolved Quiet Sun Atlas.}\label{fig:vel bins SPA}
      \end{subfigure}
 
@@ -339,7 +339,7 @@ The figure~\ref{fig:standard curve gray} show the standard curve proposed for Gr
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/Standard curve gray.pdf}
+    \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/Standard curve gray.pdf}
     \caption{Standard curve given by Gray and Oostra and recalculated for comparision with the current work.}\label{fig:standard curve gray}
 \end{figure}
 
@@ -348,13 +348,13 @@ The spectrum was separated into distinct color ranges, and a second-order polyno
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/color curves.pdf}
-    \caption{Different color curves fitted to a specific range on granulation pattern. The tendency on the curves is more pronounced in the violet and red range.}\label{fig:Curves Solar Flux}
+    \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/color curves.pdf}
+    \caption{Different color curves fitted to a specific range on granulation pattern for the visible range in the Solar Flux Atlas. The tendency on the curves is more pronounced in the violet and red range.}\label{fig:Curves Solar Flux}
 \end{figure}
 
-The tendency on the curves is more pronounced in the violet and near infrared range. 
-This can be interpreted as the standard curve from Gray and Oostra is shifted and flattered along decreasing wavelengths.
-Taking the curve for the range $4970-5700\mathring{A}$ for the starting point or standard curve different scaling coefficients wer calculated as shown the table~\ref{tab:color coefficients}.
+The trend in the curves is more pronounced in the violet and red ranges. 
+This can be interpreted as a shift and flattening of the standard curve from Gray and Oostra towards shorter wavelengths.
+Using the curve for the range $4970-5700\mathring{A}$ as a reference (green standard curve), distinct scaling coefficients were calculated for each color segment, as shown in Table~\ref{tab:color coefficients}.
 
 \begin{table}[H]
     \centering
@@ -367,21 +367,59 @@ Taking the curve for the range $4970-5700\mathring{A}$ for the starting point or
 4970-5700         &    1.000     \\ \hline
 5700-5810         &       1.0595       \\\hline
 5810-6180           &        0.9834          \\ \hline
-6180-7800            &        1.0149      \\ \hline
-7800-11000            &        0.2857    \\  \hline
-11000-23000            &        -0.0115    \\  \hline
+6180-7800            &        1.1149      \\ \hline
+
 \end{tabular}
-\caption{Scaling factors to the new standard curve shown in the equation~\eqref{eq:new standard curve}.}\label{tab:color coefficients}
+\caption{Scaling factors $\alpha_c$ to the new standard curve shown in the equation~\eqref{eq:new standard curve}.}\label{tab:color coefficients}
 \end{table}
 
-The equation~\eqref{eq:new standard curve} reports a new standard curve which coefficients depends on the color, and give the corresponding granulation pattern curve for each color range exposed on the table \ref{color coefficients}.
+The equation~\eqref{eq:new standard curve} reports a new, color dependent standard curve. 
+Its coefficients $(\alpha_c)$ vary with the color range, generating the corresponding granulation pattern for each spectral segment listed in Table~\ref{tab:color coefficients}.
 
 \begin{equation}
-    F/F_c = 1.2925\times 10^{-6}\alpha_c v^2 - 0.0019\alpha_c v +0.8671	\alpha_c
+    F/F_c = \alpha_c(1.2925\times 10^{-6} v^2 - 0.0019 v +0.8671)	
 \label{eq:new standard curve}
 \end{equation}
 
-The near infrared range dont show the same tendency have a linear behavior.
+However, when the color coefficients $\alpha_c$ are plotted against wavelength, they exhibit a quadratic tendency that increases with longer wavelengths.
+This finding leads us to model the coefficient $\alpha_c$ as a function of wavelength, as shown in equation~\eqref{eq:coefficient trend}
+
+\begin{equation}
+    \circledast(\lambda) = -6.7598\times 10^{-8} \lambda^2 + 9.1584\times 10^{-4} \lambda - 2.0041	
+\label{eq:coefficient trend}
+\end{equation}
+
+Then, the characterization for the granulation pattern it can be described by equation~\ref{eq:THE curve}
+
+\begin{equation}
+    F/F_c(\lambda,v) = \circledast(\lambda)[1.2925\times 10^{-6} v^2 - 0.0019 v +0.8671]	
+\label{eq:THE curve}
+\end{equation}
+
+On the other hand, chromodependence was also identified in the near infrared range, although it is less pronounced than in the visible spectrum.
+There were defined specific wavelength ranges by excluding regions dominated by telluric absorption lines, and was found linear relationships for each range (see Figure~\ref{fig:Curves nir Solar Flux}).
+However, unlike the visible range these relationships do not exhibit a unified correlation.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/color curves nir.pdf}
+    \caption{Different color curves fitted to a specific ranges on granulation pattern for the near infrared range in the Solar Flux Atlas.}\label{fig:Curves nir Solar Flux}
+\end{figure}
+
+The coefficients for each linear fit applied are shown in the table~\ref{tab:color coefficients nir}.
+
+\begin{table}[H]
+    \centering
+\begin{tabular}{||c|c|c||}
+    \hline
+\textbf{Wavelength range} &\textbf{Slope} & \textbf{Shift}  \\ \hline
+7000-8500         &    -0.0010     &   0.9279 \\\hline
+8500-11000           &     -0.0009   &  0.9496   \\\hline
+11000-16000         &      -0.0003  &  0.7546 \\ \hline
+16000-23000         &    -0.0001  &  0.7633 \\ \hline
+\end{tabular}
+\caption{Coefficients for the first order polynomial fit in each wavelength range in the near infrared.}\label{tab:color coefficients nir}
+\end{table}
 
 \section{Higher quality graphs}
 
@@ -389,12 +427,13 @@ To show the improvement on the quality in the third signature plots, the figure~
 
 \begin{figure}[H]
      \centering
-     \begin{subfigure}{0.5\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Standard curve_Ellwarth.pdf}
+     \begin{subfigure}{0.47\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/Standard curve_Ellwarth.pdf}
 
      \end{subfigure}
 \hfill
-     \begin{subfigure}{0.5\textwidth}
+     \begin{subfigure}{0.47\textwidth}
+
          \includegraphics[width=\textwidth]{Images/Granulation pattern Ellwarth.jpg}
      \end{subfigure}
 
@@ -405,17 +444,17 @@ The less scattered points and the improvement on the chromodepence identificatio
 
 Furthermore, the variance of the observed wavelength was analyzed by altering the number of points used in the fourth-order polynomial fit. 
 Figure~\ref{fig:variance} shows that this parameter set performs well in the visible spectrum. H
-owever, its performance degrades in the infrared, where the number of data points defining the line core is reduced compared to a typical line in the visible range.
+However, its performance degrades in the infrared, where the number of data points defining the line core is reduced compared to a typical line in the visible range.
 
 \begin{figure}[H]
      \centering
-     \begin{subfigure}{0.85\textwidth}
+     \begin{subfigure}{1.0\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/variance VIS.pdf}
          \caption{Variance for random lines in the visible range for the Solar Flux Atlas.}
 
      \end{subfigure}
 \hfill
-     \begin{subfigure}{0.85\textwidth}
+     \begin{subfigure}{1.0\textwidth}
 
          \includegraphics[width=\textwidth]{Images/Results/variance NIR.pdf}
          \caption{Variance for random lines in the near infrared range for the Solar Flux Atlas.}
