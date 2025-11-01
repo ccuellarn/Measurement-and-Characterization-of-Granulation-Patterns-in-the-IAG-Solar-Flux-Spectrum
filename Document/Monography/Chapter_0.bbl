@@ -31,10 +31,9 @@ M.~Ellwarth, B.~Ehmann, S.~Schäfer, and A.~Reiners, ``Convective
 \bibitem{Gray_Oostra_2018}
 D.~F. Gray and B.~Oostra, ``The solar-flux third granulation signature,'' {\em
   The Astrophysical Journal}, vol.~852, p.~42, Jan. 2018.
-\newblock ADS Bibcode: 2018ApJ...852...42G.
 
 \bibitem{Gray_2009}
-D.~F. Gray, ``The third signature of stelar granulation,'' {\em The
+D.~F. Gray, ``The third signature of stellar granulation,'' {\em The
   Astrophysical Journal}, vol.~697, p.~1032, May 2009.
 
 \bibitem{Hamilton_1999}
@@ -45,7 +44,7 @@ D.~Hamilton and J.~B. Lester, ``A technique for the study of stellar
 \bibitem{Dravins_1981}
 D.~Dravins, L.~Lindegren, and A.~Nordlund, ``Solar granulation - influence of
   convection on spectral line asymmetries and wavelength shifts,'' {\em
-  Astronomy and Astrophysics}, vol.~96, p.~345–364, Mar. 1981.
+  Astronomy and Astrophysics}, vol.~96, pp.~345--364, Mar. 1981.
 
 \bibitem{Gray_Pugh_2012}
 D.~F. Gray and T.~Pugh, ``The third signature of granulation in bright-giant
@@ -61,7 +60,6 @@ A.~Reiners, N.~Mrotzek, U.~Lemke, J.~Hinrichs, and K.~Reinsch, ``The iag solar
 \bibitem{Plaskett_1936}
 H.~H. Plaskett, ``Solar granulation,'' {\em Monthly Notices of the Royal
   Astronomical Society}, vol.~96, p.~402, Mar. 1936.
-\newblock ADS Bibcode: 1936MNRAS..96..402P.
 
 \bibitem{Carroll_Ostlie_2006}
 B.~Carroll and D.~Ostlie, {\em An Introduction to Modern Astrophysics}.
@@ -76,12 +74,43 @@ G.~Nave, S.~Johansson, R.~C.~M. Learner, A.~P. Thorne, and J.~W. Brault, ``A
 C.~Allende~Prieto and R.~J. Garcia~Lopez, ``Fe i line shifts in the optical
   spectrum of the sun,'' {\em Astronomy and Astrophysics Supplement Series},
   vol.~129, pp.~41--44, Apr. 1998.
-\newblock ADS Bibcode: 1998AAS..129...41A.
 
 \bibitem{Boyd_2014}
 J.~P. Boyd, {\em Solving Transcendental Equations: The Chebyshev Polynomial
   Proxy and Other Numerical Rootfinders, Perturbation Series, and Oracles}.
 \newblock SIAM, Oct. 2014.
-\newblock Google-Books-ID: ANGgBAAAQBAJ.
+
+\bibitem{Aponte}
+J.~S. Aponte, {\em Medición de la velocidad convectiva en la fotosfera solar}.
+\newblock Bachelor's thesis, Universidad de los Andes, 2017.
+
+\bibitem{Gray_2010}
+D.~F. Gray, ``Empirical decoding of the shapes of spectral-line bisectors,''
+  {\em The Astrophysical Journal}, vol.~710, p.~1003, Jan. 2010.
+
+\bibitem{Gray_Brown_2006}
+D.~F. Gray and K.~I.~T. Brown, ``Precise spectroscopic radial velocity
+  measurements using telluric lines,'' {\em Publications of the Astronomical
+  Society of the Pacific}, vol.~118, p.~399, Mar. 2006.
+
+\bibitem{Gray_2005}
+D.~F. Gray, {\em The Observation and Analysis of Stellar Photospheres}.
+\newblock Cambridge University Press, 3~ed., 2005.
+
+\bibitem{Stief_2019}
+F.~Stief, J.~Löhner-Böttcher, W.~Schmidt, T.~Steinmetz, and R.~Holzwarth,
+  ``Convective blueshifts in the solar atmosphere - ii. high-accuracy
+  observations of the fe i 6173.3 Å line and deviations of full-disk
+  dopplergrams,'' {\em Astronomy and Astrophysics}, vol.~622, p.~A34, Feb.
+  2019.
+
+\bibitem{Ryden_2003}
+B.~Ryden, {\em Introduction to cosmology}.
+\newblock Cambridge University Press, 2016.
+
+\bibitem{Cacciani_2006}
+A.~Cacciani, R.~Briguglio, F.~Massa, and P.~Rapex, ``Precise measurement of the
+  solar gravitational red shift,'' {\em Celestial Mechanics and Dynamical
+  Astronomy}, vol.~95, pp.~425--437, May 2006.
 
 \end{thebibliography}
