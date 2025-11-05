@@ -1,41 +1,110 @@
 \begin{appendices}
 \chapter{Z-score Standardization}\label{ap:zscore}
-In the process of calculating the four order polynomial fit the function np.poly.fit () presents an over estimation on the coefficients, due to the large difference of magnitude order between axes.
-To deal with this difference a z-score standardization was used on the selected bins of wavelengths around the observed wavelength. 
+In the process of calculating the fourth-order polynomial fit the function np.poly.fit () presents an over estimation on the coefficients, due to the large difference of magnitude order between axes.
+To deal with this difference a z-score standardization was used on the selected bins of wavelengths around the reference point for a minimum. 
 This process helps to avoid the dominance of certain features over others due to differences in their scales~\cite{Boyd_2014}.
 
 The follow up for the standardization was applied the relation~\eqref{eq:z score} on the selected bins for wavelength.
 
 \begin{equation}
-\lambda_{scaled}= \frac{\lambda-\mu(\lambda)}{\sigma(\lambda)}
+\lambda_{scaled}= \frac{\lambda_{original}-\mu(\lambda_{original})}{\sigma(\lambda_{original})}
 \label{eq:z score}
 \end{equation}
 
-Where $\mu(\lambda)$ refers to the mean and $\sigma(\lambda)$ to the standard deviation of the wavelength range. 
+Where $\mu(\lambda_{original})$ refers to the mean and $\sigma(\lambda_{original})$ to the standard deviation of the wavelength range. 
 As the wavelength was scaled, in terms of calculated derivatives for the first and the second signature, a re-scaled for these values was necessary.
-Based on the definition for the standardization, the derivatives follow the relation~\eqref{re scaled derivates}.
+Based on the definition for the standardization, the derivatives follow the relation~\eqref{eq:re scaled derivates}.
 
 \begin{equation}
- \frac{d}{d \lambda} = \frac{1}{\sigma(\lambda)} \frac{d}{d \lambda_{scaled}}
-\label{re scaled derivates}
+ \frac{d}{d \lambda_{original}} = \frac{1}{\sigma(\lambda_{original})} \frac{d}{d \lambda_{scaled}}
+\label{eq:re scaled derivates}
 \end{equation}
 
 Taking the derivative of the expression~\eqref{eq:z score} a factor related to the standard deviation appears.
-With this, the original values for derivatives evaluated in the observed wavelength are expressed in equation~\eqref{2 and 3 scaled derivate}
+With this, the original values for derivatives evaluated in the observed wavelength are expressed in equation~\eqref{eq:2 and 3 scaled derivate}
 
 \begin{equation}
- \frac{d^2}{d \lambda^2} = \frac{1}{\sigma(\lambda)^2} \frac{d^2}{d \lambda_{scaled}^2} \quad \quad \frac{d^3}{d \lambda^3} = \frac{1}{\sigma(\lambda)^3} \frac{d^3}{d \lambda_{scaled}^3}
-\label{2 and 3 scaled derivate}
+ \frac{d^2}{d \lambda_{original}^2} = \frac{1}{\sigma(\lambda_{original})^2} \frac{d^2}{d \lambda_{scaled}^2} \quad\quad \quad \frac{d^3}{d \lambda_{original}^3} = \frac{1}{\sigma(\lambda_{original})^3} \frac{d^3}{d \lambda_{scaled}^3}
+\label{eq:2 and 3 scaled derivate}
 \end{equation}
 
 This improved considerably the precision in the fit and there over the precision on the observed wavelength calculated.
 
 \chapter{The third derivate relation}\label{ap:third derivative}
 
-Or called the bisector slope. 
-It was multiplied by the relation ($\frac{c}{\lambda}$) to see each clear in the graphic.
+The third derivate relation or called the line profile bisector slope was deducted by Professor Benjamin and showed below.
 
-The derivation as follows...
+We defined the slope as equation~\eqref{eq:slope}, where the points $b,c,h$ are illustrated in the figure~\ref{fig:slope}
+
+\begin{equation}
+ CBS = \lim_{h\to 0} \frac{\frac{b+c}{2}-a}{h}
+\label{eq:slope}
+\end{equation}
+
+Note that in a symmetrical line the bisector is vertical and the slope, according to this definition, is zero.
+Now, the curve may be expanded around the point $a$ by Taylor series noticing that $a$ is chosen at the minimum, so $f'(a)=0$ and $f(c)-f(a)=h$,giving
+
+\begin{equation}
+ 2h=(c-a)^2f''(a)+\frac{1}{3}(c-a)^3f'''(a)
+\end{equation}
+
+We may abbreviate $c-a=x>0$ and likewise $b-a=y<0$ obtaining
+
+\begin{equation}
+ 2h=x^2f''(a)+\frac{1}{3}x^3f'''(a) \quad \quad 2h=y^2f''(a)+\frac{1}{3}y^3f'''(a)
+\end{equation}
+
+So, $x$ and $y$ are tow equations roots. The core bisector slope is now defined by 
+
+\begin{equation}
+ CBS = \lim_{h\to 0} \frac{x+y}{2h}
+\end{equation}
+
+One of the possible roots for the cubic (ideal 4th order) equation, the two that we need are those that trend to 
+
+\begin{equation}
+ CBS = \lim_{h\to 0} \frac{x}{y} = -1
+\end{equation}
+
+If wrote the polynomial equation in the standard form $ax^3+bx^2+cx+d=0$ the coefficients are
+$a=\frac{f'''}{3}$, $b=f''$, $c=0$, $d=-2h$. A standard procedure id to change variable to $x=t-\frac{b}{3a}=t-\frac{f''}{f'''}$
+which produces the "depressed" equation.
+
+\begin{equation}
+ t^3+pt+q=0 \quad \rightarrow \quad p=-3\parens{\frac{f''}{f'''}}^2 \quad q = 2\frac{(f'')^3-3h(f''')^2}{(f''')^3}
+\end{equation}
+
+Where the equation have three solutions of the form:
+\begin{equation}
+ t_i = 2\parens{\frac{f''}{f'''}}\cos\parens{\frac{1}{3}\arccos\parens{\frac{3h(f''')^2}{(f'')^3} - 1} -\frac{2\pi i}{3}}
+\end{equation}
+
+When $h$ vanishes, there are two equal solutions and one differing. LeTS abbreviate
+\begin{equation}
+\epsilon = \frac{h(f''')^2}{(f'')^3} <<1
+\end{equation}
+
+In the limit $h\to 0$ we have $\epsilon <<1$ which means $\arccos(3\epsilon -1)=\pi-\delta$ with $\delta$ an small angle.
+So, $\delta=\sqrt{6\epsilon}$ and the solution that we need
+
+\begin{equation}
+t_{\pm} = 2\frac{f''}{f'''}\parens{\frac{1}{2}\cos\parens{\frac{\sqrt{6\epsilon}}{3}} -/+ \frac{\sqrt{3}}{2}\sin\parens{\frac{\sqrt{6\epsilon}}{3}} }
+\end{equation}
+
+For the bisector slope we need
+
+\begin{equation}
+x+y = t_+ + t_- - 2\parens{\frac{f''}{f'''}} = -\frac{2}{3}\parens{\frac{f''}{f'''}}\epsilon = -2h\frac{f''}{3(f''')^2}
+\end{equation}
+
+Whence, finally, the core bisector slope is defined by equation~\eqref{eq:CBS}
+
+\begin{equation}
+CBS =  -\frac{f''}{3(f''')^2}
+\label{eq:CBS}
+\end{equation}
+
+In the code it was multiplied by the relation ($\frac{c}{\lambda}$) to see each clear in the graphic.
 
 \chapter{Visualizer for outliers}\label{ap:visualizer}
 
@@ -44,53 +113,55 @@ Two versions of the visualizer were created, separated by filters. The first fil
 
 Thanks to this visualizer the time expended seeing lines was reduced significantly. Specially cause count with his own system to classification, adding lines to a Dataframe and save the images. Following the motivation this can be seen on \href{https://github.com/ccuellarn/Final-Project}{GitHub} and it's given a test example below.
 
+REMEMBER: 
+The window for the abs in the local minimums points are 0.01A 
 \section{Test example}
 
-% The main code is in the file Visualizer.ipynb and the test example data are test.xlsx, feel free to change the type of data, the important is make a dataframe where the columns are [Wave , Flux] wavelength on Armstrong and flux normalized preferred. Then made another dataframe with the list of lines of Fe I.
+The main code is in the file Visualizer.ipynb and the test example data are test.xlsx, feel free to change the type of data, the important is make a dataframe where the columns are [Wave , Flux] wavelength on Armstrong and flux normalized preferred. Then made another dataframe with the list of lines of Fe I.
 
-% Use the function closer lines to select the closer minimums of the Fe I lines, with the flux and Fe I line associated. Don't be confused, this is not the observed wavelength. This point is a reference for selecting the bins around the Fe I line. The function discards distances between minimums and Fe I line over $0.001\mathring{A}$. 
-% Furthermore, assuming the statement that fourth order polynomial fits need to be convex, were discarded fits with the second order coefficient negative and equal to cero. For discarding the lines which don't belong to the spectrum an approximation was taken.
-% A computational form of a slope can be seen as the difference between the maximum and minimum point of the list of points. In terms of flux if it is seen the distance can't be more than a half of the absolute difference. This lets us discard pronounced slopes without affecting or filtering weaker lines.
-% Then use the function local points for selecting the bins of $0.1m\mathring{A}$ around the minimal point, each corresponding to one index on the closer lines dataframe. 
+Use the function closer lines to select the closer minimums of the Fe I lines, with the flux and Fe I line associated. Don't be confused, this is not the observed wavelength. This point is a reference for selecting the bins around the Fe I line. The function discards distances between minimums and Fe I line over $0.001\mathring{A}$. 
+Furthermore, assuming the statement that fourth order polynomial fits need to be convex, were discarded fits with the second order coefficient negative and equal to cero. For discarding the lines which don't belong to the spectrum an approximation was taken.
+A computational form of a slope can be seen as the difference between the maximum and minimum point of the list of points. In terms of flux if it is seen the distance can't be more than a half of the absolute difference. This lets us discard pronounced slopes without affecting or filtering weaker lines.
+Then use the function local points for selecting the bins of $0.1m\mathring{A}$ around the minimal point, each corresponding to one index on the closer lines dataframe. 
 
-% If it runs correctly, the graphics for the intervals (), (), and () need to be seen like figure ().
+If it runs correctly, the graphics for the intervals (), (), and () need to be seen like figure ().
 
-% The next function Fit Derivatives finds the fourth order polynomial fit and calculates the minimum point with the second derivative of the fit, that is the observed wavelength. This returns a dataframe with the Fe I line associated, the polynomial fit, and the observed wavelength. In parallel is calculated the bisectors of each line following the midpoint method, where equal points of flux are selected for comparison.
+The next function Fit Derivatives finds the fourth order polynomial fit and calculates the minimum point with the second derivative of the fit, that is the observed wavelength. This returns a dataframe with the Fe I line associated, the polynomial fit, and the observed wavelength. In parallel is calculated the bisectors of each line following the midpoint method, where equal points of flux are selected for comparison.
 
-% With this information can be used the first visualizer
+With this information can be used the first visualizer
 
-% From this is the first visualizer that receives the local points, the values and the fit. This shows the line core and the fourth polynomial fit, in parallel is shown the bisector of each line in terms of velocity.
+From this is the first visualizer that receives the local points, the values and the fit. This shows the line core and the fourth polynomial fit, in parallel is shown the bisector of each line in terms of velocity.
 
-% We recommend eliminating the lines that follow one of the conditions presented below:
-% 1)The bisector doesn't show a C-curved bisector or it's too affected by the noise.
-% 2)There is no curve or polynomial fit. This can be interpreted as the position on other points to the fit.
-% 3) There's too much noise on the original line.
+We recommend eliminating the lines that follow one of the conditions presented below:
+1)The bisector doesn't show a C-curved bisector or it's too affected by the noise.
+2)There is no curve or polynomial fit. This can be interpreted as the position on other points to the fit.
+3) There's too much noise on the original line.
 
-% With this first filter the number of possible lines are reduced for calculating derivatives.
+With this first filter the number of possible lines are reduced for calculating derivatives.
 
-% The second part of the code calculates the granulation pattern, core curvature and bisector slope. With these values the visualizer shows all the graphics including the line profile with the polynomial fit. In each graphic of derivatives the corresponding Fe I is resalted, this with the finally to select lines depending on his behavior.
+The second part of the code calculates the granulation pattern, core curvature and bisector slope. With these values the visualizer shows all the graphics including the line profile with the polynomial fit. In each graphic of derivatives the corresponding Fe I is resalted, this with the finally to select lines depending on his behavior.
  
-% This is a code test:
-% Run the file test, you can adapt this part on your necessaries. The idea is the Dataframe results have the columns Wave (cm), nFlux and Wave A (there's no need for the flux to be normalized, it cannot be, we test this on arturus). 
+This is a code test:
+Run the file test, you can adapt this part on your necessaries. The idea is the Dataframe results have the columns Wave (cm), nFlux and Wave A (there's no need for the flux to be normalized, it cannot be, we test this on arturus). 
 
-% Then run the nave list, the present github has the table organized on an excel.
+Then run the nave list, the present github has the table organized on an excel.
 
-% Run the cell of closer points and local points, the first needs to be returned a Dataframe and the other a list of dataframes.
+Run the cell of closer points and local points, the first needs to be returned a Dataframe and the other a list of dataframes.
 
-% For the first filter code you need to have a dataframe with the columns (), the list of local points and the closer lines associated with the Dataframe, the fit values and the covariance values.
+For the first filter code you need to have a dataframe with the columns (), the list of local points and the closer lines associated with the Dataframe, the fit values and the covariance values.
 
-% Modified this line to call the first visualizer.
+Modified this line to call the first visualizer.
 
-% Then, this part helps to extract the Dataframe with the lines that don't behave like the condition parameters. This can also help to drop the unnecessary lines
+Then, this part helps to extract the Dataframe with the lines that don't behave like the condition parameters. This can also help to drop the unnecessary lines
 
-% For the second enter the file with the lines resulting in the first filter, and run again the code for closer lines and local points, and then the second big filter.
+For the second enter the file with the lines resulting in the first filter, and run again the code for closer lines and local points, and then the second big filter.
 
-% Modified this line to call the second visualizer.
+Modified this line to call the second visualizer.
 
-% The next line helps to extract the lines to drop and remove it for the Dataframe.
+The next line helps to extract the lines to drop and remove it for the Dataframe.
 
-% \section{Conditions justifications}
-% Two is for observations on polynomial fits that derive for mathematics properties. The third born on the many observations that i realize after the creation of visualizer, I see the parameter of 0.001 for near lines and I put the value
+\section{Conditions justifications}
+Two is for observations on polynomial fits that derive for mathematics properties. The third born on the many observations that i realize after the creation of visualizer, I see the parameter of 0.001 for near lines and I put the value
 
 \end{appendices}
 

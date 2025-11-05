@@ -41,5 +41,6 @@
 \contentsline {chapter}{\numberline {5}Conclusions}{60}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Z-score Standardization}{61}{appendix.1.A}%
 \contentsline {chapter}{\numberline {B}The third derivate relation}{63}{appendix.1.B}%
-\contentsline {chapter}{\numberline {C}Visualizer for outliers}{64}{appendix.1.C}%
-\contentsline {section}{\numberline {C.1}Test example}{64}{section.1.C.1}%
+\contentsline {chapter}{\numberline {C}Visualizer for outliers}{65}{appendix.1.C}%
+\contentsline {section}{\numberline {C.1}Test example}{65}{section.1.C.1}%
+\contentsline {section}{\numberline {C.2}Conditions justifications}{67}{section.1.C.2}%
