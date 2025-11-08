@@ -13,12 +13,12 @@ Furthermore, for deep lines the line core curvature is reduced by saturation wit
      \centering
      \begin{subfigure}{0.9\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_VIS.pdf}
-         \caption{Line core curvatures for the visible range in the Solar Flux Atlas. While shallow lines curvature is proportinal to depth, deep lines curvature is reduced by saturation with is strongly wavelength-dependence.}\label{fig:curvature VIS}
+         \caption{Line core curvatures for the visible range. While shallow lines curvature is proportinal to depth, deep lines curvature is reduced by saturation with is strongly wavelength-dependence.}\label{fig:curvature VIS}
      \end{subfigure}
 \hfill
      \begin{subfigure}{0.9\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_NIR.pdf}
-         \caption{Line core curvatures for the near infrared range in the Solar Flux Atlas. The plot shows a conspicuous partition around $\SI{14000}{\angstrom}$}\label{fig:curvature NIR}%
+         \caption{Line core curvatures for the near infrared range. The plot shows a conspicuous partition around $\SI{14000}{\angstrom}$}\label{fig:curvature NIR}%
      \end{subfigure}
      \caption{Line core curvatures for the IAG solar flux atlas separated in wavelength ranges.}\label{fig:curvatures solar flux}%
 \end{figure}
@@ -78,36 +78,49 @@ The cause (s) should be discussed: Saturation in the deepest lines, but maybe ot
 \textcolor{Miku}{IN PROGRESS..}
 
 
-\section{The second signature: Line profile bisector asymmetry}
+\section{The second signature: Line profile asymmetry}
 
-\subsection{The bisector slope}
+\subsection{The line core bisector slope}
 
-The line core bisector slope was calculated following the equation~\eqref{eq:third derivative relation} and plotted against line depth, as shown the figure~\ref{fig:bisector VIS}.
+As mention before, convection is the only mechanism that creates asymmetric line profiles.
+Consequently, the slope of the line core is a indirect line profile asymmetry measure, expressed as a velocity.
+
+The line core bisector slope was calculated following the equation~\eqref{eq:third derivative relation} and plotted against line depth, as shown Figure~\ref{fig:bisector solar flux}.
+
+The shallow lines, due to their small depth, do not exhibit a fully developed C-shaped bisector. 
+Instead, their bisectors shows as a positive slope. 
+In contrast, deep lines experiences the convective blueshift in its totality, exhibit a negative bisector slope.
+The line depths in the middle range represent lines profiles which are not greatly affected by convection.
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Bisector_VIS.pdf}
-    \caption{Line profile bisector slopes for the visible range in the Solar Flux Atlas. The behavior of the plot is according to the C-curved shape of the line bisector affected by convection movement.}\label{fig:bisector VIS}%
+     \centering
+     \begin{subfigure}{0.9\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Second signature/Bisector_VIS.pdf}
+         \caption{Line core bisector slopes for the visible range. }\label{fig:bisector VIS}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.9\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Second signature/Bisector_NIR.pdf}
+         \caption{Line core bisector slopes for the near infrared range.}\label{fig:bisector NIR}%
+     \end{subfigure}
+     \caption{Line core bisector slopes for the IAG solar flux atlas separated in wavelength ranges. The behavior of both plots is according to the C-curved shape of the line profile bisector affected by convection movement.}\label{fig:bisector solar flux}%
 \end{figure}
 
-The weakest lines, due to their small depth, do not exhibit a fully developed C-shaped bisector. 
-Instead, their bisectors shows as a redshifted slope. 
-In contrast, lines formed deeper in the photosphere experience the convective blueshift in its totality, resulting in a negative bisector slope.
-he line depths in the middle range represent an equilibrium point where the upward motion of the convective cell is overcome by gravitational forces, leading to overshoot and subsequent descent. 
-Then a first-order polynomial fit was applied to the bisector slope data in the line depth range of $(0.3-0.6)F/F_c$ to quantify this transition, as shown in Figure~\ref{fig:bisector slope VIS}.
+Searching for a comparision with the IAG spatially resolved quiet sun atlas, only the visible range was analysed.
+Then a lineal fit was applied to the line core bisector slope data in the line depth range of $(0.3-0.6)$ to quantify this transition, as shown in Figure~\ref{fig:bisector slope VIS}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Bisector slope_VIS.pdf}
-    \caption{First order polynomial fit adjusted to the range $(0.3-0.6)F/F_c$ for the line bisector slopes.}\label{fig:bisector slope VIS}%
+    \caption{Lineal fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes in the IAG solar flux atlas, where is evident an wavelength-dependence.}\label{fig:bisector slope VIS}%
 \end{figure}
 
-For a point of comparision, the same analysis was performed to the center limb spectra (see figure~\ref{fig:bisector SPA}).
+As there is an evident wavelength-dependence along the line core bisector slopes, a point of comparision was searched comparing with the disk center spectrum (see figure~\ref{fig:bisector SPA}).
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Bisector_SPA.pdf}
-    \caption{Line profile bisector slope for the visible range in the Spatially Resolved Quiet Sun Atlas.}\label{fig:bisector SPA}
+    \caption{Line profile bisector slopes for the visible range in the IAG spatially resolved quiet sun atlas for $\mu=0$.}\label{fig:bisector SPA}
 \end{figure}
 
 The bisector slope derived from the disk center is smaller in magnitude compared to the integrated flux, despite both exhibiting the same characteristic trend (see Figure~\ref{fig:bisector slope SPA}).
@@ -115,37 +128,41 @@ The bisector slope derived from the disk center is smaller in magnitude compared
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Bisector slope_SPA.pdf}
-    \caption{First order polynomial fit adjusted to the range $(0.3-0.6)F/F_c$ for the line bisector slopes.}\label{fig:bisector slope SPA}
+    \caption{Lineal fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes int disk-center spectrum, where is evident an wavelength-dependence.}\label{fig:bisector slope SPA}
 \end{figure}
  
-The phenomenon of chromodependence is presented on the figures~\ref{fig:bisector slope VIS} and~\ref{fig:bisector slope SPA}, where the line profile bisectors slopes are organised by decreasing wavelength.
-This behavior is clearer on the disc center spectra than the integrated flux.
+The phenomenon of chromodependence is evident of Figures~\ref{fig:bisector slope VIS} and~\ref{fig:bisector slope SPA}, where the line profile bisectors slopes are organised by decreasing wavelength.
+This behavior is clearer on the disk-center spectrum than the disk-integrated flux spectra.
 
-However, if there separate the line depth on bins of $0.1$ around a fixed depth and plot the line profile bisector slope against wavelength, shifts in the line bisector slope become apparent as shown figure~\ref{fig:velocity bins bisector plot ALL}.
+If line depth is separate into bins of $0.1$ and plot the line profile bisector slope against wavelength, shifts in the line bisector slope become apparent as shown in Figure~\ref{fig:velocity bins bisector plot ALL}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Velocity bins bisector plot_ALL.pdf}
-    \caption{Line depth bins of $0.1$ around a fixed depth, with this separation is visible the line bisector slope shift across wavelength.}\label{fig:velocity bins bisector plot ALL}%
+    \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf}
+    \caption{Line depth bins of $0.1$, where wavelength-dependence of the slopes becomes apparent.}\label{fig:velocity bins bisector plot ALL}%
 \end{figure}
 
-For the integrated flux spectra was found negative slopes with a wavelength dependence (see figure~\ref{fig:velocity bins bisector ALL}).
+For the integrated flux spectrum was found that, for a fixed flux, the slopes decrease with wavelength (see Figure~\ref{fig:velocity bins bisector ALL}).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Velocity bins bisector ALL.pdf}
-    \caption{Individual plots of line bisector slope shift across wavelength representing each bin of line depth for the Solar Flux Atlas.}\label{fig:velocity bins bisector ALL}%
+    \includegraphics[width=0.9\linewidth]{Images/Results/Second signature/Velocity bins bisector VIS.pdf}
+    \caption{Individual plots of line core bisector slope shift across wavelength representing each bin of line depth for the IAG solar flux atlas.}\label{fig:velocity bins bisector ALL}%
 \end{figure}
 
-The same analysis was performed on the disc center flux and was found the same behavior (see figure~\ref{fig:velocity bins bisector SPA})
+The same analysis was performed on the disk-center flux and the same behavior was found (see Figure~\ref{fig:velocity bins bisector SPA}).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Velocity bins bisector SPA.pdf}
+    \includegraphics[width=0.9\linewidth]{Images/Results/Second signature/Velocity bins bisector SPA.pdf}
     \caption{Individual plots of line bisector slope shift across wavelength representing each bin of line depth for the Spatially Resolved Quiet Sun Atlas.}\label{fig:velocity bins bisector SPA}%
 \end{figure}
 
-\subsection{Flux deficit (in progress)}
+\textcolor{Miku}{IN PROGRESS..}
+So, for fixed flux we have chromodependence..
+\textcolor{Miku}{IN PROGRESS..}
+
+\subsection{Flux deficit}
 
 Due to radiation, the redshift part of a line is displced on the flux, inducing a rotation on the c-curved profile bisector.
 This phenomenon is called flux deficit.
@@ -243,8 +260,7 @@ The tables~\ref{tab:velocity bins SPA} and~\ref{tab:velocity bins VIS} shows the
 -400 & 1.6455 & -0.000208 & 0.000033 & 0.1617 \\ \hline
 -450 & 1.1952 & -0.000144 & 0.000060 & 0.3094 \\ \hline
 \end{tabular}
-\caption{Slopes for the first order polynomial fit in each velocity bin for the Spatially Resolved Quiet Sun Atlas.}
-\label{tab:velocity bins SPA}
+\caption{Slopes for the first order polynomial fit in each velocity bin for the Spatially Resolved Quiet Sun Atlas.}\label{tab:velocity bins SPA}
 \end{table}
 
 \begin{table}[H]
@@ -262,8 +278,7 @@ The tables~\ref{tab:velocity bins SPA} and~\ref{tab:velocity bins VIS} shows the
 -450 & 1.4212 & -0.000181 & 0.000039 & 0.1947 \\ \hline
 -500 & 1.3787 & -0.000189 & 0.000052 & 0.2609 \\ \hline
 \end{tabular}
-\caption{Slopes for the first order polynomial fit in each velocity bin for the Solar Flux Atlas.}
-\label{tab:velocity bins VIS}
+\caption{Slopes for the first order polynomial fit in each velocity bin for the Solar Flux Atlas.}\label{tab:velocity bins VIS}
 \end{table}
 
 The value of slopes for the Spatially Resolved Quiet Sun Atlas are greater than the Solar Flux Atlas, which contradicts the initial hypothesis.
