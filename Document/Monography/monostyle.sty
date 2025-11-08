@@ -13,7 +13,6 @@
 \usepackage{amsfonts}
 \usepackage{booktabs}
 \usepackage{amssymb}
-\usepackage{physics}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{subcaption}
@@ -24,7 +23,9 @@
 \usepackage{epigraph}
 \usepackage{wasysym}
 \usepackage{caption}
-\usepackage{stix}         
+\usepackage{stix} 
+\usepackage{siunitx}
+\usepackage{listings}
 
 %-------------------- edges
 \addtolength{\hoffset}{-1cm} %left edge
@@ -69,3 +70,18 @@
     allcolors=Miku,       
     pdfborder={0 0 0}
 ]{hyperref}
+
+\DeclareSIUnit\angstrom{\text {Å}}
+\DeclareSIUnit\miliangstrom{\text {mÅ}}
+
+
+\lstset{
+    language=Python,
+    basicstyle=\small\ttfamily,
+    keywordstyle=\color{Ado}, 
+    commentstyle=\color{Ado}, % Style for comments
+    stringstyle=\color{Miku}, % Style for strings
+    breaklines=true, % Allow lines to break
+    showstringspaces=false, % Don't show spaces in strings
+    backgroundcolor = \color{gray!4} %color for background
+}

@@ -1,147 +1,82 @@
-
-Our results were separated into the three signatures of convection around the main phenomenon of chromodependence.
+Our results were separated into three sections following the signatures of convection.
+All of them analyses these signatures around the main phenomenon of wavelength-dependence.
 
 \section{The first signature: Line broadening}
 
 \subsection{Line depth-dependence on line core curvature}
-The core curvature was calculated following the equation~\eqref{eq:core curvature} and plotted against line depth as shown in figure~\ref{fig:curvatures solar flux}.
+The line core curvatures were calculated following Equation~\eqref{eq:core curvature}, and plotted against line depth as shown Figure~\ref{fig:curvatures solar flux}.
+In general, the behavior described in previous research was observed.
+For shallow lines, the line core curvature is proportional to depth as expected. 
+Furthermore, for deep lines the line core curvature is reduced by saturation with strongly wavelength-dependence.
 
 \begin{figure}[H]
      \centering
-     \begin{subfigure}{0.85\textwidth}
+     \begin{subfigure}{0.9\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_VIS.pdf}
-         \caption{Line core curvature for the visible range in the Solar Flux Atlas. Is visible a characteristic curve with line depth-dependence along wavelength.}\label{fig:curvature VIS}
+         \caption{Line core curvatures for the visible range in the Solar Flux Atlas. While shallow lines curvature is proportinal to depth, deep lines curvature is reduced by saturation with is strongly wavelength-dependence.}\label{fig:curvature VIS}
      \end{subfigure}
 \hfill
-     \begin{subfigure}{0.85\textwidth}
+     \begin{subfigure}{0.9\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_NIR.pdf}
-         \caption{Line core curvature for the near infrared range in the Solar Flux Atlas. Is visible a natural division for wavelengths in $11400 \mathring{A}$.}\label{fig:curvature NIR}%
+         \caption{Line core curvatures for the near infrared range in the Solar Flux Atlas. The plot shows a conspicuous partition around $\SI{14000}{\angstrom}$}\label{fig:curvature NIR}%
      \end{subfigure}
-     \caption{Line core curvature for the Solar Flux Atlas separated in wavelength ranges.}\label{fig:curvatures solar flux}%
+     \caption{Line core curvatures for the IAG solar flux atlas separated in wavelength ranges.}\label{fig:curvatures solar flux}%
 \end{figure}
 
-As shown in Figure~\ref{fig:curvature NIR}, the near infrared range exhibits a natural division at approximately $11400 \mathring{A}$, a region dominated by telluric absorption lines from Earth's atmosphere. 
-When plotting the entire spectral range of the Solar Flux Atlas, a clear line depth-dependence of the convective blueshift as a function of wavelength is observed.
+As shown in Figure~\ref{fig:curvature NIR} the near infrared range exhibits a natural division at approximately $\SI{14000}{\angstrom}$, a region dominated by telluric absorption lines from Earth's atmosphere.
+The division separates the J band, which refers to an atmospheric transmission window of $\SI{3000}{\angstrom}$ centered on $\SI{12500}{\angstrom}$; and the H band, which refers to an window of $\SI{3500}{\angstrom}$ centered on $\SI{16500}{\angstrom}$~\cite{McLean_2008}.
+Plotting the entire spectral range of the IAG solar flux atlas, a clear line depth-dependence of the line core curvature as a function of wavelength is observed.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/First signature/Curvature_ALL.pdf}
-    \caption{Line core curvature in the Solar Flux Atlas. The near infrared range presents a natural division due telluric lines in the atmosphere.}\label{fig:all curvature solar flux}%
+    \caption{Line core curvatures in the IAG solar flux atlas. While the J band for the near infrared range adjust to the general shallow lines trend, the H band exhibit wavelength-dependence.}\label{fig:all curvature solar flux}%
 \end{figure}
 
-Despite the line depth-dependent shifts along wavelength, the visible range of the atlas exhibits a clear linear tendency (see figure~\ref{fig:all curvature solar flux}).
-Consequently, a first order polynomial fit was applied to the data in the range $(0.0-0.1)F/F_c$ of line depth of the Solar Flux Atlas, where $F/F_c$ represents the normalized flux. 
+While the J band for the near infrared range adjust to the general shallow lines trend in Figure~\ref{fig:all curvature solar flux}, the H band exhibit wavelength-dependence.
+Despite the line depth-dependent shifts along wavelength, the visible range of the IAG solar flux atlas exhibits a clear linear tendency for shallow lines (see Figure~\ref{fig:all curvature solar flux}).
+Consequently, a linear fit was applied to the visible range for the IAG solar flux atlas in the range $0.0 - 0.1$ of line depth. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/First signature/Curvature_Slope_VIS.pdf}
-    \caption{Linear polynomial fit applied to the range $(0.0-0.1)F/F_c$ of line depth in the visible range of the Solar Flux Atlas.}\label{fig:curvature slope VIS}
+    \caption{Linear fit applied to the range $(0.0-0.1)$ of line depth in the visible range of the IAG solar flux atlas.}\label{fig:curvature slope VIS}
 \end{figure}
 
-As shown in Figure~\ref{fig:curvature slope VIS}, the slope of the relationship has a value of $1.8739\times 10^{10}$.
-The absence of chromodependence in this spectral range indicates that line core curvatures have a net dependence on hydrodynamic velocities, with negligible influence from atomic effects.
-To confirm this statement,  the line core curvature was also plotted for the visible range using the Spatially Resolved Quiet Sun Atlas at the solar limb $\mu=0$,as shown figure~\ref{fig:curvature SPA}.
-In other words, this analysis uses disk-integrated flux from the center of the solar disk, which is not affected by rotational Doppler broadening, thereby isolating the external effects.
+As shown in Figure~\ref{fig:curvature slope VIS}, the slope of the relationship has a value of $(1.83 \pm 0.08)\times 10^{10}$.
+The absence of wavelength-dependence in this spectral range indicates that line core curvatures have a net dependence on velocities (thermal, convective and rotational), with negligible influence from atomic effects.
+To confirm this statement,  the line core curvature was also plotted for the visible range using the IAG spatially resolved quiet sun atlas at the solar limb $\mu=0$ as shown Figure~\ref{fig:curvature SPA}.
+In other words, this analysis uses light from the center of the solar disk, which is not affected by rotational Doppler broadening, thereby isolating the local effects.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/First signature/Curvature_SPA.pdf}
-    \caption{Line core curvature for the visible range for disk center data from the Spatially Resolved Quiet Sun Atlas.}\label{fig:curvature SPA}%
+    \caption{Line core curvatures for the visible range of the disk center data from the IAG spatially resolved quiet sun atlas.}\label{fig:curvature SPA}%
 \end{figure}
 
-A first order polynomial fit in figure~\ref{fig:curvature slope SPA} shows a value of $2.9360\times 10^{10}$ for the slope.
+A linear fit was applied taking the same range $0.0 - 0.1$ of line depth, the Figure~\ref{fig:curvature slope SPA} shows a value of $(2.94\pm 0.16)\times 10^{10}$ for the slope.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/First signature/Curvature_Slope_SPA.pdf}
-    \caption{First order polynomial fit applied to the range $(0.0-0.1)F/F_c$ of line depth in the visible range of the Spatially Resolved Quiet Sun Atlas.}\label{fig:curvature slope SPA}%
+    \caption{Linear fit applied to the range $(0.0-0.1)$ of line depth in the visible range of the IAG spatially resolved quiet sun atlas.}\label{fig:curvature slope SPA}%
 \end{figure}
 
-This result confirms the hypothesis that weaker lines, which have smaller line core curvature, are systematically displaced across the line depth due to rotational Doppler effects. 
-These weaker lines correspond to transitions with lower excitation energies. 
-Consequently, the relationship between line depth and lower excitation potential was analysed.
+The result of found a greater slope in the center-disk confirm that rotation is a neligible effect for the line broadening.
+This allows deduce the variance of convection speed, knowing the thermal velocity. 
 
-\subsection{Line depth-dependence on lower excitation energy}
+\textcolor{Miku}{IN PROGRESS..}
+As mention in chapter 3, we can induce from here the $\sigma_{conv}$ as we the other parameters described in equation () and confirm that rotation is neligible. 
+Benja comment: Here you could discuss all that can be learned about line broadening. 
+For example:
+The slope of the disk-center spectrum doesn't depend on rotation, meaning it depends only on thermal broadening and convection. 
+The thermal is known, so the variance of the convection speeds can be deduced.
+The slope of the flux spectrum is lower, because it includes rotation. 
+The rotation is also known (but more work to calculate); but the three contributions can be assessed. 
+Deeper lines deviate from the initial straight line, and this part is wavelength-dependent. 
+The cause (s) should be discussed: Saturation in the deepest lines, but maybe other broadening effects (Lorentzian) may become important, and damping coefficients are somewhat related to wavelength by atomic structure.
+\textcolor{Miku}{IN PROGRESS..}
 
-The Nave list for Fe I lines~\cite{Nave_1994} include the values for the highest and the lowest excitation energy.
-As shown in the figure~\ref{fig:lower energy ALL} the relative velocity was plotted against lower excitation energy, where it is not clear a strong shift on the velocity. 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/First signature/Velocity lower potential_ALL.pdf}
-    \caption{Relative velocity against lower excitation energy for all the range in the Solar Flux Atlas}\label{fig:lower energy ALL}%
-\end{figure}
-
-However, if there separate the relative velocity on bins of $100m/s$ around a fixed velocity and plot lower excitation energy against line depth, shifts in the excitation energy become apparent as shown figure~\ref{fig:velocity bins energy plot ALL}.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/First signature/Velocity bins energy plot_ALL.pdf}
-    \caption{Velocity bins of $100m/s$ around a fixed velocity, across the figure~\ref{fig:lower energy ALL}, with this separation is visible the energy shift across line depth.}\label{fig:velocity bins energy plot ALL}%
-\end{figure}
-
-The figure~\ref{fig:velocity bins energy ALL} explicitly shows the dependency on the highest values for the lowest excitation energy across the wavelength, which can be fitted as a first order polynomial fit.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/First signature/Velocity bins energy ALL.pdf}
-    \caption{Individual plots of lower excitation energy across line depth representing each bin of velocity for the Solar Flux Atlas.}\label{fig:velocity bins energy ALL}%
-\end{figure}
-
-For the velocity range of $-175m/s$ to $-525m/s$ the calculated slopes are similar, as shown in table~\ref{tab:coef velocity bins energy ALL}. 
-This indicates a consistent ratio on energy shifts in the energy across the velocity range.
-
-\begin{table}[H]
-\centering
-\begin{tabular}{||c|c|c|c|c||}
-\hline
-\textbf{Velocity bin} & \textbf{Shift} & \textbf{Slope} & \textbf{Error slope} & \textbf{Error shift} \\ \hline
-0 & 7.1636 & -4.5638 & 1.1564 & 0.9651 \\ \hline
--50 & 5.0005 & -2.1781 & 0.8069 & 0.6495 \\ \hline
--100 & 5.7114 & -3.1355 & 0.4958 & 0.3697 \\ \hline
--150 & 5.1098 & -2.3102 & 0.8208 & 0.5688 \\ \hline
--200 & 4.7782 & -2.1203 & 0.5594 & 0.3747 \\ \hline
--250 & 4.6533 & -1.9361 & 0.4121 & 0.2588 \\ \hline
--300 & 4.3146 & -1.6399 & 0.2408 & 0.1314 \\ \hline
--350 & 4.1778 & -1.4534 & 0.2694 & 0.1251 \\ \hline
--400 & 4.2510 & -1.4863 & 0.2683 & 0.1030 \\ \hline
--450 & 3.9734 & -0.9916 & 0.2973 & 0.0982 \\ \hline
--500 & 3.9506 & -1.4429 & 0.4428 & 0.1097 \\ \hline
--550 & 3.9919 & -0.9308 & 0.7750 & 0.1497 \\ \hline
-\end{tabular}
-\caption{Values for the first order polynomial coefficients on the different velocity bins for the Solar Flux Atlas.}\label{tab:coef velocity bins energy ALL}%
-\end{table}
-
-To corroborate that dependence is only on lower excitation energy, the same analysis was performed on the Spatially Resolved Quiet Sun Atlas at the solar limb $\mu=0$.
-The plot of relative velocity against lower excitation energy for this atlas exhibits the same qualitative behavior as the Solar Flux Atlas.
-However, there is a quantitative difference, the first order polynomial coefficients are higher (see figure~\ref{fig:velocity bins energy SPA} and table~\ref{tab:coef velocity bins energy SPA}). 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/First signature/Velocity bins energy SPA.pdf}
-    \caption{Individual plots of lower excitation energy across line depth representing each bin of velocity for the Spatially Resolved Quiet Sun Atlas.}\label{fig:velocity bins energy SPA}%
-\end{figure}
-
-\begin{table}
-    \centering
-    \begin{tabular}{||c|c|c|c|c||}
-\hline
-\textbf{Velocity bin} & \textbf{Shift} & \textbf{Slope} & \textbf{Error slope} & \textbf{Error shift} \\ \hline
-0 & 7.1636 & -4.5638 & 1.1564 & 0.9651 \\ \hline
--50 & 4.7903 & -1.9274 & 1.1583 & 0.9496 \\ \hline
--100 & 5.5099 & -2.9149 & 2.0695 & 1.6744 \\ \hline
--150 & 5.4525 & -2.7907 & 1.2421 & 0.9195 \\ \hline
--200 & 5.3471 & -2.8771 & 0.9840 & 0.7277 \\ \hline
--250 & 4.8238 & -2.1774 & 0.7516 & 0.5241 \\ \hline
--300 & 3.8374 & -0.9802 & 0.3714 & 0.2419 \\ \hline
--350 & 3.4399 & -0.3246 & 0.3473 & 0.1931 \\ \hline
--400 & 3.8607 & -0.9455 & 0.3184 & 0.1511 \\ \hline
--450 & 3.7832 & -0.7942 & 0.3032 & 0.1174 \\ \hline
--500 & 3.7206 & -1.1728 & 0.4614 & 0.1291 \\ \hline
--550 & 3.9324 & -1.8835 & 1.0826 & 0.1770 \\ \hline
-\end{tabular}
-    \caption{Values for the first order polynomial coefficients on the different velocity bins for the Spatially Resolved Quiet Sun Atlas.}\label{tab:coef velocity bins energy SPA}
-\end{table}
 
 \section{The second signature: Line profile bisector asymmetry}
 
@@ -333,6 +268,106 @@ The tables~\ref{tab:velocity bins SPA} and~\ref{tab:velocity bins VIS} shows the
 
 The value of slopes for the Spatially Resolved Quiet Sun Atlas are greater than the Solar Flux Atlas, which contradicts the initial hypothesis.
 
+\subsection{Line depth-dependence on excitation potential for the lowest energy level}  
+
+As shown Figure~\ref{fig:lower energy VIS} the relative velocity was plotted against excitation potential for lowest energy level.
+The distribution of wavelength along excitation potential is according to literature, showing that lower wavelength have less excitation potential on the lowest energy level than high wavelength.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/Velocity lower potential_VIS.pdf}
+    \caption{Relative velocity against excitation potential for lowest energy level in the visible range of the IAG solar flux atlas.}\label{fig:lower energy VIS}%
+\end{figure}
+
+However, if relative velocity is separate on bins of $100$ m/s and plot the excitation potential for lowest energy level against line depth, shifts in the range $(2.5$ to $5.0)$ eV of excitation potential become apparent as shown Figure~\ref{fig:velocity bins energy plot VIS}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/Velocity bins energy plot_VIS.pdf}
+    \caption{Velocity bins of $100$ m/s across Figure~\ref{fig:lower energy VIS}, with this separation is visible the excitation potential shift in the range $(2.5$ to $5.0)$ eV across line depth.}\label{fig:velocity bins energy plot VIS}%
+\end{figure}
+
+Figure~\ref{fig:velocity bins energy VIS} explicitly shows the dependence on the highest values $(2.5$ to $5.0)$ eV for the excitation potential of lower energy levels across line depth, which can be modeled with a lineal fit.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{Images/Results/Third signature/Velocity bins energy VIS.pdf}
+    \caption{Individual plots for the range $(2.5$ to $5.0)$ eV of excitation potential of lower energy level across line depth, representing each bin of velocity for the visible range of IAG solar flux atlas. The Table~\ref{tab:coef velocity bins energy VIS} shows the coefficients for each applied lineal fit.}\label{fig:velocity bins energy VIS}%
+\end{figure}
+
+For the velocity range of $-175$ m/s to $-525$ m/s the calculated slopes are similar, as shown in Table~\ref{tab:coef velocity bins energy VIS}. 
+This indicates a consistent ratio on energy shifts in the energy across the velocity range.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{||r|r|r|r|r||}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}\textcolor{Miku}{Velocity bin}\\ \textcolor{Miku}{(m/s)}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}\textcolor{Miku}{Slop}\\ \textcolor{Miku}{(eV)}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textcolor{Miku}{$\sigma_{\text{Slope}}$}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}\textcolor{Miku}{Shift}\\ \textcolor{Miku}{(eV)}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textcolor{Miku}{$\sigma_{\text{Shift}}$}}} \\
+\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+0 & -4.5638 & 1.1564 & 7.1636 &  0.9651 \\ \hline
+-50 & -2.1781 & 0.8069 & 5.0005 &  0.6495 \\ \hline
+-100 & -3.1355 & 0.4958 & 5.7114 &  0.3697 \\ \hline
+-150 & -2.3102 & 0.8208 & 5.1098 & 0.5688 \\ \hline
+-200 & -2.1203 & 0.5594 & 4.7782 &  0.3747 \\ \hline
+-250 & -1.9361 & 0.4121 & 4.6533 &  0.2588 \\ \hline
+-300 & -1.6399 & 0.2408 & 4.3146 &  0.1314 \\ \hline
+-350 & -1.4534 & 0.2694 & 4.1778 & 0.1251 \\ \hline
+-400 & -1.4863 & 0.2683 & 4.2510 &  0.1030 \\ \hline
+-450 & -0.9916 & 0.2973 & 3.9734 &  0.0982 \\ \hline
+-500 & -1.4429 & 0.4428 & 3.9506 &  0.1097 \\ \hline
+-550 & -0.9308 & 0.7750 & 3.9919 & 0.1497 \\ \hline
+\end{tabular}
+\caption{Values for the lineal fit coefficients on the different velocity bins for the Figure~\ref{fig:velocity bins energy VIS}.
+The values $\sigma_{\text{Slope}}$ and $\sigma_{\text{Shift}}$ refers to the standard error of the respective lineal coefficient.}\label{tab:coef velocity bins energy VIS}%
+\end{table}
+
+To corroborate the only dependence on excitation potential of lowest energy level, the same analysis was performed on the IAG spatially resolved quiet sun atlas at $\mu=0$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/Velocity lower potential_SPA.pdf}
+    \caption{Relative velocity against excitation potential of lowest energy level in the visible range for the IAG spatially resolved quiet sun atlas.}\label{fig:lower energy SPA}%
+\end{figure}
+
+Figure~\ref{fig:lower energy SPA} shows the relative velocity against excitation potential of lowest energy level for disk center data.
+
+Separating the relative velocity on bins of $100$ m/s and taking the range $(2.5$ to $5.0)$ eV of excitation potential, the disk-center flux exhibits the same qualitative behavior as the IAG solar flux atlas (see Figure~\ref{fig:velocity bins energy SPA}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{Images/Results/Third signature/Velocity bins energy SPA.pdf}
+    \caption{Individual plots for the range $(2.5$ to $5.0)$ eV of excitation potential of lowest energy level across line depth, representing each bin of velocity for the IAG spatially resolved quiet sun atlas.}\label{fig:velocity bins energy SPA}%
+\end{figure}
+
+However, there is a quantitative difference, the lineal fit coefficients are higher to the reported for the disk-integrated atlas (see Table~\ref{tab:coef velocity bins energy SPA}). 
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{||r|r|r|r|r||}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Velocity bin\\ (m/s)\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Slop\\ (eV)\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{$\sigma_{\text{Slope}}$}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Shift\\ (eV)\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{$\sigma_{\text{Shift}}$}} \\
+\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+0 & -4.5638 & 1.1564 & 7.1636 &  0.9651 \\ \hline
+-50 & -1.9274 & 1.1583 & 4.7903 &  0.9496 \\ \hline
+-100 & -2.9149 & 2.0695 & 5.5099 & 1.6744 \\ \hline
+-150 & -2.7907 & 1.2421 & 5.4525 & 0.9195 \\ \hline
+-200 & -2.8771 & 0.9840 & 5.3471 & 0.7277 \\ \hline
+-250 & -2.1774 & 0.7516 & 4.8238 & 0.5241 \\ \hline
+-300 & -0.9802 & 0.3714 & 3.8374 & 0.2419 \\ \hline
+-350 & -0.3246 & 0.3473 & 3.4399 &  0.1931 \\ \hline
+-400 & -0.9455 & 0.3184 & 3.8607 & 0.1511 \\ \hline
+-450 & -0.7942 & 0.3032 & 3.7832 &  0.1174 \\ \hline
+-500 & -1.1728 & 0.4614 & 3.7206 &  0.1291 \\ \hline
+-550 & -1.8835 & 1.0826 & 3.9324 &  0.1770 \\ \hline
+\end{tabular}
+    \caption{Values for the lineal fit coefficients on the different velocity bins for the Figure~\ref{fig:velocity bins energy SPA}.
+The values $\sigma_{\text{Slope}}$ and $\sigma_{\text{Shift}}$ refers to the standard error of the respective lineal coefficient.}\label{tab:coef velocity bins energy SPA}
+\end{table}
+
+\textcolor{Miku}{IN PROGRESS..}
+The rotation eliminates one of the chromodependence but this dont confirm anything
+\textcolor{Miku}{IN PROGRESS..}
+
 \subsection{Characterization of chromodepence on granulation pattern}
 
 The figure~\ref{fig:standard curve gray} show the standard curve proposed for Gray and Oostra~\cite{Gray_Oostra_2018}, stablish on the range $6020-6340\mathring{A}$
@@ -420,6 +455,8 @@ The coefficients for each linear fit applied are shown in the table~\ref{tab:col
 \end{tabular}
 \caption{Coefficients for the first order polynomial fit in each wavelength range in the near infrared.}\label{tab:color coefficients nir}
 \end{table}
+
+
 
 \section{Higher quality graphs}
 

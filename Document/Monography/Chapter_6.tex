@@ -34,7 +34,7 @@ This improved considerably the precision in the fit and there over the precision
 
 The third derivate relation or called the line profile bisector slope was deducted by Professor Benjamin and showed below.
 
-We defined the slope as equation~\eqref{eq:slope}, where the points $b,c,h$ are illustrated in the figure~\ref{fig:slope}
+Defined the slope as equation~\eqref{eq:slope}, where the points $b,c,h$ are illustrated in the figure~\ref{fig:slope}
 
 \begin{equation}
  CBS = \lim_{h\to 0} \frac{\frac{b+c}{2}-a}{h}
@@ -54,20 +54,15 @@ We may abbreviate $c-a=x>0$ and likewise $b-a=y<0$ obtaining
  2h=x^2f''(a)+\frac{1}{3}x^3f'''(a) \quad \quad 2h=y^2f''(a)+\frac{1}{3}y^3f'''(a)
 \end{equation}
 
-So, $x$ and $y$ are tow equations roots. The core bisector slope is now defined by 
-
-\begin{equation}
- CBS = \lim_{h\to 0} \frac{x+y}{2h}
-\end{equation}
-
-One of the possible roots for the cubic (ideal 4th order) equation, the two that we need are those that trend to 
+So, $x$ and $y$ are two equations roots. 
+One of the possible roots for the cubic polynomial equation, the two that are needed whose that trend to 
 
 \begin{equation}
  CBS = \lim_{h\to 0} \frac{x}{y} = -1
 \end{equation}
 
-If wrote the polynomial equation in the standard form $ax^3+bx^2+cx+d=0$ the coefficients are
-$a=\frac{f'''}{3}$, $b=f''$, $c=0$, $d=-2h$. A standard procedure id to change variable to $x=t-\frac{b}{3a}=t-\frac{f''}{f'''}$
+If the polynomial equation is written in the standard form $ax^3+bx^2+cx+d=0$ the coefficients are
+$a=\frac{f'''}{3}$, $b=f''$, $c=0$, $d=-2h$. A standard procedure is to change the variable to $x=t-\frac{b}{3a}=t-\frac{f''}{f'''}$
 which produces the "depressed" equation.
 
 \begin{equation}
@@ -79,19 +74,19 @@ Where the equation have three solutions of the form:
  t_i = 2\parens{\frac{f''}{f'''}}\cos\parens{\frac{1}{3}\arccos\parens{\frac{3h(f''')^2}{(f'')^3} - 1} -\frac{2\pi i}{3}}
 \end{equation}
 
-When $h$ vanishes, there are two equal solutions and one differing. LeTS abbreviate
+When $h$ vanishes, there are two equal solutions and one differing. Let's abbreviate
 \begin{equation}
 \epsilon = \frac{h(f''')^2}{(f'')^3} <<1
 \end{equation}
 
 In the limit $h\to 0$ we have $\epsilon <<1$ which means $\arccos(3\epsilon -1)=\pi-\delta$ with $\delta$ an small angle.
-So, $\delta=\sqrt{6\epsilon}$ and the solution that we need
+So, $\delta=\sqrt{6\epsilon}$ and the solution is the next equation.
 
 \begin{equation}
 t_{\pm} = 2\frac{f''}{f'''}\parens{\frac{1}{2}\cos\parens{\frac{\sqrt{6\epsilon}}{3}} -/+ \frac{\sqrt{3}}{2}\sin\parens{\frac{\sqrt{6\epsilon}}{3}} }
 \end{equation}
 
-For the bisector slope we need
+For the bisector slope appears the next condition.
 
 \begin{equation}
 x+y = t_+ + t_- - 2\parens{\frac{f''}{f'''}} = -\frac{2}{3}\parens{\frac{f''}{f'''}}\epsilon = -2h\frac{f''}{3(f''')^2}
@@ -104,65 +99,123 @@ CBS =  -\frac{f''}{3(f''')^2}
 \label{eq:CBS}
 \end{equation}
 
-In the code it was multiplied by the relation ($\frac{c}{\lambda}$) to see each clear in the graphic.
+In the code it was multiplied by the relation ($\frac{c}{\lambda}$) to see the behavior across line depth in the graphic.
 
 \chapter{Visualizer for outliers}\label{ap:visualizer}
 
-For the process of the blend-free list a visualizer was created using the library Tkinter with the objective to help the selection process of outliers.
-Two versions of the visualizer were created, separated by filters. The first filter only shows the geometry of the line core and the line profile bisector. The second filter, which uses the selected lines for the first one, shows the three signatures of convection and the behavior of the selected line in each one.
+For the line selection process mentioned in Chapter 3, a visualizer was created using the Tkinter library to aid in identifying blend lines or those outside the spectrum. 
 
-Thanks to this visualizer the time expended seeing lines was reduced significantly. Specially cause count with his own system to classification, adding lines to a Dataframe and save the images. Following the motivation this can be seen on \href{https://github.com/ccuellarn/Final-Project}{GitHub} and it's given a test example below.
+Two versions of the visualizer were developed, each utilizing different filters. The first filter displays the geometry of the line core and the line profile c-curved bisector. The second filter, which builds on the selected lines from the first, shows the three signatures of convection and the behavior of the selected line in each one. 
 
-REMEMBER: 
-The window for the abs in the local minimums points are 0.01A 
-\section{Test example}
+This visualizer significantly reduced the time spent reviewing lines. It also features a custom classification system, shown as color stars. These buttons don't make something on the Dataframe more than just a label for the user orientation. Also, allows the users to add lines to a DataFrame, specially for the lines which are gonna to be deleted or filtered due to bad reputation, and save images. The code for the visualizer can be seen on \href{https://github.com/ccuellarn/Final-Project}{GitHub}, along with a test example provided below.
 
-The main code is in the file Visualizer.ipynb and the test example data are test.xlsx, feel free to change the type of data, the important is make a dataframe where the columns are [Wave , Flux] wavelength on Armstrong and flux normalized preferred. Then made another dataframe with the list of lines of Fe I.
+The main code for this project is contained in the file Visualizer.ipynb, and a test example dataset is provided in test.xlsx. 
+To facilitate analysis, two DataFrames were created: One for the spectrum with columns Wave and Flux, representing wavelength in Armstrongs and normalized flux, respectively, and another for the list of Fe I lines. 
+The closer lines  function was used to select the closest minimums to the Fe I lines, along with their associated flux values and Fe I line wavelengths.
 
-Use the function closer lines to select the closer minimums of the Fe I lines, with the flux and Fe I line associated. Don't be confused, this is not the observed wavelength. This point is a reference for selecting the bins around the Fe I line. The function discards distances between minimums and Fe I line over $0.001\mathring{A}$. 
-Furthermore, assuming the statement that fourth order polynomial fits need to be convex, were discarded fits with the second order coefficient negative and equal to cero. For discarding the lines which don't belong to the spectrum an approximation was taken.
+Beware, these Fe I line wavelengths serve as reference points for selecting bins around each line, rather than representing observed wavelengths. The function discards any lines with distances between minimums and Fe I lines exceeding $0.001\mathring{A}$. Furthermore, to ensure convexity, fourth-order polynomial fits with non-positive second-order coefficients were discarded. An approximation was used to discard lines that do not belong to the spectrum.
+
 A computational form of a slope can be seen as the difference between the maximum and minimum point of the list of points. In terms of flux if it is seen the distance can't be more than a half of the absolute difference. This lets us discard pronounced slopes without affecting or filtering weaker lines.
 Then use the function local points for selecting the bins of $0.1m\mathring{A}$ around the minimal point, each corresponding to one index on the closer lines dataframe. 
 
-If it runs correctly, the graphics for the intervals (), (), and () need to be seen like figure ().
+The function Fit Derivatives finds the fourth order polynomial fit and calculates the minimum point with the second derivative of the fit, that is the observed wavelength. This returns a Dataframe with the value of Fe I line associated, the polynomial fit, and the observed wavelength. In parallel, the line profile bisector is calculated using the midpoint method where equal points of flux are selected for comparison.
 
-The next function Fit Derivatives finds the fourth order polynomial fit and calculates the minimum point with the second derivative of the fit, that is the observed wavelength. This returns a dataframe with the Fe I line associated, the polynomial fit, and the observed wavelength. In parallel is calculated the bisectors of each line following the midpoint method, where equal points of flux are selected for comparison.
+The first visualizer uses these calculated values, showing the line core and the fourth polynomial fit, in parallel with the line profile bisector of each one in terms of velocity.
 
-With this information can be used the first visualizer
+We recommend eliminating the lines that follow one of the conditions presented. First, the line profile bisector doesn't show a C-curved bisector or it's too affected by the noise. Second, the polynomial fit and the line profile don't follow a common absorption line form. This can be interpreted as the position on other points to the fit. Third, the line core shows two minimums or a protuberance. These are blended lines. An example of this behavior is shown on figure ().
 
-From this is the first visualizer that receives the local points, the values and the fit. This shows the line core and the fourth polynomial fit, in parallel is shown the bisector of each line in terms of velocity.
+The objective of the first filter is to reduce the number of lines for analyzing the three signatures of convection.
 
-We recommend eliminating the lines that follow one of the conditions presented below:
-1)The bisector doesn't show a C-curved bisector or it's too affected by the noise.
-2)There is no curve or polynomial fit. This can be interpreted as the position on other points to the fit.
-3) There's too much noise on the original line.
-
-With this first filter the number of possible lines are reduced for calculating derivatives.
-
-The second part of the code calculates the granulation pattern, core curvature and bisector slope. With these values the visualizer shows all the graphics including the line profile with the polynomial fit. In each graphic of derivatives the corresponding Fe I is resalted, this with the finally to select lines depending on his behavior.
+The second part of the code calculates the three signatures of convection for the filtered lines. The second visualizer shows all the graphics including the line profile with the polynomial fit. In each graphic of derivatives the corresponding Fe I is resalted, this with the finally to select lines depending on his behavior.
  
-This is a code test:
-Run the file test, you can adapt this part on your necessaries. The idea is the Dataframe results have the columns Wave (cm), nFlux and Wave A (there's no need for the flux to be normalized, it cannot be, we test this on arturus). 
+\section{Test example}
 
-Then run the nave list, the present github has the table organized on an excel.
+In the file test example.ipynb run the line code.
 
-Run the cell of closer points and local points, the first needs to be returned a Dataframe and the other a list of dataframes.
+\begin{lstlisting}
+raw_data = read.csv(jsjsjsj)
 
-For the first filter code you need to have a dataframe with the columns (), the list of local points and the closer lines associated with the Dataframe, the fit values and the covariance values.
+\end{lstlisting}
 
-Modified this line to call the first visualizer.
+Feel free to modify this line to read the file type. 
+The idea is the Dataframe results have the columns Wave (cm), nFlux and Wave A. There's no need for the flux to be normalized, because nothing in the code uses the condition of normalized flux. 
+Then run the list of calibration lines. 
+In this case, we use the Nave list of Fe I lines. A test example list is displayed on the carpet Data.
 
-Then, this part helps to extract the Dataframe with the lines that don't behave like the condition parameters. This can also help to drop the unnecessary lines
+\begin{lstlisting}
+raw lambda =
 
-For the second enter the file with the lines resulting in the first filter, and run again the code for closer lines and local points, and then the second big filter.
+\end{lstlisting}
 
-Modified this line to call the second visualizer.
+Run the next two cells where the functions closer lines and local points are displayed.
 
-The next line helps to extract the lines to drop and remove it for the Dataframe.
+\begin{lstlisting}
+closer_lines_first_filter =
+local_points_first_filter=
 
-\section{Conditions justifications}
-Two is for observations on polynomial fits that derive for mathematics properties. The third born on the many observations that i realize after the creation of visualizer, I see the parameter of 0.001 for near lines and I put the value
+\end{lstlisting}
+
+With this dataset, run the cell for the applied the first filter.
+
+\begin{lstlisting}
+Values_first_filter, Local_first_filter, Fit_first_filter, Bisector_first_filter = First_Filter()
+
+\end{lstlisting}
+
+On the cell code for the visualizer just comment the cell before running.
+
+\begin{lstlisting}
+app1= app(run, local_first_filter)
+
+\end{lstlisting}
+
+To extract the Dataframe with the lines to drop or for further analysis run the cell.
+ Make sure that the visualizer is closed after running another cell code.
+
+\begin{lstlisting}
+Dataframe to drop =
+
+\end{lstlisting}
+
+The cell  saves the filtered lines and the suspect ones in two different xlsx files.
+
+\begin{lstlisting}
+Values.save()
+
+\end{lstlisting}
+
+With the new list of filtered lines, run the cell  to redefine the list of Fe I lines with only the filtered ones.
+
+\begin{lstlisting}
+raw lambda = 
+
+\end{lstlisting}
+
+Now, run again the code for closer lines and local points with the new list of Fe I lines. 
+Then run the cell for applied the second filter and calculate the three signatures of convection
+
+\begin{lstlisting}
+Values_second filter = Second Filter()
+
+\end{lstlisting}
+
+As the same with the first filter, just comment the line to observe the second filter.
+
+\begin{lstlisting}
+app2= Second filter(run, local points, values)
+
+\end{lstlisting}
+
+The cell  helps to extract the lines to drop and remove it for the Dataframe.
+
+\begin{lstlisting}
+Values.save()
+
+\end{lstlisting}
+
+After the process, the resulting excel is the definitive list of Fe I lines.
 
 \end{appendices}
+
 
 

@@ -1,4 +1,4 @@
-Given the complexity introduced by convective motions on the spectrum, this project takes a computational approach leading to an observational requirement, guided by Professor Benjamin's experience and previous research.
+Given the complexity introduced by convective motions on the spectrum, this project takes a computational approach leading, guided by Professor Benjamin and previous research.
 The analysis was conducted using the Python programming language.
 All data and code have been uploaded in a \href{https://github.com/ccuellarn/Final-Project}{GitHub repository}, allowing anyone interested to reproduce the results and verify the authenticity of the conclusions presented. 
 
@@ -9,20 +9,23 @@ As previously discussed, these lines are ideal for the calibration process due t
 The computational approach focuses on identifying the solar granulation pattern by calculating relative velocities from Fe I lines. 
 
 
-The line up was to identify the Fe I lines in the IAG Solar Flux Atlas and the IAG Spatially Resolved Quiet Sun Atlas using the blend-free list from Nave list of Fe I lines~\cite{Nave_1994}.
-For each identified line were selected bins of $0.1m\mathring{A}$ around the closest minimal point to the associated value from the Nave Fe I list.
+First, Fe I lines in the IAG Solar Flux Atlas and the IAG Spatially Resolved Quiet Sun Atlas using the blend-free list from Nave list of Fe I lines were identified~\cite{Nave_1994}.
+For each identified line were selected bins of $\SI{0.1}{\miliangstrom}$ around the closest minimal point to the associated value from the Nave Fe I list.
 Beware, these points are not the observed wavelengths, just a reference to generate an observation window.
 Then, a fourth-order polynomial fit was adjusted due to the wavelength window and found the minimal point, whose represent the observed wavelength. 
 The efficacy of this approach for quantifying asymmetry via the bisector slope is supported by~\cite{Allende_Garcia_1998}.
 For an optimal fit was used a z-score standardization on each line core, which is explained in appendix\ref{ap:zscore}.
 The observed wavelength from the polynomial fit was used to calculate the relative velocity.
-Finally, the values for the line core curvature (see equation~\eqref{eq:core curvature}) and the line core bisector slope (see equation~\eqref{eq:third derivative relation}) were found.
+Finally, the values for the line core curvature (see Equation~\eqref{eq:core curvature}) and the line core bisector slope (see Equation~\eqref{eq:third derivative relation}) were found.
 
+\textcolor{Miku}{HERE:Add the uncertainty analysis of the mean varinace for the wavelength range that we use.}
 \section{Blend-free Fe I line Nave list}
-The mention line up implemented the Nave list of laboratory-measured Fe I lines~\cite{Nave_1994}. 
-This list classifies lines with a quality rating (A,B,C,D), where A denotes the highest quality and reliability.
-However, not all the cataloged lines are clearly present in the solar spectrum, and within the near-infrared range, many lines are severely blended.
+The mentioned methodology implements the Nave list of laboratory-measured Fe I lines~\cite{Nave_1994}. 
+This list classifies lines with a quality grading ($A,B,C,D$), based on four wavenumber uncertainties $(\Delta \sigma)$ and the corresponding wavelength uncertainties $(\Delta \lambda)$.
+Where $A$ denotes lines with error in wavenumbers less than $0.005$ $\text{cm}^{-1}$; grade $B$ less than $0.01$ $\text{cm}^{-1}$; grade $C$ less than $0.02$ $\text{cm}^{-1}$; and grade $D$ greater than $0.02$ $\text{cm}^{-1}$
+All known blended lines and all lines measured only in grating spectra have been assigned the grade $D$~\cite{Nave_1994}.
 
+However, not all the cataloged lines with grade $A$ are clearly present in the solar spectrum, and within the near infrared range, many lines are severely blended.
 In collaboration with Professor Benjamin and Manuel Fuentes, we refined this initial list using different approaches to select the most reliable values. 
 
 \subsection{Selection process for blend-free Fe I lines}
@@ -31,26 +34,28 @@ Initially, only quality A lines for the Nave list were selected.
 This group were subjected to four computational filters based on the properties of having a fourth-order polynomial fit for the line core.
 
 The first filter takes into account the form of the C-curved line profile bisector.
-Lines whose bisectors exhibited excessive scatter, indicating a profile dominated by noise rather than a convective signature, were rejected.
+Lines whose c-curved bisectors exhibited excessive scatter, indicating a profile dominated by noise rather than a convective signature, were rejected.
 
 The second filter selected lines whose curvature sign was consistent with an absorption line; this implies the coefficient of the fourth-order term needs to be positive. 
-A filter based on the magnitude of these coefficients was intentionally avoided. 
-This is because weaker lines, which are essential for a complete analysis, have smaller curvature, and lines in the near infrared range exhibit large curvatures related to blending with telluric atmospheric lines.
 
-The third filter ensure the selected lines represented an absorption curve by discarding closest points that more closely resemble slopes or continuum noise.
-The condition was filter lines which the difference between extreme points of the fit was less than half of the line depth. 
+The third filter ensures the selected lines represents an absorption curve by discarding closest points that more closely resemble slopes or continuum noise.
+The condition was discard lines which difference between extreme points of the fit were less than half of the line depth. 
+This describe an absorption curve, and not a slope or noise.
 
-The final filter required the absolute difference between the observed wavelength and the measured laboratory wavelength to be less than $0.025\mathring{A}$. 
+The final filter required the absolute difference between the observed wavelength and the measured laboratory wavelength to be less than $\SI{0.025}{\angstrom}$. 
 Larger discrepancies suggest misidentification or severe blending, rendering the calculated relative velocity unreliable.
-This threshold is empirically supported by observations throughout the selection process and the statement for the mean velocity of the sun is $200-600 m/s$.
+This threshold is empirically supported by observations throughout the selection process and the statement for the mean velocity of the sun is $200$  m/s to $600$  m/s.
 
-\subsection{Observational requirement}
 The final part of the selection process was a visual inspection to discard lines that were blended or absent from the solar spectrum. 
 A custom visualizer (detailed in appendix\ref{ap:visualizer}) was instrumental for this, allowing the simultaneously display of graphics related to dynamics aspects. 
-This was particularly useful for selection lines in the near-infrared range.
-The visual requirement focused on the geometry of the spectral line profile, its behavior on the three signatures plots and the guidance from professor Benjamin.
+This was particularly useful for selection lines in the near infrared range.
+The visual requirement focused on the geometry of the spectral line profile, its behavior on the three signatures plots.
 
 The concluding part of the methodology was performed the plots which represents the three signatures of convection.
 
 First of all, the granulation pattern (relative velocity), core curvature and core bisector against line depth was performed to all ranges in both atlases with the objective to observe the three signatures of convection.
-Subsequently, various parameters were plotted against line depth to specifically characterize the phenomenon of chromodependence.
+Subsequently, various parameters were plotted against line depth to specifically characterize the granulation.
+
+
+\textcolor{Miku}{MENTION THAT WE CHANGE THE LIMITS OF WAVELENGHT FROM REINERS TO STABLISH COPARISIONS WITH THE SPATIALLY. 
+NOW VISIBLE IS FROM 4000/7500 A AND NIR IS 7500/23000}
