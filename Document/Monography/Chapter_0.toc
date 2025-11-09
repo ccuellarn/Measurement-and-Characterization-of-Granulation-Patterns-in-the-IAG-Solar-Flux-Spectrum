@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {4.1.1}Line depth-dependence on line core curvature}{30}{subsection.4.1.1}%
 \contentsline {section}{\numberline {4.2}The second signature: Line profile asymmetry}{36}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}The line core bisector slope}{36}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Flux deficit}{43}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Flux deficit IN PROGRESS}{43}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence on wavelength shifts}{45}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}The granulation pattern}{45}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Line depth-dependence on excitation potential for the lowest energy level}{50}{subsection.4.3.2}%
