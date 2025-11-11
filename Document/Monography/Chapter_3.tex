@@ -18,6 +18,35 @@ For an optimal fit was used a z-score standardization on each line core, which i
 The observed wavelength from the polynomial fit was used to calculate the relative velocity.
 Finally, the values for the line core curvature (see Equation~\eqref{eq:core curvature}) and the line core bisector slope (see Equation~\eqref{eq:third derivative relation}) were found.
 
+Furthermore, the variance of the observed wavelength was analyzed by altering the number of points used in the fourth-order polynomial fit. 
+Figure~\ref{fig:variance} shows that this parameter set performs well in the visible spectrum. 
+However, its performance degrades in the infrared, where the number of data points defining the line core is reduced compared to a typical line in the visible range.
+
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{1.0\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/variance VIS.pdf}
+         \caption{Variance for several lines in the visible range for the Solar Flux Atlas.}
+
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{1.0\textwidth}
+
+         \includegraphics[width=\textwidth]{Images/Results/variance NIR.pdf}
+         \caption{Variance for several lines in the near infrared range for the Solar Flux Atlas.}
+
+     \end{subfigure}
+
+        \caption{Variance of the observed wavelength altering the number of points on the fourth order polynomial fit}\label{fig:variance}
+\end{figure}
+
+\textcolor{Miku}{IN PROGRESS}
+Then, the same analysis was performed to the blueshift.
+And we study the variance of the window of the polynomial fit.
+\textcolor{Miku}{IN PROGRESS}
+
+
+
 \textcolor{Miku}{HERE:Add the uncertainty analysis of the mean varinace for the wavelength range that we use.}
 \section{Blend-free Fe I line Nave list}
 The mentioned methodology implements the Nave list of laboratory-measured Fe I lines~\cite{Nave_1994}. 

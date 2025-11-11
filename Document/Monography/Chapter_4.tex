@@ -194,95 +194,62 @@ From this maybe get a description of line asymetry in the all visible range.
 
 \subsection{The granulation pattern}
 
-The granulation patterns for the IAG Solar Flux Atlas in all the wavelength range was obtained.
+The granulation pattern is presented as the plot of relative velocity against line depth for the IAG solar flux atlas.
+
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{1.0\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/GranulationPattern_VIS.pdf}
+         \caption{Visible range for the IAG solar flux atlas.}\label{fig:granulation pattern VIS}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{1.0\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/GranulationPattern_NIR.pdf}
+         \caption{Near infrared range for the IAG solar flux atlas.}\label{fig:granulation pattern NIR}
+     \end{subfigure}
+
+        \caption{Granulation pattern obtained for both wavelength ranges in the IAG solar flux atlas. Note that the relative velocity is wavelength-dependent}\label{fig:Granulation solar flux}
+\end{figure}
+
+
+As shown in Figure~\ref{fig:Granulation solar flux}, the convective velocity depends on line depth, as described in literature.
+Moreover, this \textit{granulation curve} is not unique or universal, but depends on the wavelength range.
+To further characterize this trend, we performed an analysis of line depth versus wavelength was performed at fixed velocities. 
+
+To measure these wavelength shifts, the analysis was restricted to the spectral range from $\SI{4300}{\angstrom}$ to $\SI{5600}{\angstrom}$.
+One of the plots of Figure~\ref{fig:Velocity bins} illustrates why the restricted range is convenient: In longer wavelengths it presents more complex structures which make a linear fit useless. 
+The wavelengths from both atlases were then sorted into velocity bins of $50$ m/s.
 
 \begin{figure}[H]
     \centering
- \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/GranulationPattern_ALL.pdf}
-    \caption{Granulation pattern obtained for the Solar Flux Atlas. The wavelength shift dependence is along the line depth.}\label{fig:Granulation solar flux}
+ \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/Velocity bins VIS_plot.pdf}
+    \caption{Velocity bins for the relation between wavelength and line depth. }\label{fig:Velocity bins}
 \end{figure}
 
-As shown in Figure~\ref{fig:Granulation solar flux}, the behavior along line depth is according to literature, clearly demonstrating the line depth-dependent wavelength shift, also known as chromodependence.
-To further characterize this trend, an analysis of line depth versus wavelength was performed. The guiding hypothesis was: “If the velocity shift is present only in the disk-integrated Solar Flux Atlas and absent at the disk center, then solar rotation is the cause.”
-However, the velocity shift was observed in both spectral datasets. 
+For each velocity bin was plotted the wavelength against line depth to measure a frequency shift with a lineal fit (see Figure~\ref{fig:Velocity bins slopes VIS}).
+
+\begin{figure}[H]
+    \centering
+ \includegraphics[width=0.9\linewidth]{Images/Results/Third signature/Velocity bins VIS.pdf}
+    \caption{Individual plots of wavelength across line depth representing each bin of velocity for the IAG solar flux atlas.}\label{fig:Velocity bins slopes VIS}
+\end{figure}
+
+The same analysis was performed to compare with the disk-center spectrum.
+The Figure~\ref{fig:Velocity bins slopes SPA} shows the results for the wavelength-dependence along line depth in the IAG spatially resolved quiet sun atlas.
+
+\begin{figure}[H]
+    \centering
+ \includegraphics[width=0.8\linewidth]{Images/Results/Third signature/Velocity bins SPA.pdf}
+    \caption{Individual plots of wavelength across line depth representing each bin of velocity for the IAG spatially resolved quiet sun atlas. The value for slopes on this spectrum are higher than the disk-integrated flux atlas.}\label{fig:Velocity bins slopes SPA}
+\end{figure}
+
+\textcolor{Miku}{IN PROGRESS}
+The guiding hypothesis was: “If the velocity shift is present only in the disk-integrated spectrum and absent at the disk-center, then solar rotation is the cause.” 
+However, the velocity shift was observed in both spectral datasets and the parameters on the disk-center spectrum are greater than IAG solar flux atlas. 
 This was initially unexpected, as rotational doppler broadening is negligible at the disk center.
 
-To measure these wavelength shifts, the analysis was restricted to the spectral range from $4300 \mathring{A}$ to $5600 \mathring{A}$. 
-The wavelengths from both atlases were then sorted into velocity bins of $50m/s$ (see figure~\ref{fig:Velocity bins}).
-
-\begin{figure}[H]
-     \centering
-     \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity bins VIS_plot.pdf}
-         \caption{Visible range for the Solar Flux Atlas.}\label{fig:vel bins plot VIS}
-     \end{subfigure}
-\hfill
-     \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity bins SPA_plot.pdf}
-         \caption{Visible range for the Spatially Resolved Quiet Sun Atlas.}\label{fig:vel bins plot SPA}
-     \end{subfigure}
-
-        \caption{Comparision between atlases with velocity bins for the relation between wavelength and line depth. For each velocity bin was plotted wavelength against line depth to measure a frequency shift with a first order polynomial fit.}\label{fig:Velocity bins}
-\end{figure}
-
-For each velocity bin was plotted wavelength against line depth to measure a frequency shift with a first order polynomial fit (see figure~\ref{fig:Velocity bins slopes})
-
-\begin{figure}[H]
-     \centering
-     \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity bins VIS.pdf}
-         \caption{Velocity bins of $50m/s$ for the Solar Flux Atlas.}\label{fig:vel bins VIS}
-     \end{subfigure}
-\hfill
-     \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity bins SPA.pdf}
-         \caption{Velocity bins of $50m/s$ for the Spatially Resolved Quiet Sun Atlas.}\label{fig:vel bins SPA}
-     \end{subfigure}
-
-        \caption{Individual plots of lower excitation energy across line depth representing each bin of velocity.}\label{fig:Velocity bins slopes}
-\end{figure}
-
-The tables~\ref{tab:velocity bins SPA} and~\ref{tab:velocity bins VIS} shows the obtained slopes in both atlases. 
-
-\begin{table}[H]
-    \centering
-\begin{tabular}{||c|c|c|c|c||}
-\hline
-\multicolumn{1}{|c|}{\textbf{Velocity bin}} & \multicolumn{1}{c|}{\textbf{Shift}} & \multicolumn{1}{c|}{\textbf{Slope}} & \multicolumn{1}{c|}{\textbf{Error slope}} & \multicolumn{1}{c|}{\textbf{Error shift}} \\ \hline
-50 & 1.1937 & -0.000063 & 0.000022 & 0.1166 \\ \hline
-0 & 1.1720 & -0.000056 & 0.000018 & 0.0923 \\ \hline
--50 & 1.2840 & -0.000087 & 0.000021 & 0.1087 \\ \hline
--100 & 1.3953 & -0.000112 & 0.000012 & 0.0584 \\ \hline
--150 & 1.4327 & -0.000124 & 0.000017 & 0.0842 \\ \hline
--200 & 1.5028 & -0.000142 & 0.000013 & 0.0658 \\ \hline
--250 & 1.5712 & -0.000165 & 0.000018 & 0.0890 \\ \hline
--300 & 1.6233 & -0.000184 & 0.000019 & 0.0971 \\ \hline
--350 & 1.4129 & -0.000154 & 0.000055 & 0.2583 \\ \hline
--400 & 1.6455 & -0.000208 & 0.000033 & 0.1617 \\ \hline
--450 & 1.1952 & -0.000144 & 0.000060 & 0.3094 \\ \hline
-\end{tabular}
-\caption{Slopes for the first order polynomial fit in each velocity bin for the Spatially Resolved Quiet Sun Atlas.}\label{tab:velocity bins SPA}
-\end{table}
-
-\begin{table}[H]
-    \centering
-\begin{tabular}{||c|c|c|c|c||}
-\hline
-\multicolumn{1}{|c|}{\textbf{Velocity bin}} & \multicolumn{1}{c|}{\textbf{Shift}} & \multicolumn{1}{c|}{\textbf{Slope}} & \multicolumn{1}{c|}{\textbf{Error slope}} & \multicolumn{1}{c|}{\textbf{Error shift}} \\ \hline
--100 & 1.2704 & -0.000091 & 0.000015 & 0.0797 \\ \hline
--150 & 1.2601 & -0.000094 & 0.000013 & 0.0673 \\ \hline
--200 & 1.3340 & -0.000115 & 0.000019 & 0.0985 \\ \hline
--250 & 1.3920 & -0.000133 & 0.000023 & 0.1164 \\ \hline
--300 & 1.3724 & -0.000139 & 0.000017 & 0.0874 \\ \hline
--350 & 1.3106 & -0.000137 & 0.000015 & 0.0744 \\ \hline
--400 & 1.2119 & -0.000128 & 0.000018 & 0.0866 \\ \hline
--450 & 1.4212 & -0.000181 & 0.000039 & 0.1947 \\ \hline
--500 & 1.3787 & -0.000189 & 0.000052 & 0.2609 \\ \hline
-\end{tabular}
-\caption{Slopes for the first order polynomial fit in each velocity bin for the Solar Flux Atlas.}\label{tab:velocity bins VIS}
-\end{table}
-
-The value of slopes for the Spatially Resolved Quiet Sun Atlas are greater than the Solar Flux Atlas, which contradicts the initial hypothesis.
+Furthermore, the shift on every lineal fit expresses the granulation relation.
+\textcolor{Miku}{IN PROGRESS}
 
 \subsection{Line depth-dependence on excitation potential for the lowest energy level}  
 
@@ -361,7 +328,7 @@ However, there is a quantitative difference, the lineal fit coefficients are hig
     \centering
     \begin{tabular}{||r|r|r|r|r||}
 \hline
-\multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Velocity bin\\ (m/s)\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Slop\\ (eV)\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{$\sigma_{\text{Slope}}$}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Shift\\ (eV)\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{$\sigma_{\text{Shift}}$}} \\
+\multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}\textcolor{Miku}{Velocity bin}\\ \textcolor{Miku}{(m/s)}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}\textcolor{Miku}{Slop}\\ \textcolor{Miku}{(eV)}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textcolor{Miku}{$\sigma_{\text{Slope}}$}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}\textcolor{Miku}{Shift}\\ \textcolor{Miku}{(eV)}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textcolor{Miku}{$\sigma_{\text{Shift}}$}}} \\
 \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
 0 & -4.5638 & 1.1564 & 7.1636 &  0.9651 \\ \hline
 -50 & -1.9274 & 1.1583 & 4.7903 &  0.9496 \\ \hline
@@ -386,7 +353,7 @@ The rotation eliminates one of the chromodependence but this dont confirm anythi
 
 \subsection{Characterization of chromodepence on granulation pattern}
 
-The figure~\ref{fig:standard curve gray} show the standard curve proposed for Gray and Oostra~\cite{Gray_Oostra_2018}, stablish on the range $6020-6340\mathring{A}$
+The Figure~\ref{fig:standard curve gray} show the standard curve proposed for Gray and Oostra~\cite{Gray_Oostra_2018}, establish on the range $\SI{6020}{\angstrom}-\SI{6340}{\angstrom}$ of wavelength.
 
 \begin{figure}[H]
     \centering
@@ -394,24 +361,24 @@ The figure~\ref{fig:standard curve gray} show the standard curve proposed for Gr
     \caption{Standard curve given by Gray and Oostra and recalculated for comparision with the current work.}\label{fig:standard curve gray}
 \end{figure}
 
-Since the standard curve does not account for the full wavelength range and the given third-order polynomial fit overestimates the data points, a different approach was adopted. 
-The spectrum was separated into distinct color ranges, and a second-order polynomial was fitted to each segment.
+Since the standard curve does not account for the full wavelength range and the given third-order polynomial fit take just the low curve points, a different approach was adopted. 
+The spectrum was separated into distinct color ranges, and a second-order polynomial was adjusted to each segment as shown Figure~\ref{fig:Curves Solar Flux}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/color curves.pdf}
-    \caption{Different color curves fitted to a specific range on granulation pattern for the visible range in the Solar Flux Atlas. The tendency on the curves is more pronounced in the violet and red range.}\label{fig:Curves Solar Flux}
+    \caption{Different color curves adjusted to a specific range on granulation pattern for the visible range in the IAG solar flux atlas. The inclination on the curves is more pronounced in the violet than the red range.}\label{fig:Curves Solar Flux}
 \end{figure}
 
 The trend in the curves is more pronounced in the violet and red ranges. 
 This can be interpreted as a shift and flattening of the standard curve from Gray and Oostra towards shorter wavelengths.
-Using the curve for the range $4970-5700\mathring{A}$ as a reference (green standard curve), distinct scaling coefficients were calculated for each color segment, as shown in Table~\ref{tab:color coefficients}.
+Using the curve for the range $(\SI{4970}{\angstrom}-\SI{5700}{\angstrom})$ as a reference (green color curve), distinct scaling coefficients were calculated for each color segment, as shown in Table~\ref{tab:color coefficients}.
 
 \begin{table}[H]
     \centering
 \begin{tabular}{||c|c||}
     \hline
-\textbf{Wavelength range $(\mathring{A})$} & \textbf{Color coefficient}  \\ \hline
+\textcolor{Miku}{Wavelength range $(\mathring{A})$} & \textcolor{Miku}{Color coefficient}  \\ \hline
 3800-4270         &    0.5359          \\\hline
 4270-4760           &     0.8195        \\\hline
 4760-4970         &      0.8348    \\ \hline
@@ -421,10 +388,10 @@ Using the curve for the range $4970-5700\mathring{A}$ as a reference (green stan
 6180-7800            &        1.1149      \\ \hline
 
 \end{tabular}
-\caption{Scaling factors $\alpha_c$ to the new standard curve shown in the equation~\eqref{eq:new standard curve}.}\label{tab:color coefficients}
+\caption{Scaling factors $\alpha_c$ to the new standard curve shown in the Equation~\eqref{eq:new standard curve}.}\label{tab:color coefficients}
 \end{table}
 
-The equation~\eqref{eq:new standard curve} reports a new, color dependent standard curve. 
+The Equation~\eqref{eq:new standard curve} reports a new, color dependent standard curve. 
 Its coefficients $(\alpha_c)$ vary with the color range, generating the corresponding granulation pattern for each spectral segment listed in Table~\ref{tab:color coefficients}.
 
 \begin{equation}
@@ -495,26 +462,8 @@ To show the improvement on the quality in the third signature plots, the figure~
 
 The less scattered points and the improvement on the chromodepence identification is evident.
 
-Furthermore, the variance of the observed wavelength was analyzed by altering the number of points used in the fourth-order polynomial fit. 
-Figure~\ref{fig:variance} shows that this parameter set performs well in the visible spectrum. H
-However, its performance degrades in the infrared, where the number of data points defining the line core is reduced compared to a typical line in the visible range.
-
-\begin{figure}[H]
-     \centering
-     \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/variance VIS.pdf}
-         \caption{Variance for random lines in the visible range for the Solar Flux Atlas.}
-
-     \end{subfigure}
-\hfill
-     \begin{subfigure}{1.0\textwidth}
-
-         \includegraphics[width=\textwidth]{Images/Results/variance NIR.pdf}
-         \caption{Variance for random lines in the near infrared range for the Solar Flux Atlas.}
-
-     \end{subfigure}
-
-        \caption{Variance of the observed wavelength altering the number of points on the fourth order polynomial fit}\label{fig:variance}
-\end{figure}
-
-
+\textcolor{Miku}{IN PROGRESS}
+Discuss all aspects about the standard granulation curve and the effects that broaden or disperse this curve: 
+The curve depends strongly on wavelength and weakly on excitation potential.
+Discuss the hypothesis that the chromodependence is a consequence of rotation and why now believe that is not true.
+\textcolor{Miku}{IN PROGRESS}

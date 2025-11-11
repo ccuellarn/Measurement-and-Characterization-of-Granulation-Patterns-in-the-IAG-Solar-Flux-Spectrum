@@ -23,21 +23,21 @@
 \contentsline {subsection}{\numberline {2.4.6}Chromodependence characterization}{24}{subsection.2.4.6}%
 \contentsline {chapter}{\numberline {3}Methodology: The blend-free list of Fe I lines}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Computational approach}{27}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Blend-free Fe I line Nave list}{28}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Selection process for blend-free Fe I lines}{28}{subsection.3.2.1}%
-\contentsline {chapter}{\numberline {4}Results and discussion: The three signatures of convection}{30}{chapter.4}%
-\contentsline {section}{\numberline {4.1}The first signature: Line broadening}{30}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Line depth-dependence on line core curvature}{30}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}The second signature: Line profile asymmetry}{36}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}The line core bisector slope}{36}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Flux deficit IN PROGRESS}{43}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence on wavelength shifts}{45}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}The granulation pattern}{45}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Line depth-dependence on excitation potential for the lowest energy level}{50}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Characterization of chromodepence on granulation pattern}{56}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Higher quality graphs}{61}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusions}{63}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Z-score Standardization}{64}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}The third derivate relation}{66}{appendix.1.B}%
-\contentsline {chapter}{\numberline {C}Visualizer for outliers}{68}{appendix.1.C}%
-\contentsline {section}{\numberline {C.1}Test example}{70}{section.1.C.1}%
+\contentsline {section}{\numberline {3.2}Blend-free Fe I line Nave list}{30}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Selection process for blend-free Fe I lines}{30}{subsection.3.2.1}%
+\contentsline {chapter}{\numberline {4}Results and discussion: The three signatures of convection}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}The first signature: Line broadening}{32}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Line depth-dependence on line core curvature}{32}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}The second signature: Line profile asymmetry}{38}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}The line core bisector slope}{38}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Flux deficit IN PROGRESS}{45}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence on wavelength shifts}{47}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}The granulation pattern}{47}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Line depth-dependence on excitation potential for the lowest energy level}{52}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Characterization of chromodepence on granulation pattern}{58}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Higher quality graphs}{63}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusions}{64}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Z-score Standardization}{65}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}The third derivate relation}{67}{appendix.1.B}%
+\contentsline {chapter}{\numberline {C}Visualizer for outliers}{69}{appendix.1.C}%
+\contentsline {section}{\numberline {C.1}Test example}{71}{section.1.C.1}%
