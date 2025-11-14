@@ -1,34 +1,32 @@
 \begin{appendices}
 \chapter{Z-score Standardization}\label{ap:zscore}
-In the process of calculating the fourth-order polynomial fit the function np.poly.fit () presents an over estimation on the coefficients, due to the large difference of magnitude order between axes.
-To deal with this difference a z-score standardization was used on the selected bins of wavelengths around the reference point for a minimum. 
+The function np.polyfit (), during the process of calculating the fourth-order polynomial fit, presents an over estimation on the coefficients due to the large difference of magnitude order between axes.
+To deal with this difference, was applied a z-score standardization on the selected bins of wavelengths around the minimum reference point. 
 This process helps to avoid the dominance of certain features over others due to differences in their scales~\cite{Boyd_2014}.
 
-The follow up for the standardization was applied the relation~\eqref{eq:z score} on the selected bins for wavelength.
-
+For the standardization was applied Equation~\eqref{eq:z score} on the selected bins for wavelength around the minimum reference point.
 \begin{equation}
-\lambda_{scaled}= \frac{\lambda_{original}-\mu(\lambda_{original})}{\sigma(\lambda_{original})}
+\lambda_{\text{scaled}}= \frac{\lambda_{\text{original}}-\mu(\lambda_{\text{original}})}{\sigma(\lambda_{\text{original}})}
 \label{eq:z score}
 \end{equation}
-
-Where $\mu(\lambda_{original})$ refers to the mean and $\sigma(\lambda_{original})$ to the standard deviation of the wavelength range. 
-As the wavelength was scaled, in terms of calculated derivatives for the first and the second signature, a re-scaled for these values was necessary.
-Based on the definition for the standardization, the derivatives follow the relation~\eqref{eq:re scaled derivates}.
+Where $\mu(\lambda_{\text{original}})$ refers to the mean and $\sigma(\lambda_{\text{original}})$ to the standard deviation of the wavelength range. 
+In terms of calculating derivatives for the first and second signature of convection, the standarization on the variable required a re-scaled factor of conversion for obtain the original values.
+Based on the definition for the standardization, the derivatives have to follow Equation~\eqref{eq:re scaled derivates}.
 
 \begin{equation}
- \frac{d}{d \lambda_{original}} = \frac{1}{\sigma(\lambda_{original})} \frac{d}{d \lambda_{scaled}}
+ \frac{d}{d \lambda_{\text{original}}} = \frac{1}{\sigma(\lambda_{\text{original}})} \frac{d}{d \lambda_{\text{scaled}}}
 \label{eq:re scaled derivates}
 \end{equation}
 
 Taking the derivative of the expression~\eqref{eq:z score} a factor related to the standard deviation appears.
-With this, the original values for derivatives evaluated in the observed wavelength are expressed in equation~\eqref{eq:2 and 3 scaled derivate}
+Therefore, the original values for derivatives evaluated in the observed wavelength are expressed in Equation~\eqref{eq:2 and 3 scaled derivate}
 
 \begin{equation}
- \frac{d^2}{d \lambda_{original}^2} = \frac{1}{\sigma(\lambda_{original})^2} \frac{d^2}{d \lambda_{scaled}^2} \quad\quad \quad \frac{d^3}{d \lambda_{original}^3} = \frac{1}{\sigma(\lambda_{original})^3} \frac{d^3}{d \lambda_{scaled}^3}
+ \frac{d^2}{d \lambda_{\text{original}}^2} = \frac{1}{\sigma(\lambda_{\text{original}})^2} \frac{d^2}{d \lambda_{\text{scaled}}^2} \quad\quad \quad \frac{d^3}{d \lambda_{\text{original}}^3} = \frac{1}{\sigma(\lambda_{\text{original}})^3} \frac{d^3}{d \lambda_{\text{scaled}}^3}
 \label{eq:2 and 3 scaled derivate}
 \end{equation}
 
-This improved considerably the precision in the fit and there over the precision on the observed wavelength calculated.
+The treatment proposed solves the problem for the large difference of magnitude order between axes.
 
 \chapter{The third derivate relation}\label{ap:third derivative}
 
