@@ -38,6 +38,6 @@
 \contentsline {section}{\numberline {4.4}Higher quality graphs}{63}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Conclusions}{64}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Z-score Standardization}{65}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}The third derivate relation}{67}{appendix.1.B}%
-\contentsline {chapter}{\numberline {C}Visualizer for outliers}{69}{appendix.1.C}%
-\contentsline {section}{\numberline {C.1}Test example}{71}{section.1.C.1}%
+\contentsline {chapter}{\numberline {B}The third derivative relation}{67}{appendix.1.B}%
+\contentsline {chapter}{\numberline {C}Visualizer for outliers}{70}{appendix.1.C}%
+\contentsline {section}{\numberline {C.1}Test example}{72}{section.1.C.1}%
