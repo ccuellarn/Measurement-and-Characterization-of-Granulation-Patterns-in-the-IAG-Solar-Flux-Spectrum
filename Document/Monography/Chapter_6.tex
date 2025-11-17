@@ -1,6 +1,6 @@
 \begin{appendices}
 \chapter{Z-score Standardization}\label{ap:zscore}
-The function np.polyfit (), during the process of calculating the fourth-order polynomial fit, presents an over estimation on the coefficients due to the large difference of magnitude order between axes.
+The function \lstinline|np.polyfit()|, during the process of calculating the fourth-order polynomial fit, presents an over estimation on the coefficients due to the large difference of magnitude order between axes.
 To deal with this difference, was applied a z-score standardization on the selected bins of wavelengths around the minimum reference point. 
 This process helps to avoid the dominance of certain features over others due to differences in their scales~\cite{Boyd_2014}.
 
@@ -39,6 +39,7 @@ Define the slope for the minimum point as Equation~\eqref{eq:slope}, where the p
     \includegraphics[scale=0.4]{Images/CBS proof.png}
     \caption{Illustration for the points $a$, $b$, $c$ and the height whose defines the line core bisector slope (see Equation~\eqref{eq:slope}).}\label{fig: CBS slope}
 \end{figure}
+
 Note that in a symmetrical line the bisector is vertical and the slope, according to this definition, is zero.
 Now, the curve may be expanded around the point $a$ by Taylor series.
 Notice this value is chosen at the minimum, so the first derivative evaluated in $a$ is zero; and the difference between the function evaluated in points $a$ and $c$ is equal to the height.
@@ -102,117 +103,281 @@ In the code it was multiplied by the relation ($c/\lambda$) to see the behavior 
 
 \chapter{Visualizer for outliers}\label{ap:visualizer}
 
-For the line selection process mentioned in Chapter 3, a visualizer was created using the Tkinter library to aid in identifying blend lines or those outside the spectrum. 
+For the process of Fe I line selection was created a visualizer, using the Tkinter python library, to aid in identifying blend lines or those outside the spectrum. 
+In order to made this procees less stressing a little tools bar was created to facilitate the label and deleting process is presented in Figure~\ref{fig:tools bar}. 
 
-Two versions of the visualizer were developed, each utilizing different filters. The first filter displays the geometry of the line core and the line profile c-curved bisector. The second filter, which builds on the selected lines from the first, shows the three signatures of convection and the behavior of the selected line in each one. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{Images/Tools bar.png}
+    \caption{Tools bar for the visualizer, contains a classification system of labels, the option to save images, and add to a Dataframe for dropping.}\label{fig:tools bar}
+\end{figure}
 
-This visualizer significantly reduced the time spent reviewing lines. It also features a custom classification system, shown as color stars. These buttons don't make something on the Dataframe more than just a label for the user orientation. Also, allows the users to add lines to a DataFrame, specially for the lines which are gonna to be deleted or filtered due to bad reputation, and save images. The code for the visualizer can be seen on \href{https://github.com/ccuellarn/Final-Project}{GitHub}, along with a test example provided below.
+It features a custom classification system, shown as color stars.
+We present the guide using in the project: Red is for a discarded line, yellow indicates that the line need other check, and green is for a line approved.  
+If is necessary to change the label, use the button "$\times$ Clear" first and then give another label to the line. 
+These buttons don't make something on the Dataframe more than just a label for the user orientation. 
+Even the lines have or not the label for good ones, the code just delete the lines which are added to the Dataframe of filtered lines.
 
-The main code for this project is contained in the file Visualizer.ipynb, and a test example dataset is provided in test.xlsx. 
-To facilitate analysis, two DataFrames were created: One for the spectrum with columns Wave and Flux, representing wavelength in Armstrongs and normalized flux, respectively, and another for the list of Fe I lines. 
-The closer lines  function was used to select the closest minimums to the Fe I lines, along with their associated flux values and Fe I line wavelengths.
+To make a list of lines which are gonna to be deleted or filtered use the button "+ Add", which includes the line core information with the label given.
+If this process was sucessfull, the message shown in Figure~\ref{fig:added line} should appears.
+On the other hand, if the label of a line was changed when it was already saved as a discarded line, it can be updated.
+Give the other label and use the button "+ Add", should appear the message from Figure~\ref{fig:updated line}.
 
-Beware, these Fe I line wavelengths serve as reference points for selecting bins around each line, rather than representing observed wavelengths. The function discards any lines with distances between minimums and Fe I lines exceeding $0.001\mathring{A}$. Furthermore, to ensure convexity, fourth-order polynomial fits with non-positive second-order coefficients were discarded. An approximation was used to discard lines that do not belong to the spectrum.
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.42\textwidth}
+         \includegraphics[width=\textwidth]{Images/Added line.png}
+         \caption{Message for an added line to the Dataframe.}\label{fig:added line}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.45\textwidth}
+         \includegraphics[width=\textwidth]{Images/Updated line.png}
+         \caption{Message for an updated line to the Dataframe.}\label{fig:updated line}%
+     \end{subfigure}
+     \caption{The messages shows the index, wavelength and classification for the line added or updated.}\label{fig:messages}%
+\end{figure}
 
-A computational form of a slope can be seen as the difference between the maximum and minimum point of the list of points. In terms of flux if it is seen the distance can't be more than a half of the absolute difference. This lets us discard pronounced slopes without affecting or filtering weaker lines.
-Then use the function local points for selecting the bins of $0.1m\mathring{A}$ around the minimal point, each corresponding to one index on the closer lines dataframe. 
+When the visualizer is close, the code returns a Dataframe with the dropped lines (lines added) and filtered lines (rest of the lines).
+The option for "Save JPG" of the graph is available, saving the image in format JPG and showing the confirmation message with the index and wavelength of the line (see Figure~\ref{fig:save image}).
 
-The function Fit Derivatives finds the fourth order polynomial fit and calculates the minimum point with the second derivative of the fit, that is the observed wavelength. This returns a Dataframe with the value of Fe I line associated, the polynomial fit, and the observed wavelength. In parallel, the line profile bisector is calculated using the midpoint method where equal points of flux are selected for comparison.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Images/Save image.png}
+    \caption{Confirmation message for save the image in format JPG of the graph with the information of the line.}\label{fig:save image}
+\end{figure}
 
-The first visualizer uses these calculated values, showing the line core and the fourth polynomial fit, in parallel with the line profile bisector of each one in terms of velocity.
+Furthermore, was created a navigation bar which help to locate a specific line or explorating the differents graphs.
 
-We recommend eliminating the lines that follow one of the conditions presented. First, the line profile bisector doesn't show a C-curved bisector or it's too affected by the noise. Second, the polynomial fit and the line profile don't follow a common absorption line form. This can be interpreted as the position on other points to the fit. Third, the line core shows two minimums or a protuberance. These are blended lines. An example of this behavior is shown on figure ().
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{Images/Navigation bar.png}
+    \caption{Navigation bar for the visualizer, help to locate a specific line or explorating the differents graphs using a slider, writing box, and buttons for moves.}\label{fig:Navigations bar}
+\end{figure}
 
+This bar counts with a slider and a box to locate the line by using the index it appears in the original list (see Figure~\ref{fig:Navigations bar}).
+Also, counts with the buttons "$\leftarrow$ Last" and "$\rightarrow$ Next" to move between graphs.
+
+Two versions of the visualizer were developed, each one appliying different filters. 
+The first filter displays the geometry of the line core and line profile as shown Figure~\ref{fig:1st visualizer}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{Images/View_1st_visualizer.png}
+    \caption{General view for the results of the first filter. It shows the line core and the fourth-order polynomial fit with the line profile bisector.}\label{fig:1st visualizer}
+\end{figure}
+
+This version shows the line core and the fourth-order polynomial fit, in parallel with the line profile bisector of each one in terms of velocity.
 The objective of the first filter is to reduce the number of lines for analyzing the three signatures of convection.
 
-The second part of the code calculates the three signatures of convection for the filtered lines. The second visualizer shows all the graphics including the line profile with the polynomial fit. In each graphic of derivatives the corresponding Fe I is resalted, this with the finally to select lines depending on his behavior.
- 
-\section{Test example}
+The second filter, which is build on the selected lines from the first filter, shows the three signatures of convection and the behavior of the selected line core in each one (see Figure~\ref{fig:2nd visualizer}). 
 
-In the file test example.ipynb run the line code.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{Images/View_2nd_visualizaer.png}
+    \caption{General view for the results of the second filter. It shows the three signatures of convection with the line profile.}\label{fig:2nd visualizer}
+\end{figure}
+
+This version exhibits all the three signatures graphics including the line core with the fourth-order polynomial fit. 
+In each graphic of derivatives the corresponding Fe I is resalted, this with the finally to select lines depending on his behavior.
+ 
+The visualizer and the filters significantly reduced the time spent reviewing lines. 
+For this reason, the code for this tool can be seen on \href{https://github.com/ccuellarn/Final-Project}{GitHub Repository}, along with a test example provided below.
+
+\section{Test example}
+The main code for this project is contained in the Jupyter notebook file \lstinline|Visualizer.ipynb|, and a test example dataset is provided in the excel file \lstinline|Test_example|.
+On the first part of the code two DataFrames were created: One for the spectrum with columns Wave and Flux, representing wavelength in armstrongs and normalized flux, respectively; and another for the list of Fe I lines. 
+Run the next cell code for upload the raw data from the excel file and create the Dataframe of the spectrum with columns Wave and Flux.
 
 \begin{lstlisting}
-raw_data = read.csv(jsjsjsj)
+#Data from Vzier without treatment 10000 A- 11000 A
+raw_data = pd.read_excel(r"C:\Users\clauw\Documents\Programming\Final-Project\Project\Visualizer\Data\Test_example.xlsx")
+
+#Convert the wavelength in A cause its in cm^-1 
+raw_data['Wave A'] = (10**(8))/raw_data['Wave (cm)']
+
+#Invert the values for the index in python
+raw_data = raw_data.sort_values('Wave A', ascending=True, na_position='first').reset_index(drop=True)
 
 \end{lstlisting}
 
 Feel free to modify this line to read the file type. 
-The idea is the Dataframe results have the columns Wave (cm), nFlux and Wave A. There's no need for the flux to be normalized, because nothing in the code uses the condition of normalized flux. 
-Then run the list of calibration lines. 
-In this case, we use the Nave list of Fe I lines. A test example list is displayed on the carpet Data.
+The idea is the Dataframe results have the columns Wave (cm), nFlux and Wave A. 
+There's no need for the flux to be normalized, because nothing in the code uses this condition.
+Then run the next cell code for create the Dataframe with calibration lines. 
 
 \begin{lstlisting}
-raw lambda =
-
+#List of Fe I lines
+raw_lambda = pd.read_excel(r"C:\Users\clauw\Documents\Programming\Final-Project\Project\Visualizer\Data\Nave list example.xlsx")
+raw_lambda['Nave list'] = (10**8)/raw_lambda['lambda']
+raw_lambda = raw_lambda[raw_lambda['Nave list'].between(10000,11000,inclusive='right')] #Separate the range for use, in this case 10000-11000
+raw_lambda = raw_lambda[raw_lambda['class']=='A'].reset_index(drop=True) #Just take the quality A lines
 \end{lstlisting}
 
-Run the next two cells where the functions closer lines and local points are displayed.
+In this case, we use the Nave list of Fe I lines. A test example list is displayed on the folder \lstinline|Data|.
+
+For the first filter we use two different functions.
+The function \lstinline|find_minimums| was used to select the closest minimums to the Fe I lines, along with their associated flux values and Fe I line wavelengths.
+Beware, these Fe I line wavelengths serve as reference points for selecting bins around each line, rather than representing observed wavelengths.  
+The closest lines to the Nave list values were selected as the minimum from the absolute value between the wavelengths.  
+We discard any lines with distances between minimums and Fe I lines exceeding $\SI{0.1}{\angstrom}$.
+To use the function run the next code line.
 
 \begin{lstlisting}
-closer_lines_first_filter =
-local_points_first_filter=
-
+closer_lines_first_filter = find_minimums(raw_data['Wave A'],raw_data['nFlux'],raw_lambda['Nave list'])
 \end{lstlisting}
 
-With this dataset, run the cell for the applied the first filter.
+The function \lstinline|width_minimums| selecting the bins of $\SI{50}{\miliangstrom}$ and $\SI{0.2}{\angstrom}$ around the minimal point, respectively for the line core and the line profile.
+Each window corresponds to one index on the Dataframe of closer Fe I lines. 
+Run the next cell to create the bins for the line core and the the line profile.
 
 \begin{lstlisting}
-Values_first_filter, Local_first_filter, Fit_first_filter, Bisector_first_filter = First_Filter()
-
+local_points_first_filter = width_minimums(closer_lines_first_filter,raw_data,0.05) #The window for the observed wavelength
+local_points_bis_first_filter = width_minimums(closer_lines_first_filter,raw_data,0.2) #Window for the bisector with all the line
 \end{lstlisting}
 
-On the cell code for the visualizer just comment the cell before running.
+Then, the function \lstinline|First Filter| finds the fourth-order polynomial fit and calculates the minimum point with the second derivative of the fit, that is the observed wavelength. 
+This returns a Dataframe with the value of Fe I line associated, the polynomial fit, and the observed wavelength. 
+In parallel, the line profile bisector is calculated using the midpoint method where equal points of flux are selected for comparison.
+Use the next line code for call the function.
 
 \begin{lstlisting}
-app1= app(run, local_first_filter)
-
+Values_first_filter,Fit_first_filter,Local_first_filter,Bisector_first_filter = First_Filter(local_points_first_filter,closer_lines_first_filter,local_points_bis_first_filter)
 \end{lstlisting}
 
-To extract the Dataframe with the lines to drop or for further analysis run the cell.
- Make sure that the visualizer is closed after running another cell code.
+Furthermore, to ensure the typical absorption line shape, fourth-order polynomial fits with non-positive second-order coefficients were discarded. 
+Also an approximation was used to discard lines that do not belong to the spectrum.
+A computational form of a slope can be seen as the difference between the maximum and minimum point of the list of points. 
+In terms of flux if it is seen the distance can't be more than a half of the absolute difference. 
+This lets us discard pronounced slopes without affecting or filtering weaker lines.
+
+To display the visualizer, uncomment the following line code in the cell corresponding to it.
 
 \begin{lstlisting}
-Dataframe to drop =
-
+#CHANGE THIS LINE - The order: local_points, values, fit, bisectors
+app = OutlierViewer(root, Local_first_filter,Values_first_filter,Fit_first_filter,Bisector_first_filter)
 \end{lstlisting}
 
-The cell  saves the filtered lines and the suspect ones in two different xlsx files.
+\textcolor{Miku}{Note:} Sometimes the first plot of the visualizer can be displaced due to the Tkinter library. 
+To fix this, just move to another line and back to the wished one.
+
+We recommend eliminating the lines that follow one of the conditions presented. 
+First, the line profile bisector doesn't show a C-curved bisector or it's too affected by the noise. 
+Second, the polynomial fit and the line profile don't follow a common absorption line form. 
+This can be interpreted as the position on other points to the fit. 
+Third, the line core shows two minimums or a protuberance. 
+These are blended lines. An example of this behavior is shown on Figure~\ref{fig:1st filter examples blend}  and an example of accepted lines is shown in Figure~\ref{fig:1st filter examples}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Images/1st filter example blend 1.jpg}
+    \includegraphics[scale=0.4]{Images/1st filter example blend 2.jpg}
+    \caption{Examples for discarted lines with the first filter of the visualizer. The line cores and line bisectors of the two plots shows one or more of the conditions presented.}\label{fig:1st filter examples blend}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Images/1st filter example 1.jpg}
+    \includegraphics[scale=0.4]{Images/1st filter example 2.jpg}
+    \caption{Examples for accepted lines with the first filter of the visualizer.}\label{fig:1st filter examples}
+\end{figure}
+
+\textcolor{Miku}{Note:} Make sure that the visualizer is closed after running another cell code.
+
+To extract the Dataframe with the lines to discard or for further analysis run the next cell.
 
 \begin{lstlisting}
-Values.save()
+#Return the lines which are added to the dataframe of deleting lines
+Filtered_lines_1 = app.return_lines()
 
+#Save the selected lines to drop
+Filtered_lines_1['Line'].to_excel('Dropped lines first filter.xlsx', index=False)
 \end{lstlisting}
 
-With the new list of filtered lines, run the cell  to redefine the list of Fe I lines with only the filtered ones.
+The next cell saves the filtered lines in an excel file.
 
 \begin{lstlisting}
-raw lambda = 
+index_to_drop_1 = Filtered_lines_1.index.values
 
+#Drop the selected lines
+New_values_1 = Values_first_filter.drop(index_to_drop_1).reset_index(drop=True)
+
+#Save them in a excel file
+New_values_1['Nave line'].to_excel('Nave list first filter.xlsx', index=False)
 \end{lstlisting}
 
-Now, run again the code for closer lines and local points with the new list of Fe I lines. 
-Then run the cell for applied the second filter and calculate the three signatures of convection
+The second part of the code calculates the three signatures of convection for the filtered lines.
+With this dataset, only run the cell corresponding to the new list of filtered lines for calibration.
 
 \begin{lstlisting}
-Values_second filter = Second Filter()
-
+#Lines from the excel file - This list have filtered values
+raw_lambda = pd.read_excel(r"C:\Users\clauw\Documents\Programming\Final-Project\Project\Visualizer\Data\Nave list first filter.xlsx")
 \end{lstlisting}
 
-As the same with the first filter, just comment the line to observe the second filter.
+For the test example we provide a list for filtered lines in the file \lstinline|Nave list first filter.xlsx|.
+Then, run the cell to redefine the closer lines and the corresponding windows of $\SI{50}{\miliangstrom}$.
 
 \begin{lstlisting}
-app2= Second filter(run, local points, values)
+closer_lines_second_filter = find_minimums(raw_data['Wave A'],raw_data['nFlux'],raw_lambda['Nave list'])
 
+local_points_second_filter = width_minimums(closer_lines_second_filter,raw_data,0.05)
 \end{lstlisting}
 
-The cell  helps to extract the lines to drop and remove it for the Dataframe.
+Then, run the next cell for applied the second filter and calculate the three signatures of convection.
 
 \begin{lstlisting}
-Values.save()
-
+Values_second_filter,Local_second_filter,Fit_second_filter = Second_Filter(local_points_second_filter,closer_lines_second_filter['Nave list'])
 \end{lstlisting}
 
-After the process, the resulting excel is the definitive list of Fe I lines.
+This function calculate the observed wavelength based on the fourth-order polynomial fit.
+Then, uses the different relations related to the signatures of convection.
+To display the visualizer of the second filter, uncomment the following line code in the cell corresponding to it
+
+\begin{lstlisting}
+#CHANGE THIS LINE - The order: local_points, values, fit
+app_2 = OutlierViewer(root, Local_second_filter,Values_second_filter,Fit_second_filter)
+\end{lstlisting}
+
+\textcolor{Miku}{Note:} Make sure that the visualizer is closed after running another cell code.
+
+We recommend eliminating the lines that are affected by noise or don't follow the general behavior on the three signatures of convection. 
+These are blended lines. An example of this behavior is shown on Figure~\ref{fig:2nd filter examples blend}  and an example of accepted lines is shown in Figure~\ref{fig:2nd filter examples}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Images/2nd filter example blend 1.jpg}
+    \includegraphics[scale=0.4]{Images/2nd filter example blend 2.jpg}
+    \caption{Examples for discarted lines with the first filter of the visualizer.}\label{fig:2nd filter examples blend}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Images/2nd filter example 1.jpg}
+    \includegraphics[scale=0.4]{Images/2nd filter example 2.jpg}
+    \caption{Examples for accepted lines with the first filter of the visualizer.}\label{fig:2nd filter examples}
+\end{figure}
+
+To extract the Dataframe with the lines to discard or for further analysis run the next cell.
+
+\begin{lstlisting}
+Filtered_lines_2 = app_2.return_lines()
+
+#Save the selected lines to drop
+Filtered_lines_2['Line'].to_excel('Dropped lines second filter.xlsx', index=False)
+\end{lstlisting}
+
+The next cell saves the filtered lines in an excel file.
+
+\begin{lstlisting}
+index_to_drop_2 = Filtered_lines_1.index.values
+
+#Drop the selected lines
+New_values_2 = Values_second_filter.drop(index_to_drop_2).reset_index(drop=True)
+
+#Save them in a excel file
+New_values_2.to_excel('Second_filter.xlsx', index=False)
+\end{lstlisting}
+
+After the process, the resulting excel is the definitive blend-free list of Fe I lines.
 
 \end{appendices}
 

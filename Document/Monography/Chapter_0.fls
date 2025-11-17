@@ -137,6 +137,8 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.st
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tools\afterpage.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tools\afterpage.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
@@ -668,15 +670,120 @@ INPUT .\Chapter_6.tex
 INPUT .\Chapter_6.tex
 INPUT .\Chapter_6.tex
 INPUT Chapter_6.tex
-INPUT .\Images\CBS proof.png
-INPUT .\Images\CBS proof.png
-INPUT .\Images\CBS proof.png
-INPUT .\Images\CBS proof.png
-INPUT .\Images\CBS proof.png
-INPUT .\Images\CBS proof.png
-INPUT .\Images\CBS proof.png
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-t1.enc
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\Tools bar.png
+INPUT .\Images\Tools bar.png
+INPUT .\Images\Tools bar.png
+INPUT .\Images\Tools bar.png
+INPUT .\Images\Tools bar.png
+INPUT .\Images\Tools bar.png
+INPUT .\Images\Tools bar.png
+INPUT .\Images\Added line.png
+INPUT .\Images\Added line.png
+INPUT .\Images\Added line.png
+INPUT .\Images\Added line.png
+INPUT .\Images\Added line.png
+INPUT .\Images\Added line.png
+INPUT .\Images\Added line.png
+INPUT .\Images\Updated line.png
+INPUT .\Images\Updated line.png
+INPUT .\Images\Updated line.png
+INPUT .\Images\Updated line.png
+INPUT .\Images\Updated line.png
+INPUT .\Images\Updated line.png
+INPUT .\Images\Updated line.png
+INPUT .\Images\Save image.png
+INPUT .\Images\Save image.png
+INPUT .\Images\Save image.png
+INPUT .\Images\Save image.png
+INPUT .\Images\Save image.png
+INPUT .\Images\Save image.png
+INPUT .\Images\Save image.png
+INPUT .\Images\Navigation bar.png
+INPUT .\Images\Navigation bar.png
+INPUT .\Images\Navigation bar.png
+INPUT .\Images\Navigation bar.png
+INPUT .\Images\Navigation bar.png
+INPUT .\Images\Navigation bar.png
+INPUT .\Images\Navigation bar.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\1st filter example blend 1.jpg
+INPUT .\Images\1st filter example blend 1.jpg
+INPUT .\Images\1st filter example blend 1.jpg
+INPUT .\Images\1st filter example blend 1.jpg
+INPUT .\Images\1st filter example blend 1.jpg
+INPUT .\Images\1st filter example blend 1.jpg
+INPUT .\Images\1st filter example blend 1.jpg
+INPUT .\Images\1st filter example blend 2.jpg
+INPUT .\Images\1st filter example blend 2.jpg
+INPUT .\Images\1st filter example blend 2.jpg
+INPUT .\Images\1st filter example blend 2.jpg
+INPUT .\Images\1st filter example blend 2.jpg
+INPUT .\Images\1st filter example blend 2.jpg
+INPUT .\Images\1st filter example blend 2.jpg
+INPUT .\Images\1st filter example 1.jpg
+INPUT .\Images\1st filter example 1.jpg
+INPUT .\Images\1st filter example 1.jpg
+INPUT .\Images\1st filter example 1.jpg
+INPUT .\Images\1st filter example 1.jpg
+INPUT .\Images\1st filter example 1.jpg
+INPUT .\Images\1st filter example 1.jpg
+INPUT .\Images\1st filter example 2.jpg
+INPUT .\Images\1st filter example 2.jpg
+INPUT .\Images\1st filter example 2.jpg
+INPUT .\Images\1st filter example 2.jpg
+INPUT .\Images\1st filter example 2.jpg
+INPUT .\Images\1st filter example 2.jpg
+INPUT .\Images\1st filter example 2.jpg
+INPUT .\Images\2nd filter example blend 1.jpg
+INPUT .\Images\2nd filter example blend 1.jpg
+INPUT .\Images\2nd filter example blend 1.jpg
+INPUT .\Images\2nd filter example blend 1.jpg
+INPUT .\Images\2nd filter example blend 1.jpg
+INPUT .\Images\2nd filter example blend 1.jpg
+INPUT .\Images\2nd filter example blend 1.jpg
+INPUT .\Images\2nd filter example blend 2.jpg
+INPUT .\Images\2nd filter example blend 2.jpg
+INPUT .\Images\2nd filter example blend 2.jpg
+INPUT .\Images\2nd filter example blend 2.jpg
+INPUT .\Images\2nd filter example blend 2.jpg
+INPUT .\Images\2nd filter example blend 2.jpg
+INPUT .\Images\2nd filter example blend 2.jpg
+INPUT .\Images\2nd filter example 1.jpg
+INPUT .\Images\2nd filter example 1.jpg
+INPUT .\Images\2nd filter example 1.jpg
+INPUT .\Images\2nd filter example 1.jpg
+INPUT .\Images\2nd filter example 1.jpg
+INPUT .\Images\2nd filter example 1.jpg
+INPUT .\Images\2nd filter example 1.jpg
+INPUT .\Images\2nd filter example 2.jpg
+INPUT .\Images\2nd filter example 2.jpg
+INPUT .\Images\2nd filter example 2.jpg
+INPUT .\Images\2nd filter example 2.jpg
+INPUT .\Images\2nd filter example 2.jpg
+INPUT .\Images\2nd filter example 2.jpg
+INPUT .\Images\2nd filter example 2.jpg
 INPUT .\Chapter_0.bbl
 INPUT .\Chapter_0.bbl
 INPUT Chapter_0.bbl
@@ -689,8 +796,8 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\stix\STIXG
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\stix\STIXGeneral-Italic.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\stix\STIXGeneral-Regular.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\stix\STIXGeneral-Regular.pfb
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1095.pfb
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1095.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1200.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1200.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\stix\stix-mathbbit.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\stix\stix-mathbbit.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\stix\stix-mathex.pfb
