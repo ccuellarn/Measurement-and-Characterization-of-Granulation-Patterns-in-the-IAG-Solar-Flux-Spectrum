@@ -1,5 +1,5 @@
 \begin{appendices}
-\chapter{Z-score Standardization}\label{ap:zscore}
+\customchapter{Appendix}{Z-score Standardization}\label{ap:zscore}
 The function \lstinline|np.polyfit()|, during the process of calculating the fourth-order polynomial fit, presents an over estimation on the coefficients due to the large difference of magnitude order between axes.
 To deal with this difference, was applied a z-score standardization on the selected bins of wavelengths around the minimum reference point. 
 This process helps to avoid the dominance of certain features over others due to differences in their scales~\cite{Boyd_2014}.
@@ -24,7 +24,7 @@ Therefore, the original values for derivatives evaluated in the observed wavelen
 \end{equation}
 The treatment proposed solves the problem for the large difference of magnitude order between axes.
 
-\chapter{The third derivative relation}\label{ap:third derivative}
+\customchapter{Appendix}{The third derivative relation}\label{ap:third derivative}
 
 The third derivative relation or called the line core bisector slope was deducted by Professor Benjamin and showed below.
 
@@ -101,7 +101,7 @@ CBS =  -\frac{f''}{3(f''')^2}
 \end{equation}
 In the code it was multiplied by the relation ($c/\lambda$) to see the behavior across line depth.
 
-\chapter{Visualizer for outliers}\label{ap:visualizer}
+\customchapter{Appendix}{Visualizer for outliers}\label{ap:visualizer}
 
 For the process of Fe I line selection was created a visualizer, using the Tkinter python library, to aid in identifying blend lines or those outside the spectrum. 
 In order to made this procees less stressing a little tools bar was created to facilitate the label and deleting process is presented in Figure~\ref{fig:tools bar}. 

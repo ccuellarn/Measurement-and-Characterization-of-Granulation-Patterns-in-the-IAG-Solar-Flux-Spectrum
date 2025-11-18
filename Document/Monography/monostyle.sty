@@ -86,3 +86,17 @@
     showstringspaces=false, % Don't show spaces in strings
     backgroundcolor = \color{gray!9} %color for background
 }
+
+%Chapter stylish
+\titleformat{\chapter}
+  [display]
+  {\normalfont\Huge\bfseries}
+  {\textcolor{Miku}{\Huge\bfseries\thechapter. \chapterlabel}}
+  {0.5em}
+  {}
+
+\newcommand{\chapterlabel}{}
+\newcommand{\customchapter}[2]{
+  \renewcommand{\chapterlabel}{#1}
+  \chapter{#2}
+}
