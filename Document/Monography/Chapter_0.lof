@@ -1,59 +1,59 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The general structure of the Sun. Images modified from~\cite {Priest_1982}.}}{12}{figure.caption.3}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The first clear photograph of the photosphere where the granulation pattern is visible took by Janssen in 1885. Image taken from~\cite {Malherbe_2022}.}}{13}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagram for the parcel of material displaced so slowly that remains in horizontal pressure. Image taken from~\cite {Priest_1982}.}}{14}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces A view of granulation on the Sun's surface. Image taken from~\cite {Samir_pattern}.}}{16}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces A time sequence showing granule evolution where the time intervals are about a minute. Image taken from~\cite {Foukal_1990}.}}{16}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Squared profile for the disk intensity at increasing wavelengths, where $5\mu $ refers to the infrared range and $0.32\mu $ the violet range. Image taken from~\cite {Foukal_1990}.}}{17}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The C-curved line profile bisector with the corresponding diagram of wavelength displacement due to convective blueshift. Imagen taken from~\cite {Dravins_1981}.}}{18}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Asymmetries on an average absorption line. Can be observed the differences in intensity redshift profile. Image taken from~\cite {Nieminen_2017}.}}{20}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Granulation pattern for the IAG spatially resolved quiet sun atlas, is shown to have a strong blueshift in the weaker lines. Image taken from~\cite {Ellwarth_2023}.}}{21}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Standard curve proposed by Gray and Oostra on the spectral range the spectral range of $\SI {6020}{\angstrom }$ to $\SI {6340}{\angstrom }$. Image taken from~\cite {Gray_Oostra_2018}.}}{23}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Contributions on angular momentum. Image taken from~\cite {Foukal_1990}.}}{24}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The general structure of the Sun. Images modified from~\cite {Priest_1982}.}}{8}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The first clear photograph of the photosphere where the granulation pattern is visible took by Janssen in 1885. Image taken from~\cite {Malherbe_2022}.}}{9}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagram for the parcel of material displaced so slowly that remains in horizontal pressure. Image taken from~\cite {Priest_1982}.}}{10}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A view of granulation on the Sun's surface. Image taken from~\cite {Samir_pattern}.}}{12}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A time sequence showing granule evolution where the time intervals are about a minute. Image taken from~\cite {Foukal_1990}.}}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Squared profile for the disk intensity at increasing wavelengths, where $5\mu $ refers to the infrared range and $0.32\mu $ the violet range. Image taken from~\cite {Foukal_1990}.}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The C-curved line profile bisector with the corresponding diagram of wavelength displacement due to convective blueshift. Imagen taken from~\cite {Dravins_1981}.}}{14}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Asymmetries on an average absorption line. Can be observed the differences in intensity redshift profile. Image taken from~\cite {Nieminen_2017}.}}{17}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Granulation pattern for the IAG spatially resolved quiet sun atlas, is shown to have a strong blueshift in the weaker lines. Image taken from~\cite {Ellwarth_2023}.}}{18}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Standard curve proposed by Gray and Oostra on the spectral range the spectral range of $\SI {6020}{\angstrom }$ to $\SI {6340}{\angstrom }$. Image taken from~\cite {Gray_Oostra_2018}.}}{20}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Contributions on angular momentum. Image taken from~\cite {Foukal_1990}.}}{21}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Variance of the observed wavelength altering the number of points on the fourth order polynomial fit}}{27}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Variance of the observed wavelength altering the number of points on the fourth order polynomial fit}}{24}{figure.caption.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Line core curvatures for the IAG solar flux atlas separated in wavelength ranges.}}{31}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Line core curvatures in the IAG solar flux atlas. While the J band for the near infrared range adjust to the general shallow lines trend, the H band exhibit wavelength-dependence.}}{32}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Linear fit applied to the range $(0.0-0.1)$ of line depth in the visible range of the IAG solar flux atlas.}}{33}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Line core curvatures for the visible range of the disk center data from the IAG spatially resolved quiet sun atlas.}}{34}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Linear fit applied to the range $(0.0-0.1)$ of line depth in the visible range of the IAG spatially resolved quiet sun atlas.}}{35}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Line core bisector slopes for the IAG solar flux atlas separated in wavelength ranges. The behavior of both plots is according to the C-curved shape of the line profile bisector affected by convection movement.}}{37}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Linear fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes in the IAG solar flux atlas, where is evident an wavelength-dependence.}}{38}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Line profile bisector slopes for the visible range in the IAG spatially resolved quiet sun atlas for $\mu =0$.}}{39}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Linear fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes int disk-center spectrum, where is evident an wavelength-dependence.}}{40}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Line depth bins of $0.1$, where wavelength-dependence of the slopes becomes apparent.}}{41}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Individual plots of line core bisector slope shift across wavelength representing each bin of line depth for the IAG solar flux atlas.}}{42}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Individual plots of line bisector slope shift across wavelength representing each bin of line depth for the Spatially Resolved Quiet Sun Atlas.}}{43}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces C-curved line profile bisector for the $6254.2850\mathring {A}$ and the standard curve for the green range from the third signature plot.}}{44}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Flux deficit curve for the $6254.2850\mathring {A}$ and the temperatures of the mean, the maximum and the RMS point of the bisector.}}{45}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Granulation pattern obtained for both wavelength ranges in the IAG solar flux atlas. Note that the relative velocity is wavelength-dependent}}{46}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Velocity bins for the relation between wavelength and line depth. }}{47}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Individual plots of wavelength across line depth representing each bin of velocity for the IAG solar flux atlas.}}{48}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Individual plots of wavelength across line depth representing each bin of velocity for the IAG spatially resolved quiet sun atlas. The value for slopes on this spectrum are higher than the disk-integrated flux atlas.}}{49}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Relative velocity against excitation potential for lowest energy level in the visible range of the IAG solar flux atlas.}}{50}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Velocity bins of $100$ m/s across Figure~\ref {fig:lower energy VIS}, with this separation is visible the excitation potential shift in the range $(2.5$ to $5.0)$ eV across line depth.}}{51}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Individual plots for the range $(2.5$ to $5.0)$ eV of excitation potential of lower energy level across line depth, representing each bin of velocity for the visible range of IAG solar flux atlas. The Table~\ref {tab:coef velocity bins energy VIS} shows the coefficients for each applied lineal fit.}}{52}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Relative velocity against excitation potential of lowest energy level in the visible range for the IAG spatially resolved quiet sun atlas.}}{54}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Individual plots for the range $(2.5$ to $5.0)$ eV of excitation potential of lowest energy level across line depth, representing each bin of velocity for the IAG spatially resolved quiet sun atlas.}}{55}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Standard curve given by Gray and Oostra and recalculated for comparision with the current work.}}{57}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Different color curves adjusted to a specific range on granulation pattern for the visible range in the IAG solar flux atlas. The inclination on the curves is more pronounced in the violet than the red range.}}{58}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Different color curves fitted to a specific ranges on granulation pattern for the near infrared range in the Solar Flux Atlas.}}{60}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces We realized the same graphic for the comparision with the Ellwarth article to show the less scattered points.}}{61}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Line core curvatures for the IAG solar flux atlas separated in wavelength ranges.}}{28}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Line core curvatures in the IAG solar flux atlas. While the J band for the near infrared range adjust to the general shallow lines trend, the H band exhibit wavelength-dependence.}}{29}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Linear fit applied to the range $(0.0-0.1)$ of line depth in the visible range of the IAG solar flux atlas.}}{30}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Line core curvatures for the visible range of the disk center data from the IAG spatially resolved quiet sun atlas.}}{31}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Linear fit applied to the range $(0.0-0.1)$ of line depth in the visible range of the IAG spatially resolved quiet sun atlas.}}{32}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Line core bisector slopes for the IAG solar flux atlas separated in wavelength ranges. The behavior of both plots is according to the C-curved shape of the line profile bisector affected by convection movement.}}{34}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Linear fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes in the IAG solar flux atlas, where is evident an wavelength-dependence.}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Line profile bisector slopes for the visible range in the IAG spatially resolved quiet sun atlas for $\mu =0$.}}{36}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Linear fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes int disk-center spectrum, where is evident an wavelength-dependence.}}{37}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Line depth bins of $0.1$, where wavelength-dependence of the slopes becomes apparent.}}{38}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Individual plots of line core bisector slope shift across wavelength representing each bin of line depth for the IAG solar flux atlas.}}{39}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Individual plots of line bisector slope shift across wavelength representing each bin of line depth for the Spatially Resolved Quiet Sun Atlas.}}{40}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces C-curved line profile bisector for the $6254.2850\mathring {A}$ and the standard curve for the green range from the third signature plot.}}{41}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Flux deficit curve for the $6254.2850\mathring {A}$ and the temperatures of the mean, the maximum and the RMS point of the bisector.}}{42}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Granulation pattern obtained for both wavelength ranges in the IAG solar flux atlas. Note that the relative velocity is wavelength-dependent}}{43}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Velocity bins for the relation between wavelength and line depth. }}{44}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Individual plots of wavelength across line depth representing each bin of velocity for the IAG solar flux atlas.}}{45}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Individual plots of wavelength across line depth representing each bin of velocity for the IAG spatially resolved quiet sun atlas. The value for slopes on this spectrum are higher than the disk-integrated flux atlas.}}{46}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Relative velocity against excitation potential for lowest energy level in the visible range of the IAG solar flux atlas.}}{47}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Velocity bins of $100$ m/s across Figure~\ref {fig:lower energy VIS}, with this separation is visible the excitation potential shift in the range $(2.5$ to $5.0)$ eV across line depth.}}{48}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Individual plots for the range $(2.5$ to $5.0)$ eV of excitation potential of lower energy level across line depth, representing each bin of velocity for the visible range of IAG solar flux atlas. The Table~\ref {tab:coef velocity bins energy VIS} shows the coefficients for each applied lineal fit.}}{49}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Relative velocity against excitation potential of lowest energy level in the visible range for the IAG spatially resolved quiet sun atlas.}}{51}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Individual plots for the range $(2.5$ to $5.0)$ eV of excitation potential of lowest energy level across line depth, representing each bin of velocity for the IAG spatially resolved quiet sun atlas.}}{52}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Standard curve given by Gray and Oostra and recalculated for comparision with the current work.}}{54}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Different color curves adjusted to a specific range on granulation pattern for the visible range in the IAG solar flux atlas. The inclination on the curves is more pronounced in the violet than the red range.}}{55}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Different color curves fitted to a specific ranges on granulation pattern for the near infrared range in the Solar Flux Atlas.}}{57}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces We realized the same graphic for the comparision with the Ellwarth article to show the less scattered points.}}{58}{figure.caption.45}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Illustration for the points $a$, $b$, $c$ and the height whose defines the line core bisector slope (see Equation~\eqref {eq:slope}).}}{65}{figure.caption.46}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Illustration for the points $a$, $b$, $c$ and the height whose defines the line core bisector slope (see Equation~\eqref {eq:slope}).}}{62}{figure.caption.46}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Tools bar for the visualizer, contains a classification system of labels, the option to save images, and add to a Dataframe for dropping.}}{68}{figure.caption.47}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces The messages shows the index, wavelength and classification for the line added or updated.}}{69}{figure.caption.48}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Confirmation message for save the image in format JPG of the graph with the information of the line.}}{69}{figure.caption.49}%
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Navigation bar for the visualizer, help to locate a specific line or explorating the differents graphs using a slider, writing box, and buttons for moves.}}{70}{figure.caption.50}%
-\contentsline {figure}{\numberline {C.5}{\ignorespaces General view for the results of the first filter. It shows the line core and the fourth-order polynomial fit with the line profile bisector.}}{70}{figure.caption.51}%
-\contentsline {figure}{\numberline {C.6}{\ignorespaces General view for the results of the second filter. It shows the three signatures of convection with the line profile.}}{71}{figure.caption.52}%
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Examples for discarted lines with the first filter of the visualizer. The line cores and line bisectors of the two plots shows one or more of the conditions presented.}}{75}{figure.caption.53}%
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Examples for accepted lines with the first filter of the visualizer.}}{76}{figure.caption.54}%
-\contentsline {figure}{\numberline {C.9}{\ignorespaces Examples for discarted lines with the first filter of the visualizer.}}{79}{figure.caption.55}%
-\contentsline {figure}{\numberline {C.10}{\ignorespaces Examples for accepted lines with the first filter of the visualizer.}}{80}{figure.caption.56}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Tools bar for the visualizer, contains a classification system of labels, the option to save images, and add to a Dataframe for dropping.}}{65}{figure.caption.47}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces The messages shows the index, wavelength and classification for the line added or updated.}}{66}{figure.caption.48}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Confirmation message for save the image in format JPG of the graph with the information of the line.}}{66}{figure.caption.49}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Navigation bar for the visualizer, help to locate a specific line or explorating the differents graphs using a slider, writing box, and buttons for moves.}}{67}{figure.caption.50}%
+\contentsline {figure}{\numberline {C.5}{\ignorespaces General view for the results of the first filter. It shows the line core and the fourth-order polynomial fit with the line profile bisector.}}{67}{figure.caption.51}%
+\contentsline {figure}{\numberline {C.6}{\ignorespaces General view for the results of the second filter. It shows the three signatures of convection with the line profile.}}{68}{figure.caption.52}%
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Examples for discarted lines with the first filter of the visualizer. The line cores and line bisectors of the two plots shows one or more of the conditions presented.}}{72}{figure.caption.53}%
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Examples for accepted lines with the first filter of the visualizer.}}{73}{figure.caption.54}%
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Examples for discarted lines with the first filter of the visualizer.}}{76}{figure.caption.55}%
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Examples for accepted lines with the first filter of the visualizer.}}{77}{figure.caption.56}%
