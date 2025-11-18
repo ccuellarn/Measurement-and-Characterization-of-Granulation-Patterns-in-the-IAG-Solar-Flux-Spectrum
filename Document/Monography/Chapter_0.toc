@@ -1,10 +1,9 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{List of Figures}{3}{chapter*.1}%
-\contentsline {chapter}{\numberline {1}Introduction: The Sun's granulation patterns}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Convective motion}{7}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}The three signatures of convection}{8}{subsection.1.1.1}%
+\contentsline {chapter}{\numberline {1}Introduction: The solar granulation patterns}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The three signatures of convection}{7}{section.1.1}%
 \contentsline {section}{\numberline {1.2}The IAG solar flux atlas}{9}{section.1.2}%
-\contentsline {section}{\numberline {1.3}The IAG spatially resolved quiet sun atlas}{9}{section.1.3}%
+\contentsline {section}{\numberline {1.3}The IAG spatially resolved quiet Sun atlas}{10}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Motivation}{10}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Literature Review: Convective motion in the Sun}{12}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The solar interior and the solar outer atmosphere}{12}{section.2.1}%

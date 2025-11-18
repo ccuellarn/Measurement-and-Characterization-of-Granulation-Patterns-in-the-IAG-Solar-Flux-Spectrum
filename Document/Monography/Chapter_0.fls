@@ -359,7 +359,6 @@ INPUT .\Chapter_1.tex
 INPUT .\Chapter_1.tex
 INPUT Chapter_1.tex
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-italic.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-bold.tfm
 INPUT .\Chapter_2.tex
 INPUT .\Chapter_2.tex
 INPUT .\Chapter_2.tex
@@ -384,6 +383,7 @@ INPUT .\Images\First take photosphere.jpg
 INPUT .\Images\First take photosphere.jpg
 INPUT .\Images\First take photosphere.jpg
 INPUT .\Images\First take photosphere.jpg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-bold.tfm
 INPUT .\Images\Parcel argument.jpg
 INPUT .\Images\Parcel argument.jpg
 INPUT .\Images\Parcel argument.jpg
