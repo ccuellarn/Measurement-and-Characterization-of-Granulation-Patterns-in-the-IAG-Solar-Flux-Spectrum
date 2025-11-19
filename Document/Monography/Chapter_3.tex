@@ -12,20 +12,20 @@ For each identified line were selected bins of $\SI{0.1}{\angstrom}$ around the 
 Beware, these points are not the observed wavelengths, just a reference to generate an observation window.
 
 Then, a fourth-order polynomial fit was adjusted due to the wavelength window and found the minimal point, whose represent the observed wavelength. 
-The efficacy of this approach for quantifying asymmetry via the bisector slope is supported by Allende et al. research~\cite{Allende_Garcia_1998}.
+The efficacy of this approach for quantifying asymmetry via the bisector slope is supported by Allende et al.~research~\cite{Allende_Garcia_1998}.
 For an optimal fit was used a z-score standardization on each line core, which is explained in appendix\ref{ap:zscore}.
 
 The observed wavelength from the polynomial fit was used to calculate the relative velocity.
 Finally, the values for the line core curvature (see Equation~\eqref{eq:core curvature}) and the line core bisector slope (see Equation~\eqref{eq:third derivative relation}) were found.
 
 To maintain consistency when comparing results with other authors, the visible and near infrared range given by Reiners et al.~was modified.
-The visible range is considered from $\SI{4000}{\angstrom}$ to $\SI{7500}{\angstrom}$; and the near infrared from $\SI{7500}{\angstrom}$ to $\SI{23000}{\angstrom}$.
+The visible range is now considered from $\SI{4000}{\angstrom}$ to $\SI{7500}{\angstrom}$; and the near infrared from $\SI{7500}{\angstrom}$ to $\SI{23000}{\angstrom}$.
 
 \subsection{Statistical analysis}
 The selection for the width of the window around the line core for analysis is not statistical justified on the previous research.
 This project presents several results for the statistical methodology accuracy.  
 
-The variance and standard deviation of the observed wavelength was analyzed by altering the number of points used in the fourth-order polynomial fit aorund the line core. 
+The variance and standard deviation of the observed wavelength was analyzed by altering the width of the window used in the fourth-order polynomial fit around the line core. 
 Figure~\ref{fig:variance} shows that these parameters set performs well in the visible spectrum. 
 However, its performance degrades in the infrared, where the number of data points defining the line core is reduced compared to a typical line in the visible range.
 
@@ -44,22 +44,24 @@ However, its performance degrades in the infrared, where the number of data poin
 
      \end{subfigure}
 
-        \caption{Variance and standard deviation for several observed wavelength altering the number of points on the fourth-order polynomial fit.}\label{fig:variance}
+        \caption{Variance and standard deviation for several observed wavelength altering the width of the window on the fourth-order polynomial fit.}\label{fig:variance}
 \end{figure}
+The establish limits were the minimal distance filtered $(\SI{20}{\miliangstrom})$ and the window width used on the calculated bisector $(\SI{0.4}{\angstrom})$.
+Specifically, for the lower limit, values of the observed wavelength minus $(\SI{10}{\miliangstrom})$ and plus $(\SI{10}{\miliangstrom})$ were taken; while for the upper limit, they were observed length minus $(\SI{0.2}{\miliangstrom})$ and plus $(\SI{0.2}{\miliangstrom})$.
 
-Then, a plot of variance and standard deviation across wavelength for the number of points taken was realized (see Figure~\ref{fig:variance for window}). 
+Consequently, a plot of variance and standard deviation across wavelength for the widths taken was realized (see Figure~\ref{fig:variance for window}). 
 \begin{figure}[H]
      \centering
      \begin{subfigure}{1.0\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/variance VIS.pdf}
-         \caption{Standard deviation against wavelength for the number of points taken on the fourth-order polynomial fit.}
+         \caption{Standard deviation against wavelength for the width of the window taken on the fourth-order polynomial fit.}
 
      \end{subfigure}
 \hfill
      \begin{subfigure}{1.0\textwidth}
 
          \includegraphics[width=\textwidth]{Images/Results/variance NIR.pdf}
-         \caption{Variance against wavelength for the number of points taken on the fourth-order polynomial fit.}
+         \caption{Variance against wavelength for the width of the window taken on the fourth-order polynomial fit.}
 
      \end{subfigure}
 
@@ -67,7 +69,7 @@ Then, a plot of variance and standard deviation across wavelength for the number
 \end{figure}
 The resalted dashed line in the Figure~\ref{fig:variance for window} indicates the window used on the project.
 It can be seen that is a constant minimal point along all the wavelength range, this aspect is important due the consistency for accuracy on all the spectrum.
-The window of $\SI{0.1}{\angstrom}$ around the line core ensures the minimal standard deviation and accuracy for all the spectrum, thereby a consistency on the error for wavelength values.
+The window of $\SI{1}{\miliangstrom}$ around the line core ensures the minimal standard deviation and accuracy for all the spectrum, thereby a consistency on the error for wavelength values.
 
 \section{Blend-free Fe I line Nave list}
 The mentioned methodology implements the Nave list of laboratory-measured Fe I lines~\cite{Nave_1994}. 
