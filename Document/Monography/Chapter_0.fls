@@ -212,6 +212,9 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\stix\t1stix.fd
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\Chapter_0.aux
+INPUT .\Chapter_0.aux
+INPUT Chapter_0.aux
 OUTPUT Chapter_0.aux
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
@@ -233,8 +236,14 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
-OUTPUT Chapter_0.out
+INPUT .\Chapter_0.out
+INPUT .\Chapter_0.out
+INPUT Chapter_0.out
+INPUT Chapter_0.out
 OUTPUT Chapter_0.pdf
+INPUT .\Chapter_0.out
+INPUT .\Chapter_0.out
+OUTPUT Chapter_0.out
 INPUT .\Universidad-de-los-Andes_logo.png
 INPUT .\Universidad-de-los-Andes_logo.png
 INPUT .\Universidad-de-los-Andes_logo.png
@@ -259,14 +268,9 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\vf\public\stix\t1-stixg
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-bold.tfm
-OUTPUT Chapter_0.toc
-OUTPUT Chapter_0.lof
-INPUT .\Chapter_1.tex
-INPUT .\Chapter_1.tex
-INPUT .\Chapter_1.tex
-INPUT .\Chapter_1.tex
-INPUT Chapter_1.tex
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-italic.tfm
+INPUT .\Chapter_0.toc
+INPUT .\Chapter_0.toc
+INPUT Chapter_0.toc
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
@@ -342,8 +346,19 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\stix\ls2stixtt.fd
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
+OUTPUT Chapter_0.toc
+INPUT .\Chapter_0.lof
+INPUT .\Chapter_0.lof
+INPUT Chapter_0.lof
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
+OUTPUT Chapter_0.lof
+INPUT .\Chapter_1.tex
+INPUT .\Chapter_1.tex
+INPUT .\Chapter_1.tex
+INPUT .\Chapter_1.tex
+INPUT Chapter_1.tex
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-italic.tfm
 INPUT .\Chapter_2.tex
 INPUT .\Chapter_2.tex
 INPUT .\Chapter_2.tex
@@ -431,12 +446,12 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-ma
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
-INPUT .\Images\Asymmetries on typical lines.jpg
-INPUT .\Images\Asymmetries on typical lines.jpg
-INPUT .\Images\Asymmetries on typical lines.jpg
-INPUT .\Images\Asymmetries on typical lines.jpg
-INPUT .\Images\Asymmetries on typical lines.jpg
-INPUT .\Images\Asymmetries on typical lines.jpg
+INPUT .\Images\Flux deficit illustration.png
+INPUT .\Images\Flux deficit illustration.png
+INPUT .\Images\Flux deficit illustration.png
+INPUT .\Images\Flux deficit illustration.png
+INPUT .\Images\Flux deficit illustration.png
+INPUT .\Images\Flux deficit illustration.png
 INPUT .\Images\Granulation pattern Ellwarth.jpg
 INPUT .\Images\Granulation pattern Ellwarth.jpg
 INPUT .\Images\Granulation pattern Ellwarth.jpg
@@ -450,12 +465,6 @@ INPUT .\Images\Standard curve gray.jpg
 INPUT .\Images\Standard curve gray.jpg
 INPUT .\Images\Standard curve gray.jpg
 INPUT .\Images\Standard curve gray.jpg
-INPUT .\Images\Angular momentum.jpg
-INPUT .\Images\Angular momentum.jpg
-INPUT .\Images\Angular momentum.jpg
-INPUT .\Images\Angular momentum.jpg
-INPUT .\Images\Angular momentum.jpg
-INPUT .\Images\Angular momentum.jpg
 INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex

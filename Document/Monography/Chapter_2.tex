@@ -158,68 +158,69 @@ Finally, the line profile wings where the opacity is lowest, tend to be formed d
 This dynamic process induces characteristic asymmetries on the line profile bisector, which becomes the principal instrument to measure convection process from the solar atmosphere.
 
 \section{The three signatures of convection}
-The three signatures of convection in stars are described by David Gray in his research (see~\cite{Gray_2009,Gray_Oostra_2018,Gray_Pugh_2012} and references therein) as the principal characteristics to identify the convective motion in the spectrum.
+The three signatures of convection in stars are described by David Gray in his research as the principal characteristics to identify the convective motion in the spectrum (see~\cite{Gray_2009,Gray_Oostra_2018,Gray_Pugh_2012} and references therein).
 
 \subsection{First signature of convection: Line broadening} 
-To talk about line broadening is necessary to establish the process that represent a spectral line. 
-An individual atom making a transition between energy levels emits one photon with a well-defined frequency.
-This can be represented as a graph of radiance or intensity per unit wavelength against wavelength, what is called \textit{line profile} (Landeu).
+To explain the line broadening is necessary establish the process that creates a spectral line. 
+An individual atom making a transition between energy levels emits a photon with certain frequency.
+This transition can be represented as a graph of radiance or intensity per unit wavelength against wavelength, what is called \textit{line profile}~\cite{Carroll_Ostlie_2006}.
 The radiated intensity can be modeled passing through a hot cloud of gas in thermal equilibrium as Equation~\eqref{eq:radiance absorption line}.
-
 \begin{equation} 
     I_{\nu}(\tau_{\nu}) = I_0 e^{-\tau_{\nu}} + B_{\nu}\parens{1-e^{-\tau_{\nu}}}
     \label{eq:radiance absorption line}
 \end{equation}
-
 Where $\tau_{\nu}$ refers to the line depth and $B_{\nu}$ the absorption coefficient for the gas. 
-The dynamical and atomic processes on the photosphere causes the broadening effects mention below.
-For this project, only the thermal, rotation and convection broadening effects were studied.
+The dynamical and atomic processes on the photosphere causes the thermal, convection, rotation, pressure, Stark, Zeeman and natural broadening effects.
+For the project purposes only the thermal, rotation and convection broadening effects were studied.
 
-Atoms in a gas have random motions with temperature dependence, which mean speed is obtained by the relation between kinetic and thermal energy for gasses. 
-The fraction of atoms in a speed interval between $v$ and $v + \Delta v$ is then given by the Gaussian distribution in Equation~\eqref{eq:Gaussian distribution}.
+Atoms in a gas have random motions with temperature dependence, which mean speed is obtained by the relation between kinetic and thermal energy for gasses~\cite{Van_1965}. 
+The fraction of atoms in a speed interval between $v$ and $v + \Delta v$ is then given by the Maxwell-Boltzmann distribution in Equation~\eqref{eq:Gaussian distribution}.
 \begin{equation} 
-    f(v_{\text{rad}}) = \exp\parens{\frac{-mv_{\text{rad}}^2}{2kT}}
+    f(v_{\text{rad}}) = \exp\parens{\frac{-mv_{\text{rad}}^2}{2k_{B}T}}
     \label{eq:Gaussian distribution}
 \end{equation}
-Comparing with a Gaussian distribution centered on the origin, we can relate the width $\sigma^2$ to the variance of the radial velocity (see Equation~\eqref{eq:velocity variance}).
+Comparing with a typical Gaussian distribution centered on the origin, we can relate the width $(\sigma^2)$ to the variance of the radial velocity (see Equation~\eqref{eq:velocity variance}).
 \begin{equation} 
-    	\langle v_{\text{rad}}^2 \rangle = \sigma^2 = \frac{kT}{m} 
+    	f(x)= \exp\parens{\frac{-x^2}{2\sigma^2}} \quad \rightarrow \quad \langle v_{\text{rad}}^2 \rangle = \sigma^2 = \frac{k_{B}T}{m} 
     \label{eq:velocity variance}
 \end{equation}
 Using the relation of Doppler effect for the radial velocity and relation~\eqref{eq:velocity variance} the line profile with only Doppler broadening effect is described by Equation~\eqref{eq:Doppler broadening}.
 \begin{equation} 
-    f(\Delta \lambda) = P\exp\parens{\frac{-mc^2}{2\lambda^2kT}\Delta \lambda}
+    f(\Delta \lambda) = L_D\exp\parens{\frac{-mc^2}{2\lambda^2k_{B}T}\Delta \lambda}
     \label{eq:Doppler broadening}
 \end{equation}
-Where $P$ refers to the line depth and $\Delta \lambda/\lambda$ to the redshift.
+Where $L_D$ refers to the line depth, $k_B$ to the Boltzmann constant; and $\Delta \lambda/\lambda$ to the redshift.
 The Equation~\eqref{eq:core curvature} describes the line core curvature $C_c$ can be quantified by the second derivative of the line's intensity profile with respect to wavelength, evaluated at observed wavelength.
 \begin{equation}
     C_c =  \lambda_{obs}^2 \parens{\frac{d^2 p(\lambda_{obs})}{d \lambda_{obs}^2}}
     \label{eq:core curvature}
 \end{equation}
-Assuming that the three efects mentioned of thermal, rotation and convection are independents\footnote{This is not all true, but for simplicity on the project we take the approximation.} the variance of the velocity is the sum of variances of each one.
-For hydrogen atoms at the solar effective temperature T = 5800 K, vth ≈ 7 km/s, and the rotation velocity deriving by sun model spherical and solid of (), we have te next relation for a theoritical slope between curvature and line depth.
-As in the IAG spatially spectrum the roattion is nule, we expected a better value of convection as we can see clearly this phenomena.
+A theorical slope can be derived from Equation~\eqref{eq:Doppler broadening} using the definition of line core curvature as shows the Relation~\eqref{eq:theory slope only doppler}.
+\begin{equation}
+    |f''(0)| = L_D \parens{\frac{mc^2}{2\lambda^2k_{B}T}} \quad \rightarrow \quad \frac{|f''(0)|\lambda^2}{L_D} = \frac{mc^2}{2k_{B}T}
+    \label{eq:theory slope only doppler}
+\end{equation}
+Where $\Delta \lambda=0$ due to the origin-centered Gaussian profile.
+Equation~\eqref{eq:theory slope only doppler} represents the line core curvature slope for lines whic are only affected by the rotation effect.
+Directly, assuming the three target effects as independent\footnote{This is not all true, for the convective process is known that greater temperatures leads to more negative convective velocities. For simplicity, the approximation was taken on the project.} the sum of each effect variance is the variance of the radial velocity.
+This leads to the Equation~\eqref{eq:Theory slope} of a theoritical slope including the three broadening effects.
+\begin{equation}
+    \frac{|f''(0)|\lambda^2}{L_D} = \frac{c^2}{\langle v_{\text{r}}^2 \rangle + \langle v_{\text{T}}^2 \rangle + \langle v_{\text{conv}}^2 \rangle}  
+    \label{eq:Theory slope}
+\end{equation}
+Where $\langle v_{\text{r}}^2 \rangle$ refers to the variance of the rotation velocity; $\langle v_{\text{T}}^2 \rangle$ is the variance of the thermal velocity; and $\langle v_{\text{conv}}^2 \rangle$ refers to the variance of the convection velocity.
+Furthermore, the value for Fe atom mass $55.85$ g/mol; the solar effective temperature $5770$ K leads to the values of thermal velocity variance of $0.86$ $(\text{km}/\text{s})^2$.
 
-On the other hand, the absorption lines can be classified by decreasing intensity line profile as strongest and weakest lines~\cite{Gray_Pugh_2012}.
-In general, stronger or deepest absorption lines exhibit a more pronounced line core curvature than weaker or shallow lines.
-In the near infrared range, the solar spectrum contains natural bands or groups of lines that are separated by regions of strong absorption from telluric elements. 
-In other words, elements like $\text{O}_2$ and $\text{CO}_2$ that are absorbed by the atmosphere.
-This phenomenon modify the line core curvature of determining lines profiles, made the line core curvatures to be displaced.
+The variance of rotation velocity is $0.90$ $(\text{km}/\text{s})^2$, this result was derived by professor Benjamin using a spherical and solid model of the Sun.
+In the IAG spatially resolved quiet Sun atlas the value of $\langle v_{\text{r}}^2 \rangle$ is neligible.
+With these values, an approximation of convection variance velocity is expected to be calculated for each atlas.
+
 \subsection{Second signature of convection: Line profile asymmetry}
-As demonstrated by Nieminen~\cite{Nieminen_2017}, the asymmetry occurs because the c-curved profile bisector reflects velocity variations and a bisector slope (see Figure~\ref{fig:asymmetries on lines}).
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Asymmetries on typical lines.jpg}
-    \caption{Asymmetries on an average absorption line. Can be observed the differences in intensity redshift profile. Image taken from~\cite{Nieminen_2017}.}\label{fig:asymmetries on lines}%
-\end{figure}
-
 According to Kirchhoff's laws, absorption line formation requires lower temperature conditions, which are found precisely in the Sun's outermost atmospheric layers~\cite{Carroll_Ostlie_2006}. 
 These regions not only provide the appropriate temperatures for absorption but also exhibit comparatively higher opacity. 
 Those spectral lines from Fe I are particularly valuable for solar granulation studies due to their high abundance, minimal thermal broadening, limited isotopic variation and availability of accurate laboratory measurements of natural wavelengths~\cite{Nieminen_2017}. 
+Due to the useful characteristic of this line dataset, asymmetries imprinted can be quantified by analyzing their bisectors. 
 
-These asymmetries imprinted on the Fe I lines can be quantified by analyzing their bisectors. 
 A convenient method for this measures involves using the third derivative of the line profile, which provides the slope of the lowest end of the bisector (see Equation~\eqref{eq:third derivative relation}). 
 \begin{equation}
     -\frac{c}{\lambda_{obs}}\parens{\frac{1}{3 C_c^2}}\parens{\frac{d^3 p(\lambda_{obs})}{d \lambda_{obs}^3}}
@@ -229,47 +230,51 @@ A convenient method for this measures involves using the third derivative of the
 The slope of the line profile is defined as zero when the line profile bisector is vertical and the line core is symmetric.
 The relation is derived in appendix\ref{ap:third derivative}.
 
-Since most of stellar observations are made with lower-resolution spectrographs and often lower signal-to-noise ratios, there is a need to study granulation through its signatures.
-Gray and Oostra identified a form of line profile asymmetry observable under these conditions, known as the \textit{flux deficit}. 
-This phenomenon can be interpreted as flux imbalances on the redshifted side of the line profile, caused by a net loss of radiative energy. 
+As mentioned before, line profile asymmetries are the principal instrument to measure convection process from the solar atmosphere since most of stellar observations are made with lower-resolution spectrographs and often lower signal-to-noise ratios. 
+Gray and Oostra propose a model for the line profile asymmetry to be observable under these conditions, known as the \textit{flux deficit}~\cite{Gray_Oostra_2018}. 
+This can be interpreted as flux imbalances on the redshifted side of the line profile, caused by a net loss of radiative energy. 
+To quantify the imbalance, the authors proposed calculating the flux deficit by taking the difference between the observed, altered profile, and the third signature characteristic curve.
 
-To quantify this asymmetry, the authors proposed calculating the flux deficit by taking the difference between the observed, altered profile and a the granulation curve.
-By treating the altered line profile as an approximate representation of the third signature of convection, one can observe the flux difference interpreted as radiation~\cite{Gray_Oostra_2018}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\linewidth]{Flux deficit illustration.png}
+    \caption{The first illustration describe the target profile, obtaining the flux deficit curve for the wavelength $\SI{6253}{\angstrom}$ from the WSA spectrum. The second illustration shows the standard curve from the third signature plot and the line profile bisector, features which are fundamental to obtain the flux deficit. Image taken from~\cite{Gray_Oostra_2018}.}\label{fig:flux deficit}%
+\end{figure}
+
+As illustrates Figure~\ref{fig:flux deficit}, treating the altered line profile as an approximate representation of the third signature of convection, it can be observed the flux difference interpreted as radiation~\cite{Gray_Oostra_2018}.
+This curve gives a sight for the distribution of velocities along the flux in individual lines.
 
 \subsection{Third signature of convection: Line depth-dependent wavelength shifts}
-Many studies across the years have detected and observed the phenomenon of wavelength shifts against the line depth, or as it is called, convective redshift.
-This behavior was shown to be more present in the weaker lines which are related to infrared and violet range.
+Many studies across the years have detected and observed the phenomenon of wavelength shifts against the line depth, or as it is called, convective blueshift.
 
-\subsection{Solar granulation pattern}
-The solar granulation pattern is a plot of relative velocity against line depth, as shown Figure~\ref{fig:granulation pattern ellwarth}.
+\subsection{The third signature plot}
+The third signature plot relates relative velocity against line depth, as shown Figure~\ref{fig:granulation pattern ellwarth}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{Granulation pattern Ellwarth.jpg}
-    \caption{Granulation pattern for the IAG spatially resolved quiet sun atlas, is shown to have a strong blueshift in the weaker lines. Image taken from~\cite{Ellwarth_2023}.}\label{fig:granulation pattern ellwarth}%
+    \caption{The third signature plot for the IAG spatially resolved quiet Sun atlas, shows a strong trend blueshift in the shallow lines. Image taken from~\cite{Ellwarth_2023}.}\label{fig:granulation pattern ellwarth}%
 \end{figure}
 
-Notice in Figure~\ref{fig:granulation pattern ellwarth} the wavelength-dependence os the pattern.
-The significance of the granulation pattern lies in its universality for solar-type stars; their patterns closely resemble the Sun's, differing primarily by a scaling factor (see~\cite{Gray_Pugh_2012}). 
+Notice in Figure~\ref{fig:granulation pattern ellwarth} the wavelength-dependence on convective blueshift, which have been extensively documented for several datasets.
+The significance of the third signature plot lies in its universality for solar-type stars; their plots closely resemble the Sun's, differing primarily by a scaling factor~\cite{Gray_Pugh_2012}. 
 Consequently, a detailed analysis contributes to the understanding and radiation of photospheric hydrodynamic models~\cite{Dravins_1981,Gray_2009}.
-However, a precise measurement of the granulation pattern requires a understanding of the convective blueshift phenomenon.
-
+However, a precise measurement of this pattern requires a understanding of the convective blueshift phenomenon.
 
 \subsection{Convective Blueshift}
-When the Sun pushes material up through its outer layer, the spectrum exhibits a blueshift. 
-As this material subsequently cools and falls back through the atmosphere, it produces a redshift, but emits less light, making the blueshift dominant.
-
-That can be measured by the relativistic Doppler effect. This effect accounts for length contraction, as predicted by Einstein’s theory of relativity. 
-However, the measured negative redshift resulting from convective motions is known as \textit{convective blueshifts} which are measured by the Equation~\eqref{eq:relative velocity}. 
+The measured negative redshift resulting from convective motions is known as \textit{convective blueshifts}, which is measured using the relativistic Doppler effect (see Equation~\eqref{eq:relative velocity}). 
 \begin{equation}
-    v_r \approx c \parens{\frac{ \lambda_{obs}- \lambda_{rep}}{\lambda_{rep}}}
+    v_r \approx c \parens{\frac{ \lambda_{obs}- \lambda_{rep}}{\lambda_{rep}}} -633\text{m/s}
     \label{eq:relative velocity}
 \end{equation}
+Where the value of $633$ m/s is related to the correction of gravitational redshift for the Sun.
 
+When the Sun pushes material up through its outer layer, the spectrum exhibits a blueshift. 
+As this material subsequently cools and falls back through the atmosphere, it produces a redshift, but emits less light, making the blueshift dominant.
 Since the strength of the convective distortions and shifts of spectral lines vary across the H-R diagram, we expect systematic errors in radial velocities~\cite{Gray_2009}.
 
 \subsection{Chromodependence characterization}
-Recent emphasis on measuring the granulation pattern has led to new interpretations of line depth-dependent wavelength shifts.
+Recent emphasis on measuring the third signature plot has led to new interpretations of line depth-dependent wavelength shifts.
 
 Gray and others authors have cualitatively explained the line-depth dependence on convective blueshift.
 Shallow lines come preferably from deep photospheric layers where convection is strong, so the convective blueshift is great.
@@ -285,24 +290,7 @@ In 2018, Gray and Oostra attempted to establish a standard curve determined by a
 \end{figure}
 
 Nevertheless, the authors limited the spectral range of $\SI{6020}{\angstrom}$ to $\SI{6340}{\angstrom}$, avoiding the chromodependence which becomes evident in a wider spectral range.
-This limitation motivates the present work to develop a strong characterization and give the methodology for dealing with this phenomenon.
+This limitation motivates the present work to develop a characterization taking into account all wavelength ranges; and give the methodology for dealing with this phenomenona.
 
 A separate theoretical perspective, offered by Hamilton and Lester, attributes aspects of photospheric dynamics to rotation.
 The pronounced differential rotation with latitude observed seems to be the result of convective flows driven radially by the buoyancy force and deflected horizontally by the Coriolis force~\cite{Foukal_1990}.
-This rotation contributes to angular momentum through two forms: Meridional circulation and Reynolds stresses.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\linewidth]{Angular momentum.jpg}
-    \caption{Contributions on angular momentum. Image taken from~\cite{Foukal_1990}.}\label{fig:angular momentum}%
-\end{figure}
-
-The first contribution involves axisymmetric meridional circulation (see Figure~\ref{fig:angular momentum}). 
-In the absence of other transport mechanism, such a circulation would tend to spin up the poles and the interior, as the moving fluid conserves its angular momentum.
-
-The second contribution, which tends to enforce solid body rotation, arises from Reynolds stresses associated with nonaxisymmetric convective motions.
-The mechanism can be understood by considering that, for equal velocities in the meridional plane, the flux of angular momentum per unit mass is greater toward the equator than away from it. 
-This process depends critically on nonaxisymmetric convection, as it generates net fluxes of angular momentum in latitudinal and radial directions without a corresponding net mass flux.
-Neither buoyancy forces, which are strictly radial, nor pressure gradients, which must average to zero around the solar circumference, can directly influence the sun's axisymmetric rotation profile~\cite{Foukal_1990}.
-Therefore, the combined action of meridional circulation and Reynolds stresses is essential for shaping the observed differential rotation.
-
