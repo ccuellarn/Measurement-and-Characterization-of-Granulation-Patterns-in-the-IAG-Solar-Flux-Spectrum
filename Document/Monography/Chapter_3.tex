@@ -29,50 +29,75 @@ The variance and standard deviation of the observed wavelength was analyzed by a
 Figure~\ref{fig:variance} shows that these parameters set performs well in the visible spectrum. 
 However, its performance degrades in the infrared, where the number of data points defining the line core is reduced compared to a typical line in the visible range.
 
+Because the line core is the target, the establish limits were the minimal distance filtered $(\SI{20}{\miliangstrom})$ and half of the window width used on the calculated bisector $(\SI{0.2}{\angstrom})$.
+Specifically, for the lower limit, values of the observed wavelength minus $(\SI{10}{\miliangstrom})$ and plus $(\SI{10}{\miliangstrom})$ were taken; while for the upper limit, they were observed length minus $(\SI{0.1}{\angstrom})$ and plus $(\SI{0.1}{\angstrom})$.
+In order to discard velocity values inconsistent with the Sun's specifications, the $-700$ m/s to $700$ m/s range was used.
+
 \begin{figure}[H]
      \centering
      \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/variance VIS.pdf}
+         \includegraphics[width=\textwidth]{Images/Results/Statistics/variance std VIS.pdf}
          \caption{Visible range for the IAG solar flux atlas.}
 
      \end{subfigure}
 \hfill
      \begin{subfigure}{1.0\textwidth}
 
-         \includegraphics[width=\textwidth]{Images/Results/variance NIR.pdf}
+         \includegraphics[width=\textwidth]{Images/Results/Statistics/variance std NIR.pdf}
          \caption{Near infrared range for the IAG solar flux atlas.}
 
      \end{subfigure}
 
         \caption{Variance and standard deviation for several observed wavelength altering the width of the window on the fourth-order polynomial fit.}\label{fig:variance}
 \end{figure}
-The establish limits were the minimal distance filtered $(\SI{20}{\miliangstrom})$ and the window width used on the calculated bisector $(\SI{0.4}{\angstrom})$.
-Specifically, for the lower limit, values of the observed wavelength minus $(\SI{10}{\miliangstrom})$ and plus $(\SI{10}{\miliangstrom})$ were taken; while for the upper limit, they were observed length minus $(\SI{0.2}{\miliangstrom})$ and plus $(\SI{0.2}{\miliangstrom})$.
+The value for the variance and the standard deviation in each wavelength give a level of accuracy in the showed results.
 
-Consequently, a plot of variance and standard deviation across wavelength for the widths taken was realized (see Figure~\ref{fig:variance for window}). 
+Consequently, a plot of emitted wavelength across observed for each window width was realized (see Figure~\ref{fig:variance for window}). 
+The slope for the lineal fit can determine the precision of the width selected across all the wavelength range.
+If this value is one, the selected bin ensures consistency in the value for observed wavelength in all the range which refers to a precise and optimal window for analysis.
+
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.8\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Statistics/variance slopes VIS.pdf}
+         \caption{Visible range for the IAG solar flux atlas.}
+
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.8\textwidth}
+
+         \includegraphics[width=\textwidth]{Images/Results/Statistics/variance slopes NIR.pdf}
+         \caption{Near infrared range for the IAG solar flux atlas.}
+
+     \end{subfigure}
+
+        \caption{Examples of the plots for observed wavelength against emitted wavelength for the selected width bins. In each plot was adjusted a lineal fit.}\label{fig:variance for window}
+\end{figure}
+
+The Figure~\ref{fig:slopes for widths} shows the values for the slopes of each lineal fit performed.
+
 \begin{figure}[H]
      \centering
      \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/variance VIS.pdf}
-         \caption{Standard deviation against wavelength for the width of the window taken on the fourth-order polynomial fit.}
+         \includegraphics[width=\textwidth]{Images/Results/Statistics/optimal window VIS.pdf}
+         \caption{Visible range for the IAG solar flux atlas.}
 
      \end{subfigure}
 \hfill
      \begin{subfigure}{1.0\textwidth}
 
-         \includegraphics[width=\textwidth]{Images/Results/variance NIR.pdf}
-         \caption{Variance against wavelength for the width of the window taken on the fourth-order polynomial fit.}
+         \includegraphics[width=\textwidth]{Images/Results/Statistics/optimal window NIR.pdf}
+         \caption{Near infrared range for the IAG solar flux atlas.}
 
      \end{subfigure}
 
-        \caption{Variance and standard deviation across wavelength for the number of points, the resalted dashed line indicates the window used on the project.}\label{fig:variance for window}
+        \caption{Plot of value for slopes for observed wavelength against emitted wavelength of the selected width bins.}\label{fig:slopes for widths}
 \end{figure}
-The resalted dashed line in the Figure~\ref{fig:variance for window} indicates the window used on the project.
-It can be seen that is a constant minimal point along all the wavelength range, this aspect is important due the consistency for accuracy on all the spectrum.
-The window of $\SI{1}{\miliangstrom}$ around the line core ensures the minimal standard deviation and accuracy for all the spectrum, thereby a consistency on the error for wavelength values.
+The optimal window is determined by the minimal window width with the closest value for one, which demonstrates a consistency window width for a line core representing precision.
+The window of $\SI{1}{\miliangstrom}$ around the line core ensures the accuracy for all the spectrum, thereby a consistency on the error for wavelength values.
 
 \section{Blend-free Fe I line Nave list}
-The mentioned methodology implements the Nave list of laboratory-measured Fe I lines~\cite{Nave_1994}. 
+The mentioned methodology implements the Nave list of laboratory-measured Fe I lines~\cite{Nave_1994} which presents laboratory measurements for wavelength and excitation potential for the lowest and highest energy level. 
 This list classifies lines with a quality grading ($A,B,C,D$), based on four wavenumber uncertainties $(\Delta \sigma)$ and the corresponding wavelength uncertainties $(\Delta \lambda)$.
 Where $A$ denotes lines with error in wavenumbers less than $0.005$ $\text{cm}^{-1}$; grade $B$ less than $0.01$ $\text{cm}^{-1}$; grade $C$ less than $0.02$ $\text{cm}^{-1}$; and grade $D$ greater than $0.02$ $\text{cm}^{-1}$.
 All known blended lines and all lines measured only in grating spectra have been assigned the grade $D$~\cite{Nave_1994}.

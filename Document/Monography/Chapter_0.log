@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  19 NOV 2025 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  20 NOV 2025 01:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -647,3 +647,1233 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen169
+\lightrulewidth=\dimen170
+\cmidrulewidth=\dimen171
+\belowrulesep=\dimen172
+\belowbottomsep=\dimen173
+\aboverulesep=\dimen174
+\abovetopsep=\dimen175
+\cmidrulesep=\dimen176
+\cmidrulekern=\dimen177
+\defaultaddspace=\dimen178
+\@cmidla=\count335
+\@cmidlb=\count336
+\@aboverulesep=\dimen179
+\@belowrulesep=\dimen180
+\@thisruleclass=\count337
+\@lastruleclass=\count338
+\@thisrulewidth=\dimen181
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen182
+\Gin@req@width=\dimen183
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count339
+\float@exts=\toks32
+\float@box=\box101
+\@float@everytoks=\toks33
+\@floatcapt=\box102
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen184
+\captionmargin=\dimen185
+\caption@leftmargin=\dimen186
+\caption@rightmargin=\dimen187
+\caption@width=\dimen188
+\caption@indent=\dimen189
+\caption@parindent=\dimen190
+\caption@hangindent=\dimen191
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count340
+\c@continuedfloat=\count341
+Package caption Info: float package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count342
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count343
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen192
+\WF@size=\dimen193
+\c@WF@wrappedlines=\count344
+\WF@box=\box103
+\WF@everypar=\toks34
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip75
+\RaggedLeftLeftskip=\skip76
+\RaggedRightLeftskip=\skip77
+\CenteringRightskip=\skip78
+\RaggedLeftRightskip=\skip79
+\RaggedRightRightskip=\skip80
+\CenteringParfillskip=\skip81
+\RaggedLeftParfillskip=\skip82
+\RaggedRightParfillskip=\skip83
+\JustifyingParfillskip=\skip84
+\CenteringParindent=\skip85
+\RaggedLeftParindent=\skip86
+\RaggedRightParindent=\skip87
+\JustifyingParindent=\skip88
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip89
+\afterepigraphskip=\skip90
+\epigraphwidth=\skip91
+\epigraphrule=\skip92
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\stix.sty
+Package: stix 2018/04/17 v1.1.3-latex STIX fonts support package
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
+)
+LaTeX Encoding Info:    Text command \textpertenthousand (encoding T1) is not declared on input line 51.
+LaTeX Encoding Info:    Redeclaring text command \textpertenthousand (encoding ?) on input line 52.
+Now handling font encoding LS1 ...
+... no UTF-8 mapping file for font encoding LS1
+Now handling font encoding LS2 ...
+... no UTF-8 mapping file for font encoding LS2
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `normal' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `bold' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> LS1/stix/m/n on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> LS1/stix/m/n on input line 77.
+\symbold-operators=\mathgroup7
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LS1/stixscr/m/n on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LS1/stixscr/m/n on input line 79.
+\symsymbols2=\mathgroup8
+\symsymbols3=\mathgroup9
+\symsymbols4=\mathgroup10
+\symintegrals=\mathgroup11
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+\symarrows1=\mathgroup12
+\symarrows2=\mathgroup13
+\symarrows3=\mathgroup14
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  LS1/stix/m/n --> LS1/stix/b/n on input line 89.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LS1/stixscr/m/n --> LS1/stixscr/b/n on input line 90.
+LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
+(Font)                  LS1/stixfrak/m/n --> LS1/stixfrak/b/n on input line 91.
+LaTeX Font Info:    Overwriting symbol font `symbols3' in version `bold'
+(Font)                  LS1/stixbb/m/n --> LS1/stixbb/b/n on input line 92.
+LaTeX Font Info:    Overwriting symbol font `symbols4' in version `bold'
+(Font)                  LS1/stixbb/m/it --> LS1/stixbb/b/it on input line 93.
+LaTeX Font Info:    Overwriting symbol font `integrals' in version `bold'
+(Font)                  LS2/stixcal/m/n --> LS2/stixcal/b/n on input line 94.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LS2/stixex/m/n --> LS2/stixex/b/n on input line 95.
+LaTeX Font Info:    Overwriting symbol font `arrows1' in version `bold'
+(Font)                  LS1/stixsf/m/n --> LS1/stixsf/b/n on input line 96.
+LaTeX Font Info:    Overwriting symbol font `arrows2' in version `bold'
+(Font)                  LS1/stixsf/m/it --> LS1/stixsf/b/it on input line 97.
+LaTeX Font Info:    Overwriting symbol font `arrows3' in version `bold'
+(Font)                  LS2/stixtt/m/n --> LS2/stixtt/b/n on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 109.
+LaTeX Info: Redefining \yen on input line 456.
+LaTeX Info: Redefining \circledR on input line 458.
+LaTeX Info: Redefining \checkmark on input line 460.
+LaTeX Info: Redefining \maltese on input line 461.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 698.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 699.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 700.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 701.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 702.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 703.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 704.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 705.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 707.
+LaTeX Font Info:    Redeclaring math accent \check on input line 708.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 716.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 728.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 729.
+LaTeX Info: Redefining \vdots on input line 1518.
+LaTeX Info: Redefining \cdots on input line 1522.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 1978.
+LaTeX Info: Redefining \not on input line 2144.
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count345
+\l__siunitx_number_exponent_fixed_int=\count346
+\l__siunitx_number_min_decimal_int=\count347
+\l__siunitx_number_min_integer_int=\count348
+\l__siunitx_number_round_precision_int=\count349
+\l__siunitx_number_lower_threshold_int=\count350
+\l__siunitx_number_upper_threshold_int=\count351
+\l__siunitx_number_group_first_int=\count352
+\l__siunitx_number_group_size_int=\count353
+\l__siunitx_number_group_minimum_int=\count354
+\l__siunitx_angle_tmp_dim=\dimen194
+\l__siunitx_angle_marker_box=\box104
+\l__siunitx_angle_unit_box=\box105
+\l__siunitx_compound_count_int=\count355
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box106
+\l__siunitx_table_tmp_dim=\dimen195
+\l__siunitx_table_column_width_dim=\dimen196
+\l__siunitx_table_integer_box=\box107
+\l__siunitx_table_decimal_box=\box108
+\l__siunitx_table_uncert_box=\box109
+\l__siunitx_table_before_box=\box110
+\l__siunitx_table_after_box=\box111
+\l__siunitx_table_before_dim=\dimen197
+\l__siunitx_table_carry_dim=\dimen198
+\l__siunitx_unit_tmp_int=\count356
+\l__siunitx_unit_position_int=\count357
+\l__siunitx_unit_total_int=\count358
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen199
+\ar@mcellbox=\box112
+\extrarowheight=\dimen256
+\NC@list=\toks35
+\extratabsurround=\skip93
+\backup@length=\skip94
+\ar@cellbox=\box113
+)) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count359
+\lst@gtempboxa=\box114
+\lst@token=\toks36
+\lst@length=\count360
+\lst@currlwidth=\dimen257
+\lst@column=\count361
+\lst@pos=\count362
+\lst@lostspace=\dimen258
+\lst@width=\dimen259
+\lst@newlines=\count363
+\lst@lineno=\count364
+\lst@maxwidth=\dimen260
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count365
+\lst@skipnumbers=\count366
+\lst@framebox=\box115
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box116
+\beforetitleunit=\skip95
+\aftertitleunit=\skip96
+\ttl@plus=\dimen261
+\ttl@minus=\dimen262
+\ttl@toksa=\toks37
+\titlewidth=\dimen263
+\titlewidthlast=\dimen264
+\titlewidthfirst=\dimen265
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks38
+\AP@partial=\box117
+\AP@footins=\box118
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/psfrag\psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count367
+\pfg@scount=\count368
+\pfg@temp=\write3
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count369
+\c@@ppsavesec=\count370
+\c@@ppsaveapp=\count371
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count372
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen266
+\Hy@linkcounter=\count373
+\Hy@pagecounter=\count374
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count375
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\puenc-greek.def
+File: puenc-greek.def 2023-09-12 2.5 Greek LICRs for PDF strings
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\greek-fontenc.def
+File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
+)
+LaTeX Encoding Info:    Redeclaring text command \textmu (encoding PU) on input line 179.
+)
+LaTeX Encoding Info:    Redeclaring text command \textohm (encoding PU) on input line 1176.
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4066.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count376
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen267
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count377
+\Field@Width=\dimen268
+\Fld@charsize=\dimen269
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring ON on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count378
+\c@Item=\count379
+\c@Hfootnote=\count380
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count381
+\c@bookmark@seq@number=\count382
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip97
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+LaTeX Font Info:    Trying to load font information for T1+stix on input line 6.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\t1stix.fd
+File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count383
+) (Chapter_0.aux
+
+LaTeX Warning: Label `fig:flux deficit' multiply defined.
+
+)
+\openout1 = `Chapter_0.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 6.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for LS1+stix on input line 6.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stix.fd
+File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
+)
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for LS2+stix on input line 6.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stix.fd
+File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
+)
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Info: Command `\dddot' is already robust on input line 6.
+LaTeX Info: Command `\ddddot' is already robust on input line 6.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count384
+\scratchdimen=\dimen270
+\scratchbox=\box119
+\nofMPsegments=\count385
+\nofMParguments=\count386
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count387
+\MPscratchDim=\dimen271
+\MPnumerator=\count388
+\makeMPintoPDFobject=\count389
+\everyMPtoPDFconversion=\toks40
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 6.
+\c@lstlisting=\count390
+Package hyperref Info: Link coloring ON on input line 6.
+ (Chapter_0.out) (Chapter_0.out)
+\@outlinefile=\write4
+\openout4 = `Chapter_0.out'.
+
+<Universidad-de-los-Andes_logo.png, id=171, 385.44pt x 457.71pt>
+File: Universidad-de-los-Andes_logo.png Graphic file (type png)
+<use Universidad-de-los-Andes_logo.png>
+Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 10.
+(pdftex.def)             Requested size: 67.0331pt x 79.5976pt.
+
+
+[1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+
+{C:/Users/clauw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-t1.enc} <./Universidad-de-los-Andes_logo.png>]
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \end{abstract}
+                    [1]
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 \end{abstract}
+                    [1] (Chapter_0.toc
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+)
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 ...nd-free list of Fe I lines}{27}{chapter.3}
+                                                  % [1
+
+])
+\tf@toc=\write5
+\openout5 = `Chapter_0.toc'.
+
+
+
+[2] (Chapter_0.lof
+
+[3
+
+
+]
+
+[4]
+
+[5])
+\tf@lof=\write6
+\openout6 = `Chapter_0.lof'.
+
+
+
+[6]
+Chapter 1.
+(Chapter_1.tex
+
+[7
+
+]
+
+[8]
+
+[9])
+
+[10]
+
+[11]
+Chapter 2.
+(Chapter_2.tex
+
+[12
+
+]
+<Images/Sun interior.jpg, id=485, 519.44063pt x 451.6875pt>
+File: Images/Sun interior.jpg Graphic file (type jpg)
+<use Images/Sun interior.jpg>
+Package pdftex.def Info: Images/Sun interior.jpg  used on input line 26.
+(pdftex.def)             Requested size: 214.51273pt x 186.53015pt.
+<Images/Sun exterior.jpg, id=486, 674.52pt x 596.2275pt>
+File: Images/Sun exterior.jpg Graphic file (type jpg)
+<use Images/Sun exterior.jpg>
+Package pdftex.def Info: Images/Sun exterior.jpg  used on input line 31.
+(pdftex.def)             Requested size: 214.51273pt x 189.614pt.
+
+
+[13 <./Images/Sun interior.jpg> <./Images/Sun exterior.jpg>]
+<Images/First take photosphere.jpg, id=497, 359.54324pt x 527.571pt>
+File: Images/First take photosphere.jpg Graphic file (type jpg)
+<use Images/First take photosphere.jpg>
+Package pdftex.def Info: Images/First take photosphere.jpg  used on input line 53.
+(pdftex.def)             Requested size: 201.10611pt x 295.0916pt.
+
+
+[14 <./Images/First take photosphere.jpg>]
+<Images/Parcel argument.jpg, id=509, 600.44325pt x 331.2375pt>
+File: Images/Parcel argument.jpg Graphic file (type jpg)
+<use Images/Parcel argument.jpg>
+Package pdftex.def Info: Images/Parcel argument.jpg  used on input line 73.
+(pdftex.def)             Requested size: 312.83247pt x 172.57301pt.
+
+
+[15 <./Images/Parcel argument.jpg>]
+
+[16]
+<Images/Granulation pattern.jpg, id=530, 242.70676pt x 92.7465pt>
+File: Images/Granulation pattern.jpg Graphic file (type jpg)
+<use Images/Granulation pattern.jpg>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 111.
+(pdftex.def)             Requested size: 290.48584pt x 111.0122pt.
+<Images/Granules motion.jpg, id=535, 590.80725pt x 486.01575pt>
+File: Images/Granules motion.jpg Graphic file (type jpg)
+<use Images/Granules motion.jpg>
+Package pdftex.def Info: Images/Granules motion.jpg  used on input line 121.
+(pdftex.def)             Requested size: 223.45274pt x 183.82022pt.
+
+
+[17 <./Images/Granulation pattern.jpg> <./Images/Granules motion.jpg>]
+<Images/Limb darkening.jpg, id=545, 673.3155pt x 551.661pt>
+File: Images/Limb darkening.jpg Graphic file (type jpg)
+<use Images/Limb darkening.jpg>
+Package pdftex.def Info: Images/Limb darkening.jpg  used on input line 132.
+(pdftex.def)             Requested size: 245.79938pt x 201.38405pt.
+
+
+[18 <./Images/Limb darkening.jpg>]
+<Images/C curved profile bisector.jpg, id=555, 955.1685pt x 486.618pt>
+File: Images/C curved profile bisector.jpg Graphic file (type jpg)
+<use Images/C curved profile bisector.jpg>
+Package pdftex.def Info: Images/C curved profile bisector.jpg  used on input line 148.
+(pdftex.def)             Requested size: 335.17912pt x 170.75693pt.
+
+
+[19 <./Images/C curved profile bisector.jpg>]
+
+[20]
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 205.
+
+
+
+[21]
+<Images/Flux deficit illustration.png, id=600, 1039.63406pt x 661.72218pt>
+File: Images/Flux deficit illustration.png Graphic file (type png)
+<use Images/Flux deficit illustration.png>
+Package pdftex.def Info: Images/Flux deficit illustration.png  used on input line 240.
+(pdftex.def)             Requested size: 379.87239pt x 241.78406pt.
+
+
+[22]
+<Images/Granulation pattern Ellwarth.jpg, id=613, 855.195pt x 528.17325pt>
+File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
+<use Images/Granulation pattern Ellwarth.jpg>
+Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 255.
+(pdftex.def)             Requested size: 335.17912pt x 207.0022pt.
+
+
+[23 <./Images/Flux deficit illustration.png>]
+
+[24 <./Images/Granulation pattern Ellwarth.jpg>]
+<Images/Standard curve gray.jpg, id=633, 615.4995pt x 533.5935pt>
+File: Images/Standard curve gray.jpg Graphic file (type jpg)
+<use Images/Standard curve gray.jpg>
+Package pdftex.def Info: Images/Standard curve gray.jpg  used on input line 288.
+(pdftex.def)             Requested size: 268.14603pt x 232.46954pt.
+
+
+[25 <./Images/Standard curve gray.jpg>])
+
+[26]
+Chapter 3.
+(Chapter_3.tex
+
+[27
+
+]
+<Images/Results/Statistics/variance std VIS.pdf, id=658, 990.46355pt x 633.02936pt>
+File: Images/Results/Statistics/variance std VIS.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/variance std VIS.pdf>
+Package pdftex.def Info: Images/Results/Statistics/variance std VIS.pdf  used on input line 39.
+(pdftex.def)             Requested size: 446.9055pt x 285.63332pt.
+<Images/Results/Statistics/variance std NIR.pdf, id=659, 982.37013pt x 562.20476pt>
+File: Images/Results/Statistics/variance std NIR.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/variance std NIR.pdf>
+Package pdftex.def Info: Images/Results/Statistics/variance std NIR.pdf  used on input line 46.
+(pdftex.def)             Requested size: 446.9055pt x 255.76067pt.
+
+
+[28]
+Overfull \vbox (14.8357pt too high) has occurred while \output is active []
+
+
+
+[29 <./Images/Results/Statistics/variance std VIS.pdf> <./Images/Results/Statistics/variance std NIR.pdf>]
+<Images/Results/Statistics/variance slopes VIS.pdf, id=781, 990.24956pt x 703.90915pt>
+File: Images/Results/Statistics/variance slopes VIS.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/variance slopes VIS.pdf>
+Package pdftex.def Info: Images/Results/Statistics/variance slopes VIS.pdf  used on input line 62.
+(pdftex.def)             Requested size: 357.52576pt x 254.14821pt.
+<Images/Results/Statistics/variance slopes NIR.pdf, id=782, 990.06882pt x 703.90915pt>
+File: Images/Results/Statistics/variance slopes NIR.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/variance slopes NIR.pdf>
+Package pdftex.def Info: Images/Results/Statistics/variance slopes NIR.pdf  used on input line 69.
+(pdftex.def)             Requested size: 357.52576pt x 254.18044pt.
+
+
+[30]
+<Images/Results/Statistics/optimal window VIS.pdf, id=788, 989.0933pt x 349.73097pt>
+File: Images/Results/Statistics/optimal window VIS.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/optimal window VIS.pdf>
+Package pdftex.def Info: Images/Results/Statistics/optimal window VIS.pdf  used on input line 82.
+(pdftex.def)             Requested size: 446.9055pt x 158.02318pt.
+<Images/Results/Statistics/optimal window NIR.pdf, id=789, 989.0933pt x 349.73097pt>
+File: Images/Results/Statistics/optimal window NIR.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/optimal window NIR.pdf>
+Package pdftex.def Info: Images/Results/Statistics/optimal window NIR.pdf  used on input line 89.
+(pdftex.def)             Requested size: 446.9055pt x 158.02318pt.
+
+
+[31 <./Images/Results/Statistics/variance slopes VIS.pdf> <./Images/Results/Statistics/variance slopes NIR.pdf>]
+
+[32 <./Images/Results/Statistics/optimal window VIS.pdf> <./Images/Results/Statistics/optimal window NIR.pdf>]
+
+[33])
+
+[34]
+Chapter 4.
+(Chapter_4.tex
+<Images/Results/First signature/Curvature_VIS.pdf, id=1018, 823.90207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_VIS.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_VIS.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_VIS.pdf  used on input line 15.
+(pdftex.def)             Requested size: 402.21222pt x 235.48271pt.
+<Images/Results/First signature/Curvature_NIR.pdf, id=1019, 819.88707pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_NIR.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_NIR.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_NIR.pdf  used on input line 20.
+(pdftex.def)             Requested size: 402.21222pt x 236.6309pt.
+
+
+[35
+
+]
+
+[36 <./Images/Results/First signature/Curvature_VIS.pdf> <./Images/Results/First signature/Curvature_NIR.pdf>]
+<Images/Results/First signature/Curvature_ALL.pdf, id=1129, 831.93207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_ALL.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_ALL.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_ALL.pdf  used on input line 32.
+(pdftex.def)             Requested size: 446.9055pt x 259.12372pt.
+<Images/Results/First signature/Curvature_Slope_VIS.pdf, id=1132, 823.90207pt x 501.10837pt>
+File: Images/Results/First signature/Curvature_Slope_VIS.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_Slope_VIS.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_Slope_VIS.pdf  used on input line 42.
+(pdftex.def)             Requested size: 446.9055pt x 271.81789pt.
+
+
+[37 <./Images/Results/First signature/Curvature_ALL.pdf>]
+<Images/Results/First signature/Curvature_SPA.pdf, id=1187, 831.93207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_SPA.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_SPA.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_SPA.pdf  used on input line 53.
+(pdftex.def)             Requested size: 446.9055pt x 259.12372pt.
+
+
+[38 <./Images/Results/First signature/Curvature_Slope_VIS.pdf>]
+<Images/Results/First signature/Curvature_Slope_SPA.pdf, id=1248, 823.90207pt x 501.10837pt>
+File: Images/Results/First signature/Curvature_Slope_SPA.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_Slope_SPA.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_Slope_SPA.pdf  used on input line 61.
+(pdftex.def)             Requested size: 446.9055pt x 271.81789pt.
+
+
+[39 <./Images/Results/First signature/Curvature_SPA.pdf>]
+
+[40 <./Images/Results/First signature/Curvature_Slope_SPA.pdf>]
+<Images/Results/Second signature/Bisector_VIS.pdf, id=1367, 820.24779pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector_VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector_VIS.pdf  used on input line 98.
+(pdftex.def)             Requested size: 402.21222pt x 236.53522pt.
+<Images/Results/Second signature/Bisector_NIR.pdf, id=1368, 828.27779pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector_NIR.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector_NIR.pdf  used on input line 103.
+(pdftex.def)             Requested size: 402.21222pt x 234.23883pt.
+
+
+[41]
+
+[42 <./Images/Results/Second signature/Bisector_VIS.pdf> <./Images/Results/Second signature/Bisector_NIR.pdf>]
+<Images/Results/Second signature/Bisector slope_VIS.pdf, id=1479, 832.29279pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector slope_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector slope_VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector slope_VIS.pdf  used on input line 114.
+(pdftex.def)             Requested size: 446.9055pt x 259.00595pt.
+<Images/Results/Second signature/Bisector_SPA.pdf, id=1481, 705.19234pt x 471.31898pt>
+File: Images/Results/Second signature/Bisector_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector_SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector_SPA.pdf  used on input line 122.
+(pdftex.def)             Requested size: 446.9055pt x 298.6873pt.
+
+
+[43 <./Images/Results/Second signature/Bisector slope_VIS.pdf>]
+<Images/Results/Second signature/Bisector slope_SPA.pdf, id=1543, 840.32278pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector slope_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector slope_SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector slope_SPA.pdf  used on input line 130.
+(pdftex.def)             Requested size: 446.9055pt x 256.53291pt.
+
+
+[44 <./Images/Results/Second signature/Bisector_SPA.pdf>]
+<Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf, id=1609, 1183.68163pt x 706.50136pt>
+File: Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf  used on input line 141.
+(pdftex.def)             Requested size: 446.9055pt x 266.74844pt.
+
+
+[45 <./Images/Results/Second signature/Bisector slope_SPA.pdf>]
+<Images/Results/Second signature/Velocity bins bisector VIS.pdf, id=1671, 991.34055pt x 845.55835pt>
+File: Images/Results/Second signature/Velocity bins bisector VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Velocity bins bisector VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Velocity bins bisector VIS.pdf  used on input line 149.
+(pdftex.def)             Requested size: 402.21222pt x 343.06856pt.
+
+
+[46 <./Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf>]
+<Images/Results/Second signature/Velocity bins bisector SPA.pdf, id=1736, 991.34055pt x 845.55835pt>
+File: Images/Results/Second signature/Velocity bins bisector SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Velocity bins bisector SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Velocity bins bisector SPA.pdf  used on input line 157.
+(pdftex.def)             Requested size: 402.21222pt x 343.06856pt.
+
+
+[47 <./Images/Results/Second signature/Velocity bins bisector VIS.pdf>]
+<Images/Results/Second signature/Flux deficit_6253.pdf, id=1800, 853.92775pt x 494.26971pt>
+File: Images/Results/Second signature/Flux deficit_6253.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Flux deficit_6253.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Flux deficit_6253.pdf  used on input line 177.
+(pdftex.def)             Requested size: 446.9055pt x 258.68095pt.
+
+
+[48 <./Images/Results/Second signature/Velocity bins bisector SPA.pdf>]
+<Images/Results/Second signature/Flux deficit curve_6253.pdf, id=1863, 853.99802pt x 493.36444pt>
+File: Images/Results/Second signature/Flux deficit curve_6253.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Flux deficit curve_6253.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Flux deficit curve_6253.pdf  used on input line 185.
+(pdftex.def)             Requested size: 446.9055pt x 258.18459pt.
+
+
+[49 <./Images/Results/Second signature/Flux deficit_6253.pdf>]
+<Images/Results/Third signature/GranulationPattern_VIS.pdf, id=1931, 836.32347pt x 482.36023pt>
+File: Images/Results/Third signature/GranulationPattern_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/GranulationPattern_VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_VIS.pdf  used on input line 202.
+(pdftex.def)             Requested size: 446.9055pt x 257.75471pt.
+<Images/Results/Third signature/GranulationPattern_NIR.pdf, id=1932, 844.35347pt x 482.36023pt>
+File: Images/Results/Third signature/GranulationPattern_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/GranulationPattern_NIR.pdf>
+Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_NIR.pdf  used on input line 207.
+(pdftex.def)             Requested size: 446.9055pt x 255.30376pt.
+
+
+[50 <./Images/Results/Second signature/Flux deficit curve_6253.pdf>]
+
+[51 <./Images/Results/Third signature/GranulationPattern_VIS.pdf> <./Images/Results/Third signature/GranulationPattern_NIR.pdf>]
+<Images/Results/Third signature/Velocity bins VIS_plot.pdf, id=2101, 1198.37715pt x 673.04697pt>
+File: Images/Results/Third signature/Velocity bins VIS_plot.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins VIS_plot.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins VIS_plot.pdf  used on input line 225.
+(pdftex.def)             Requested size: 446.9055pt x 250.99529pt.
+<Images/Results/Third signature/Velocity bins VIS.pdf, id=2103, 975.09889pt x 1130.25008pt>
+File: Images/Results/Third signature/Velocity bins VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins VIS.pdf  used on input line 233.
+(pdftex.def)             Requested size: 402.21222pt x 466.19942pt.
+
+
+[52 <./Images/Results/Third signature/Velocity bins VIS_plot.pdf>]
+<Images/Results/Third signature/Velocity bins SPA.pdf, id=2170, 959.90088pt x 1413.54846pt>
+File: Images/Results/Third signature/Velocity bins SPA.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins SPA.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins SPA.pdf  used on input line 242.
+(pdftex.def)             Requested size: 357.52576pt x 526.49892pt.
+
+
+[53 <./Images/Results/Third signature/Velocity bins VIS.pdf>]
+
+[54 <./Images/Results/Third signature/Velocity bins SPA.pdf>]
+<Images/Results/Third signature/Velocity lower potential_VIS.pdf, id=2309, 836.32347pt x 501.12405pt>
+File: Images/Results/Third signature/Velocity lower potential_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity lower potential_VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_VIS.pdf  used on input line 261.
+(pdftex.def)             Requested size: 446.9055pt x 267.78139pt.
+
+
+[55 <./Images/Results/Third signature/Velocity lower potential_VIS.pdf>]
+<Images/Results/Third signature/Velocity bins energy plot_VIS.pdf, id=2367, 1168.65674pt x 696.38293pt>
+File: Images/Results/Third signature/Velocity bins energy plot_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins energy plot_VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy plot_VIS.pdf  used on input line 269.
+(pdftex.def)             Requested size: 446.9055pt x 266.30716pt.
+<Images/Results/Third signature/Velocity bins energy VIS.pdf, id=2371, 990.20569pt x 1413.54846pt>
+File: Images/Results/Third signature/Velocity bins energy VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins energy VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy VIS.pdf  used on input line 277.
+(pdftex.def)             Requested size: 402.21222pt x 574.16638pt.
+
+
+[56 <./Images/Results/Third signature/Velocity bins energy plot_VIS.pdf>]
+Overfull \vbox (15.5581pt too high) has occurred while \output is active []
+
+
+
+[57 <./Images/Results/Third signature/Velocity bins energy VIS.pdf>]
+<Images/Results/Third signature/Velocity lower potential_SPA.pdf, id=2509, 830.30096pt x 501.12405pt>
+File: Images/Results/Third signature/Velocity lower potential_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity lower potential_SPA.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_SPA.pdf  used on input line 311.
+(pdftex.def)             Requested size: 446.9055pt x 269.73125pt.
+
+
+[58]
+<Images/Results/Third signature/Velocity bins energy SPA.pdf, id=2517, 991.4415pt x 1413.54846pt>
+File: Images/Results/Third signature/Velocity bins energy SPA.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins energy SPA.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy SPA.pdf  used on input line 321.
+(pdftex.def)             Requested size: 402.21222pt x 573.4546pt.
+
+
+[59 <./Images/Results/Third signature/Velocity lower potential_SPA.pdf>]
+Overfull \vbox (14.84633pt too high) has occurred while \output is active []
+
+
+
+[60 <./Images/Results/Third signature/Velocity bins energy SPA.pdf>]
+<Images/Results/Third signature/Standard curve gray.pdf, id=2648, 688.22202pt x 564.21103pt>
+File: Images/Results/Third signature/Standard curve gray.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Standard curve gray.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Standard curve gray.pdf  used on input line 360.
+(pdftex.def)             Requested size: 446.9055pt x 366.37125pt.
+
+
+[61]
+<Images/Results/Third signature/color curves.pdf, id=2655, 1434.18806pt x 847.57903pt>
+File: Images/Results/Third signature/color curves.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/color curves.pdf>
+Package pdftex.def Info: Images/Results/Third signature/color curves.pdf  used on input line 369.
+(pdftex.def)             Requested size: 446.9055pt x 264.11768pt.
+
+
+[62 <./Images/Results/Third signature/Standard curve gray.pdf>]
+
+[63 <./Images/Results/Third signature/color curves.pdf>]
+<Images/Results/Third signature/color curves nir.pdf, id=2804, 1427.07654pt x 847.57903pt>
+File: Images/Results/Third signature/color curves nir.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/color curves nir.pdf>
+Package pdftex.def Info: Images/Results/Third signature/color curves nir.pdf  used on input line 423.
+(pdftex.def)             Requested size: 446.9055pt x 265.42392pt.
+
+
+[64]
+<Images/Results/Third signature/Standard curve_Ellwarth.pdf, id=2816, 836.32347pt x 501.10837pt>
+File: Images/Results/Third signature/Standard curve_Ellwarth.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Standard curve_Ellwarth.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Standard curve_Ellwarth.pdf  used on input line 451.
+(pdftex.def)             Requested size: 210.04613pt x 125.85025pt.
+File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
+<use Images/Granulation pattern Ellwarth.jpg>
+Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 457.
+(pdftex.def)             Requested size: 210.04613pt x 129.72191pt.
+
+
+[65 <./Images/Results/Third signature/color curves nir.pdf>])
+
+[66 <./Images/Results/Third signature/Standard curve_Ellwarth.pdf>]
+Chapter 5.
+(Chapter_5.tex) (Chapter_6.tex
+
+[67
+
+]
+Appendix A.
+
+
+[68
+
+{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+
+[69]
+Appendix B.
+<Images/CBS proof.png, id=2962, 1033.61156pt x 254.45062pt>
+File: Images/CBS proof.png Graphic file (type png)
+<use Images/CBS proof.png>
+Package pdftex.def Info: Images/CBS proof.png  used on input line 39.
+(pdftex.def)             Requested size: 413.4373pt x 101.77844pt.
+
+
+[70
+
+ <./Images/CBS proof.png>]
+
+[71]
+
+[72]
+Appendix C.
+<Images/Tools bar.png, id=3003, 625.58719pt x 63.98906pt>
+File: Images/Tools bar.png Graphic file (type png)
+<use Images/Tools bar.png>
+Package pdftex.def Info: Images/Tools bar.png  used on input line 111.
+(pdftex.def)             Requested size: 437.90805pt x 44.79202pt.
+<Images/Added line.png, id=3006, 225.09094pt x 155.07938pt>
+File: Images/Added line.png Graphic file (type png)
+<use Images/Added line.png>
+Package pdftex.def Info: Images/Added line.png  used on input line 129.
+(pdftex.def)             Requested size: 187.69948pt x 129.32397pt.
+
+Underfull \hbox (badness 3364) in paragraph at lines 130--130
+[]\T1/stix/m/n/10.95 (a) |Mes-sage for an added line to the
+ []
+
+<Images/Updated line.png, id=3007, 234.1247pt x 146.79843pt>
+File: Images/Updated line.png Graphic file (type png)
+<use Images/Updated line.png>
+Package pdftex.def Info: Images/Updated line.png  used on input line 134.
+(pdftex.def)             Requested size: 201.10611pt x 126.10306pt.
+
+Underfull \hbox (badness 4954) in paragraph at lines 135--135
+[]\T1/stix/m/n/10.95 (b) |Mes-sage for an up-dated line to the
+ []
+
+
+
+[73
+
+ <./Images/Tools bar.png>]
+<Images/Save image.png, id=3014, 243.15843pt x 146.04562pt>
+File: Images/Save image.png Graphic file (type png)
+<use Images/Save image.png>
+Package pdftex.def Info: Images/Save image.png  used on input line 145.
+(pdftex.def)             Requested size: 206.68564pt x 124.13934pt.
+<Images/Navigation bar.png, id=3015, 645.91313pt x 31.61812pt>
+File: Images/Navigation bar.png Graphic file (type png)
+<use Images/Navigation bar.png>
+Package pdftex.def Info: Images/Navigation bar.png  used on input line 153.
+(pdftex.def)             Requested size: 419.83856pt x 20.55151pt.
+
+
+[74 <./Images/Added line.png> <./Images/Updated line.png> <./Images/Save image.png>]
+<Images/View_1st_visualizer.png, id=3025, 1444.64719pt x 808.52063pt>
+File: Images/View_1st_visualizer.png Graphic file (type png)
+<use Images/View_1st_visualizer.png>
+Package pdftex.def Info: Images/View_1st_visualizer.png  used on input line 165.
+(pdftex.def)             Requested size: 433.3975pt x 242.55806pt.
+<Images/View_2nd_visualizaer.png, id=3027, 1444.64719pt x 812.28468pt>
+File: Images/View_2nd_visualizaer.png Graphic file (type png)
+<use Images/View_2nd_visualizaer.png>
+Package pdftex.def Info: Images/View_2nd_visualizaer.png  used on input line 176.
+(pdftex.def)             Requested size: 433.3975pt x 243.68729pt.
+
+
+[75 <./Images/Navigation bar.png> <./Images/View_1st_visualizer.png>]
+
+[76 <./Images/View_2nd_visualizaer.png>]
+
+[77]
+
+[78]
+<Images/1st filter example blend 1.jpg, id=3073, 1077.0639pt x 489.2679pt>
+File: Images/1st filter example blend 1.jpg Graphic file (type jpg)
+<use Images/1st filter example blend 1.jpg>
+Package pdftex.def Info: Images/1st filter example blend 1.jpg  used on input line 272.
+(pdftex.def)             Requested size: 430.81793pt x 195.70369pt.
+<Images/1st filter example blend 2.jpg, id=3074, 1077.0639pt x 489.2679pt>
+File: Images/1st filter example blend 2.jpg Graphic file (type jpg)
+<use Images/1st filter example blend 2.jpg>
+Package pdftex.def Info: Images/1st filter example blend 2.jpg  used on input line 273.
+(pdftex.def)             Requested size: 430.81793pt x 195.70369pt.
+
+
+[79]
+<Images/1st filter example 1.jpg, id=3082, 1077.0639pt x 489.2679pt>
+File: Images/1st filter example 1.jpg Graphic file (type jpg)
+<use Images/1st filter example 1.jpg>
+Package pdftex.def Info: Images/1st filter example 1.jpg  used on input line 279.
+(pdftex.def)             Requested size: 430.81793pt x 195.70369pt.
+<Images/1st filter example 2.jpg, id=3083, 1077.3048pt x 489.2679pt>
+File: Images/1st filter example 2.jpg Graphic file (type jpg)
+<use Images/1st filter example 2.jpg>
+Package pdftex.def Info: Images/1st filter example 2.jpg  used on input line 280.
+(pdftex.def)             Requested size: 430.91429pt x 195.70369pt.
+
+
+[80 <./Images/1st filter example blend 1.jpg> <./Images/1st filter example blend 2.jpg>]
+
+[81 <./Images/1st filter example 1.jpg> <./Images/1st filter example 2.jpg>]
+
+[82]
+<Images/2nd filter example blend 1.jpg, id=3122, 1077.3048pt x 491.6769pt>
+File: Images/2nd filter example blend 1.jpg Graphic file (type jpg)
+<use Images/2nd filter example blend 1.jpg>
+Package pdftex.def Info: Images/2nd filter example blend 1.jpg  used on input line 347.
+(pdftex.def)             Requested size: 430.91429pt x 196.66727pt.
+<Images/2nd filter example blend 2.jpg, id=3123, 1077.3048pt x 491.6769pt>
+File: Images/2nd filter example blend 2.jpg Graphic file (type jpg)
+<use Images/2nd filter example blend 2.jpg>
+Package pdftex.def Info: Images/2nd filter example blend 2.jpg  used on input line 348.
+(pdftex.def)             Requested size: 430.91429pt x 196.66727pt.
+
+
+[83]
+<Images/2nd filter example 1.jpg, id=3131, 1077.0639pt x 491.6769pt>
+File: Images/2nd filter example 1.jpg Graphic file (type jpg)
+<use Images/2nd filter example 1.jpg>
+Package pdftex.def Info: Images/2nd filter example 1.jpg  used on input line 354.
+(pdftex.def)             Requested size: 430.81793pt x 196.66727pt.
+<Images/2nd filter example 2.jpg, id=3132, 1077.0639pt x 491.6769pt>
+File: Images/2nd filter example 2.jpg Graphic file (type jpg)
+<use Images/2nd filter example 2.jpg>
+Package pdftex.def Info: Images/2nd filter example 2.jpg  used on input line 355.
+(pdftex.def)             Requested size: 430.81793pt x 196.66727pt.
+
+
+[84 <./Images/2nd filter example blend 1.jpg> <./Images/2nd filter example blend 2.jpg>]
+
+[85 <./Images/2nd filter example 1.jpg> <./Images/2nd filter example 2.jpg>]) (Chapter_0.bbl
+
+[86]
+
+[87
+
+]
+
+[88])
+
+[89] (Chapter_0.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Chapter_0.out' has not changed.
+(rerunfilecheck)             Checksum: C8C772A0174AF4C83F911E297E6A9799;10946.
+ ) 
+Here is how much of TeX's memory you used:
+ 26466 strings out of 468130
+ 492317 string characters out of 5430633
+ 1135328 words of memory out of 5000000
+ 54419 multiletter control sequences out of 15000+600000
+ 725346 words of font info for 153 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 90i,16n,94p,715b,2754s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on Chapter_0.pdf (92 pages, 7197464 bytes).
+PDF statistics:
+ 3288 PDF objects out of 3580 (max. 8388607)
+ 312 named destinations out of 1000 (max. 500000)
+ 657 words of extra memory for PDF output out of 10000 (max. 10000000)
+

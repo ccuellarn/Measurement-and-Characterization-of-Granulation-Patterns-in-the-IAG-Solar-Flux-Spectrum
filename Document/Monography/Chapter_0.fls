@@ -470,26 +470,42 @@ INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex
 INPUT .\Chapter_3.tex
 INPUT Chapter_3.tex
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance NIR.pdf
-INPUT .\Images\Results\variance NIR.pdf
-INPUT .\Images\Results\variance NIR.pdf
-INPUT .\Images\Results\variance NIR.pdf
-INPUT .\Images\Results\variance NIR.pdf
-INPUT .\Images\Results\variance NIR.pdf
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance VIS.pdf
-INPUT .\Images\Results\variance NIR.pdf
-INPUT .\Images\Results\variance NIR.pdf
-INPUT .\Images\Results\variance NIR.pdf
-INPUT .\Images\Results\variance NIR.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
