@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  21 NOV 2025 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  21 NOV 2025 01:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1088,7 +1088,11 @@ File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count383
-) (Chapter_0.aux)
+) (Chapter_0.aux
+
+LaTeX Warning: Label `fig:flux deficit' multiply defined.
+
+)
 \openout1 = `Chapter_0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1163,7 +1167,7 @@ Package hyperref Info: Link coloring ON on input line 6.
 \@outlinefile=\write4
 \openout4 = `Chapter_0.out'.
 
-<Universidad-de-los-Andes_logo.png, id=163, 385.44pt x 457.71pt>
+<Universidad-de-los-Andes_logo.png, id=191, 385.44pt x 457.71pt>
 File: Universidad-de-los-Andes_logo.png Graphic file (type png)
 <use Universidad-de-los-Andes_logo.png>
 Package pdftex.def Info: Universidad-de-los-Andes_logo.png  used on input line 10.
@@ -1234,457 +1238,600 @@ File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 ...nd-free list of Fe I lines}{27}{chapter.3}
+l.23 ...nd-free list of Fe I lines}{29}{chapter.3}
                                                   % [1
 
-])
+]
+
+[2])
 \tf@toc=\write5
 \openout5 = `Chapter_0.toc'.
 
 
 
-[2] (Chapter_0.lof
+[3] (Chapter_0.lof
 
-[3
+[4
 
 
 ]
 
-[4]
+[5]
 
-[5])
+[6]
+
+[7])
 \tf@lof=\write6
 \openout6 = `Chapter_0.lof'.
 
 
 
-[6]
+[8]
 Chapter 1.
 (Chapter_1.tex
 
-[7
+[9
 
 ]
-
-[8]
-
-[9])
 
 [10]
 
-[11]
+[11])
+
+[12]
+
+[13]
 Chapter 2.
 (Chapter_2.tex
 
-[12
+[14
 
 ]
-<Images/Sun interior.jpg, id=447, 519.44063pt x 451.6875pt>
+<Images/Sun interior.jpg, id=536, 519.44063pt x 451.6875pt>
 File: Images/Sun interior.jpg Graphic file (type jpg)
 <use Images/Sun interior.jpg>
 Package pdftex.def Info: Images/Sun interior.jpg  used on input line 26.
 (pdftex.def)             Requested size: 214.51273pt x 186.53015pt.
-<Images/Sun exterior.jpg, id=448, 674.52pt x 596.2275pt>
+<Images/Sun exterior.jpg, id=537, 674.52pt x 596.2275pt>
 File: Images/Sun exterior.jpg Graphic file (type jpg)
 <use Images/Sun exterior.jpg>
 Package pdftex.def Info: Images/Sun exterior.jpg  used on input line 31.
 (pdftex.def)             Requested size: 214.51273pt x 189.614pt.
 
 
-[13 <./Images/Sun interior.jpg> <./Images/Sun exterior.jpg>]
-<Images/First take photosphere.jpg, id=459, 359.54324pt x 527.571pt>
+[15 <./Images/Sun interior.jpg> <./Images/Sun exterior.jpg>]
+<Images/First take photosphere.jpg, id=548, 359.54324pt x 527.571pt>
 File: Images/First take photosphere.jpg Graphic file (type jpg)
 <use Images/First take photosphere.jpg>
 Package pdftex.def Info: Images/First take photosphere.jpg  used on input line 53.
 (pdftex.def)             Requested size: 201.10611pt x 295.0916pt.
 
 
-[14 <./Images/First take photosphere.jpg>]
-<Images/Parcel argument.jpg, id=471, 600.44325pt x 331.2375pt>
+[16 <./Images/First take photosphere.jpg>]
+<Images/Parcel argument.jpg, id=561, 600.44325pt x 331.2375pt>
 File: Images/Parcel argument.jpg Graphic file (type jpg)
 <use Images/Parcel argument.jpg>
 Package pdftex.def Info: Images/Parcel argument.jpg  used on input line 73.
 (pdftex.def)             Requested size: 312.83247pt x 172.57301pt.
 
 
-[15 <./Images/Parcel argument.jpg>]
+[17 <./Images/Parcel argument.jpg>]
 
-[16]
-<Images/Granulation pattern.jpg, id=492, 242.70676pt x 92.7465pt>
+[18]
+<Images/Granulation pattern.jpg, id=581, 242.70676pt x 92.7465pt>
 File: Images/Granulation pattern.jpg Graphic file (type jpg)
 <use Images/Granulation pattern.jpg>
 Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 111.
 (pdftex.def)             Requested size: 290.48584pt x 111.0122pt.
-<Images/Granules motion.jpg, id=497, 590.80725pt x 486.01575pt>
+<Images/Granules motion.jpg, id=586, 590.80725pt x 486.01575pt>
 File: Images/Granules motion.jpg Graphic file (type jpg)
 <use Images/Granules motion.jpg>
 Package pdftex.def Info: Images/Granules motion.jpg  used on input line 121.
 (pdftex.def)             Requested size: 223.45274pt x 183.82022pt.
 
 
-[17 <./Images/Granulation pattern.jpg> <./Images/Granules motion.jpg>]
-<Images/Limb darkening.jpg, id=507, 673.3155pt x 551.661pt>
+[19 <./Images/Granulation pattern.jpg> <./Images/Granules motion.jpg>]
+<Images/Limb darkening.jpg, id=596, 673.3155pt x 551.661pt>
 File: Images/Limb darkening.jpg Graphic file (type jpg)
 <use Images/Limb darkening.jpg>
 Package pdftex.def Info: Images/Limb darkening.jpg  used on input line 132.
 (pdftex.def)             Requested size: 245.79938pt x 201.38405pt.
 
 
-[18 <./Images/Limb darkening.jpg>]
-<Images/C curved profile bisector.jpg, id=517, 955.1685pt x 486.618pt>
+[20 <./Images/Limb darkening.jpg>]
+<Images/C curved profile bisector.jpg, id=606, 955.1685pt x 486.618pt>
 File: Images/C curved profile bisector.jpg Graphic file (type jpg)
 <use Images/C curved profile bisector.jpg>
 Package pdftex.def Info: Images/C curved profile bisector.jpg  used on input line 148.
 (pdftex.def)             Requested size: 335.17912pt x 170.75693pt.
 
 
-[19 <./Images/C curved profile bisector.jpg>]
+[21 <./Images/C curved profile bisector.jpg>]
 
-[20]
+[22]
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <7.5> not available
 (Font)              size <7> substituted on input line 205.
 
 
 
-[21]
-<Images/Flux deficit illustration.png, id=562, 1039.63406pt x 661.72218pt>
+[23]
+<Images/Flux deficit illustration.png, id=652, 1039.63406pt x 661.72218pt>
 File: Images/Flux deficit illustration.png Graphic file (type png)
 <use Images/Flux deficit illustration.png>
 Package pdftex.def Info: Images/Flux deficit illustration.png  used on input line 240.
 (pdftex.def)             Requested size: 379.87239pt x 241.78406pt.
 
 
-[22]
-<Images/Granulation pattern Ellwarth.jpg, id=575, 855.195pt x 528.17325pt>
+[24]
+<Images/Granulation pattern Ellwarth.jpg, id=664, 855.195pt x 528.17325pt>
 File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
 <use Images/Granulation pattern Ellwarth.jpg>
 Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 255.
 (pdftex.def)             Requested size: 335.17912pt x 207.0022pt.
 
 
-[23 <./Images/Flux deficit illustration.png>]
+[25 <./Images/Flux deficit illustration.png>]
 
-[24 <./Images/Granulation pattern Ellwarth.jpg>]
-<Images/Standard curve gray.jpg, id=595, 615.4995pt x 533.5935pt>
+[26 <./Images/Granulation pattern Ellwarth.jpg>]
+<Images/Standard curve gray.jpg, id=684, 615.4995pt x 533.5935pt>
 File: Images/Standard curve gray.jpg Graphic file (type jpg)
 <use Images/Standard curve gray.jpg>
 Package pdftex.def Info: Images/Standard curve gray.jpg  used on input line 288.
 (pdftex.def)             Requested size: 268.14603pt x 232.46954pt.
 
 
-[25 <./Images/Standard curve gray.jpg>])
+[27 <./Images/Standard curve gray.jpg>])
 
-[26]
+[28]
 Chapter 3.
 (Chapter_3.tex
 
-[27
+[29
 
 ]
-<Images/Results/Statistics/variance std VIS.pdf, id=620, 990.46355pt x 633.02936pt>
+<Images/Results/Statistics/variance std VIS.pdf, id=710, 990.46355pt x 633.02936pt>
 File: Images/Results/Statistics/variance std VIS.pdf Graphic file (type pdf)
 <use Images/Results/Statistics/variance std VIS.pdf>
 Package pdftex.def Info: Images/Results/Statistics/variance std VIS.pdf  used on input line 39.
 (pdftex.def)             Requested size: 446.9055pt x 285.63332pt.
-<Images/Results/Statistics/variance std NIR.pdf, id=621, 982.37013pt x 562.20476pt>
+<Images/Results/Statistics/variance std NIR.pdf, id=711, 982.37013pt x 562.20476pt>
 File: Images/Results/Statistics/variance std NIR.pdf Graphic file (type pdf)
 <use Images/Results/Statistics/variance std NIR.pdf>
 Package pdftex.def Info: Images/Results/Statistics/variance std NIR.pdf  used on input line 46.
 (pdftex.def)             Requested size: 446.9055pt x 255.76067pt.
 
 
-[28]
+[30]
 Overfull \vbox (14.8357pt too high) has occurred while \output is active []
 
 
 
-[29 <./Images/Results/Statistics/variance std VIS.pdf> <./Images/Results/Statistics/variance std NIR.pdf>]
-<Images/Results/Statistics/variance slopes VIS.pdf, id=743, 990.24956pt x 703.90915pt>
+[31 <./Images/Results/Statistics/variance std VIS.pdf> <./Images/Results/Statistics/variance std NIR.pdf>]
+<Images/Results/Statistics/variance slopes VIS.pdf, id=832, 990.24956pt x 703.90915pt>
 File: Images/Results/Statistics/variance slopes VIS.pdf Graphic file (type pdf)
 <use Images/Results/Statistics/variance slopes VIS.pdf>
 Package pdftex.def Info: Images/Results/Statistics/variance slopes VIS.pdf  used on input line 62.
 (pdftex.def)             Requested size: 357.52576pt x 254.14821pt.
-<Images/Results/Statistics/variance slopes NIR.pdf, id=744, 990.06882pt x 703.90915pt>
+<Images/Results/Statistics/variance slopes NIR.pdf, id=833, 990.06882pt x 703.90915pt>
 File: Images/Results/Statistics/variance slopes NIR.pdf Graphic file (type pdf)
 <use Images/Results/Statistics/variance slopes NIR.pdf>
 Package pdftex.def Info: Images/Results/Statistics/variance slopes NIR.pdf  used on input line 69.
 (pdftex.def)             Requested size: 357.52576pt x 254.18044pt.
 
 
-[30]
-<Images/Results/Statistics/optimal window VIS.pdf, id=750, 989.0933pt x 349.73097pt>
+[32]
+<Images/Results/Statistics/optimal window VIS.pdf, id=839, 989.0933pt x 349.73097pt>
 File: Images/Results/Statistics/optimal window VIS.pdf Graphic file (type pdf)
 <use Images/Results/Statistics/optimal window VIS.pdf>
 Package pdftex.def Info: Images/Results/Statistics/optimal window VIS.pdf  used on input line 82.
 (pdftex.def)             Requested size: 446.9055pt x 158.02318pt.
-<Images/Results/Statistics/optimal window NIR.pdf, id=751, 989.0933pt x 349.73097pt>
+<Images/Results/Statistics/optimal window NIR.pdf, id=840, 989.0933pt x 349.73097pt>
 File: Images/Results/Statistics/optimal window NIR.pdf Graphic file (type pdf)
 <use Images/Results/Statistics/optimal window NIR.pdf>
 Package pdftex.def Info: Images/Results/Statistics/optimal window NIR.pdf  used on input line 89.
 (pdftex.def)             Requested size: 446.9055pt x 158.02318pt.
 
 
-[31 <./Images/Results/Statistics/variance slopes VIS.pdf> <./Images/Results/Statistics/variance slopes NIR.pdf>]
+[33 <./Images/Results/Statistics/variance slopes VIS.pdf> <./Images/Results/Statistics/variance slopes NIR.pdf>]
 
-[32 <./Images/Results/Statistics/optimal window VIS.pdf> <./Images/Results/Statistics/optimal window NIR.pdf>]
+[34 <./Images/Results/Statistics/optimal window VIS.pdf> <./Images/Results/Statistics/optimal window NIR.pdf>]
 
-[33])
+[35])
 
-[34]
+[36]
 Chapter 4.
 (Chapter_4.tex
-<Images/Results/Third signature/GranulationPattern_VIS.pdf, id=978, 836.32347pt x 482.36023pt>
-File: Images/Results/Third signature/GranulationPattern_VIS.pdf Graphic file (type pdf)
-<use Images/Results/Third signature/GranulationPattern_VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_VIS.pdf  used on input line 203.
-(pdftex.def)             Requested size: 446.9055pt x 257.75471pt.
-<Images/Results/Third signature/GranulationPattern_NIR.pdf, id=979, 844.35347pt x 482.36023pt>
-File: Images/Results/Third signature/GranulationPattern_NIR.pdf Graphic file (type pdf)
-<use Images/Results/Third signature/GranulationPattern_NIR.pdf>
-Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_NIR.pdf  used on input line 208.
-(pdftex.def)             Requested size: 446.9055pt x 255.30376pt.
+<Images/Results/First signature/Curvature_VIS.pdf, id=1069, 823.90207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_VIS.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_VIS.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_VIS.pdf  used on input line 15.
+(pdftex.def)             Requested size: 402.21222pt x 235.48271pt.
+<Images/Results/First signature/Curvature_NIR.pdf, id=1070, 819.88707pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_NIR.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_NIR.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_NIR.pdf  used on input line 20.
+(pdftex.def)             Requested size: 402.21222pt x 236.6309pt.
 
 
-[35
+[37
 
 ]
 
-[36 <./Images/Results/Third signature/GranulationPattern_VIS.pdf> <./Images/Results/Third signature/GranulationPattern_NIR.pdf>]
-<Images/Results/Third signature/Velocity bins VIS_plot.pdf, id=1098, 1180.70174pt x 678.67738pt>
+[38 <./Images/Results/First signature/Curvature_VIS.pdf> <./Images/Results/First signature/Curvature_NIR.pdf>]
+<Images/Results/First signature/Curvature_ALL.pdf, id=1181, 831.93207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_ALL.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_ALL.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_ALL.pdf  used on input line 33.
+(pdftex.def)             Requested size: 446.9055pt x 259.12372pt.
+<Images/Results/First signature/Curvature_Slope_VIS.pdf, id=1184, 823.90207pt x 501.10837pt>
+File: Images/Results/First signature/Curvature_Slope_VIS.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_Slope_VIS.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_Slope_VIS.pdf  used on input line 45.
+(pdftex.def)             Requested size: 446.9055pt x 271.81789pt.
+
+
+[39 <./Images/Results/First signature/Curvature_ALL.pdf>]
+<Images/Results/First signature/Curvature_SPA.pdf, id=1239, 831.93207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_SPA.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_SPA.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_SPA.pdf  used on input line 56.
+(pdftex.def)             Requested size: 446.9055pt x 259.12372pt.
+
+
+[40 <./Images/Results/First signature/Curvature_Slope_VIS.pdf>]
+<Images/Results/First signature/Curvature_Slope_SPA.pdf, id=1301, 823.90207pt x 501.10837pt>
+File: Images/Results/First signature/Curvature_Slope_SPA.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_Slope_SPA.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_Slope_SPA.pdf  used on input line 64.
+(pdftex.def)             Requested size: 446.9055pt x 271.81789pt.
+
+
+[41 <./Images/Results/First signature/Curvature_SPA.pdf>]
+
+[42 <./Images/Results/First signature/Curvature_Slope_SPA.pdf>]
+<Images/Results/Second signature/Bisector_VIS.pdf, id=1420, 820.24779pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector_VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector_VIS.pdf  used on input line 92.
+(pdftex.def)             Requested size: 402.21222pt x 236.53522pt.
+<Images/Results/Second signature/Bisector_NIR.pdf, id=1421, 828.27779pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector_NIR.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector_NIR.pdf  used on input line 97.
+(pdftex.def)             Requested size: 402.21222pt x 234.23883pt.
+
+
+[43]
+
+[44 <./Images/Results/Second signature/Bisector_VIS.pdf> <./Images/Results/Second signature/Bisector_NIR.pdf>]
+<Images/Results/Second signature/Bisector slope_VIS.pdf, id=1532, 832.29279pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector slope_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector slope_VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector slope_VIS.pdf  used on input line 108.
+(pdftex.def)             Requested size: 446.9055pt x 259.00595pt.
+<Images/Results/Second signature/Bisector_SPA.pdf, id=1534, 820.24779pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector_SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector_SPA.pdf  used on input line 116.
+(pdftex.def)             Requested size: 446.9055pt x 262.81854pt.
+
+
+[45 <./Images/Results/Second signature/Bisector slope_VIS.pdf>]
+<Images/Results/Second signature/Bisector slope_SPA.pdf, id=1596, 840.32278pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector slope_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector slope_SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector slope_SPA.pdf  used on input line 124.
+(pdftex.def)             Requested size: 446.9055pt x 256.53291pt.
+
+
+[46 <./Images/Results/Second signature/Bisector_SPA.pdf>]
+<Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf, id=1656, 1183.68163pt x 706.50136pt>
+File: Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf  used on input line 135.
+(pdftex.def)             Requested size: 446.9055pt x 266.74844pt.
+
+
+[47 <./Images/Results/Second signature/Bisector slope_SPA.pdf>]
+<Images/Results/Second signature/Velocity bins bisector VIS.pdf, id=1718, 991.34055pt x 845.55835pt>
+File: Images/Results/Second signature/Velocity bins bisector VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Velocity bins bisector VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Velocity bins bisector VIS.pdf  used on input line 143.
+(pdftex.def)             Requested size: 402.21222pt x 343.06856pt.
+
+
+[48 <./Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf>]
+<Images/Results/Second signature/Velocity bins bisector SPA.pdf, id=1782, 991.34055pt x 845.55835pt>
+File: Images/Results/Second signature/Velocity bins bisector SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Velocity bins bisector SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Velocity bins bisector SPA.pdf  used on input line 151.
+(pdftex.def)             Requested size: 402.21222pt x 343.06856pt.
+
+
+[49 <./Images/Results/Second signature/Velocity bins bisector VIS.pdf>]
+<Images/Results/Second signature/asymetries coeficients VIS.pdf, id=1843, 991.83359pt x 705.30249pt>
+File: Images/Results/Second signature/asymetries coeficients VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/asymetries coeficients VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/asymetries coeficients VIS.pdf  used on input line 160.
+(pdftex.def)             Requested size: 379.87239pt x 270.12709pt.
+<Images/Results/Second signature/asymetries coeficients SPA.pdf, id=1844, 991.83359pt x 705.31816pt>
+File: Images/Results/Second signature/asymetries coeficients SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/asymetries coeficients SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/asymetries coeficients SPA.pdf  used on input line 166.
+(pdftex.def)             Requested size: 379.87239pt x 270.13309pt.
+
+
+[50 <./Images/Results/Second signature/Velocity bins bisector SPA.pdf>]
+Overfull \vbox (13.70189pt too high) has occurred while \output is active []
+
+
+
+[51 <./Images/Results/Second signature/asymetries coeficients VIS.pdf> <./Images/Results/Second signature/asymetries coeficients SPA.pdf>]
+<Images/Results/Second signature/Flux deficit_6253.pdf, id=2030, 988.98047pt x 634.69684pt>
+File: Images/Results/Second signature/Flux deficit_6253.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Flux deficit_6253.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Flux deficit_6253.pdf  used on input line 189.
+(pdftex.def)             Requested size: 446.9055pt x 286.81183pt.
+
+
+[52 <./Images/Results/Second signature/Flux deficit_6253.pdf>]
+<Images/Results/Second signature/Flux deficit curve_6253.pdf, id=2100, 853.99802pt x 493.36444pt>
+File: Images/Results/Second signature/Flux deficit curve_6253.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Flux deficit curve_6253.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Flux deficit curve_6253.pdf  used on input line 197.
+(pdftex.def)             Requested size: 446.9055pt x 258.18459pt.
+<Images/Results/Third signature/GranulationPattern_VIS.pdf, id=2101, 836.32347pt x 482.36023pt>
+File: Images/Results/Third signature/GranulationPattern_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/GranulationPattern_VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_VIS.pdf  used on input line 215.
+(pdftex.def)             Requested size: 446.9055pt x 257.75471pt.
+<Images/Results/Third signature/GranulationPattern_NIR.pdf, id=2102, 844.35347pt x 482.36023pt>
+File: Images/Results/Third signature/GranulationPattern_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/GranulationPattern_NIR.pdf>
+Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_NIR.pdf  used on input line 220.
+(pdftex.def)             Requested size: 446.9055pt x 255.30376pt.
+
+
+[53 <./Images/Results/Second signature/Flux deficit curve_6253.pdf>]
+
+[54 <./Images/Results/Third signature/GranulationPattern_VIS.pdf> <./Images/Results/Third signature/GranulationPattern_NIR.pdf>]
+<Images/Results/Third signature/Velocity bins VIS_plot.pdf, id=2273, 1180.70174pt x 678.67738pt>
 File: Images/Results/Third signature/Velocity bins VIS_plot.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins VIS_plot.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins VIS_plot.pdf  used on input line 227.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins VIS_plot.pdf  used on input line 239.
 (pdftex.def)             Requested size: 446.9055pt x 256.88522pt.
-<Images/Results/Third signature/Velocity bins NIR_plot.pdf, id=1099, 1253.24277pt x 678.67738pt>
+<Images/Results/Third signature/Velocity bins NIR_plot.pdf, id=2274, 1253.24277pt x 678.67738pt>
 File: Images/Results/Third signature/Velocity bins NIR_plot.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins NIR_plot.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins NIR_plot.pdf  used on input line 233.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins NIR_plot.pdf  used on input line 245.
 (pdftex.def)             Requested size: 446.9055pt x 242.01433pt.
 
 
-[37]
+[55]
 
-[38 <./Images/Results/Third signature/Velocity bins VIS_plot.pdf> <./Images/Results/Third signature/Velocity bins NIR_plot.pdf>]
-<Images/Results/Third signature/Velocity bins VIS.pdf, id=1229, 982.6775pt x 1128.8568pt>
+[56 <./Images/Results/Third signature/Velocity bins VIS_plot.pdf> <./Images/Results/Third signature/Velocity bins NIR_plot.pdf>]
+<Images/Results/Third signature/Velocity bins VIS.pdf, id=2404, 982.6775pt x 1128.8568pt>
 File: Images/Results/Third signature/Velocity bins VIS.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins VIS.pdf  used on input line 246.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins VIS.pdf  used on input line 258.
 (pdftex.def)             Requested size: 402.21222pt x 462.04195pt.
-<Images/Results/Third signature/Velocity bins NIR J.pdf, id=1231, 998.81941pt x 562.25996pt>
+<Images/Results/Third signature/Velocity bins NIR J.pdf, id=2406, 998.81941pt x 562.25996pt>
 File: Images/Results/Third signature/Velocity bins NIR J.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins NIR J.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins NIR J.pdf  used on input line 254.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins NIR J.pdf  used on input line 266.
 (pdftex.def)             Requested size: 402.21222pt x 226.40997pt.
-<Images/Results/Third signature/Velocity bins NIR H.pdf, id=1232, 990.14221pt x 562.25996pt>
+<Images/Results/Third signature/Velocity bins NIR H.pdf, id=2407, 990.14221pt x 562.25996pt>
 File: Images/Results/Third signature/Velocity bins NIR H.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins NIR H.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins NIR H.pdf  used on input line 260.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins NIR H.pdf  used on input line 272.
 (pdftex.def)             Requested size: 402.21222pt x 228.40039pt.
 
 
-[39 <./Images/Results/Third signature/Velocity bins VIS.pdf>]
+[57 <./Images/Results/Third signature/Velocity bins VIS.pdf>]
 File: Images/Results/Third signature/Velocity bins VIS.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins VIS.pdf  used on input line 272.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins VIS.pdf  used on input line 284.
 (pdftex.def)             Requested size: 446.9055pt x 513.3895pt.
 
 
-[40 <./Images/Results/Third signature/Velocity bins NIR J.pdf> <./Images/Results/Third signature/Velocity bins NIR H.pdf>]
-<Images/Results/Third signature/GranulationPattern_SPA.pdf, id=1419, 836.32347pt x 482.36023pt>
+[58 <./Images/Results/Third signature/Velocity bins NIR J.pdf> <./Images/Results/Third signature/Velocity bins NIR H.pdf>]
+<Images/Results/Third signature/GranulationPattern_SPA.pdf, id=2594, 836.32347pt x 482.36023pt>
 File: Images/Results/Third signature/GranulationPattern_SPA.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/GranulationPattern_SPA.pdf>
-Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_SPA.pdf  used on input line 280.
+Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_SPA.pdf  used on input line 292.
 (pdftex.def)             Requested size: 379.87239pt x 219.0915pt.
 
 
-[41]
-<Images/Results/Third signature/velocity coeficients NIR.pdf, id=1424, 992.0444pt x 988.61656pt>
+[59]
+<Images/Results/Third signature/velocity coeficients NIR.pdf, id=2599, 992.0444pt x 988.61656pt>
 File: Images/Results/Third signature/velocity coeficients NIR.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/velocity coeficients NIR.pdf>
-Package pdftex.def Info: Images/Results/Third signature/velocity coeficients NIR.pdf  used on input line 288.
+Package pdftex.def Info: Images/Results/Third signature/velocity coeficients NIR.pdf  used on input line 300.
 (pdftex.def)             Requested size: 402.21222pt x 400.82498pt.
 
 
-[42 <./Images/Results/Third signature/GranulationPattern_SPA.pdf>]
-<Images/Results/Third signature/velocity coeficients VIS.pdf, id=1481, 983.99431pt x 705.31816pt>
+[60 <./Images/Results/Third signature/GranulationPattern_SPA.pdf>]
+<Images/Results/Third signature/velocity coeficients VIS.pdf, id=2656, 983.99431pt x 705.31816pt>
 File: Images/Results/Third signature/velocity coeficients VIS.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/velocity coeficients VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/velocity coeficients VIS.pdf  used on input line 295.
+Package pdftex.def Info: Images/Results/Third signature/velocity coeficients VIS.pdf  used on input line 307.
 (pdftex.def)             Requested size: 379.87239pt x 272.28554pt.
-<Images/Results/Third signature/velocity coeficients SPA.pdf, id=1482, 992.03436pt x 705.31816pt>
+<Images/Results/Third signature/velocity coeficients SPA.pdf, id=2657, 992.03436pt x 705.31816pt>
 File: Images/Results/Third signature/velocity coeficients SPA.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/velocity coeficients SPA.pdf>
-Package pdftex.def Info: Images/Results/Third signature/velocity coeficients SPA.pdf  used on input line 301.
+Package pdftex.def Info: Images/Results/Third signature/velocity coeficients SPA.pdf  used on input line 313.
 (pdftex.def)             Requested size: 379.87239pt x 270.07927pt.
 
 
-[43 <./Images/Results/Third signature/velocity coeficients NIR.pdf>]
+[61 <./Images/Results/Third signature/velocity coeficients NIR.pdf>]
 Overfull \vbox (15.80652pt too high) has occurred while \output is active []
 
 
 
-[44 <./Images/Results/Third signature/velocity coeficients VIS.pdf> <./Images/Results/Third signature/velocity coeficients SPA.pdf>]
-<Images/Results/Third signature/Velocity lower potential_VIS.pdf, id=1676, 836.32347pt x 502.50421pt>
+[62 <./Images/Results/Third signature/velocity coeficients VIS.pdf> <./Images/Results/Third signature/velocity coeficients SPA.pdf>]
+<Images/Results/Third signature/Velocity lower potential_VIS.pdf, id=2851, 836.32347pt x 502.50421pt>
 File: Images/Results/Third signature/Velocity lower potential_VIS.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity lower potential_VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_VIS.pdf  used on input line 324.
+Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_VIS.pdf  used on input line 336.
 (pdftex.def)             Requested size: 402.21222pt x 241.66699pt.
-<Images/Results/Third signature/Velocity lower potential_NIR.pdf, id=1677, 844.35347pt x 502.50421pt>
+<Images/Results/Third signature/Velocity lower potential_NIR.pdf, id=2852, 844.35347pt x 502.50421pt>
 File: Images/Results/Third signature/Velocity lower potential_NIR.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity lower potential_NIR.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_NIR.pdf  used on input line 330.
+Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_NIR.pdf  used on input line 342.
 (pdftex.def)             Requested size: 402.21222pt x 239.36671pt.
 
 
-[45]
-<Images/Results/Third signature/Velocity bins energy plot_VIS.pdf, id=1683, 1169.2684pt x 696.38293pt>
+[63]
+<Images/Results/Third signature/Velocity bins energy plot_VIS.pdf, id=2858, 1169.2684pt x 696.38293pt>
 File: Images/Results/Third signature/Velocity bins energy plot_VIS.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins energy plot_VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy plot_VIS.pdf  used on input line 343.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy plot_VIS.pdf  used on input line 355.
 (pdftex.def)             Requested size: 379.87239pt x 226.23676pt.
-<Images/Results/Third signature/Velocity bins energy plot_NIR.pdf, id=1684, 1177.2984pt x 696.38293pt>
+<Images/Results/Third signature/Velocity bins energy plot_NIR.pdf, id=2859, 1177.2984pt x 696.38293pt>
 File: Images/Results/Third signature/Velocity bins energy plot_NIR.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins energy plot_NIR.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy plot_NIR.pdf  used on input line 349.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy plot_NIR.pdf  used on input line 361.
 (pdftex.def)             Requested size: 379.87239pt x 224.696pt.
 
 
-[46 <./Images/Results/Third signature/Velocity lower potential_VIS.pdf> <./Images/Results/Third signature/Velocity lower potential_NIR.pdf>]
+[64 <./Images/Results/Third signature/Velocity lower potential_VIS.pdf> <./Images/Results/Third signature/Velocity lower potential_NIR.pdf>]
 
-[47 <./Images/Results/Third signature/Velocity bins energy plot_VIS.pdf> <./Images/Results/Third signature/Velocity bins energy plot_NIR.pdf>]
-<Images/Results/Third signature/Velocity bins energy VIS.pdf, id=1945, 988.75446pt x 846.95168pt>
+[65 <./Images/Results/Third signature/Velocity bins energy plot_VIS.pdf> <./Images/Results/Third signature/Velocity bins energy plot_NIR.pdf>]
+<Images/Results/Third signature/Velocity bins energy VIS.pdf, id=3120, 988.75446pt x 846.95168pt>
 File: Images/Results/Third signature/Velocity bins energy VIS.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins energy VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy VIS.pdf  used on input line 367.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy VIS.pdf  used on input line 379.
 (pdftex.def)             Requested size: 402.21222pt x 344.52559pt.
-<Images/Results/Third signature/Velocity bins energy NIR.pdf, id=1946, 1035.7226pt x 1130.25008pt>
+<Images/Results/Third signature/Velocity bins energy NIR.pdf, id=3121, 1035.7226pt x 1130.25008pt>
 File: Images/Results/Third signature/Velocity bins energy NIR.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins energy NIR.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy NIR.pdf  used on input line 373.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy NIR.pdf  used on input line 385.
 (pdftex.def)             Requested size: 402.21222pt x 438.91592pt.
 
 
-[48 <./Images/Results/Third signature/Velocity bins energy VIS.pdf>]
-<Images/Results/Third signature/Velocity lower potential_SPA.pdf, id=2015, 830.30096pt x 502.50421pt>
+[66 <./Images/Results/Third signature/Velocity bins energy VIS.pdf>]
+<Images/Results/Third signature/Velocity lower potential_SPA.pdf, id=3190, 830.30096pt x 502.50421pt>
 File: Images/Results/Third signature/Velocity lower potential_SPA.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity lower potential_SPA.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_SPA.pdf  used on input line 382.
+Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_SPA.pdf  used on input line 394.
 (pdftex.def)             Requested size: 446.9055pt x 270.47412pt.
 
 
-[49 <./Images/Results/Third signature/Velocity bins energy NIR.pdf>]
-<Images/Results/Third signature/Velocity bins energy SPA.pdf, id=2082, 981.2359pt x 1413.54846pt>
+[67 <./Images/Results/Third signature/Velocity bins energy NIR.pdf>]
+<Images/Results/Third signature/Velocity bins energy SPA.pdf, id=3257, 981.2359pt x 1413.54846pt>
 File: Images/Results/Third signature/Velocity bins energy SPA.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Velocity bins energy SPA.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy SPA.pdf  used on input line 390.
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy SPA.pdf  used on input line 402.
 (pdftex.def)             Requested size: 402.21222pt x 579.40764pt.
 
 
-[50 <./Images/Results/Third signature/Velocity lower potential_SPA.pdf>]
+[68 <./Images/Results/Third signature/Velocity lower potential_SPA.pdf>]
 Overfull \vbox (20.79936pt too high) has occurred while \output is active []
 
 
 
-[51 <./Images/Results/Third signature/Velocity bins energy SPA.pdf>]
-<Images/Results/Third signature/energy coeficients VIS.pdf, id=2217, 991.68307pt x 563.66898pt>
+[69 <./Images/Results/Third signature/Velocity bins energy SPA.pdf>]
+<Images/Results/Third signature/energy coeficients VIS.pdf, id=3392, 991.68307pt x 563.66898pt>
 File: Images/Results/Third signature/energy coeficients VIS.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/energy coeficients VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/energy coeficients VIS.pdf  used on input line 399.
+Package pdftex.def Info: Images/Results/Third signature/energy coeficients VIS.pdf  used on input line 411.
 (pdftex.def)             Requested size: 379.87239pt x 215.91661pt.
-<Images/Results/Third signature/energy coeficients SPA.pdf, id=2218, 991.68307pt x 563.66898pt>
+<Images/Results/Third signature/energy coeficients SPA.pdf, id=3393, 991.68307pt x 563.66898pt>
 File: Images/Results/Third signature/energy coeficients SPA.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/energy coeficients SPA.pdf>
-Package pdftex.def Info: Images/Results/Third signature/energy coeficients SPA.pdf  used on input line 405.
+Package pdftex.def Info: Images/Results/Third signature/energy coeficients SPA.pdf  used on input line 417.
 (pdftex.def)             Requested size: 379.87239pt x 215.91661pt.
 
 
-[52 <./Images/Results/Third signature/energy coeficients VIS.pdf> <./Images/Results/Third signature/energy coeficients SPA.pdf>]
-<Images/Results/Third signature/Standard curve gray.pdf, id=2322, 988.91644pt x 705.54527pt>
+[70 <./Images/Results/Third signature/energy coeficients VIS.pdf> <./Images/Results/Third signature/energy coeficients SPA.pdf>]
+<Images/Results/Third signature/Standard curve gray.pdf, id=3497, 988.91644pt x 705.54527pt>
 File: Images/Results/Third signature/Standard curve gray.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/Standard curve gray.pdf>
-Package pdftex.def Info: Images/Results/Third signature/Standard curve gray.pdf  used on input line 432.
+Package pdftex.def Info: Images/Results/Third signature/Standard curve gray.pdf  used on input line 444.
 (pdftex.def)             Requested size: 446.9055pt x 318.83815pt.
 
 
-[53]
-<Images/Results/Third signature/color curves VIS.pdf, id=2328, 997.87527pt x 885.14478pt>
+[71]
+<Images/Results/Third signature/color curves VIS.pdf, id=3503, 997.87527pt x 885.14478pt>
 File: Images/Results/Third signature/color curves VIS.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/color curves VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/color curves VIS.pdf  used on input line 441.
+Package pdftex.def Info: Images/Results/Third signature/color curves VIS.pdf  used on input line 453.
 (pdftex.def)             Requested size: 446.9055pt x 396.4206pt.
 
 
-[54 <./Images/Results/Third signature/Standard curve gray.pdf>]
+[72 <./Images/Results/Third signature/Standard curve gray.pdf>]
 
-[55 <./Images/Results/Third signature/color curves VIS.pdf>]
-<Images/Results/Third signature/color curves NIR.pdf, id=2463, 989.69308pt x 988.81982pt>
+[73 <./Images/Results/Third signature/color curves VIS.pdf>]
+<Images/Results/Third signature/color curves NIR.pdf, id=3638, 989.69308pt x 988.81982pt>
 File: Images/Results/Third signature/color curves NIR.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/color curves NIR.pdf>
-Package pdftex.def Info: Images/Results/Third signature/color curves NIR.pdf  used on input line 454.
+Package pdftex.def Info: Images/Results/Third signature/color curves NIR.pdf  used on input line 466.
 (pdftex.def)             Requested size: 446.9055pt x 446.5038pt.
-<Images/Results/Third signature/color characterization coeff VIS.pdf, id=2465, 992.0444pt x 987.20755pt>
+<Images/Results/Third signature/color characterization coeff VIS.pdf, id=3640, 992.0444pt x 987.20755pt>
 File: Images/Results/Third signature/color characterization coeff VIS.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/color characterization coeff VIS.pdf>
-Package pdftex.def Info: Images/Results/Third signature/color characterization coeff VIS.pdf  used on input line 462.
+Package pdftex.def Info: Images/Results/Third signature/color characterization coeff VIS.pdf  used on input line 474.
 (pdftex.def)             Requested size: 357.52576pt x 355.7861pt.
-<Images/Results/Third signature/color characterization coeff NIR.pdf, id=2466, 1000.0744pt x 562.25996pt>
+<Images/Results/Third signature/color characterization coeff NIR.pdf, id=3641, 1000.0744pt x 562.25996pt>
 File: Images/Results/Third signature/color characterization coeff NIR.pdf Graphic file (type pdf)
 <use Images/Results/Third signature/color characterization coeff NIR.pdf>
-Package pdftex.def Info: Images/Results/Third signature/color characterization coeff NIR.pdf  used on input line 468.
+Package pdftex.def Info: Images/Results/Third signature/color characterization coeff NIR.pdf  used on input line 480.
 (pdftex.def)             Requested size: 357.52576pt x 201.00641pt.
 
 
-[56 <./Images/Results/Third signature/color curves NIR.pdf>]
+[74 <./Images/Results/Third signature/color curves NIR.pdf>]
 Overfull \vbox (8.48422pt too high) has occurred while \output is active []
 
 
 
-[57 <./Images/Results/Third signature/color characterization coeff VIS.pdf> <./Images/Results/Third signature/color characterization coeff NIR.pdf>]
+[75 <./Images/Results/Third signature/color characterization coeff VIS.pdf> <./Images/Results/Third signature/color characterization coeff NIR.pdf>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 493.
+LaTeX Warning: Command \r invalid in math mode on input line 505.
 
 
 
-[58])
+[76])
 
-[59]
+[77]
+
+[78]
 Chapter 5.
 (Chapter_5.tex) (Chapter_6.tex
 
-[60
+[79
 
 ]
 Appendix A.
 
 
-[61
+[80
 
 {C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 
-[62]
+[81]
 Appendix B.
-<Images/CBS proof.png, id=2699, 1033.61156pt x 254.45062pt>
+<Images/CBS proof.png, id=3878, 1033.61156pt x 254.45062pt>
 File: Images/CBS proof.png Graphic file (type png)
 <use Images/CBS proof.png>
 Package pdftex.def Info: Images/CBS proof.png  used on input line 39.
 (pdftex.def)             Requested size: 413.4373pt x 101.77844pt.
 
 
-[63
+[82
 
  <./Images/CBS proof.png>]
 
-[64]
+[83]
 
-[65]
+[84]
 Appendix C.
-<Images/Tools bar.png, id=2740, 625.58719pt x 63.98906pt>
+<Images/Tools bar.png, id=3919, 625.58719pt x 63.98906pt>
 File: Images/Tools bar.png Graphic file (type png)
 <use Images/Tools bar.png>
 Package pdftex.def Info: Images/Tools bar.png  used on input line 111.
 (pdftex.def)             Requested size: 437.90805pt x 44.79202pt.
-<Images/Added line.png, id=2743, 225.09094pt x 155.07938pt>
+<Images/Added line.png, id=3922, 225.09094pt x 155.07938pt>
 File: Images/Added line.png Graphic file (type png)
 <use Images/Added line.png>
 Package pdftex.def Info: Images/Added line.png  used on input line 129.
@@ -1694,7 +1841,7 @@ Underfull \hbox (badness 3364) in paragraph at lines 130--130
 []\T1/stix/m/n/10.95 (a) |Mes-sage for an added line to the
  []
 
-<Images/Updated line.png, id=2744, 234.1247pt x 146.79843pt>
+<Images/Updated line.png, id=3923, 234.1247pt x 146.79843pt>
 File: Images/Updated line.png Graphic file (type png)
 <use Images/Updated line.png>
 Package pdftex.def Info: Images/Updated line.png  used on input line 134.
@@ -1706,109 +1853,109 @@ Underfull \hbox (badness 4954) in paragraph at lines 135--135
 
 
 
-[66
+[85
 
  <./Images/Tools bar.png>]
-<Images/Save image.png, id=2751, 243.15843pt x 146.04562pt>
+<Images/Save image.png, id=3930, 243.15843pt x 146.04562pt>
 File: Images/Save image.png Graphic file (type png)
 <use Images/Save image.png>
 Package pdftex.def Info: Images/Save image.png  used on input line 145.
 (pdftex.def)             Requested size: 206.68564pt x 124.13934pt.
-<Images/Navigation bar.png, id=2752, 645.91313pt x 31.61812pt>
+<Images/Navigation bar.png, id=3931, 645.91313pt x 31.61812pt>
 File: Images/Navigation bar.png Graphic file (type png)
 <use Images/Navigation bar.png>
 Package pdftex.def Info: Images/Navigation bar.png  used on input line 153.
 (pdftex.def)             Requested size: 419.83856pt x 20.55151pt.
 
 
-[67 <./Images/Added line.png> <./Images/Updated line.png> <./Images/Save image.png>]
-<Images/View_1st_visualizer.png, id=2762, 1444.64719pt x 808.52063pt>
+[86 <./Images/Added line.png> <./Images/Updated line.png> <./Images/Save image.png>]
+<Images/View_1st_visualizer.png, id=3941, 1444.64719pt x 808.52063pt>
 File: Images/View_1st_visualizer.png Graphic file (type png)
 <use Images/View_1st_visualizer.png>
 Package pdftex.def Info: Images/View_1st_visualizer.png  used on input line 165.
 (pdftex.def)             Requested size: 433.3975pt x 242.55806pt.
-<Images/View_2nd_visualizaer.png, id=2764, 1444.64719pt x 812.28468pt>
+<Images/View_2nd_visualizaer.png, id=3943, 1444.64719pt x 812.28468pt>
 File: Images/View_2nd_visualizaer.png Graphic file (type png)
 <use Images/View_2nd_visualizaer.png>
 Package pdftex.def Info: Images/View_2nd_visualizaer.png  used on input line 176.
 (pdftex.def)             Requested size: 433.3975pt x 243.68729pt.
 
 
-[68 <./Images/Navigation bar.png> <./Images/View_1st_visualizer.png>]
+[87 <./Images/Navigation bar.png> <./Images/View_1st_visualizer.png>]
 
-[69 <./Images/View_2nd_visualizaer.png>]
+[88 <./Images/View_2nd_visualizaer.png>]
 
-[70]
+[89]
 
-[71]
-<Images/1st filter example blend 1.jpg, id=2810, 1077.0639pt x 489.2679pt>
+[90]
+<Images/1st filter example blend 1.jpg, id=3989, 1077.0639pt x 489.2679pt>
 File: Images/1st filter example blend 1.jpg Graphic file (type jpg)
 <use Images/1st filter example blend 1.jpg>
 Package pdftex.def Info: Images/1st filter example blend 1.jpg  used on input line 272.
 (pdftex.def)             Requested size: 430.81793pt x 195.70369pt.
-<Images/1st filter example blend 2.jpg, id=2811, 1077.0639pt x 489.2679pt>
+<Images/1st filter example blend 2.jpg, id=3990, 1077.0639pt x 489.2679pt>
 File: Images/1st filter example blend 2.jpg Graphic file (type jpg)
 <use Images/1st filter example blend 2.jpg>
 Package pdftex.def Info: Images/1st filter example blend 2.jpg  used on input line 273.
 (pdftex.def)             Requested size: 430.81793pt x 195.70369pt.
 
 
-[72]
-<Images/1st filter example 1.jpg, id=2819, 1077.0639pt x 489.2679pt>
+[91]
+<Images/1st filter example 1.jpg, id=3998, 1077.0639pt x 489.2679pt>
 File: Images/1st filter example 1.jpg Graphic file (type jpg)
 <use Images/1st filter example 1.jpg>
 Package pdftex.def Info: Images/1st filter example 1.jpg  used on input line 279.
 (pdftex.def)             Requested size: 430.81793pt x 195.70369pt.
-<Images/1st filter example 2.jpg, id=2820, 1077.3048pt x 489.2679pt>
+<Images/1st filter example 2.jpg, id=3999, 1077.3048pt x 489.2679pt>
 File: Images/1st filter example 2.jpg Graphic file (type jpg)
 <use Images/1st filter example 2.jpg>
 Package pdftex.def Info: Images/1st filter example 2.jpg  used on input line 280.
 (pdftex.def)             Requested size: 430.91429pt x 195.70369pt.
 
 
-[73 <./Images/1st filter example blend 1.jpg> <./Images/1st filter example blend 2.jpg>]
+[92 <./Images/1st filter example blend 1.jpg> <./Images/1st filter example blend 2.jpg>]
 
-[74 <./Images/1st filter example 1.jpg> <./Images/1st filter example 2.jpg>]
+[93 <./Images/1st filter example 1.jpg> <./Images/1st filter example 2.jpg>]
 
-[75]
-<Images/2nd filter example blend 1.jpg, id=2858, 1077.3048pt x 491.6769pt>
+[94]
+<Images/2nd filter example blend 1.jpg, id=4038, 1077.3048pt x 491.6769pt>
 File: Images/2nd filter example blend 1.jpg Graphic file (type jpg)
 <use Images/2nd filter example blend 1.jpg>
 Package pdftex.def Info: Images/2nd filter example blend 1.jpg  used on input line 347.
 (pdftex.def)             Requested size: 430.91429pt x 196.66727pt.
-<Images/2nd filter example blend 2.jpg, id=2859, 1077.3048pt x 491.6769pt>
+<Images/2nd filter example blend 2.jpg, id=4039, 1077.3048pt x 491.6769pt>
 File: Images/2nd filter example blend 2.jpg Graphic file (type jpg)
 <use Images/2nd filter example blend 2.jpg>
 Package pdftex.def Info: Images/2nd filter example blend 2.jpg  used on input line 348.
 (pdftex.def)             Requested size: 430.91429pt x 196.66727pt.
 
 
-[76]
-<Images/2nd filter example 1.jpg, id=2868, 1077.0639pt x 491.6769pt>
+[95]
+<Images/2nd filter example 1.jpg, id=4047, 1077.0639pt x 491.6769pt>
 File: Images/2nd filter example 1.jpg Graphic file (type jpg)
 <use Images/2nd filter example 1.jpg>
 Package pdftex.def Info: Images/2nd filter example 1.jpg  used on input line 354.
 (pdftex.def)             Requested size: 430.81793pt x 196.66727pt.
-<Images/2nd filter example 2.jpg, id=2869, 1077.0639pt x 491.6769pt>
+<Images/2nd filter example 2.jpg, id=4048, 1077.0639pt x 491.6769pt>
 File: Images/2nd filter example 2.jpg Graphic file (type jpg)
 <use Images/2nd filter example 2.jpg>
 Package pdftex.def Info: Images/2nd filter example 2.jpg  used on input line 355.
 (pdftex.def)             Requested size: 430.81793pt x 196.66727pt.
 
 
-[77 <./Images/2nd filter example blend 1.jpg> <./Images/2nd filter example blend 2.jpg>]
+[96 <./Images/2nd filter example blend 1.jpg> <./Images/2nd filter example blend 2.jpg>]
 
-[78 <./Images/2nd filter example 1.jpg> <./Images/2nd filter example 2.jpg>]) (Chapter_0.bbl
+[97 <./Images/2nd filter example 1.jpg> <./Images/2nd filter example 2.jpg>]) (Chapter_0.bbl
 
-[79]
+[98]
 
-[80
+[99
 
 ]
 
-[81])
+[100])
 
-[82] (Chapter_0.aux)
+[101] (Chapter_0.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1818,21 +1965,24 @@ L3 programming layer <2025-09-02>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Chapter_0.out' has not changed.
-(rerunfilecheck)             Checksum: 81AE8C94D89030E6E5024E7B4394E171;10960.
+(rerunfilecheck)             Checksum: 4F8EA802CAEE034C1EEBB245490DC0AB;12698.
  ) 
 Here is how much of TeX's memory you used:
- 26391 strings out of 468130
- 490393 string characters out of 5430633
- 1133328 words of memory out of 5000000
- 54366 multiletter control sequences out of 15000+600000
- 718287 words of font info for 138 fonts, out of 8000000 for 9000
+ 26604 strings out of 468130
+ 500003 string characters out of 5430633
+ 1135328 words of memory out of 5000000
+ 54537 multiletter control sequences out of 15000+600000
+ 725346 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,10n,94p,617b,2754s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,94p,617b,2754s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Chapter_0.pdf (85 pages, 6965926 bytes).
+Output written on Chapter_0.pdf (104 pages, 7557122 bytes).
 PDF statistics:
- 3022 PDF objects out of 3580 (max. 8388607)
- 290 named destinations out of 1000 (max. 500000)
- 621 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4209 PDF objects out of 4296 (max. 8388607)
+ 332 named destinations out of 1000 (max. 500000)
+ 767 words of extra memory for PDF output out of 10000 (max. 10000000)
 
