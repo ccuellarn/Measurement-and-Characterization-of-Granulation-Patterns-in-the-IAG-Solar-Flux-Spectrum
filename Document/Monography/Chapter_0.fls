@@ -511,117 +511,6 @@ INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT .\Chapter_4.tex
 INPUT Chapter_4.tex
-INPUT .\Images\Results\First signature\Curvature_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_NIR.pdf
-INPUT .\Images\Results\First signature\Curvature_NIR.pdf
-INPUT .\Images\Results\First signature\Curvature_NIR.pdf
-INPUT .\Images\Results\First signature\Curvature_NIR.pdf
-INPUT .\Images\Results\First signature\Curvature_NIR.pdf
-INPUT .\Images\Results\First signature\Curvature_NIR.pdf
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathit.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathscr.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathex.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy10.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm-bold.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathfrak.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathbb.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathbbit.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathcal.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsf.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsfit.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
-INPUT .\Images\Results\First signature\Curvature_ALL.pdf
-INPUT .\Images\Results\First signature\Curvature_ALL.pdf
-INPUT .\Images\Results\First signature\Curvature_ALL.pdf
-INPUT .\Images\Results\First signature\Curvature_ALL.pdf
-INPUT .\Images\Results\First signature\Curvature_ALL.pdf
-INPUT .\Images\Results\First signature\Curvature_ALL.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
-INPUT .\Images\Results\First signature\Curvature_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
-INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
-INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
-INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
-INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
-INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
-INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector VIS.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
-INPUT .\Images\Results\Second signature\Velocity bins bisector SPA.pdf
-INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
-INPUT .\Images\Results\Second signature\Flux deficit curve_6253.pdf
 INPUT .\Images\Results\Third signature\GranulationPattern_VIS.pdf
 INPUT .\Images\Results\Third signature\GranulationPattern_VIS.pdf
 INPUT .\Images\Results\Third signature\GranulationPattern_VIS.pdf
@@ -664,12 +553,16 @@ INPUT .\Images\Results\Third signature\Velocity bins NIR H.pdf
 INPUT .\Images\Results\Third signature\Velocity bins NIR H.pdf
 INPUT .\Images\Results\Third signature\Velocity bins NIR H.pdf
 INPUT .\Images\Results\Third signature\Velocity bins NIR H.pdf
-INPUT .\Images\Results\Third signature\Velocity bins SPA.pdf
-INPUT .\Images\Results\Third signature\Velocity bins SPA.pdf
-INPUT .\Images\Results\Third signature\Velocity bins SPA.pdf
-INPUT .\Images\Results\Third signature\Velocity bins SPA.pdf
-INPUT .\Images\Results\Third signature\Velocity bins SPA.pdf
-INPUT .\Images\Results\Third signature\Velocity bins SPA.pdf
+INPUT .\Images\Results\Third signature\Velocity bins VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins VIS.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_SPA.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_SPA.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_SPA.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_SPA.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_SPA.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_SPA.pdf
 INPUT .\Images\Results\Third signature\velocity coeficients NIR.pdf
 INPUT .\Images\Results\Third signature\velocity coeficients NIR.pdf
 INPUT .\Images\Results\Third signature\velocity coeficients NIR.pdf
@@ -694,18 +587,36 @@ INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy VIS.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy NIR.pdf
 INPUT .\Images\Results\Third signature\Velocity lower potential_SPA.pdf
 INPUT .\Images\Results\Third signature\Velocity lower potential_SPA.pdf
 INPUT .\Images\Results\Third signature\Velocity lower potential_SPA.pdf
@@ -718,34 +629,48 @@ INPUT .\Images\Results\Third signature\Velocity bins energy SPA.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy SPA.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy SPA.pdf
 INPUT .\Images\Results\Third signature\Velocity bins energy SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
 INPUT .\Images\Results\Third signature\Standard curve gray.pdf
 INPUT .\Images\Results\Third signature\Standard curve gray.pdf
 INPUT .\Images\Results\Third signature\Standard curve gray.pdf
 INPUT .\Images\Results\Third signature\Standard curve gray.pdf
 INPUT .\Images\Results\Third signature\Standard curve gray.pdf
 INPUT .\Images\Results\Third signature\Standard curve gray.pdf
-INPUT .\Images\Results\Third signature\color curves.pdf
-INPUT .\Images\Results\Third signature\color curves.pdf
-INPUT .\Images\Results\Third signature\color curves.pdf
-INPUT .\Images\Results\Third signature\color curves.pdf
-INPUT .\Images\Results\Third signature\color curves.pdf
-INPUT .\Images\Results\Third signature\color curves.pdf
-INPUT .\Images\Results\Third signature\color curves nir.pdf
-INPUT .\Images\Results\Third signature\color curves nir.pdf
-INPUT .\Images\Results\Third signature\color curves nir.pdf
-INPUT .\Images\Results\Third signature\color curves nir.pdf
-INPUT .\Images\Results\Third signature\color curves nir.pdf
-INPUT .\Images\Results\Third signature\color curves nir.pdf
-INPUT .\Images\Results\Third signature\Standard curve_Ellwarth.pdf
-INPUT .\Images\Results\Third signature\Standard curve_Ellwarth.pdf
-INPUT .\Images\Results\Third signature\Standard curve_Ellwarth.pdf
-INPUT .\Images\Results\Third signature\Standard curve_Ellwarth.pdf
-INPUT .\Images\Results\Third signature\Standard curve_Ellwarth.pdf
-INPUT .\Images\Results\Third signature\Standard curve_Ellwarth.pdf
-INPUT .\Images\Granulation pattern Ellwarth.jpg
-INPUT .\Images\Granulation pattern Ellwarth.jpg
-INPUT .\Images\Granulation pattern Ellwarth.jpg
-INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
 INPUT .\Chapter_5.tex
 INPUT .\Chapter_5.tex
 INPUT .\Chapter_5.tex
