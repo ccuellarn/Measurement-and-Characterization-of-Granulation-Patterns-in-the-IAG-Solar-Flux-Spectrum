@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Chapter_0"] 1763708294.90812 "Chapter_0.aux" "Chapter_0.bbl" "Chapter_0" 1763708302.23883 0
+["bibtex Chapter_0"] 1763744786.29236 "Chapter_0.aux" "Chapter_0.bbl" "Chapter_0" 1763744795.17154 0
   "./Bibliography.bib" 1763618375 9306 d9ff1d5ac1562fc6ad6c61478d6c0399 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "Chapter_0.aux" 1763708300 44687 22672e8f66502344376bbc85865b3245 "pdflatex"
+  "Chapter_0.aux" 1763744793 44009 5455cce3522d2fb19a35335d87613e0f "pdflatex"
   (generated)
   "Chapter_0.bbl"
   "Chapter_0.blg"
   (rewritten before read)
-["pdflatex"] 1763708295.40635 "c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex" "Chapter_0.pdf" "Chapter_0" 1763708302.23996 0
+["pdflatex"] 1763744786.94927 "c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex" "Chapter_0.pdf" "Chapter_0" 1763744795.17154 0
   "C:/Users/clauw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763420333 400397 eaafdafe0c1b6cfb67ee542dfcd31c0f ""
   "C:/Users/clauw/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758906790 13286966 6bfabdd2b59e24f12407fa3df8d6f0e8 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1001775420 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -158,17 +158,17 @@
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/wasysym.sty" 1579693002 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/clauw/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Chapter_0.aux" 1763708300 44687 22672e8f66502344376bbc85865b3245 "pdflatex"
-  "Chapter_0.bbl" 1763708295 5301 a29870423baf5fd4692f59947fd95609 "bibtex Chapter_0"
-  "Chapter_0.lof" 1763708300 12698 645f2ee7e0bcc0cb5e9b3eccae09e9b1 "pdflatex"
-  "Chapter_0.out" 1763708300 12698 4f8ea802caee034c1eebb245490dc0ab "pdflatex"
-  "Chapter_0.tex" 1763440590 2792 fe4d336bd1c79556944c662877181d30 ""
-  "Chapter_0.toc" 1763708300 4739 71187fd5f7afc704c857e9381c675e5a "pdflatex"
+  "Chapter_0.aux" 1763744793 44009 5455cce3522d2fb19a35335d87613e0f "pdflatex"
+  "Chapter_0.bbl" 1763744786 5632 c30e8b901efb360df902deda1e649c9b "bibtex Chapter_0"
+  "Chapter_0.lof" 1763744793 12698 cdd65a08ddb487c12d1c455abd18f7a2 "pdflatex"
+  "Chapter_0.out" 1763744793 11084 d14ef0936cd30397ebce583a0a0e1d9c "pdflatex"
+  "Chapter_0.tex" 1763744763 3663 8c76d6b558fb3ace955225c5abea1b46 ""
+  "Chapter_0.toc" 1763744793 4170 ab7b4a50faeb69e96e31822f41a8f417 "pdflatex"
   "Chapter_1.tex" 1763687621 8586 c3de1e5c0238895aaceebc83ac29243b ""
   "Chapter_2.tex" 1763687548 27261 53a876b33845e15e02135df902c64257 ""
   "Chapter_3.tex" 1763618436 10409 e947d7a04d495804a13797a9638d515b ""
-  "Chapter_4.tex" 1763708286 35898 24d7a8a37f9bf858bcae325a987c7e7c ""
-  "Chapter_5.tex" 1763706483 1377 72b4f0d02807309d3405faf255971148 ""
+  "Chapter_4.tex" 1763743353 34967 7004e497c20ac82a33d2578f97c0d23e ""
+  "Chapter_5.tex" 1763744408 1382 61d9855a9b72ca595c7a85379b1754ca ""
   "Chapter_6.tex" 1763562404 22661 d2ea23d0795231960c41839a3679ec64 ""
   "Images/1st filter example 1.jpg" 1763418047 405160 b65fe5549406cc83cd24f57821879308 ""
   "Images/1st filter example 2.jpg" 1763418056 418375 7e439c479e262f46c8d6dd57533515bd ""
@@ -248,8 +248,8 @@
   "Images/View_1st_visualizer.png" 1763417932 309421 e26dbbed7f95b77bd3e58f8306ba9d4f ""
   "Images/View_2nd_visualizaer.png" 1763560900 346437 26c9d5c711abd8b056ca9a5a4e57cfce ""
   "Universidad-de-los-Andes_logo.png" 1758906659 16892 f253520f4e8e6cc3a01a896469a5d4da ""
-  "c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex" 1763440590 2792 fe4d336bd1c79556944c662877181d30 ""
-  "monostyle.sty" 1763440319 2438 e7ad2fd01c8dd445b3bd225586d46cba ""
+  "c:/Users/clauw/Documents/Programming/Final-Project/Document/Monography/Chapter_0.tex" 1763744763 3663 8c76d6b558fb3ace955225c5abea1b46 ""
+  "monostyle.sty" 1763744405 2440 35fe3354a647831a72d231460bbc7c7b ""
   (generated)
   "Chapter_0.aux"
   "Chapter_0.lof"
