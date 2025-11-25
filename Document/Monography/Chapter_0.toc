@@ -27,17 +27,16 @@
 \contentsline {subsection}{\numberline {3.2.1}Selection process for blend-free Fe I lines}{34}{subsection.3.2.1}%
 \contentsline {chapter}{\numberline {4}The three signatures of convection}{36}{chapter.4}%
 \contentsline {section}{\numberline {4.1}The first signature: Line broadening}{36}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Line depth-dependence on line core curvature}{36}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Line depth-dependence of line core curvature}{36}{subsection.4.1.1}%
 \contentsline {section}{\numberline {4.2}The second signature: Line profile asymmetry}{42}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}The line core bisector slope}{42}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Flux deficit}{51}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence on wavelength shifts}{52}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Line depth-dependence on wavelength shifts}{52}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Line depth-dependence on excitation potential for the lowest energy level}{62}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Characterization of chromodependence on granulation pattern}{70}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Discussion of anomaly chromodependence}{76}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Wavelength and line depth dependences}{78}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Z-score Standardization}{79}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}The third derivative relation}{81}{appendix.1.B}%
-\contentsline {chapter}{\numberline {C}Visualizer for outliers}{84}{appendix.1.C}%
-\contentsline {section}{\numberline {C.1}Test example}{87}{section.1.C.1}%
+\contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence of wavelength shifts}{49}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Line depth-dependence of wavelength shifts}{49}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Line depth-dependence on excitation potential}{59}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Characterization of chromodependence on granulation pattern}{67}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Discussion of anomalous chromodependence}{73}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Wavelength and line depth dependences}{75}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Z-score Standardization}{77}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}The third derivative relation}{79}{appendix.1.B}%
+\contentsline {chapter}{\numberline {C}Visualizer for outliers}{82}{appendix.1.C}%
+\contentsline {section}{\numberline {C.1}Test example}{85}{section.1.C.1}%

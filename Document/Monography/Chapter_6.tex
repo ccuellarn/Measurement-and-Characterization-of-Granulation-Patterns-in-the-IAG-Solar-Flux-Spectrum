@@ -1,10 +1,10 @@
 \begin{appendices}
 \customchapter{Appendix}{Z-score Standardization}\label{ap:zscore}
-The function \lstinline|np.polyfit()|, during the process of calculating the fourth-order polynomial fit, presents an over estimation on the coefficients due to the large difference of magnitude order between axes.
-To deal with this difference, was applied a z-score standardization on the selected bins of wavelengths around the minimum reference point. 
+The function \lstinline|np.polyfit()|, during the process of calculating the fourth-order polynomial fit, presents an over estimation of the coefficients due to the large difference of magnitude order between axes.
+To deal with this difference, a z-score standardization was applied on the selected bins of wavelengths around the minimum reference point. 
 This process helps to avoid the dominance of certain features over others due to differences in their scales~\cite{Boyd_2014}.
 
-For the standardization was applied Equation~\eqref{eq:z score} on the selected bins for wavelength around the minimum reference point.
+For the standardization Equation~\eqref{eq:z score} was applied on the selected bins for wavelength around the minimum reference point.
 \begin{equation}
 \lambda_{\text{scaled}}= \frac{\lambda_{\text{original}}-\mu(\lambda_{\text{original}})}{\sigma(\lambda_{\text{original}})}
 \label{eq:z score}
@@ -26,7 +26,7 @@ The treatment proposed solves the problem for the large difference of magnitude 
 
 \customchapter{Appendix}{The third derivative relation}\label{ap:third derivative}
 
-The third derivative relation or called the line core bisector slope was deducted by Professor Benjamin and showed below.
+The third derivative relation or called the line core bisector slope was deduced by Professor Benjamin as shown below.
 
 Define the slope for the minimum point as Equation~\eqref{eq:slope}, where the points $b,c,h$ are illustrated in Figure~\eqref{fig: CBS slope}.
 \begin{equation}
@@ -37,7 +37,7 @@ Define the slope for the minimum point as Equation~\eqref{eq:slope}, where the p
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.4]{Images/CBS proof.png}
-    \caption{Illustration for the points $a$, $b$, $c$ and the height whose defines the line core bisector slope (see Equation~\eqref{eq:slope}).}\label{fig: CBS slope}
+    \caption{Illustration for the points $a$, $b$, $c$ and the height which defines the line core bisector slope (see Equation~\eqref{eq:slope}).}\label{fig: CBS slope}
 \end{figure}
 
 Note that in a symmetrical line the bisector is vertical and the slope, according to this definition, is zero.
@@ -99,7 +99,7 @@ Whence, finally, the core bisector slope is defined by Equation~\eqref{eq:CBS}
 CBS =  -\frac{f''}{3(f''')^2}
 \label{eq:CBS}
 \end{equation}
-In the code it was multiplied by the relation ($c/\lambda$) to see the behavior across line depth.
+This result is a wavelength interval, so multiplying by the relation ($c/\lambda$) gives it a more universal meaning.
 
 \customchapter{Appendix}{Visualizer for outliers}\label{ap:visualizer}
 
@@ -109,16 +109,16 @@ In order to made this procees less stressing a little tools bar was created to f
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.7]{Images/Tools bar.png}
-    \caption{Tools bar for the visualizer, contains a classification system of labels, the option to save images, and add to a Dataframe for dropping.}\label{fig:tools bar}
+    \caption{Tools bar for the visualizer, containing a classification system of labels, the option to save images, and add to a Dataframe for dropping.}\label{fig:tools bar}
 \end{figure}
 
 It features a custom classification system, shown as color stars.
 We present the guide using in the project: Red is for a discarded line, yellow indicates that the line need other check, and green is for a line approved.  
-If is necessary to change the label, use the button "$\times$ Clear" first and then give another label to the line. 
+If it is necessary to change the label, use the button "$\times$ Clear" first and then give another label to the line. 
 These buttons don't make something on the Dataframe more than just a label for the user orientation. 
 Even the lines have or not the label for good ones, the code just delete the lines which are added to the Dataframe of filtered lines.
 
-To make a list of lines which are gonna to be deleted or filtered use the button "+ Add", which includes the line core information with the label given.
+To make a list of lines which are going to be deleted or filtered use the button "+ Add", which includes the line core information with the label given.
 If this process was sucessfull, the message shown in Figure~\ref{fig:added line} should appears.
 On the other hand, if the label of a line was changed when it was already saved as a discarded line, it can be updated.
 Give the other label and use the button "+ Add", should appear the message from Figure~\ref{fig:updated line}.
@@ -138,7 +138,7 @@ Give the other label and use the button "+ Add", should appear the message from 
 \end{figure}
 
 When the visualizer is close, the code returns a Dataframe with the dropped lines (lines added) and filtered lines (rest of the lines).
-The option for "Save JPG" of the graph is available, saving the image in format JPG and showing the confirmation message with the index and wavelength of the line (see Figure~\ref{fig:save image}).
+The option for "Save JPG" of the graph is available, for saving the image in JPG format and showing the confirmation message with the index and wavelength of the line (see Figure~\ref{fig:save image}).
 
 \begin{figure}[H]
     \centering
@@ -151,7 +151,7 @@ Furthermore, was created a navigation bar which help to locate a specific line o
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.65]{Images/Navigation bar.png}
-    \caption{Navigation bar for the visualizer, help to locate a specific line or explorating the differents graphs using a slider, writing box, and buttons for moves.}\label{fig:Navigations bar}
+    \caption{Navigation bar for the visualizer, helps to locate a specific line or exploring the differents graphs using a slider, writing box, and buttons for moves.}\label{fig:Navigations bar}
 \end{figure}
 
 This bar counts with a slider and a box to locate the line by using the index it appears in the original list (see Figure~\ref{fig:Navigations bar}).
@@ -271,7 +271,7 @@ These are blended lines. An example of this behavior is shown on Figure~\ref{fig
     \centering
     \includegraphics[scale=0.4]{Images/1st filter example blend 1.jpg}
     \includegraphics[scale=0.4]{Images/1st filter example blend 2.jpg}
-    \caption{Examples for discarted lines with the first filter of the visualizer. The line cores and line bisectors of the two plots shows one or more of the conditions presented.}\label{fig:1st filter examples blend}
+    \caption{Examples for discarded lines with the first filter of the visualizer. The line cores and line bisectors of the two plots shows one or more of the conditions presented.}\label{fig:1st filter examples blend}
 \end{figure}
 
 \begin{figure}[H]
@@ -293,7 +293,7 @@ Filtered_lines_1 = app.return_lines()
 Filtered_lines_1['Line'].to_excel('Dropped lines first filter.xlsx', index=False)
 \end{lstlisting}
 
-The next cell saves the filtered lines in an excel file.
+The next cell saves the filtered lines in an Excel type file.
 
 \begin{lstlisting}
 index_to_drop_1 = Filtered_lines_1.index.values
@@ -328,7 +328,7 @@ Then, run the next cell for applied the second filter and calculate the three si
 Values_second_filter,Local_second_filter,Fit_second_filter = Second_Filter(local_points_second_filter,closer_lines_second_filter['Nave list'])
 \end{lstlisting}
 
-This function calculate the observed wavelength based on the fourth-order polynomial fit.
+This function calculates the observed wavelength based on the fourth-order polynomial fit.
 Then, uses the different relations related to the signatures of convection.
 To display the visualizer of the second filter, uncomment the following line code in the cell corresponding to it
 
@@ -346,14 +346,14 @@ These are blended lines. An example of this behavior is shown on Figure~\ref{fig
     \centering
     \includegraphics[scale=0.4]{Images/2nd filter example blend 1.jpg}
     \includegraphics[scale=0.4]{Images/2nd filter example blend 2.jpg}
-    \caption{Examples for discarted lines with the first filter of the visualizer.}\label{fig:2nd filter examples blend}
+    \caption{Examples for discarded lines with the second filter of the visualizer.}\label{fig:2nd filter examples blend}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.4]{Images/2nd filter example 1.jpg}
     \includegraphics[scale=0.4]{Images/2nd filter example 2.jpg}
-    \caption{Examples for accepted lines with the first filter of the visualizer.}\label{fig:2nd filter examples}
+    \caption{Examples for accepted lines with the second filter of the visualizer.}\label{fig:2nd filter examples}
 \end{figure}
 
 To extract the Dataframe with the lines to discard or for further analysis run the next cell.
@@ -365,7 +365,7 @@ Filtered_lines_2 = app_2.return_lines()
 Filtered_lines_2['Line'].to_excel('Dropped lines second filter.xlsx', index=False)
 \end{lstlisting}
 
-The next cell saves the filtered lines in an excel file.
+The next cell saves the filtered lines in an Excel type file.
 
 \begin{lstlisting}
 index_to_drop_2 = Filtered_lines_1.index.values
@@ -377,7 +377,7 @@ New_values_2 = Values_second_filter.drop(index_to_drop_2).reset_index(drop=True)
 New_values_2.to_excel('Second_filter.xlsx', index=False)
 \end{lstlisting}
 
-After the process, the resulting excel is the definitive blend-free list of Fe I lines.
+After the process, the resulting table is the definitive blend-free list of Fe I lines.
 
 \end{appendices}
 

@@ -1,19 +1,19 @@
 Our results were separated into sections following the signatures of convection.
-The principal objective for all of was characterize the anomaly chromodependence presented on each signature.
+The principal objective for all of was characterize the anomalous chromodependence present on each signature.
 
 \section{The first signature: Line broadening}
 
-\subsection{Line depth-dependence on line core curvature}
-The line core curvatures were calculated following Equation~\eqref{eq:core curvature}, and plotted against line depth as shown Figure~\ref{fig:curvatures solar flux}.
+\subsection{Line depth-dependence of line core curvature}
+The line core curvatures were calculated following Equation~\eqref{eq:core curvature}, and plotted against line depth as shown in Figure~\ref{fig:curvatures solar flux}.
 In general, the behavior described in previous research was observed.
-For shallow lines, the line core curvature is proportional to depth as expected. 
-Furthermore, for deep lines the line core curvature is reduced by saturation with strongly wavelength-dependence.
+For shallow lines, the line core curvature is proportional to depth as expected for all wavelengths, according to Equation~\eqref{eq:Theory slope}. 
+Furthermore, for deep lines the line core curvature is reduced by saturation with a strong wavelength-dependence.
 
 \begin{figure}[H]
      \centering
      \begin{subfigure}{0.9\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_VIS.pdf}
-         \caption{Line core curvatures for the visible range. While shallow lines curvature is proportinal to depth, deep lines curvature is reduced by saturation with is strongly wavelength-dependence.}\label{fig:curvature VIS}
+         \caption{Line core curvatures for the visible range. While shallow lines curvature is proportinal to depth, deep lines curvature is reduced by saturation with is a strong wavelength-dependence.}\label{fig:curvature VIS}
      \end{subfigure}
 \hfill
      \begin{subfigure}{0.9\textwidth}
@@ -23,20 +23,23 @@ Furthermore, for deep lines the line core curvature is reduced by saturation wit
      \caption{Line core curvatures for the IAG solar flux atlas separated in wavelength ranges.}\label{fig:curvatures solar flux}%
 \end{figure}
 
-Figure~\ref{fig:curvature VIS} shows that deeper lines deviate from the initial straight line, described anomaly chromodependence. 
+Figure~\ref{fig:curvature VIS} shows that deeper lines deviate from the initial straight line, and here appears a clear anomalous chromodependence. 
+
 As shown in Figure~\ref{fig:curvature NIR} the near infrared range exhibits a natural division at approximately $\SI{14000}{\angstrom}$, a region dominated by telluric absorption lines from Earth's atmosphere.
 The division separates the J band, which refers to an atmospheric transmission window of $\SI{3000}{\angstrom}$ centered on $\SI{12500}{\angstrom}$; and the H band, which refers to an window of $\SI{3500}{\angstrom}$ centered on $\SI{16500}{\angstrom}$~\cite{McLean_2008}.
 Plotting the entire spectral range of the IAG solar flux atlas, a clear line depth-dependence of the line core curvature as a function of wavelength is observed.
+Evidently the H-band lines have systematically lower core curvatures than the rest of the sample.
+This is another instance of anomalous chromodependence.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/First signature/Curvature_ALL.pdf}
-    \caption{Line core curvatures in the IAG solar flux atlas. While the J band for the near infrared range adjust to the general shallow lines trend, the H band exhibit wavelength-dependence.}\label{fig:all curvature solar flux}%
+    \caption{Line core curvatures in the IAG solar flux atlas. For shallow lines (depth less than 0.3), while the J band for the near infrared range adjust to the general trend, the H band follows a totally different trend.}\label{fig:all curvature solar flux}%
 \end{figure}
 
-While the J band for the near infrared range adjust to the general shallow lines trend in Figure~\ref{fig:all curvature solar flux}, the H band exhibit wavelength-dependence.
+For shallow lines (depth less than 0.3), while the J band for the near infrared range adjust to the general trend in Figure~\ref{fig:all curvature solar flux}, the H band exhibit substantially smaller curvatures.
 
-Despite the line depth-dependent shifts along wavelength, the visible range of the IAG solar flux atlas exhibits a clear linear tendency for shallow lines (see Figure~\ref{fig:all curvature solar flux}).
+Furthermore, the visible range of the IAG solar flux atlas exhibits a clear linear trend for shallow lines (see Figure~\ref{fig:all curvature solar flux}).
 Therefore, the analysis was limited for shallow line depth dependences on line core curvature in the visible range.
 Consequently, a linear fit was applied to the visible range for the IAG solar flux atlas in the range $0.0 - 0.1$ of line depth. 
 
@@ -48,7 +51,7 @@ Consequently, a linear fit was applied to the visible range for the IAG solar fl
 
 As shown in Figure~\ref{fig:curvature slope VIS}, the slope of the relationship has a value of $(1.83 \pm 0.08)\times 10^{10}$.
 The absence of wavelength-dependence in this spectral range indicates that line core curvatures have a net dependence on velocities (thermal, convective and rotational), with negligible influence from atomic effects.
-To confirm this statement,  the line core curvature was also plotted for the visible range using the IAG spatially resolved quiet sun atlas at the solar limb $\mu=0$ as shown Figure~\ref{fig:curvature SPA}.
+To confirm this statement,  the line core curvature was also plotted for the visible range using the IAG spatially resolved quiet sun atlas at the solar disk center, $\mu=1$ as shown Figure~\ref{fig:curvature SPA}.
 In other words, this analysis uses light from the center of the solar disk, which is not affected by rotational Doppler broadening, thereby isolating the local effects.
 
 \begin{figure}[H]
@@ -65,12 +68,13 @@ A linear fit was applied taking the same range $0.0 - 0.1$ of line depth, the Fi
     \caption{Linear fit applied to the range $(0.0-0.1)$ of line depth in the visible range of the IAG spatially resolved quiet sun atlas.}\label{fig:curvature slope SPA}%
 \end{figure}
 
-The result of found a greater slope in the center-disk confirm that rotation is a neligible effect for the line broadening.
+The result of finding a greater slope in the center-disk confirms that rotation is an important cause for line broadening.
+In the IAG spatially resolved quiet sun spectrum the curvatures are greater, meaning that the broadening is smaller.
 This allows deduce the variance of convection speed, knowing the thermal velocity. 
 
-As mention before, we can induce from here the $\langle v_{\text{conv}}^2 \rangle$ as we the other parameters described in Equation~\eqref{eq:Theory slope} and confirm that rotation is neligible. 
-Using the theorical values reported and the value from the lineal fit applied on shallow lines for both atlases, was found values for $\langle v_{\text{conv}}^2 \rangle$ of $3.15$ $(\text{km/s})^2$ for the disk-integrated flux spectrum and $2.20$ $(\text{km/s})^2$ for the disk-center spectrum.
-This is not according to the theoritical behavior, cause in the center-disk spectrum the rotation is neligible and the convection can be seen in his totality.
+As mention before, we can induce from here the $\langle v_{\text{conv}}^2 \rangle$ as we the other parameters described in Equation~\eqref{eq:Theory slope} and confirm that rotation is an important cause. 
+Using the theorical values reported and the value from the linear fit applied on shallow lines for both atlases, we found values for $\langle v_{\text{conv}}^2 \rangle$ of $3.15$ $(\text{km/s})^2$ for the disk-integrated flux spectrum and $2.20$ $(\text{km/s})^2$ for the disk-center spectrum.
+This is not according to the theoretical behavior, cause in the center-disk spectrum the rotation is neligible and the convection can be seen in his totality.
 
 The reason of this can be saturation in the deepest lines, or other atomic broadening effects become important, and damping coefficients are somewhat related to wavelength by atomic structure.
 
@@ -79,7 +83,7 @@ The reason of this can be saturation in the deepest lines, or other atomic broad
 \subsection{The line core bisector slope}
 
 As mention before, convection is the only mechanism that creates asymmetric line profiles.
-Consequently, the slope of the line core is a indirect line profile asymmetry measure, expressed as a velocity.
+Consequently, the slope of the line core is an indirect line profile asymmetry measure, expressed as a velocity.
 
 The line core bisector slope was calculated following the equation~\eqref{eq:third derivative relation} and plotted against line depth, as shown Figure~\ref{fig:bisector solar flux}.
 
@@ -108,7 +112,7 @@ Then a linear fit was applied to the line core bisector slope data in the line d
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Bisector slope_VIS.pdf}
-    \caption{Linear fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes in the IAG solar flux atlas, where is evident an wavelength-dependence.}\label{fig:bisector slope VIS}%
+    \caption{Linear fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes in the IAG solar flux atlas, where an anomalous wavelength-dependence becomes evident.}\label{fig:bisector slope VIS}%
 \end{figure}
 
 As there is an evident wavelength-dependence along the line core bisector slopes, a point of comparision was searched comparing with the disk center spectrum (see figure~\ref{fig:bisector SPA}).
@@ -116,7 +120,7 @@ As there is an evident wavelength-dependence along the line core bisector slopes
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Bisector_SPA.pdf}
-    \caption{Line profile bisector slopes for the visible range in the IAG spatially resolved quiet sun atlas for $\mu=0$.}\label{fig:bisector SPA}
+    \caption{Line profile bisector slopes for the visible range in the IAG spatially resolved quiet sun atlas for $\mu=1$.}\label{fig:bisector SPA}
 \end{figure}
 
 The bisector slope derived from the disk center is smaller in magnitude compared to the integrated flux, despite both exhibiting the same characteristic trend (see Figure~\ref{fig:bisector slope SPA}).
@@ -124,10 +128,10 @@ The bisector slope derived from the disk center is smaller in magnitude compared
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Bisector slope_SPA.pdf}
-    \caption{Linear fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes int disk-center spectrum, where is evident an wavelength-dependence.}\label{fig:bisector slope SPA}
+    \caption{Linear fit adjusted to the range $(0.3-0.6)$ of line core bisector slopes in the disk-center spectrum, where also the anomalous wavelength-dependence is evident.}\label{fig:bisector slope SPA}
 \end{figure}
  
-The phenomenon of anomaly chromodependence is evident of Figures~\ref{fig:bisector slope VIS} and~\ref{fig:bisector slope SPA}, where the line profile bisectors slopes are organised by decreasing wavelength.
+The phenomenon of anomalous chromodependence is evident of Figures~\ref{fig:bisector slope VIS} and~\ref{fig:bisector slope SPA}, where the line profile bisectors slopes are organised by decreasing wavelength.
 This behavior is clearer on the disk-center spectrum than the disk-integrated flux spectra.
 
 If line depth is separate into bins of $0.1$ and plot the line profile bisector slope against wavelength, shifts in the line bisector slope become apparent as shown in Figure~\ref{fig:velocity bins bisector plot ALL}.
@@ -143,7 +147,7 @@ For the integrated flux spectrum was found that, for a fixed flux, the slopes de
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\linewidth]{Images/Results/Second signature/Velocity bins bisector VIS.pdf}
-    \caption{Individual plots of line core bisector slope shift across wavelength representing each bin of line depth for the IAG solar flux atlas.}\label{fig:velocity bins bisector ALL}%
+    \caption{Individual plots of line core bisector slope against wavelength representing each bin of line depth for the IAG solar flux atlas.}\label{fig:velocity bins bisector ALL}%
 \end{figure}
 
 The same analysis was performed on the disk-center flux and the same behavior was found (see Figure~\ref{fig:velocity bins bisector SPA}).
@@ -151,62 +155,13 @@ The same analysis was performed on the disk-center flux and the same behavior wa
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\linewidth]{Images/Results/Second signature/Velocity bins bisector SPA.pdf}
-    \caption{Individual plots of line bisector slope shift across wavelength representing each bin of line depth for the Spatially Resolved Quiet Sun Atlas.}\label{fig:velocity bins bisector SPA}%
+    \caption{Individual plots of line bisector slope against wavelength representing each bin of line depth for the Spatially Resolved Quiet Sun Atlas.}\label{fig:velocity bins bisector SPA}%
 \end{figure}
 
-To establish a comparison between shifts along line profile bisector slopes the coefficients for each lineal fit performed were plotted against the line depth bins.
-
-\begin{figure}[H]
-     \centering
-     \begin{subfigure}{0.85\textwidth}
-         \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/asymetries coeficients VIS.pdf}
-
-         \caption{IAG solar flux atlas.}
-     \end{subfigure}
-\hfill
-     \begin{subfigure}{0.85\textwidth}
-         \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/asymetries coeficients SPA.pdf}
-
-         \caption{IAG spatially resolved quiet Sun atlas.}
-     \end{subfigure}
-
-        \caption{Coefficients of each lineal fit plotted against line depth bins for the visible range in both atlases.}\label{fig:coeff plot asymmetries}
-\end{figure}
-
-Figure~\ref{fig:coeff plot asymmetries} shows for the IAG spatially resolved quiet sun atlas a pronounced increase of the shift for the anomaly chromodependence.
-
-
-\subsection{Flux deficit}
-
-Due to radiation, the redshift part of a line is displced on the flux, inducing a rotation on the c-curved line profile bisector.
-This phenomenon is called flux deficit.
-Hamilton and Lester~\cite{Hamilton_1999} noticed that the behavior of the third signature mimics the line profile bisectors.
-The mean of line profile bisectors on ranges of wavelenght follows the behavior of granulation pattern, this last is discussed in the next section.
-Later, Gray and Oostra~\cite{Gray_Oostra_2018} show that the bisectors need to follow the granulation pattern as the form of we calculated velocities and bisectors.
-
-For comparision with Gray and Oostra work, was taken the line $\SI{6254.2850}{\angstrom}$ as shown in Figure~\ref{fig:bisector flux deficit}.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Flux deficit_6253.pdf}
-    \caption{C-curved line profile bisector for the $6254.2850\mathring{A}$ and the standard curve for the green range from the third signature plot.}\label{fig:bisector flux deficit}
-\end{figure}
-
-Following the same method, the figure~\ref{fig:flux deficit} shows a flux imbalance described on the distribution and temperatures of the mean, the maximum and the RMS point of the bisector.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\linewidth]{Images/Results/Second signature/Flux deficit curve_6253.pdf}
-    \caption{Flux deficit curve for the $6254.2850\mathring{A}$ and the temperatures of the mean, the maximum and the RMS point of the bisector.}\label{fig:flux deficit}
-\end{figure}
-
-To study this phenomenon across the wavelength range were specified.
-
-
-\section{The third signature: Line depth-dependence on wavelength shifts}
+\section{The third signature: Line depth-dependence of wavelength shifts}
 
 % SIGNATURE PLOT--------------------------------------------------------
-\subsection{Line depth-dependence on wavelength shifts}
+\subsection{Line depth-dependence of wavelength shifts}
 
 The third signature plot is represented by a graph of relative velocity against line depth for the IAG solar flux atlas.
 
@@ -227,7 +182,7 @@ The third signature plot is represented by a graph of relative velocity against 
 
 
 As shown in Figure~\ref{fig:Granulation solar flux}, the convective velocity depends on line depth, as described in literature.
-Moreover, the anomaly chromodependence makes its presence known in this \textit{granulation curve} is not unique or universal, depends on the wavelength range.
+Moreover, the anomalous chromodependence makes its presence known in the fact that this \textit{granulation curve} is not unique or universal, but depends on the wavelength range.
 To further characterize this trend, we performed an analysis of line depth versus wavelength at fixed velocities. 
 
 To measure these wavelength shifts, the analysis was restricted to the spectral range from $\SI{4300}{\angstrom}$ to $\SI{5600}{\angstrom}$.
@@ -252,15 +207,15 @@ The wavelengths were then sorted into velocity bins of $50$ m/s.
 \end{figure}
 
 Notice the separation into natural bands for the granulation pattern in the near infrared range. To treat this behavior, the treatment for wavelength shifts were separated.
-For each velocity bin in the visible range was plotted the wavelength against line depth to measure a frequency shift with a lineal fit (see Figure~\ref{fig:Velocity bins slopes VIS}).
+For each velocity bin in the visible range the line depth was plotted against wavelength to adjusted a linear fit (see Figure~\ref{fig:Velocity bins slopes VIS}).
 
 \begin{figure}[H]
     \centering
  \includegraphics[width=0.9\linewidth]{Images/Results/Third signature/Velocity bins VIS.pdf}
-    \caption{Individual plots of wavelength across line depth representing each bin of velocity in the visible range for the IAG solar flux atlas.}\label{fig:Velocity bins slopes VIS}
+    \caption{Individual plots of line depth against wavelength representing each bin of velocity in the visible range for the IAG solar flux atlas.}\label{fig:Velocity bins slopes VIS}
 \end{figure}
 
-In the near infrared range was plotted the wavelength against line depth separating in natural bands for each bin, to measure frequency shifts with a lineal fit (see Figure~\ref{fig:Velocity bins slopes NIR}).
+In the near infrared range line depth was plotted against wavelength separating in natural bands for each bin, to measure frequency shifts with a lineal fit (see Figure~\ref{fig:Velocity bins slopes NIR}).
 \begin{figure}[H]
      \centering
      \begin{subfigure}{0.9\textwidth}
@@ -275,26 +230,26 @@ In the near infrared range was plotted the wavelength against line depth separat
          \caption{H natural band.}\label{fig: velocity bins H band}
      \end{subfigure}
 
-        \caption{Individual plots of wavelength across line depth representing each bin of velocity separated in natural bands J and H for the near infrared range of IAG solar flux atlas.}\label{fig:Velocity bins slopes NIR}
+        \caption{Individual plots of line depth against wavelength representing each bin of velocity separated in natural bands J and H for the near infrared range of IAG solar flux atlas.}\label{fig:Velocity bins slopes NIR}
 \end{figure}
 
 The same analysis was performed to compare with the disk-center spectrum (see Figure~\ref{fig:Granulation curve SPA}).
 
 \begin{figure}[H]
     \centering
- \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/Velocity bins VIS.pdf}
-    \caption{Individual plots of wavelength across line depth representing each bin of velocity in the visible range for the IAG solar flux atlas.}\label{fig:Granulation curve SPA}
+ \includegraphics[width=0.85\linewidth]{Images/Results/Third signature/GranulationPattern_SPA.pdf}
+    \caption{Third signature plot obtained for the visible range in the IAG spatially resolved quiet sun atlas.}\label{fig:Granulation curve SPA}
 \end{figure}
 
-Then, Figure~\ref{fig:Velocity bins slopes SPA} shows the results for the wavelength-dependence along line depth in the IAG spatially resolved quiet sun atlas at $\mu=0$.
+Then, Figure~\ref{fig:Velocity bins slopes SPA} shows the results for each linear fit adjusted for the wavelength-dependence along line depth in the IAG spatially resolved quiet sun atlas at $\mu=1$.
 
 \begin{figure}[H]
     \centering
- \includegraphics[width=0.85\linewidth]{Images/Results/Third signature/GranulationPattern_SPA.pdf}
-    \caption{Third signature plot obtained for the visible range in the IAG spatially resolved quiet sun atlas.}\label{fig:Velocity bins slopes SPA}
+ \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/Velocity bins VIS.pdf}
+    \caption{Individual plots of line depth against wavelength representing each bin of velocity in the visible range for the IAG solar flux atlas.}\label{fig:Velocity bins slopes SPA}
 \end{figure}
 
-To establish a comparison between shifts along wavelength the coefficients for each lineal fit performed were plotted against the velocity bins.
+To establish a comparison between shifts each linear fit were plotted against the velocity bins.
 
 \begin{figure}[H]
     \centering
@@ -316,19 +271,19 @@ To establish a comparison between shifts along wavelength the coefficients for e
          \caption{IAG spatially resolved quiet Sun atlas.}\label{fig: coeff plot vel SPA}
      \end{subfigure}
 
-        \caption{Coefficients of each lineal fit plotted against velocity bins for the visible range in both atlases.}\label{fig:coeff plot velocity VIS and SPA}
+        \caption{Coefficients of each linear fit plotted against velocity bins for the visible range in both atlases.}\label{fig:coeff plot velocity VIS and SPA}
 \end{figure}
 
 In Figure~\ref{fig:coeff plot vel NIR} the natural H band follows the same behavior as the coefficients for the visible range with magnitude differences.
-Additionally, in Figure~\ref{fig:coeff plot velocity VIS and SPA} the visible range of the disk-spatially spectrum shows a more linear trend than the disk-center spectrum.
+Additionally, in Figure~\ref{fig:coeff plot velocity VIS and SPA} the visible range of the disk-integrated spectrum shows a more linear trend than the disk-center spectrum.
 
-Therefore, the wavelength shift is uniform in the disk-center spectrum; the wavelenght shift in the disk-flux spectrum shows the same behavior as the granulation curves; and for the infrared the tendency follows the IAG spatially resolves quiet sun atlas. 
+Therefore, the wavelength shift is uniform in the disk-center spectrum; the wavelenght shift in the disk-flux spectrum shows the same behavior as the granulation curves; and for the infrared the trend follows the IAG spatially resolves quiet sun atlas. 
 
 
 % ENERGY POTENTIAL  --------------------------------------------------------
-\subsection{Line depth-dependence on excitation potential for the lowest energy level}  
+\subsection{Line depth-dependence on excitation potential}  
 
-As shown Figure~\ref{fig:lower energy} the relative velocity was plotted against excitation potential for lowest energy level $(\chi)$.
+As shown Figure~\ref{fig:lower energy} the relative velocity was plotted against excitation potential $(\chi)$.
 The distribution of wavelength along excitation potential is according to literature, showing that lower wavelength have less excitation potential on the lowest energy level than high wavelength.
 
 \begin{figure}[H]
@@ -348,7 +303,7 @@ The distribution of wavelength along excitation potential is according to litera
         \caption{Relative velocity against excitation potential $(\chi)$ of the IAG solar flux atlas.}\label{fig:lower energy}
 \end{figure}
 
-However, if relative velocity is separate on bins of $100$ m/s and plot the excitation potential for lowest energy level against line depth, shifts in the excitation potential become apparent as shown Figure~\ref{fig:velocity bins energy plot}.
+However, if relative velocity is separated into bins of $100$ m/s and plot the excitation potential against line depth, shifts in the excitation potential become apparent as shown Figure~\ref{fig:velocity bins energy plot}.
 
 \begin{figure}[H]
      \centering
@@ -387,8 +342,8 @@ Then, we limit the line depth-dependence on excitation potential analysis to the
     \caption{Individual plots for the range $(2.5$ to $5.0)$ eV of excitation potential across line depth, representing each bin of velocity for the near infrared range of IAG solar flux atlas.}\label{fig:velocity bins energy NIR}%
 \end{figure}
 
-To corroborate the only dependence on excitation potential of lowest energy level, the same analysis was performed on the IAG spatially resolved quiet sun atlas at $\mu=0$.
-Figure~\ref{fig:lower energy SPA} shows the relative velocity against excitation potential of lowest energy level for disk center data.
+To corroborate the only dependence on excitation potential $(\chi)$, the same analysis was performed on the IAG spatially resolved quiet sun atlas at $\mu=1$.
+Figure~\ref{fig:lower energy SPA} shows the relative velocity against excitation potential $(\chi)$ for disk-center data.
 
 \begin{figure}[H]
     \centering
@@ -396,7 +351,7 @@ Figure~\ref{fig:lower energy SPA} shows the relative velocity against excitation
     \caption{Relative velocity against excitation potential of lowest energy level in the visible range for the IAG spatially resolved quiet sun atlas.}\label{fig:lower energy SPA}%
 \end{figure}
 
-Separating the relative velocity on bins of $100$ m/s and taking the range $(2.5$ to $5.0)$ eV of excitation potential, the disk-center flux exhibits the same qualitative behavior as the IAG solar flux atlas (see Figure~\ref{fig:velocity bins energy SPA}).
+Separating the relative velocity into bins of $100$ m/s and taking the range $(2.5$ to $5.0)$ eV of excitation potential, the disk-center flux exhibits the same qualitative behavior as the IAG solar flux atlas (see Figure~\ref{fig:velocity bins energy SPA}).
 
 \begin{figure}[H]
     \centering
@@ -420,25 +375,22 @@ To compare lineal fits between atlas we plotted the coefficients across velocity
          \caption{IAG spatially resolved quiet sun atlas.}
      \end{subfigure}
 
-        \caption{Lineal fit coefficients for both atlases across velocity bins. The values fluctuates showing an increment with the velocity.}\label{fig:energy coeff}%
+        \caption{Lineal fit coefficients for both atlases across velocity bins, the values show an increment with the velocity. In both atlas one plot mirrors the other, this is a consequence of the great uncertainty of these measurements.}\label{fig:energy coeff}%
 \end{figure}
 
 Both graphs shows a fluctuating behavior increasing velocity.
-However, there is a quantitative difference, the lineal fit coefficients are higher to the reported for the disk-integrated atlas. 
+However, there is a quantitative difference, the linear fit coefficients are higher to the reported for the disk-integrated atlas. 
 For the velocity range of $-175$ m/s to $-525$ m/s the calculated slopes are similar, this indicates a consistent ratio on energy shifts in the energy across the velocity range.
 
 For the IAG solar flux atlas the maximum displacement of excitation along line depth occurs at $-200$ m/s, the relative velocity of the Sun.
 While for the IAG spatially resolved quiet sun the maximum excitation potential displacement occurs at $0$ m/s.
 
-\textcolor{Miku}{IM NOT SURE ABOUT THIS}
-
-The general trend for the shift coefficient on the graph for the IAG spatially resolved quiet sun atlas assimilates to the Frank Hertz experimental curve, which represents the quantized energy levels on atoms.
-However, the curve for the IAG solar flux atlas exhibits a damped behavior.
+However, in both atlas one plot mirrors the other, this is a consequence of the great uncertainty of these measurements.
 
 % CHROMOCHARACTERIZATION --------------------------------------------------------
 \subsection{Characterization of chromodependence on granulation pattern}
 
-The Figure~\ref{fig:standard curve gray} show the standard granulation curve proposed for Gray and Oostra~\cite{Gray_Oostra_2018}, establish on the range $\SI{6020}{\angstrom}-\SI{6340}{\angstrom}$ of wavelength.
+The Figure~\ref{fig:standard curve gray} show the standard granulation curve proposed for Gray and Oostra~\cite{Gray_Oostra_2018}, established on the range $\SI{6020}{\angstrom}-\SI{6340}{\angstrom}$ of wavelength.
 
 \begin{figure}[H]
     \centering
@@ -485,7 +437,7 @@ To establish the characterization for all the wavelengths, plots of the fit coef
         \caption{Fit coefficients for each range in the IAG solar flux atlas.}\label{fig:coeff characterization}
 \end{figure}
 
-Notice that the near infrared range had a lineal relation between coefficients, which leads us to report a standard granulation line as describe Equation~\eqref{eq:standard line NIR}.
+Notice that the near infrared range had a linear relation between coefficients, which leads us to report a standard granulation line as describe Equation~\eqref{eq:standard line NIR}.
 
 \begin{equation}
     F/F_c(\lambda,v) = \parens{9.83 \times 10^{-8}\lambda - 1.86\times 10^{-3}} v + 3.93\times10^{-5} \lambda - 0.04
@@ -503,7 +455,7 @@ In the case of the visible range, the coefficients for the individuals granulati
     \centering
 \begin{tabular}{||c|c|c|c|c|c|c||}
     \hline
-\textcolor{Miku}{Wavelength range $(\mathrm{\AA})$} & \textcolor{Miku}{$\alpha(\lambda)$ $(\times 10^{-6})$} & \textcolor{Miku}{$\beta(\lambda)$} & \textcolor{Miku}{$\gamma(\lambda)$}  & \textcolor{Miku}{$\sigma_{\alpha}$ $(\times 10^{-7})$} & \textcolor{Miku}{$\sigma_{\beta}$} & \textcolor{Miku}{$\sigma_{\gamma}$}\\ \hline
+\textcolor{Miku}{Wavelength range $(\SI{}{\angstrom})$} & \textcolor{Miku}{$\alpha(\lambda)$ $(\times 10^{-6})$} & \textcolor{Miku}{$\beta(\lambda)$} & \textcolor{Miku}{$\gamma(\lambda)$}  & \textcolor{Miku}{$\sigma_{\alpha}$ $(\times 10^{-7})$} & \textcolor{Miku}{$\sigma_{\beta}$} & \textcolor{Miku}{$\sigma_{\gamma}$}\\ \hline
 
 3800-4270 &0.654 & -0.0001 & 0.119 & 1.226 & 0.0004 & 0.0068 \\\hline
 4270-4760&1.132 & -0.0001 & 0.113 & 3.043 & 0.0001 & 0.0188 \\\hline
@@ -516,10 +468,11 @@ In the case of the visible range, the coefficients for the individuals granulati
 \end{table}
 
 Equation~\eqref{eq:standard line NIR} and Equation~\eqref{eq:standard line VIS} describes the standard granulation curves for all the wavelength range in the IAG solar flux atlas.
-Therefore, gives a description about the anomaly chromodependence.
+Therefore, gives a description about the anomalous chromodependence.
 
-\section{Discussion of anomaly chromodependence}
+\section{Discussion of anomalous chromodependence}
 
+\textcolor{Miku}{IN DOUBT}
 The initial hypothesis was that solar rotation would be the cause if a velocity shift was present only in the disk-integrated spectrum and absent at the disk-center. 
 However, the velocity shift was observed in both spectral datasets, with the parameters from the disk-center spectrum being greater than those in the IAG solar flux atlas. 
 This was unexpected, as rotational Doppler broadening is negligible at the disk center, discarding rotation as the cause. 
@@ -536,6 +489,6 @@ The standard granulation curves for the entire wavelength range in the IAG solar
 Finally, the line core bisector has a shift along line depth that is linear, as it is determined by a slope. 
 This finding agrees with the literature, as these shifts are due to Fe I line displacement.
 
-In general, the anomaly chromodependence is presented as describe previous research.
+In general, the anomalous chromodependence is presented as described in previous research.
 However, we conclude that rotation is not a cause.
-This leads to continue this study taking the approach of atomic effects and conevction simulations for temperature.
+This leads to continue this study taking the approach of atomic effects and convection simulations for temperature.

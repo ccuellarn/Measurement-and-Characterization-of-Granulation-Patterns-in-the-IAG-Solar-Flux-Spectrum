@@ -1,48 +1,48 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Chapter_0.aux
-Reallocating 'name_of_file' (item size: 1) to 7 items.
-The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 Database file #1: Bibliography.bib
 You've used 29 entries,
-            1876 wiz_defined-function locations,
-            681 strings with 8012 characters,
-and the built_in function-call counts, 5917 in all, are:
-= -- 584
+            1791 wiz_defined-function locations,
+            650 strings with 8061 characters,
+and the built_in function-call counts, 5177 in all, are:
+= -- 434
 > -- 217
 < -- 0
 + -- 87
 - -- 58
-* -- 382
-:= -- 880
-add.period$ -- 39
+* -- 321
+:= -- 886
+add.period$ -- 89
 call.type$ -- 29
 change.case$ -- 22
 chr.to.int$ -- 0
 cite$ -- 29
-duplicate$ -- 339
-empty$ -- 566
+duplicate$ -- 259
+empty$ -- 538
 format.name$ -- 58
-if$ -- 1466
+if$ -- 1138
 int.to.chr$ -- 0
 int.to.str$ -- 29
 missing$ -- 35
-newline$ -- 100
+newline$ -- 149
 num.names$ -- 29
-pop$ -- 85
+pop$ -- 80
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 210
+skip$ -- 81
 stack$ -- 0
-substring$ -- 180
-swap$ -- 130
+substring$ -- 190
+swap$ -- 28
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 50
+while$ -- 46
 width$ -- 31
-write$ -- 281
+write$ -- 313
