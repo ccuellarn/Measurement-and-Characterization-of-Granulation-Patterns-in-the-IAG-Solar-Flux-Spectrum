@@ -8,13 +8,13 @@ Inspired by David Gray's foundational research, this project aims to extract the
 \section{The three signatures of convection}
 
 The stellar spectrum serves as astronomy's primary source of information, encoding details about a star's composition and velocity. 
-However, in some stars this spectrum is modified due to fluid motions caused by density and temperature fluctuations in the outermost layer, where each spectral line exhibit a distinct velocity shift. 
+However, in some stars this spectrum is modified due to fluid motions caused by density and temperature fluctuations in the outermost layer, where each spectral line exhibits a distinct velocity shift. 
 These persistent convective motions generate a granular structure in the solar photosphere, a phenomenon supported by extensive research (see~\cite{Hamilton_1999, Dravins_1981, Gray_2009}).
 
-The granulation in the Sun photosphere was first observed as a moving granular structure by Janssen in 1885. 
-Later, in 1901, Plaskett associated this pattern with the convective cells observed at Bénard's experiment~\cite{Foukal_1990}, where fluids heated from below produces rising elements of hot gas convecting heat to the surface.
-This characteristic configuration produces three signatures of granulation in stellar spectra: Line broadening, line profile asymmetry, and line-depth dependence of convective blueshift~\cite{Gray_Pugh_2012}.
-The method for quantifying this relationship are known as the \textit{granulation patterns}; which characterize the signatures mentioned above~\cite{Gray_2009}.
+The granulation in the solar photosphere was first observed as a moving granular structure by Janssen in 1885. 
+Later, in 1901, Plaskett associated this pattern with the convective cells observed in Bénard's experiment~\cite{Foukal_1990}, where fluids heated from below produce rising elements of hot gas convecting heat to the surface.
+This characteristic configuration produces three signatures of granulation in stellar spectra: Line broadening, line profile asymmetry, and line-depth dependence of convective blueshift~\cite{Gray_Pugh_2012}, all three related to line depth.
+The method for quantifying these relations are known as the \textit{granulation patterns}; which characterize the signatures mentioned above~\cite{Gray_2009}.
 The physical origin of these patterns lies in the convective process on the solar photosphere itself. 
 
 When the Sun pushes material up through its outer layer, the spectrum exhibits a blueshift. 
@@ -24,7 +24,7 @@ This characteristic is called \textit{convective blueshift}.
 Neutral iron (Fe I) lines are optimal for calibrating this phenomenon due to their high abundance, minimal thermal broadening, limited isotopic variation and availability of accurate laboratory measurements of natural wavelengths. 
 Furthermore, the even number of nucleons in the most abundant isotope resulting in no hyperfine structure shown.
 The use of a single chemical species offers the additional advantage of retrieving natural wavelengths from a single source, thereby eliminating potential discrepancies~\cite{Oostra_Vargas_2022}.
-The project used the Nave list of Fe I lines, which presented the values of laboratory measurements as complete and accuracy for the purposes~\cite{Nave_1994}.
+The project used the Nave list of Fe I lines, which presented the values of laboratory measurements~\cite{Nave_1994}.
 
 The study of granulation patterns has been significantly documented by David Gray, whose work has improved the precision of stellar radial velocity measurements (see~\cite{Gray_2009} and references therein).
 This improvement stems primarily from his observation that granulation patterns in solar-type stars closely resemble the granulation pattern from the third signature of convection.
@@ -42,15 +42,15 @@ In contrast to other FTS atlases, the entire visible wavelength range was observ
 
 Despite the exceptional quality of the spectrum, the first derived granulation pattern for the third signature of convection appeared notably scattered and noisy. 
 This was attributable to a rudimentary line position measurement methodology and a poor line selection which included numerous blended features, outdated wavelength references, and incomplete spectral coverage.
-Even if the atlas contains the dataset for the near infrared range, no treatment was implemented on this part of the spectrum. 
+Even if the atlas contains the dataset for the near infrared range, no analysis was implemented on this part of the spectrum. 
 Consequently, the full potential of the IAG solar flux atlas for determining precise convective blueshifts remains unrealized, highlighting the need for the refined analytical methods applied in this project.
 
 \section{The IAG spatially resolved quiet Sun atlas}
 In 2023, Ellwarth and colaborators~\cite{Ellwarth_2023} published the \textit{Institut für Astrophysik und Geophysik} (IAG) spatially resolved quiet sun atlas, also obtained with the FTS \textit{Fourier Transform Spectrograph} at Göttingen. 
 This atlas has the advantage of its coverage from the disk center ($\mu = 1.0$) towards the solar limb ($\mu = 0$), where $\mu =\cos(\theta)$ with $\theta$ being the angle between the surface normal and the observer's position.
-This spatial resolution enables the study of how convective blueshifts vary across the solar disk due to changing projection angles, a dependency that cannot be observed in other stars.
+This spatial resolution enables the study of how convective blueshifts vary across the solar disk due to changing projection angles, a dependence that is not observed in other stars.
 
-The principal objective of this project is to characterize the solar granulation patterns by treating the Sun as any other star. 
+The principal goal of this project is to characterize the solar granulation patterns by treating the Sun as any other star. 
 To achieve this, the disk-integrated IAG solar flux atlas serves as our primary data source. 
 However, a precise analysis of the relative velocities in this integrated light requires correcting for the center-to-limb variations that are uniquely quantified by the IAG spatially resolved quiet Sun atlas.
 
@@ -60,10 +60,11 @@ In the first semester of 2025, Manuel Fuentes, a physics student at the Universi
 By developing enhanced measurement techniques and employing a carefully curated line list that fully covers the visible range with updated wavelength references, Fuentes achieved significantly sharper granulation patterns than previous analyses. 
 This work demonstrated that proper line selection and modern wavelength standards can reliably extract convective signatures from high-quality solar spectra.
 
-Under the guidance of Professor Benjamin, the present project study the visible range and extends the analysis into the near infrared range.
+Under the guidance of Professor Benjamin, the present project studies the visible range and extends the analysis into the near infrared range.
 This region contains spectral lines that originate from deeper photospheric layers.
 Although these lines are consequently weaker, they represent a rich source of information. 
-This project also extends previous efforts by measuring the line profile asymmetry and line broadening, other spectral signs of granulation beyond convective blueshift; and exploring how these signatures present an anomaly chromodependence. This last is our principal target to characterize: The observational fact of granulation patterns showing individual behaviors with wavelength dependence.
+This project also extends previous efforts by measuring the line profile asymmetry and line broadening, other spectral signs of granulation beyond convective blueshift; and exploring how these signatures depend on wavelength. 
+This last is our principal target to characterize: The observational fact of granulation patterns showing individual behaviors with wavelength dependence.
 
-By addressing these challenges, this project intended to produce a robust characterization of the solar granulation patterns emphasizing in the anomaly chromodependence.
+By addressing these challenges, this project intended to produce a robust characterization of the solar granulation patterns emphasizing in the anomalous chromodependence.
 These efforts were guided by the central research question: What are the direct spectroscopic consequences of solar convection?
