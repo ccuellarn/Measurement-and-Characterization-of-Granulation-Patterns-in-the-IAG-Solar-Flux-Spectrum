@@ -28,11 +28,7 @@ The treatment proposed solves the problem for the large difference of magnitude 
 
 The third derivative relation or called the line core bisector slope was deduced by Professor Benjamin as shown below.
 
-Define the slope for the minimum point as Equation~\eqref{eq:slope}, where the points $b,c,h$ are illustrated in Figure~\eqref{fig: CBS slope}.
-\begin{equation}
- CBS = \lim_{h\to 0} \frac{\frac{b+c}{2}-a}{h}
-\label{eq:slope}
-\end{equation}
+Define the slope for the minimum point of an asymmetric curve as Equation~\eqref{eq:slope}, where the points $b,c,h$ are illustrated in Figure~\eqref{fig: CBS slope}.
 
 \begin{figure}[H]
     \centering
@@ -40,8 +36,12 @@ Define the slope for the minimum point as Equation~\eqref{eq:slope}, where the p
     \caption{Illustration for the points $a$, $b$, $c$ and the height which defines the line core bisector slope (see Equation~\eqref{eq:slope}).}\label{fig: CBS slope}
 \end{figure}
 
-Note that in a symmetrical line the bisector is vertical and the slope, according to this definition, is zero.
-Now, the curve may be expanded around the point $a$ by Taylor series.
+\begin{equation}
+ CBS = \lim_{h\to 0} \frac{\frac{b+c}{2}-a}{h}
+\label{eq:slope}
+\end{equation}
+
+Due to an asymmetric line profile shape the curve should be expanded around the point $a$ (line core) by Taylor series.
 Notice this value is chosen at the minimum, so the first derivative evaluated in $a$ is zero; and the difference between the function evaluated in points $a$ and $c$ is equal to the height.
 \begin{equation}
  2h=(c-a)^2f''(a)+\frac{1}{3}(c-a)^3 f'''(a)
@@ -226,7 +226,7 @@ To use the function run the next code line.
 closer_lines_first_filter = find_minimums(raw_data['Wave A'],raw_data['nFlux'],raw_lambda['Nave list'])
 \end{lstlisting}
 
-The function \lstinline|width_minimums| selecting the bins of $\SI{50}{\miliangstrom}$ and $\SI{0.2}{\angstrom}$ around the minimal point, respectively for the line core and the line profile.
+The function \lstinline|width_minimums| selects the bins of $\SI{50}{\miliangstrom}$ and $\SI{0.2}{\angstrom}$ around the minimal point, respectively for the line core and the line profile.
 Each window corresponds to one index on the Dataframe of closer Fe I lines. 
 Run the next cell to create the bins for the line core and the the line profile.
 
