@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  26 NOV 2025 01:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  26 NOV 2025 02:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1387,19 +1387,16 @@ Chapter 3.
 <Images/Results/Statistics/variance std VIS.pdf, id=644, 990.46355pt x 633.02936pt>
 File: Images/Results/Statistics/variance std VIS.pdf Graphic file (type pdf)
 <use Images/Results/Statistics/variance std VIS.pdf>
-Package pdftex.def Info: Images/Results/Statistics/variance std VIS.pdf  used on input line 39.
-(pdftex.def)             Requested size: 461.13188pt x 294.72266pt.
+Package pdftex.def Info: Images/Results/Statistics/variance std VIS.pdf  used on input line 35.
+(pdftex.def)             Requested size: 368.9069pt x 235.78198pt.
 <Images/Results/Statistics/variance std NIR.pdf, id=645, 982.37013pt x 562.20476pt>
 File: Images/Results/Statistics/variance std NIR.pdf Graphic file (type pdf)
 <use Images/Results/Statistics/variance std NIR.pdf>
-Package pdftex.def Info: Images/Results/Statistics/variance std NIR.pdf  used on input line 46.
-(pdftex.def)             Requested size: 461.13188pt x 263.9017pt.
+Package pdftex.def Info: Images/Results/Statistics/variance std NIR.pdf  used on input line 42.
+(pdftex.def)             Requested size: 368.9069pt x 211.12651pt.
 
 
 [27]
-Overfull \vbox (32.06607pt too high) has occurred while \output is active []
-
-
 
 [28 <./Images/Results/Statistics/variance std VIS.pdf> <./Images/Results/Statistics/variance std NIR.pdf>]
 <Images/Results/Statistics/variance slopes VIS.pdf, id=767, 990.24956pt x 703.90915pt>
@@ -1428,6 +1425,11 @@ Package pdftex.def Info: Images/Results/Statistics/optimal window NIR.pdf  used 
 
 
 [30 <./Images/Results/Statistics/variance slopes VIS.pdf> <./Images/Results/Statistics/variance slopes NIR.pdf>]
+Overfull \hbox (13.64006pt too wide) in paragraph at lines 100--104
+\T1/stix/m/n/12 and the cor-re-spond-ing wave-length un-cer-tain-ties $\LS1/stix/m/n/12 .^^A\LS1/stix/m/it/12 ^^U\LS1/stix/m/n/12 /$\T1/stix/m/n/12 . Where $\LS1/stix/m/it/12 A$ \T1/stix/m/n/12 de-notes lines with er-ror in wavenum-
+ []
+
+
 
 [31 <./Images/Results/Statistics/optimal window VIS.pdf> <./Images/Results/Statistics/optimal window NIR.pdf>]
 
@@ -1945,7 +1947,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  90i,13n,94p,617b,2747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Bold.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathbbit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Chapter_0.pdf (99 pages, 7322980 bytes).
+Output written on Chapter_0.pdf (99 pages, 7323034 bytes).
 PDF statistics:
  3895 PDF objects out of 4296 (max. 8388607)
  319 named destinations out of 1000 (max. 500000)
