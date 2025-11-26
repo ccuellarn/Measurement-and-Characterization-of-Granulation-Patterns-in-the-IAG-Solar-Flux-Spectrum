@@ -9,34 +9,34 @@
 \contentsline {section}{\numberline {2.1}The solar interior and the solar outer atmosphere}{12}{section.2.1}%
 \contentsline {section}{\numberline {2.2}The solar convection zone}{14}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}The Schwarzschild criterion}{15}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}The Solar Photosphere}{16}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Static photosphere: Limb darkening phenomenon}{17}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Dynamic photosphere: The C-curved profile bisector.}{18}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}The three signatures of convection}{19}{section.2.4}%
+\contentsline {section}{\numberline {2.3}The solar photosphere}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Static photosphere: Limb darkening phenomenon}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Dynamic photosphere: The C-curved profile bisector.}{19}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}The three signatures of convection}{20}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}First signature of convection: Line broadening}{20}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Second signature of convection: Line profile asymmetry}{21}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Third signature of convection: Line depth-dependent wavelength shifts}{23}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}The third signature plot}{23}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Convective Blueshift}{24}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Chromodependence characterization}{25}{subsection.2.4.6}%
-\contentsline {section}{\numberline {2.5}Anomaly chromodependence}{26}{section.2.5}%
-\contentsline {chapter}{\numberline {3}The blend-free list of Fe I lines}{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Computational approach}{28}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Statistical analysis}{29}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Blend-free Fe I line Nave list}{34}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Selection process for blend-free Fe I lines}{34}{subsection.3.2.1}%
-\contentsline {chapter}{\numberline {4}The three signatures of convection}{36}{chapter.4}%
-\contentsline {section}{\numberline {4.1}The first signature: Line broadening}{36}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Line depth-dependence of line core curvature}{36}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}The second signature: Line profile asymmetry}{42}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}The line core bisector slope}{42}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence of wavelength shifts}{49}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Line depth-dependence of wavelength shifts}{49}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Line depth-dependence on excitation potential}{59}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Characterization of chromodependence on granulation pattern}{67}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Discussion of anomalous chromodependence}{73}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Wavelength and line depth dependences}{75}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Z-score Standardization}{77}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}The third derivative relation}{79}{appendix.1.B}%
-\contentsline {chapter}{\numberline {C}Visualizer for outliers}{82}{appendix.1.C}%
-\contentsline {section}{\numberline {C.1}Test example}{85}{section.1.C.1}%
+\contentsline {subsection}{\numberline {2.4.2}Second signature of convection: Line profile asymmetry}{22}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Third signature of convection: Line depth-dependent wavelength shifts}{22}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}The third signature plot}{22}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Convective Blueshift}{23}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Chromodependence characterization}{24}{subsection.2.4.6}%
+\contentsline {section}{\numberline {2.5}Anomalous chromodependence}{25}{section.2.5}%
+\contentsline {chapter}{\numberline {3}The blend-free list of Fe I lines}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Computational approach}{26}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Statistical analysis}{27}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Blend-free Fe I line Nave list}{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Selection process for blend-free Fe I lines}{32}{subsection.3.2.1}%
+\contentsline {chapter}{\numberline {4}The three signatures of convection}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}The first signature: Line broadening}{34}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Line depth-dependence of line core curvature}{34}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}The second signature: Line profile asymmetry}{40}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}The line core bisector slope}{40}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}The third signature: Line depth-dependence of wavelength shifts}{47}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Line depth-dependence of wavelength shifts}{47}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Line depth-dependence on excitation potential}{57}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Characterization of chromodependence on granulation pattern}{65}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Discussion of anomalous chromodependence}{71}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Wavelength and line depth dependences}{73}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Z-score Standardization}{75}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}The third derivative relation}{77}{appendix.1.B}%
+\contentsline {chapter}{\numberline {C}Visualizer for outliers}{80}{appendix.1.C}%
+\contentsline {section}{\numberline {C.1}Test example}{83}{section.1.C.1}%
