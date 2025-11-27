@@ -13,8 +13,8 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Standard curve proposed by Gray and Oostra on the spectral range of $\SI {6020}{\angstrom }$ to $\SI {6340}{\angstrom }$. Image taken from~\cite {Gray_Oostra_2018}.}}{24}{figure.caption.12}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Variance and standard deviation for several observed wavelength altering the width of the window on the fourth-order polynomial fit.}}{28}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Examples of the plots for observed wavelength against emitted wavelength for the selected width bins. In each plot was adjusted a lineal fit.}}{30}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Plot of value for slopes for observed wavelength against emitted wavelength of the selected width bins.}}{31}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Plots of optimal width in the visible range for the IAG solar flux atlas.}}{30}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Plots of optimal width in the near infrared range for the IAG solar flux atlas.}}{31}{figure.caption.15}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Line core curvatures for the IAG solar flux atlas separated in wavelength ranges.}}{35}{figure.caption.16}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Line core curvatures in the IAG solar flux atlas. For shallow lines (depth less than 0.3), while the J band for the near infrared range adjust to the general trend, the H band follows a totally different trend.}}{36}{figure.caption.17}%

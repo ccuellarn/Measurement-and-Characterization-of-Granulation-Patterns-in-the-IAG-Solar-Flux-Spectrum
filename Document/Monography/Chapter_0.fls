@@ -266,11 +266,6 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stix
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\vf\public\stix\t1-stixgeneralsc.vf
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-bold.tfm
-INPUT .\Chapter_0.toc
-INPUT .\Chapter_0.toc
-INPUT Chapter_0.toc
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
@@ -346,12 +341,17 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\stix\ls2stixtt.fd
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-bold.tfm
+INPUT .\Chapter_0.toc
+INPUT .\Chapter_0.toc
+INPUT Chapter_0.toc
 OUTPUT Chapter_0.toc
 INPUT .\Chapter_0.lof
 INPUT .\Chapter_0.lof
 INPUT Chapter_0.lof
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
 OUTPUT Chapter_0.lof
 INPUT .\Chapter_1.tex
 INPUT .\Chapter_1.tex
@@ -489,18 +489,33 @@ INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
 INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
 INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
 INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
-INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
-INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
-INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
-INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
-INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
-INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
 INPUT .\Images\Results\Statistics\optimal window VIS.pdf
 INPUT .\Images\Results\Statistics\optimal window VIS.pdf
 INPUT .\Images\Results\Statistics\optimal window VIS.pdf
 INPUT .\Images\Results\Statistics\optimal window VIS.pdf
 INPUT .\Images\Results\Statistics\optimal window VIS.pdf
 INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathit.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathscr.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathex.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm-bold.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathfrak.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathbb.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathbbit.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathcal.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsf.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsfit.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
 INPUT .\Images\Results\Statistics\optimal window NIR.pdf
 INPUT .\Images\Results\Statistics\optimal window NIR.pdf
 INPUT .\Images\Results\Statistics\optimal window NIR.pdf
@@ -524,21 +539,6 @@ INPUT .\Images\Results\First signature\Curvature_NIR.pdf
 INPUT .\Images\Results\First signature\Curvature_NIR.pdf
 INPUT .\Images\Results\First signature\Curvature_NIR.pdf
 INPUT .\Images\Results\First signature\Curvature_NIR.pdf
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathit.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathscr.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathex.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy10.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm-bold.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathfrak.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathbb.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathbbit.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathcal.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsf.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathsfit.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathtt.tfm
 INPUT .\Images\Results\First signature\Curvature_ALL.pdf
 INPUT .\Images\Results\First signature\Curvature_ALL.pdf
 INPUT .\Images\Results\First signature\Curvature_ALL.pdf

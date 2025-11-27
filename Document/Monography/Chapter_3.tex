@@ -28,16 +28,21 @@ This project presents several results for the statistical methodology accuracy.
 The variations of the observed wavelength was analyzed by altering the width of the window used for the fourth-order polynomial fit around the line core. 
 Figure~\ref{fig:variance} shows that a window of $\SI{0.1}{\angstrom}$ performs well in the visible spectrum. 
 However, its performance degrades in the infrared, where the number of data points defining the line core is reduced compared to a typical line in the visible range.
+The values for the variance and the standard deviation in each wavelength give a level of accuracy in the obtained results.
+
+To focus on the line core, limits were established based on a minimum distance from the core of and half of the bisector calculation window width. 
+Specifically, the lower limit was defined as the observed wavelength $ \pm \SI{10}{\miliangstrom}$; and the upper limit, as the observed wavelength $\pm \SI{0.1}{\angstrom}$.
+To discard velocity values inconsistent with the Sun's physical characteristics, a range of $-700$ m/s to $700$ m/s range was applied.
 
 \begin{figure}[H]
      \centering
-     \begin{subfigure}{0.8\textwidth}
+     \begin{subfigure}{0.95\textwidth}
          \includegraphics[width=\textwidth]{Images/Results/Statistics/variance std VIS.pdf}
          \caption{Visible range for the IAG solar flux atlas.}
 
      \end{subfigure}
 \hfill
-     \begin{subfigure}{0.8\textwidth}
+     \begin{subfigure}{0.95\textwidth}
 
          \includegraphics[width=\textwidth]{Images/Results/Statistics/variance std NIR.pdf}
          \caption{Near infrared range for the IAG solar flux atlas.}
@@ -46,58 +51,64 @@ However, its performance degrades in the infrared, where the number of data poin
 
         \caption{Variance and standard deviation for several observed wavelength altering the width of the window on the fourth-order polynomial fit.}\label{fig:variance}
 \end{figure}
-The values for the variance and the standard deviation in each wavelength give a level of accuracy in the obtained results.
 
-Because the line core is the target, the establish limits were the minimal distance filtered $(\SI{20}{\miliangstrom})$ and half of the window width used on the calculated bisector $(\SI{0.2}{\angstrom})$.
-Specifically, for the lower limit, values of the observed wavelength minus $(\SI{10}{\miliangstrom})$ and plus $(\SI{10}{\miliangstrom})$ were taken; while for the upper limit, they were observed length minus $(\SI{0.1}{\angstrom})$ and plus $(\SI{0.1}{\angstrom})$.
-In order to discard velocity values inconsistent with the Sun's specifications, the $-700$ m/s to $700$ m/s range was used.
+Subsequently, a linear fit was adjusted on the plot of observed against emitted wavelength for each window width, and the residuals were plotted to determine the standard deviation (see Figure~\ref{fig:variance VIS} and Figure~\ref{fig:variance NIR}). 
+The goal was not find the closest value to the emitted wavelength, as this would neglect the Doppler effect.
+The methodology for determining this optimal width was to select the value that minimized the variance of the residuals from a linear regression of observed against emitted wavelength. 
+This approach ensures the consistency of the observed wavelength across the entire spectrum.
 
-Consequently, a plot of observed against emitted wavelengths for each window width was realized (see Figure~\ref{fig:variance for window}). 
-The slope for the lineal fit can determine the precision of the width selected across all the wavelength range.
-If this value is one, the selected bin ensures consistency in the value for observed wavelength in all the range which refers to a precise and optimal window for analysis.
+Figure~\ref{fig:residuals VIS} shows the residuals of the linear fit across the emitted wavelength for the visible range in the IAG solar flux atlas.
+With some smaller window widths, a displacement along the wavelength is observed, indicating an inconsistency in the calculated observed wavelength.
+However, the window width of $\SI{0.1}{\angstrom}$ shows consistent residuals across the wavelength range and consequently, a minimal variance.
 
+This is confirmed in Figure~\ref{fig:optimal window VIS}, where the optimal window width is $\SI{0.1}{\angstrom}$, ensuring a minimal variance of $0.003$.
+
+On the other hand, Figure~\ref{fig:residuals NIR} shows the plot of the linear fit residuals across emitted wavelength for the near infrared range in the IAG solar flux atlas.
+In contrast to the visible range, there is no pronounced displacement along the emitted wavelength, which means there is no strong preference for any specific window width.
+Figure~\ref{fig:optimal window NIR} confirms that there are various optimal widths with minimal variance to select.
+For consistency with the analysis of the visible range, we used the same window width of $\SI{0.1}{\angstrom}$.
+Even though this is not the absolute minimum, it ensures a consistent methodology with low variance of $0.002$.
+
+
+This analysis validates the window width used by Allende and Garcia~\cite{Allende_Garcia_1998}, confirming their hypothesis of $\SI{0.1}{\angstrom}$ as the optimal window width for the Fe I lines in the solar spectrum.
+For future work, this process could be formalized into an algorithm that dynamically determines the optimal width based on the specific noise characteristics and spectral features of the dataset.
 \begin{figure}[H]
      \centering
-     \begin{subfigure}{0.8\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Statistics/variance slopes VIS.pdf}
-         \caption{Visible range for the IAG solar flux atlas.}
+     \begin{subfigure}{0.95\textwidth}
+        \includegraphics[width=\textwidth]{Images/Results/Statistics/variance slopes VIS.pdf}
+         \caption{Plot of the linear fit residuals against emitted wavelength, in smaller widths can be seen a displacement along wavelength.}\label{fig:residuals VIS}
 
      \end{subfigure}
 \hfill
-     \begin{subfigure}{0.8\textwidth}
-
-         \includegraphics[width=\textwidth]{Images/Results/Statistics/variance slopes NIR.pdf}
-         \caption{Near infrared range for the IAG solar flux atlas.}
+     \begin{subfigure}{0.95\textwidth}
+        \includegraphics[width=\textwidth]{Images/Results/Statistics/optimal window VIS.pdf}
+        \caption{Variance of the residuals for each window width, the minimum window width of $\SI{0.1}{\angstrom}$ ensures consistency along wavelength.}\label{fig:optimal window VIS}
 
      \end{subfigure}
 
-        \caption{Examples of the plots for observed wavelength against emitted wavelength for the selected width bins. In each plot was adjusted a lineal fit.}\label{fig:variance for window}
+        \caption{Plots of optimal width in the visible range for the IAG solar flux atlas.}\label{fig:variance VIS}
 \end{figure}
 
-The Figure~\ref{fig:slopes for widths} shows the values for the slopes of each lineal fit performed.
 
 \begin{figure}[H]
      \centering
-     \begin{subfigure}{1.0\textwidth}
-         \includegraphics[width=\textwidth]{Images/Results/Statistics/optimal window VIS.pdf}
-         \caption{Visible range for the IAG solar flux atlas.}
+     \begin{subfigure}{0.95\textwidth}
+        \includegraphics[width=\textwidth]{Images/Results/Statistics/variance slopes NIR.pdf}
+         \caption{Plot of the linear fit residuals against emitted wavelength, there is no pronounced displacement along the emitted wavelength.}\label{fig:residuals NIR}
 
      \end{subfigure}
 \hfill
-     \begin{subfigure}{1.0\textwidth}
-
-         \includegraphics[width=\textwidth]{Images/Results/Statistics/optimal window NIR.pdf}
-         \caption{Near infrared range for the IAG solar flux atlas.}
+     \begin{subfigure}{0.95\textwidth}
+        \includegraphics[width=\textwidth]{Images/Results/Statistics/optimal window NIR.pdf}
+        \caption{Variance of each window width, the minimum point that ensures consistency along wavelength is the $\SI{0.1}{\angstrom}$ even if is not the absolute minimum point.}\label{fig:optimal window NIR}
 
      \end{subfigure}
 
-        \caption{Plot of value for slopes for observed wavelength against emitted wavelength of the selected width bins.}\label{fig:slopes for widths}
+        \caption{Plots of optimal width in the near infrared range for the IAG solar flux atlas.}\label{fig:variance NIR}
 \end{figure}
-The optimal window is determined by the minimal window width with the closest value to one, which demonstrates a consistency window width for a line core represented precision.
-The window of $\SI{1}{\miliangstrom}$ around the line core ensures the accuracy for all the spectrum, thereby a consistency on the error for wavelength values.
 
 \section{Blend-free Fe I line Nave list}
-The mentioned method implements the Nave list of laboratory-measured Fe I lines~\cite{Nave_1994} which presents laboratory measurements for wavelength and values for excitation potential. 
+The mentioned method implements the Nave list of laboratory-measured Fe I lines~\cite{Nave_1994}, which presents laboratory measurements for wavelength and values for excitation potential. 
 This list classifies lines with a quality grading ($A,B,C,D$), based on four wavenumber uncertainties $(\Delta \sigma)$ and the corresponding wavelength uncertainties $(\Delta \lambda)$.
 Where $A$ denotes lines with error in wavenumbers less than $0.005$ $\text{cm}^{-1}$; grade $B$ less than $0.01$ $\text{cm}^{-1}$; grade $C$ less than $0.02$ $\text{cm}^{-1}$; and grade $D$ greater than $0.02$ $\text{cm}^{-1}$.
 All known blended lines and all lines measured only in grating spectra have been assigned the grade $D$~\cite{Nave_1994}.
@@ -119,7 +130,7 @@ The third filter ensures the selected lines represents an absorption curve by di
 The condition was keep lines which difference between extreme points of the fit were less than half of the line depth. 
 This describe an absorption curve, and not a slope or noise.
 
-The final filter required the absolute difference between the observed wavelength and the measured laboratory wavelength to be less than $\SI{0.025}{\angstrom}$. 
+The final filter required a comparision with the obtained third signature plot. 
 Larger discrepancies suggest misidentification or severe blending, rendering the calculated relative velocity unreliable.
 This threshold is empirically supported by observations throughout the selection process and the statement for the mean velocity of the sun varies from $-200$  m/s to $800$  m/s.
 
@@ -133,9 +144,3 @@ The concluding part of the method were performed the plots which represents the 
 First of all, the third signature plot, line core curvatures and line profile bisector slopes against line depth were plotted for all ranges in both atlases in order to observe the three signatures of convection.
 
 
-QUITAR LO DE LA VENTANA QUE AL FINAL NO USAMOS Y AÑADIR GRÁFCISO ADEMAS DE EPXLICAR QUE NUESTRA VENTAN EN EL VISIBLE ES LA MEJOR,
-NO PORQUE LOS VALORES SEAN CERCANOS (DOPPLER) SI NO PORQUE NOS ASEGURA LA MENOR DESVIACION
-EN EL INFRARROJO MOSTRAR QUE NO VARÍA MUCHO QUE DIGAMOS LA VENTANA QUE AGARRE
-ENTONCES ALLENDE TENIA RAZON
-
-QUITAR EL PUNTO FEO D ELA DESVIACIÓN.
