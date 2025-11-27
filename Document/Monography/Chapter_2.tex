@@ -70,7 +70,7 @@ If the granule temperature is increased to a value $T'$, it will expand adiabati
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{Parcel argument.jpg}
+    \includegraphics[width=0.6\linewidth]{Parcel argument.jpg}
     \caption{Diagram for the parcel of material displaced so slowly that the only force it feels is the pressure in a direction parallel to itself, keeping it in a constant horizontal movement. Image taken from~\cite{Priest_1982}.}\label{fig:parcel argument}%
 \end{figure}
 
@@ -108,7 +108,7 @@ From surface observations a distinct pattern of granules with dynamic behavior i
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.65\linewidth]{Granulation pattern.jpg}
+    \includegraphics[width=0.6\linewidth]{Granulation pattern.jpg}
     \caption{A view of granulation on the Sun's surface. Image taken from~\cite{Samir_pattern}.}\label{fig:photosphere visual}%
 \end{figure}
 
@@ -118,16 +118,37 @@ Furthermore, high-resolution observations reveal that these granules are in cont
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.65\linewidth]{Granules motion.jpg}
+    \includegraphics[width=0.55\linewidth]{Granules motion.jpg}
     \caption{A time sequence showing granule evolution where the time intervals are about a minute. Image taken from~\cite{Foukal_1990}.}\label{fig:motion granules}%
 \end{figure}
 
 \subsection{Static photosphere: Limb darkening phenomenon}
 
-EXPLICCAR BREVEMENTE EL NUEVO MODELO, EL TRANQUILO, Y PORQUE S EPUEDE HABLAR DE OSCURECIMIENTO
-
 Because the temperature decreases outward through the photospheric layers, the observed intensity falls off towards the solar limb. 
-Discovered by Halm in 1907~\cite{Dravins_1981}, this effect is known as \textit{limb darkening}, which makes the disk intensity profile to appear more squared at increasing wavelength (see Figure~\ref{fig:squared profile}).
+Discovered by Halm in 1907~\cite{Dravins_1981}, this effect is known as \textit{limb darkening}.
+A simple model is presented to explain this phenomenon in detail.
+To explain in detail this phenomenon a simple model is presented.
+
+Consider the Sun as a spherical blackbody emitting continuous radiation at a specific intensity $B_{\nu}$, surrounded by a shallow, light-absorbing atmosphere with an optical thickness $\tau_{\nu}$.
+Assume that the radiation source function $S(\tau)$ varies continuously with depth (see Figure~\ref{fig:model depth}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Images/Model limb darkening.png}
+    \caption{Simple model illustration for a spherical blackbody emitting continuous radiation $B_{\nu}$, assuming that the radiation source function $S(\tau)$ varies continuously with depth.}\label{fig:model depth}
+\end{figure}
+
+As illustrated in Figure~\ref{fig:model depth}, the radiance from an elemental shell of optical thickness $d\tau$ in the direction $\theta$ is $d\tau$ is $S(\tau)\sec(\theta) d\tau$.
+By the time the radiation from this shell reaches the photosphere, it has been reduced by an exponential factor.
+Taking this reduction into account, the specific intensity is described by Equation~\eqref{eq:Limb darkening intensity}.
+\begin{equation} 
+    I(\theta) = \sec(\theta)\int_0^{\infty} S(\tau) e^{-\tau \sec(\theta)} d\tau
+    \label{eq:Limb darkening intensity}
+\end{equation}
+This Equation~\eqref{eq:Limb darkening intensity} describes limb darkening as a function of how the source function varies with optical depth~\cite{Tatum_2017}.
+At the disk center, we can see deeper into the photosphere.
+But near to the limb, we see less deeply so the light is weaker and redder.
+The resulting effect causes the disk intensity profile to appear more squared at increasing wavelength (see Figure~\ref{fig:squared profile}).
 
 \begin{figure}[H]
     \centering
@@ -135,11 +156,9 @@ Discovered by Halm in 1907~\cite{Dravins_1981}, this effect is known as \textit{
     \caption{Squared profile for the disk intensity at increasing wavelengths, where $5\mu m$ refers to the infrared range and $0.32\mu m$ the violet range. Image taken from~\cite{Foukal_1990}.}\label{fig:squared profile}
 \end{figure}
 
-The analysis of this effect provides a direct technique for determining the temperature structure of the photosphere as a function of line depth. 
-
 For typical weaker lines, the convective blueshift diminishes toward the limb, with a net velocity change approximately of $400$  m/s.
-As explain Ellwarth et al.~observations closer to the limb pass through the atmosphere a shallower angle, resulting in longer optical paths through high atmospheric layers which allows the study of the layers where convective blueshift is less pronounced~\cite{Ellwarth_2023}.
-Because of this phenomenon and following the objective of study the line depth-dependence of convective blueshift, the center disk flux spectrum was taken as reference for analysis, where the limb darkening effect is neligible.
+As explain Ellwarth et al.~observations closer to the limb pass through the atmosphere from a shallower angle, resulting in longer optical paths through high atmospheric layers which allows the study of the layers where convective blueshift is less pronounced~\cite{Ellwarth_2023}.
+Because of this phenomenon and following the objective of study the line depth-dependence of convective blueshift, the center disk flux spectrum was taken as reference for analysis, where the limb darkening effect is negligible.
 
 \subsection{Dynamic photosphere: The C-curved profile bisector.}
 Analysis of changes, contrast and velocity field in the granulation structure have been inferred indirectly from observations of Fraunhofer line profile shapes~\cite{Foukal_1990}.
@@ -225,7 +244,7 @@ Due to the useful characteristic of this line dataset, asymmetries imprinted can
 
 A convenient method for this measures involves using the third derivative of the line profile, which provides the slope of the lowest end of the bisector (see Equation~\eqref{eq:third derivative relation}). 
 \begin{equation}
-    -\frac{c}{\lambda_{obs}}\parens{\frac{1}{3 \frac{d^2 f(\lambda_{obs})}{d \lambda_{obs}^2}}}\parens{\frac{d^3 f(\lambda_{obs})}{d \lambda_{obs}^3}}
+    -\frac{c}{\lambda_{obs}}\parens{\frac{1}{3 \parens{\frac{d^2 f(\lambda_{obs})}{d \lambda_{obs}^2}}^2 }}\parens{\frac{d^3 f(\lambda_{obs})}{d \lambda_{obs}^3}}
     \label{eq:third derivative relation}
 \end{equation}
 
