@@ -49,7 +49,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Illustration for the points $a$, $b$, $c$ and the height which defines the line core bisector slope (see Equation~\eqref {eq:slope}).}}{76}{figure.caption.47}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Illustration for the points $a$, $b$, $c$ and the height which defines the line Core Bisector Slope CBS (see Equation~\eqref {eq:slope}).}}{76}{figure.caption.47}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {C.1}{\ignorespaces Tools bar for the visualizer, containing a classification system of labels, the option to save images, and add to a Dataframe for dropping.}}{79}{figure.caption.48}%
 \contentsline {figure}{\numberline {C.2}{\ignorespaces The messages shows the index, wavelength and classification for the line added or updated.}}{80}{figure.caption.49}%
