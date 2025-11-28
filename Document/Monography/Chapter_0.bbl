@@ -5,6 +5,12 @@ D.~Gray.
 \newblock The third signature of stellar granulation.
 \newblock {\em The Astrophysical Journal}, 697(2):1032, May 2009.
 
+\bibitem{Allende_Garcia_1998}
+C.~Allende~Prieto and R.~J. Garcia~Lopez.
+\newblock Fe i line shifts in the optical spectrum of the sun.
+\newblock {\em Astronomy and Astrophysics Supplement Series}, 129:41--44, April
+  1998.
+
 \bibitem{Hamilton_1999}
 D.~Hamilton and J.~B. Lester.
 \newblock A technique for the study of stellar convection: The visible solar
@@ -101,12 +107,6 @@ T.~A. Nieminen.
   solar spectrum.
 \newblock {\em arXiv}, August 2017.
 \newblock arXiv:1708.06408 [astro-ph].
-
-\bibitem{Allende_Garcia_1998}
-C.~Allende~Prieto and R.~J. Garcia~Lopez.
-\newblock Fe i line shifts in the optical spectrum of the sun.
-\newblock {\em Astronomy and Astrophysics Supplement Series}, 129:41--44, April
-  1998.
 
 \bibitem{McLean_2008}
 I.S. McLean.

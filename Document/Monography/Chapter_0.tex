@@ -19,67 +19,61 @@
 \vspace{1cm}
 {\large BSc Physics Final Project \par}
 \vfill
-{\Large \textbf{Author:} \par}
+{\Large \textcolor{Miku}{\textbf{Author:}} \par}
 {\Large Claudia Alejandra Cuellar Nieto \par}
-{\Large \textbf{Advisor:} \par}
+{\Large \textcolor{Miku}{\textbf{Advisor:}} \par}
 {\Large Benjamin Oostra Vannoppen \par}
 \vfill
 {\Large Nov 2025 \par}
 \end{titlepage}
 %------------------------------------------------------------------------ ABSTRACT AND ACKNOWLOGMENTS
 \begin{abstract}
-    For decades, the solar spectrum has served as the fundamental reference for stellar spectroscopic analysis. As our nearest star, the Sun provides a unique laboratory for understanding stellar physics, with granulation patterns from convective motion offering critical insights. These patterns are characterized by three key hydrodynamic signatures: line broadening, line profile asymmetry, and the line-depth dependence of convective blueshift.
 
-Inspired by the foundational work of David Gray, this project presents a detailed characterization of convective blueshift and a newly identified anomalous chromodependence across these three signatures, using the high-precision IAG Solar Flux Atlas. We produced a refined, blend-free list of Fe I lines, from which granulation patterns were derived with minimal scatter. Our analysis statistically justifies a spectral window of $\SI{0.1}{\angstrom}$ around the line core as optimal for examination.
+This project presents a detailed characterization of convective blueshift and the anomalous chromodependence across the three signatures of convection: Line broadening, line asymmetry, and the line-depth dependence of convective blueshift.
+This following the foundational work of David Gray (see~\cite{Gray_2009} and references therein). 
+A primary outcome is a refined, blend-free list of Fe I lines, providing a community resource with measured convective blueshifts, line core curvatures, bisector slopes, excitation potentials, and damping coefficients. 
+Our analysis statistically validates a $\SI{0.1}{\angstrom}$ window around the line core as optimal for analysis, confirming the methodology of Allende and Garcia~\cite{Allende_Garcia_1998}.
 
-A major outcome is the establishment of color-dependent standard granulation curves across the solar spectrum. We demonstrate that the anomalous chromodependence—whereby shorter wavelength lines exhibit greater blueshifts and more positive bisector slopes for a given depth—is not caused by solar rotation. Furthermore, we provide a general characterization for the atlas's full wavelength range: a linear bisector slope shift with depth in the near-infrared, and distinct individual granulation curves in the visible. This work not only underscores the unparalleled quality of the IAG atlas but also delivers a refined framework and a public-ready line list for future stellar spectroscopic studies.
-% For decades, the solar spectrum has served as a fundamental reference for spectroscopic analysis. 
-% As our nearest star, the Sun enables detailed studies of stellar physics and composition. 
-% Recent advances in optical instrumentation have revealed previously undetected spectral details, providing new insights into fundamental solar properties. 
-% A key insight involves granulation patterns caused by convective motion, which are characterized by three distinct hydrodynamic signatures: line broadening, line profile asymmetry, and the line-depth dependence of convective blueshift.
+Furthermore, we establish color dependent standard granulation curves across the solar spectrum, confirming that deeper lines are found at shorter wavelengths. 
+Specifically, we identify an anomalous chromodependence where, for a fixed line depth, shorter-wavelength lines exhibit greater convective blueshifts, higher core bisector slopes, and narrower profiles. 
+We discarded solar rotation as the cause for this phenomenon, as this anomaly is more pronounced in the disk-center spectrum. 
+The chromodependence is linear in the near infrared but requires individual curves in the visible range.
 
-% Inspired by David Gray's foundational research, this project extracted granulation patterns from the IAG Solar Flux Atlas to calculate relative velocities and perform a detailed analysis based on these three convective signatures.
-% We characterized the convective blueshift in solar absorption lines and the anomalous chromodependence present across these signatures. 
-% This involved producing a refined, blend-free list of Fe I lines and deriving solar granulation patterns with minimal scatter. 
-% Our analysis statistically justified a window of $\SI{0.1}{\angstrom}$ around the line core as the optimal width for examination, underscoring the accuracy and unprecedented precision of the IAG Solar Flux Atlas.
-
-% Furthermore, we provide a detailed description of how granulation patterns vary with wavelength, establishing color-dependent standard granulation curves for the entire spectrum. 
-% Our results indicate that rotation is not the cause of the anomalous chromodependence observed in the third signature. 
-% We also established a general characterization for the full wavelength range of the atlas: in the near-infrared, a general trend line describes the chromodependence, while the line bisector slope shift with depth is linear; in the visible range, we identified individual granulation curves and described their governing coefficients.
-
+Quantitative analysis of line core curvature for shallow lines reveals a slope of $(1.83 \pm 0.08)\times 10^{10}\ \text{m}^{-1}$ for the disk-integrated flux, significantly lower than the $(2.94\pm 0.16)\times 10^{10}\ \text{m}^{-1}$ found at the disk-center. 
+This translates to convective velocity values of $\langle v_{\text{conv}}^2 \rangle = 3.15\ (\text{km/s})^2$ and $2.20\ (\text{km/s})^2$, respectively, an unexpected inversion indicating complex convective dynamics. 
+For line asymmetry in the $0.3-0.6$ range, bisector slopes decrease with wavelength in the integrated spectrum, with limb darkening causing non-uniform shifts. 
+Analysis of line depth-dependence on excitation potential $(2.5$ - $5.0)$ eV shows a maximum displacement at $-200$ m/s for the integrated flux, shifting to $0$ m/s for the quiet sun atlas. 
+This work provides a foundational dataset and suggests the development of an adaptive algorithm for future spectroscopic studies.
 \end{abstract}
-
 \renewcommand{\abstractname}{Acknowledgements}
 
 \begin{abstract}
 
-I want to acknowledge everyone who has helped and supported me to reach this point.
+When I was younger, a girl who dreamed of the stars, achieving this goal once felt like a distant image.
+One rarely allowed myself to believe in, I was afraid of throwing away my future on a fantasy. 
+However, every professor and colleague I encountered at the university granted me a new perspective and the courage to persevere in the pursuit of my dreams.
+This works stands as a testament to their belief in me.
 
-A long time ago, I was a young girl who dreamed of the stars. 
-I never thought I would reach that goal, because I thought I wasn't smart enough, and because I was afraid of throwing away my future on a dream. 
-Every person I met at the university gave me a new perspective and the strength to keep pursuing my dreams. 
-This is my way of saying thank you for believing in me.
+I extend my sincere gratitude and appreciation to my advisor, Professor Benjamin.
+I am deeply thankful not only for his guidance through this project but also, the encouragement he offered during a challenging period in my life.
+I am really grateful for the responses to the questions of a first-semester girl who just wanted to look at the stars and learn about spectrographs, always driving my curiosity to observe more the sky. 
+Literally, for his mentorship along my entire degree, listening to my projects, ideas, and even my mistakes. 
+And even more important, for the confidence to believe in myself.
 
-Specifically, I want to offer my sincere gratitude to my advisor, Professor Benjamin. 
-Thank you not only for guiding me through this project, but for encouraging me during a difficult time in my life and for believing in me and my work. 
-Thank you for always responding to the questions of a first-semester girl who just wanted to look at the stars and learn about spectrographs. 
-Literally, for being there throughout my entire degree, for listening to me, my projects, my ideas, and my mistakes, even when he wasn't my official professor. 
-He may not realize it, but he gave me the purpose to believe in myself and to pursue physics to the end.
+I wish to offer a special tribute to Toto, for her profound belief in me, which was the decisive touch I needed to embark on this career.
+Although she is now among the stars, I hope she witnesses the great things she always knew I could achieve.
 
-To my \textit{Liebeleid}, my lover, who supports and loves me unconditionally. 
-Even when I didn't believe in myself, he did, and he encouraged me to take steps I never thought I would take.
+To my sister, with the hope that she may see in my achievement a reflection of her own potential to accomplish great things.
 
-To my sister, so that she can see that it is possible to achieve great things.
+To Daniel, my partner, for his unconditional love and support.
+He was a optimistal believer in my potential, even in my moments of uncertainty, and his support empowered me to pursue paths I once thought beyond my reach.
 
-To Toto, who believed in me without a doubt and encouraged me to enter this career.
-She is with the stars now, see the great things that she knew, cause she always knew everything, I can do.
+To my friend Thomas, for his unwavering support and companionship throughout my degree, standing by me even during the most arduous moments.
+I thank him for his presence and for the many shared coffees that lightened the path.
 
-To my friend Thomas, who supported me throughout my entire degree and stayed by my side, even when things didn't seem to be working out. 
-Thank you for all the time shared on this Path of pain, and the coffe shared.
+To all my family and friends, and to those no longer with us, who provided me with the strength to undertake this endeavor, thank you.
 
-To every person who gave me the strength to do this crazy thing, family and friends, even those who are no longer here.
-
-And to my past self: We did it. We can see the stars now.
+Finally, to my younger self: \textit{We did it. We can see the stars.}
 \end{abstract}
 %---------------------------------------------------------------------- TABLE OF CONTENTS
 \tableofcontents
