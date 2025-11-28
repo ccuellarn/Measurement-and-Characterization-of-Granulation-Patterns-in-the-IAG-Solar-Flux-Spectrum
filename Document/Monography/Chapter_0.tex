@@ -28,21 +28,24 @@
 \end{titlepage}
 %------------------------------------------------------------------------ ABSTRACT AND ACKNOWLOGMENTS
 \begin{abstract}
-    For decades, the solar spectrum has served as the fundamental reference point for spectroscopic analysis. 
-    As our nearest star, the Sun enables detailed studies of stellar composition. 
-    However, advances in optical instrumentation have revealed previously undetected spectral details, providing new insights into fundamental solar properties.
-    One key insight is the granulation patterns caused by convective motion, which are characterized by three distinct hydrodynamic signatures: Line broadening, line profile asymmetry, and the line-depth dependence of convective blueshift.
+    For decades, the solar spectrum has served as the fundamental reference for stellar spectroscopic analysis. As our nearest star, the Sun provides a unique laboratory for understanding stellar physics, with granulation patterns from convective motion offering critical insights. These patterns are characterized by three key hydrodynamic signatures: line broadening, line profile asymmetry, and the line-depth dependence of convective blueshift.
 
-    Inspired by David Gray's foundational research, this project extracted the granulation patterns from the IAG Solar Flux Atlas to calculate relative velocities and perform a detailed analysis based on the three signatures of convection. 
+Inspired by the foundational work of David Gray, this project presents a detailed characterization of convective blueshift and a newly identified anomalous chromodependence across these three signatures, using the high-precision IAG Solar Flux Atlas. We produced a refined, blend-free list of Fe I lines, from which granulation patterns were derived with minimal scatter. Our analysis statistically justifies a spectral window of $\SI{0.1}{\angstrom}$ around the line core as optimal for examination.
 
-    This project characterized the convective blueshift in solar absorption lines and the anomalous chromodependence present across the these signatures. 
-    Specifically, we produced a refined, blend-free list of Fe I lines and derived solar granulation patterns with minimal scatter. 
-    The analysis statistically justified a window of $\SI{1}{\miliangstrom}$ around the line core as the optimal width for examination, underscoring the accuracy and unprecedented precision of the IAG solar flux atlas. 
+A major outcome is the establishment of color-dependent standard granulation curves across the solar spectrum. We demonstrate that the anomalous chromodependence—whereby shorter wavelength lines exhibit greater blueshifts and more positive bisector slopes for a given depth—is not caused by solar rotation. Furthermore, we provide a general characterization for the atlas's full wavelength range: a linear bisector slope shift with depth in the near-infrared, and distinct individual granulation curves in the visible. This work not only underscores the unparalleled quality of the IAG atlas but also delivers a refined framework and a public-ready line list for future stellar spectroscopic studies.
+% For decades, the solar spectrum has served as a fundamental reference for spectroscopic analysis. 
+% As our nearest star, the Sun enables detailed studies of stellar physics and composition. 
+% Recent advances in optical instrumentation have revealed previously undetected spectral details, providing new insights into fundamental solar properties. 
+% A key insight involves granulation patterns caused by convective motion, which are characterized by three distinct hydrodynamic signatures: line broadening, line profile asymmetry, and the line-depth dependence of convective blueshift.
 
-    Furthermore, we provided a detailed description of how granulation patterns vary with wavelength, establishing color-dependent standard granulation curves for the entire spectrum. 
-    Our results determine that rotation is not the cause of the anomalous chromodependence observed in the third signature plot, and we established a general characterization for the full wavelength range of the atlas. 
-    For the near-infrared, a general trend line describes the chromodependence, while the line bisector slope shift along the line depth is linear. 
-    In the visible range, we identified individual granulation curves and a description for the coefficients. 
+% Inspired by David Gray's foundational research, this project extracted granulation patterns from the IAG Solar Flux Atlas to calculate relative velocities and perform a detailed analysis based on these three convective signatures.
+% We characterized the convective blueshift in solar absorption lines and the anomalous chromodependence present across these signatures. 
+% This involved producing a refined, blend-free list of Fe I lines and deriving solar granulation patterns with minimal scatter. 
+% Our analysis statistically justified a window of $\SI{0.1}{\angstrom}$ around the line core as the optimal width for examination, underscoring the accuracy and unprecedented precision of the IAG Solar Flux Atlas.
+
+% Furthermore, we provide a detailed description of how granulation patterns vary with wavelength, establishing color-dependent standard granulation curves for the entire spectrum. 
+% Our results indicate that rotation is not the cause of the anomalous chromodependence observed in the third signature. 
+% We also established a general characterization for the full wavelength range of the atlas: in the near-infrared, a general trend line describes the chromodependence, while the line bisector slope shift with depth is linear; in the visible range, we identified individual granulation curves and described their governing coefficients.
 
 \end{abstract}
 
@@ -50,25 +53,33 @@
 
 \begin{abstract}
 
-    I want to acknowledge everyone that helps and support me to keep in this place.
-    Long time ago I was a younger girl who dreamed with stars and I thought that I never gonna reach that goal, cause Im not smart and Im a girl and why im gonna to throw up my future for that.
-    Every person that I meet in the university give me a sight to keep with my dreams, this is my form to say thank you for believe in me.
+I want to acknowledge everyone who has helped and supported me to reach this point.
 
-    Specifically, i want to acknowledge sincerely to my asesor profesor Benjamin. 
-    Not only to lead me in this project, for encourage me in a bad moment for my life and believe in me and my work.
-    For always responses to the questions of a girl in first semester which only wants to see stars and know about spectrographs.
-    Literally, for being in all my career, and listen me, my projects, my ideas and the thing that i get wrong even if he didnt be my profesor.
-    He dont notice but he give me the purpose to believe in myslef and do physics to the end.
+A long time ago, I was a young girl who dreamed of the stars. 
+I never thought I would reach that goal, because I thought I wasn't smart enough, and because I was afraid of throwing away my future on a dream. 
+Every person I met at the university gave me a new perspective and the strength to keep pursuing my dreams. 
+This is my way of saying thank you for believing in me.
 
+Specifically, I want to offer my sincere gratitude to my advisor, Professor Benjamin. 
+Thank you not only for guiding me through this project, but for encouraging me during a difficult time in my life and for believing in me and my work. 
+Thank you for always responding to the questions of a first-semester girl who just wanted to look at the stars and learn about spectrographs. 
+Literally, for being there throughout my entire degree, for listening to me, my projects, my ideas, and my mistakes, even when he wasn't my official professor. 
+He may not realize it, but he gave me the purpose to believe in myself and to pursue physics to the end.
 
-    To my Liebeleid, my lover, which supports and love unconditionally. 
-    Who even when i didnt believe in myself he believes, and encourages me to take the step that i dont think ill gonna take.
-    To my sister, for her, that she can see that is possible to do great things.
-    To my friend, which support me along all the career and stay here, even the things dont seems to work out.
-    For each person which give me force to do this crazy thing, even the one with is not anymore here.
+To my \textit{Liebeleid}, my lover, who supports and loves me unconditionally. 
+Even when I didn't believe in myself, he did, and he encouraged me to take steps I never thought I would take.
 
-    For the past me, we did it, we can see the stars now.
+To my sister, so that she can see that it is possible to achieve great things.
 
+To Toto, who believed in me without a doubt and encouraged me to enter this career.
+She is with the stars now, see the great things that she knew, cause she always knew everything, I can do.
+
+To my friend Thomas, who supported me throughout my entire degree and stayed by my side, even when things didn't seem to be working out. 
+Thank you for all the time shared on this Path of pain, and the coffe shared.
+
+To every person who gave me the strength to do this crazy thing, family and friends, even those who are no longer here.
+
+And to my past self: We did it. We can see the stars now.
 \end{abstract}
 %---------------------------------------------------------------------- TABLE OF CONTENTS
 \tableofcontents
