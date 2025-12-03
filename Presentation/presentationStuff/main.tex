@@ -82,7 +82,7 @@
   \end{tikzpicture}
   \vspace{0.25cm}
   \begin{flushright}
-    {\bfseries\LARGE \textcolor{Ado}{Medida y caracterización del patrón de granulación en el IAG Solar Flux Atlas}}
+    {\bfseries\LARGE \textcolor{Ado}{Medida y caracterización de los patrones de granulación del espectro solar IAG}}
     \noindent\color{Miku}\rule{\linewidth}{2pt}
     \par\vspace{0.5cm}
       
@@ -91,38 +91,174 @@
   \end{flushright}
 \end{frame}
 
-
-\renewcommand{\MyFrameTitle}{X-ray Phase Contrast Imaging}
+%-------------------------------- CONTENT
+\renewcommand{\MyFrameTitle}{¿Qué es un patrón de granulación?}
 \begin{frame}
   \justifying
-  XPCI exploits a property different from the well-known attenuation\footnotemark[3]; 
-  this property refers to the \textbf{phase}. To understand it, we introduce the concept of 
-  a \textbf{complex refractive index}:
-  \begin{equation}
-    n = 1 - \delta + i\beta
-  \end{equation}
-  \justifying
-  Here, $\beta$ represents the attenuation effects, while $\delta$ accounts for the phase effects\footnotemark[4]. 
-  In soft tissue, this difference is about three orders of magnitude.
+Es todo aquel comportamiento en el espectro producto del movimiento de convección.
+Ya sea asimetrías, Doppler shifts, o \textbf{Cromodependencia anómala}.
+
+Dicho movimiento de convección se ve presente en la granulación.
   % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
   % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
 \end{frame}
 
-
-
-
-\renewcommand{\MyFrameTitle}{Overall Progress}
+\renewcommand{\MyFrameTitle}{¿Qué es la granulación?}
 \begin{frame}
-  The overall progress of the project has been:
-  \begin{itemize}
-    \item Identify the key setup parameters required for effective Edge Illumination (EI) (70\%).
-    \item Develop an open-source code for phase retrieval using EI (100\%).
-    \item Perform computational simulations with PEPI to evaluate spatial resolution and contrast for various clinical X-ray setups (20\%).
-    \item Conduct experimental studies with clinical setups and medical phantoms to validate the computational results (0\%).
-  \end{itemize}
+  \justifying
+Son celdas convectivas creadas en el movimiento de convección de plasma en la fotosfera solar.
+Esto hace que se genere cierto patrón visual en forma de panal, aunque yo prefiero verlo como...
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
 \end{frame}
 
+\renewcommand{\MyFrameTitle}{La natilla solar}
+\begin{frame}
+  \justifying
+Foto recreada en casa, tranquilos, no es plasma
+Se puede entender como natilla, es un "gas" super denso el cual está sometido a un gradiente de temperatura "en escala".
 
+El cual genera que se forme el patrón característico de material enfriándose y calentándose en continuo movimiento.
+Este movimiento específico se llama convección donde las burbujas de natilla son celdas convectivas.
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{¿Cuál es el recorrido de la celda convectiva?}
+\begin{frame}
+  \justifying
+Sube caliente, baja fría pero emitiendo radiación
+Solo que la relación de tamaños es muy grande 
+
+OJO: Tratamos granulos, no manchas.
+
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{¿Cómo afecta la convección al espectro?}
+\begin{frame}
+  \justifying
+Si sube caliente emite blueshift
+Se enfría, emite redshift
+Baja de nuevo con menos blueshift
+Pero como cuando sube el brillo es tanto, se ve más blueshift que redshift
+
+
+Se presentará un bluesfhift convectivo adicional.
+
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{¿Cómo identificar si su estrella sufre de convección?}
+\begin{frame}
+  \justifying
+Receta para identificar si su estrella presenta convección (by David Gray)
+Tambien conocida en el mundo académico como los tres signos de convección:
+  \begin{itemize}
+    \item Asímetría en la línea (perfil de línea curvo)
+    \item Ensanchamiento de línea
+    \item Dependencia de la profundidad de línea con el blueshift convectivo
+  \end{itemize}
+
+El sol presenta estas tres, y de manera más pronunciada que otras estrellas,
+dada su cercanía con la tierra, tenemos mejor resolución para la estrella.
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{¿Cuál fue mi proyecto?}
+\begin{frame}
+  \justifying
+Medir los patrones de granulación basados en los tres signos de convección a partir del espectro
+de flujo solar del Intituto de Astrofísica y Geofísica de Göttingen IAG, para caracterizar el fenómeno de
+cromodependencia anómala.
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{IAG solar flux atlas}
+\begin{frame}
+  \justifying
+Espectro muy bueno y preciso tomado por Reiners en 2014
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{IAG spatially resolved quiet sun atlas}
+\begin{frame}
+  \justifying
+Espectro muy bueno y preciso tomado por Elwarth en 2023
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{¿Por qué hay dos atlas?}
+\begin{frame}
+  \justifying
+Nuestro objetivo es tomar al sol como cualquier otra estrella para que la caracterización que se haga sea 
+aplicable a otras estrellas de las cuales no se tiene tan buena resolución.
+PERO para entender dicha caracterización y hallar razones al compartamiento, es necesario usar el de Elwwarth, quien quita el efecto de 
+oscurecimiento de borde.
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{¿Qué líneas se usaron para calibrar?}
+\begin{frame}
+  \justifying
+Se utilizó la lista de Nave de Fe I, el cual nos sirve por muchas cosas importantes,
+esta lista digamos que fue depurada con líneas que no son mezclas en el sol y que pertenecen al sol.
+
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Metodología}
+\begin{frame}
+  \justifying
+Agarro espectro y lineas limpias
+Identifico y tomo una ventada de 10mA
+Hallo mi longitud de onda observada con un fit de polinomio de grado 4
+Calculo cosas
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{¿Por qué 10mA?}
+\begin{frame}
+  \justifying
+Porque lo probamos y es la que genera una ventana óptima de observación, cosa que no se hacia antes.
+
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{¿Qué se encontró?}
+\begin{frame}
+  \justifying
+Se eoncontró cromodepdendencia hasta en la natilla, hay varias cosas sin razon alguna
+Leggamos a una caracterizacion mediocre por el tiempo
+NO logre completar casi nada GENIAL :D
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Conclusiones}
+\begin{frame}
+  \justifying
+Tenemos mejorías en el método pero sin explicaciones a nada
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+\renewcommand{\MyFrameTitle}{¿Preguntas?}
+\begin{frame}
+  \justifying
+NO
+  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
+  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
 \renewcommand{\MyFrameTitle}{Bibliography}
 \begin{frame}[allowframebreaks]
   \printbibliography
