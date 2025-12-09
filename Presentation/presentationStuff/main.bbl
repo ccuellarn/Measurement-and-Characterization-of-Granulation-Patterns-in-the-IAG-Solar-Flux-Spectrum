@@ -17,1034 +17,562 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global/global}
-  \entry{breast_images}{article}{}{}
-    \name{author}{7}{}{%
-      {{hash=FN}{%
-         family={Fico},
-         familyi={F\bibinitperiod},
-         given={Noemi},
-         giveni={N\bibinitperiod},
+  \entry{Samir_pattern}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=HSA}{%
+         family={Hamouda},
+         familyi={H\bibinitperiod},
+         given={S.\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
-      {{hash=DGG}{%
-         family={Di\bibnamedelima Grezia},
-         familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
-         given={Graziella},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=CV}{%
-         family={Cuccurullo},
-         familyi={C\bibinitperiod},
-         given={Vincenzo},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=SAAH}{%
-         family={Salvia},
-         familyi={S\bibinitperiod},
-         given={Antonio Alessandro\bibnamedelima Helliot},
-         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-      }}%
-      {{hash=IA}{%
-         family={Iacomino},
-         familyi={I\bibinitperiod},
-         given={Aniello},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Sciarra},
-         familyi={S\bibinitperiod},
-         given={Antonella},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=GG}{%
-         family={Gatta},
-         familyi={G\bibinitperiod},
-         given={Gianluca},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FN+1}
-    \strng{fullhash}{FNDGGCVSAAHIASAGG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Breast cancer is the most frequently diagnosed neoplasm in women in Italy.
-  There are several risk factors, but thanks to screening and increased
-  awareness, most breast cancers are diagnosed at an early stage when surgical
-  treatment can most often be conservative and the adopted therapy is more
-  effective. Regular screening is essential but advanced technology is needed
-  to achieve quality diagnoses. Mammography is the gold standard for early
-  detection of breast cancer. It is a specialized technique for detecting
-  breast cancer and, thus, distinguishing normal tissue from cancerous breast
-  tissue. Mammography techniques are based on physical principles: through the
-  proper use of X-rays, the structures of different tissues can be observed.
-  This first part of the paper attempts to explain the physical principles used
-  in mammography. In particular, we will see how a mammogram is composed and
-  what physical principles are used to obtain diagnostic images.%
-    }
-    \verb{doi}
-    \verb 10.3390/diagnostics13203227
-    \endverb
-    \field{number}{20}
-    \field{title}{Breast Imaging Physics in Mammography (Part I)}
-    \field{volume}{13}
-    \field{year}{2023}
-  \endentry
-
-  \entry{mammoImage}{article}{}{}
-    \name{author}{6}{}{%
-      {{hash=WJ}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Jinhua},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=YX}{%
-         family={Yang},
-         familyi={Y\bibinitperiod},
-         given={Xi},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=CH}{%
-         family={Cai},
-         familyi={C\bibinitperiod},
-         given={Hongmin},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=TW}{%
-         family={Tan},
-         familyi={T\bibinitperiod},
-         given={Wanchang},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=JC}{%
-         family={Jin},
-         familyi={J\bibinitperiod},
-         given={Cangzheng},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=LL}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={Li},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WJ+1}
-    \strng{fullhash}{WJYXCHTWJCLL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1038/srep27327
-    \endverb
-    \field{pages}{27327}
-    \field{title}{Discrimination of Breast Cancer with Microcalcifications on
-  Mammography by Deep Learning}
-    \field{volume}{6}
-    \field{journaltitle}{Scientific Reports}
-    \field{month}{06}
-    \field{year}{2016}
-  \endentry
-
-  \entry{arfelli_low-dose_1998}{article}{}{}
-    \name{author}{19}{}{%
       {{hash=AF}{%
-         family={Arfelli},
+         family={Alfarjani},
          familyi={A\bibinitperiod},
-         given={F},
-         giveni={F},
+         given={F.},
+         giveni={F\bibinitperiod},
       }}%
-      {{hash=AM}{%
-         family={Assante},
-         familyi={A\bibinitperiod},
-         given={M},
-         giveni={M},
-      }}%
-      {{hash=BV}{%
-         family={Bonvicini},
-         familyi={B\bibinitperiod},
-         given={V},
-         giveni={V},
-      }}%
-      {{hash=BA}{%
-         family={Bravin},
-         familyi={B\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-      {{hash=CG}{%
-         family={Cantatore},
-         familyi={C\bibinitperiod},
-         given={G},
-         giveni={G},
-      }}%
-      {{hash=CE}{%
-         family={Castelli},
-         familyi={C\bibinitperiod},
-         given={E},
-         giveni={E},
-      }}%
-      {{hash=PLD}{%
-         family={Palma},
-         familyi={P\bibinitperiod},
-         given={L\bibnamedelima Dalla},
-         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=MMD}{%
-         family={Michiel},
-         familyi={M\bibinitperiod},
-         given={M\bibnamedelima Di},
-         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=LR}{%
-         family={Longo},
-         familyi={L\bibinitperiod},
-         given={R},
-         giveni={R},
-      }}%
-      {{hash=OA}{%
-         family={Olivo},
-         familyi={O\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-      {{hash=PS}{%
-         family={Pani},
-         familyi={P\bibinitperiod},
-         given={S},
-         giveni={S},
-      }}%
-      {{hash=PD}{%
-         family={Pontoni},
-         familyi={P\bibinitperiod},
-         given={D},
-         giveni={D},
-      }}%
-      {{hash=PP}{%
-         family={Poropat},
-         familyi={P\bibinitperiod},
-         given={P},
-         giveni={P},
-      }}%
-      {{hash=PM}{%
-         family={Prest},
-         familyi={P\bibinitperiod},
-         given={M},
-         giveni={M},
-      }}%
-      {{hash=RA}{%
-         family={Rashevsky},
-         familyi={R\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-      {{hash=TG}{%
-         family={Tromba},
-         familyi={T\bibinitperiod},
-         given={G},
-         giveni={G},
-      }}%
-      {{hash=VA}{%
-         family={Vacchi},
-         familyi={V\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-      {{hash=VE}{%
-         family={Vallazza},
-         familyi={V\bibinitperiod},
-         given={E},
-         giveni={E},
-      }}%
-      {{hash=ZF}{%
-         family={Zanconati},
-         familyi={Z\bibinitperiod},
-         given={F},
-         giveni={F},
-      }}%
-    }
-    \strng{namehash}{AF+1}
-    \strng{fullhash}{AFAMBVBACGCEPLDMMDLROAPSPDPPPMRATGVAVEZF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/0031-9155/43/10/013
-    \endverb
-    \field{number}{10}
-    \field{pages}{2845\bibrangedash 2852}
-    \field{title}{Low-dose phase contrast x-ray medical imaging}
-    \field{volume}{43}
-    \verb{file}
-    \verb PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\WC75EAG8\\Arfelli et al. -
-    \verb  1998 - Low-dose phase contrast x-ray medical imaging.pdf:application
-    \verb /pdf
-    \endverb
-    \field{day}{01}
-    \field{month}{10}
-    \field{year}{1998}
-  \endentry
-
-  \entry{endrizzi_x-ray_2018}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=EM}{%
-         family={Endrizzi},
+      {{hash=EFY}{%
+         family={Elfituri},
          familyi={E\bibinitperiod},
-         given={Marco},
-         giveni={M\bibinitperiod},
+         given={F.\bibnamedelima Y.},
+         giveni={F\bibinitperiod\bibinitdelim Y\bibinitperiod},
       }}%
     }
-    \keyw{Imaging, Phase-contrast, X-ray}
-    \strng{namehash}{EM1}
-    \strng{fullhash}{EM1}
+    \strng{namehash}{HSA+1}
+    \strng{fullhash}{HSAAFEFY1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{abstract}{%
-    X-ray imaging is a standard tool for the non-destructive inspection of the
-  internal structure of samples. It finds application in a vast diversity of
-  fields: medicine, biology, many engineering disciplines, palaeontology and
-  earth sciences are just few examples. The fundamental principle underpinning
-  the image formation have remained the same for over a century: the X-rays
-  traversing the sample are subjected to different amount of absorption in
-  different parts of the sample. By means of phase-sensitive techniques it is
-  possible to generate contrast also in relation to the phase shifts imparted
-  by the sample and to extend the capabilities of X-ray imaging to those
-  details that lack enough absorption contrast to be visualised in conventional
-  radiography. A general overview of X-ray phase contrast imaging techniques is
-  presented in this review, along with more recent advances in this fast
-  evolving field and some examples of applications.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.nima.2017.07.036
+    \field{title}{Sunspots Production and Relation to Other Phenomena: A
+  review}
+    \verb{url}
+    \verb https://ijsrm.humanjournals.com/sunspots-production-and-relation-to-o
+    \verb ther-phenomena-a-review/
     \endverb
-    \field{pages}{88\bibrangedash 98}
-    \field{series}{Radiation Imaging Techniques and Applications}
-    \field{title}{X-ray phase-contrast imaging}
-    \field{volume}{878}
-    \verb{file}
-    \verb Versión enviada:C\:\\Users\\Rufuskty\\Zotero\\storage\\RXCE4TCL\\End
-    \verb rizzi - 2018 - X-ray phase-contrast imaging.pdf:application/pdf
-    \endverb
-    \field{day}{11}
-    \field{month}{01}
+    \field{journaltitle}{International Journal of Science and Research
+  Methodology}
+    \field{month}{06}
     \field{year}{2018}
   \endentry
 
-  \entry{zamir_recent_2017}{article}{}{}
-    \name{author}{8}{}{%
-      {{hash=ZA}{%
-         family={Zamir},
-         familyi={Z\bibinitperiod},
-         given={Anna},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=HC}{%
-         family={Hagen},
-         familyi={H\bibinitperiod},
-         given={Charlotte},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=DPC}{%
-         family={Diemoz},
-         familyi={D\bibinitperiod},
-         given={Paul\bibnamedelima C.},
-         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
+  \entry{Ellwarth_2023}{article}{}{}
+    \name{author}{4}{}{%
       {{hash=EM}{%
-         family={Endrizzi},
-         familyi={E\bibinitperiod},
-         given={Marco},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=VF}{%
-         family={Vittoria},
-         familyi={V\bibinitperiod},
-         given={Fabio},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=CY}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Yujia},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=AMA}{%
-         family={Anastasio},
-         familyi={A\bibinitperiod},
-         given={Mark\bibnamedelima A.},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=OA}{%
-         family={Olivo},
-         familyi={O\bibinitperiod},
-         given={Alessandro},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ZA+1}
-    \strng{fullhash}{ZAHCDPCEMVFCYAMAOA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Edge illumination ({EI}) is an x-ray phase-contrast imaging technique,
-  exploiting sensitivity to x-ray refraction to visualize features, which are
-  often not detected by conventional absorption-based radiography. The method
-  does not require a high degree of spatial coherence and is achromatic and,
-  therefore, can be implemented with both synchrotron radiation and commercial
-  x-ray tubes. Using different retrieval algorithms, information about an
-  object’s attenuation, refraction, and scattering properties can be
-  obtained. In recent years, a theoretical framework has been developed that
-  enables {EI} computed tomography ({CT}) and, hence, three-dimensional
-  imaging. This review provides a summary of these advances, covering the
-  development of different image acquisition schemes, retrieval approaches, and
-  applications. These developments constitute an integral part in the
-  transformation of {EI} {CT} into a widely spread imaging tool for use in a
-  range of fields.%
-    }
-    \verb{doi}
-    \verb 10.1117/1.JMI.4.4.040901
-    \endverb
-    \field{number}{4}
-    \field{pages}{040901}
-    \field{title}{Recent advances in edge illumination x-ray phase-contrast
-  tomography}
-    \field{volume}{4}
-    \verb{file}
-    \verb PubMed Central Full Text PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\3
-    \verb W9SDAEX\\Zamir et al. - 2017 - Recent advances in edge illumination x
-    \verb -ray phase-contrast tomography.pdf:application/pdf
-    \endverb
-    \field{month}{10}
-    \field{year}{2017}
-  \endentry
-
-  \entry{olivo_edge-illumination_2021}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=OA}{%
-         family={Olivo},
-         familyi={O\bibinitperiod},
-         given={Alessandro},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{OA1}
-    \strng{fullhash}{OA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Although early demonstration dates back to the mid-sixties, x-ray
-  phase-contrast imaging ({XPCI}) became hugely popular in the mid-90s, thanks
-  to the advent of 3rd generation synchrotron facilities. Its ability to reveal
-  object features that had so far been considered invisible to x-rays
-  immediately suggested great potential for applications across the life and
-  the physical sciences, and an increasing number of groups worldwide started
-  experimenting with it. At that time, it looked like a synchrotron facility
-  was strictly necessary to perform {XPCI} with some degree of efficiency—the
-  only alternative being micro-focal sources, the limited flux of which imposed
-  excessively long exposure times. However, new approaches emerged in the
-  mid-00s that overcame this limitation, and allowed {XPCI} implementations
-  with conventional, non-micro-focal x-ray sources. One of these approaches
-  showing particular promise for ‘real-world’ applications is
-  edge-illumination {XPCI}: this article describes the key steps in its
-  evolution in the context of contemporary developments in {XPCI} research, and
-  presents its current state-of-the-art, especially in terms of transition
-  towards practical applications.%
-    }
-    \verb{doi}
-    \verb 10.1088/1361-648X/ac0e6e
-    \endverb
-    \field{note}{Publisher: {IOP} Publishing}
-    \field{number}{36}
-    \field{pages}{363002}
-    \field{title}{Edge-illumination x-ray phase-contrast imaging}
-    \field{volume}{33}
-    \field{langid}{english}
-    \verb{file}
-    \verb IOP Full Text PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\QLYLZ8SF\\Ol
-    \verb ivo - 2021 - Edge-illumination x-ray phase-contrast imaging.pdf:appli
-    \verb cation/pdf
-    \endverb
-    \field{month}{07}
-    \field{year}{2021}
-  \endentry
-
-  \entry{yuan_comparing_nodate}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=YJ}{%
-         family={Yuan},
-         familyi={Y\bibinitperiod},
-         given={Jingcheng},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=HI}{%
-         family={Harmon},
-         familyi={H\bibinitperiod},
-         given={Ian},
-         giveni={I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{YJHI1}
-    \strng{fullhash}{YJHI1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    X-ray phase contrast imaging ({PCI}) has a great potential for improving
-  the visibility of soft tissues in medical imaging. Single-mask
-  edge-illumination ({EI}) (also sometime referred to as coded-aperture) phase
-  contrast imaging method has been developed with the ability to obtain
-  diﬀerential phase contrast with simpler experimental setup in comparison to
-  grating based or conventional double mask {EI} {PCI}. We show results of
-  single-mask {PCI} and results of diﬀerential phase contrast estimation in a
-  single shot. The potential of this single mask {PCI} to reduce the radiation
-  dose and improved contrast has not been fully investigated yet. In this work
-  we compared the x-ray dose requirement of single-mask method with other
-  methods by analyzing the {SNR} under diﬀerent level of detector counts. We
-  also propose and demonstrate a new model based on {TIE} for diﬀerential
-  retrieval from single mask {EI} {PCI} with experimental data.%
-    }
-    \field{title}{Comparing {SNR} Beneﬁts between Single-Mask
-  Edge-Illumination and Free-Space Propagation X-ray Phase Contrast Imaging}
-    \field{langid}{english}
-    \verb{file}
-    \verb PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\6T6X9E2U\\Yuan and Harmon
-    \verb - Comparing SNR Beneﬁts between Single-Mask Edge-Illumination and F
-    \verb ree-Space Propagation X-ray Phase C.pdf:application/pdf;PDF:C\:\\User
-    \verb s\\Rufuskty\\Zotero\\storage\\KNM3XMTH\\Yuan and Harmon - Comparing S
-    \verb NR Beneﬁts between Single-Mask Edge-Illumination and Free-Space Pro
-    \verb pagation X-ray Phase C.pdf:application/pdf
-    \endverb
-  \endentry
-
-  \entry{paganin_x-ray_2021}{incollection}{}{}
-    \name{author}{2}{}{%
-      {{hash=PDM}{%
-         family={Paganin},
-         familyi={P\bibinitperiod},
-         given={David\bibnamedelima M.},
-         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=PD}{%
-         family={Pelliccia},
-         familyi={P\bibinitperiod},
-         given={Daniele},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \keyw{Electrical Engineering and Systems Science - Image and Video
-  Processing, Physics - Applied Physics, Physics - Medical Physics, Physics -
-  Optics}
-    \strng{namehash}{PDMPD1}
-    \strng{fullhash}{PDMPD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    We outline some basics of imaging using both fully-coherent and
-  partially-coherent X-ray beams, with an emphasis on phase-contrast imaging.
-  We open with some of the basic notions of X-ray imaging, including the vacuum
-  wave equations and the physical meaning of the intensity and phase of complex
-  scalar fields. The projection approximation is introduced, together with the
-  concepts of attenuation contrast and phase contrast. We also outline the
-  multi-slice approach to X-ray propagation through thick samples or optical
-  elements, together with the Fresnel scaling theorem. Having introduced the
-  fundamentals, we then consider several aspects of the forward problem, of
-  modelling the formation of phase-contrast X-ray images. Several topics
-  related to this forward problem are considered, including the
-  transport-of-intensity equation, arbitrary linear imaging systems,
-  shift-invariant linear imaging systems, the transfer-function formalism,
-  blurring induced by finite source size, the space-frequency model for
-  partially-coherent fields, and the Fokker-Planck equation for paraxial X-ray
-  imaging. Having considered these means for modelling the formation of X-ray
-  phase-contrast images, we then consider aspects of the associated inverse
-  problem of phase retrieval. This concerns how one may decode phase-contrast
-  images to gain information regarding the sample-induced attenuation and phase
-  shift.%
-    }
-    \verb{eprint}
-    \verb 2011.05146 [eess]
-    \endverb
-    \field{pages}{63\bibrangedash 158}
-    \field{shorttitle}{X-ray phase-contrast imaging}
-    \field{title}{X-ray phase-contrast imaging: a broad overview of some
-  fundamentals}
-    \field{volume}{218}
-    \field{langid}{english}
-    \verb{file}
-    \verb PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\W5TI3AQA\\Paganin and Pell
-    \verb iccia - 2021 - X-ray phase-contrast imaging a broad overview of some
-    \verb fundamentals.pdf:application/pdf
-    \endverb
-    \field{eprinttype}{arxiv}
-    \field{year}{2021}
-  \endentry
-
-  \entry{astolfo_effect_2022}{article}{}{}
-    \name{author}{9}{}{%
-      {{hash=AA}{%
-         family={Astolfo},
-         familyi={A\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=BI}{%
-         family={Buchanan},
-         familyi={B\bibinitperiod},
-         given={I.},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=PT}{%
-         family={Partridge},
-         familyi={P\bibinitperiod},
-         given={T.},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=KGK}{%
-         family={Kallon},
-         familyi={K\bibinitperiod},
-         given={G.\bibnamedelima K.},
-         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=HCK}{%
-         family={Hagen},
-         familyi={H\bibinitperiod},
-         given={C.\bibnamedelima K.},
-         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=MPRT}{%
-         family={Munro},
-         familyi={M\bibinitperiod},
-         given={P.\bibnamedelima R.\bibnamedelima T.},
-         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
-  T\bibinitperiod},
-      }}%
-      {{hash=EM}{%
-         family={Endrizzi},
+         family={Ellwarth},
          familyi={E\bibinitperiod},
          given={M.},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=BD}{%
-         family={Bate},
-         familyi={B\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
+      {{hash=EB}{%
+         family={Ehmann},
+         familyi={E\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
       }}%
-      {{hash=OA}{%
-         family={Olivo},
-         familyi={O\bibinitperiod},
+      {{hash=SS}{%
+         family={Schäfer},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Reiners},
+         familyi={R\bibinitperiod},
          given={A.},
          giveni={A\bibinitperiod},
       }}%
     }
-    \keyw{Applied optics, Applied physics, Engineering, Optical physics,
-  Techniques and instrumentation}
-    \strng{namehash}{AA+1}
-    \strng{fullhash}{AABIPTKGKHCKMPRTEMBDOA1}
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{EM+1}
+    \strng{fullhash}{EMEBSSRA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Multi-modal X-ray imaging allows the extraction of phase and dark-field (or
-  “Ultra-small Angle Scatter”) images alongside conventional attenuation
-  ones. Recently, scan-based systems using conventional sources that can
-  simultaneously output the above three images on relatively large-size objects
-  have been developed by various groups. One limitation is the need for some
-  degree of spatial coherence, achieved either through the use of microfocal
-  sources, or by placing an absorption grating in front of an extended source.
-  Both these solutions limit the amount of flux available for imaging, with the
-  latter also leading to a more complex setup with additional alignment
-  requirements. Edge-illumination partly overcomes this as it was proven to
-  work with focal spots of up to 100 micron. While high-flux, 100 micron focal
-  spot sources do exist, their comparatively large footprint and high cost can
-  be obstacles to widespread translation. A simple solution consists in placing
-  a single slit in front of a large focal spot source. We used a tunable slit
-  to study the system performance at various effective focal spot sizes, by
-  extracting transmission, phase and dark-field images of the same specimens
-  for a range of slit widths. We show that consistent, repeatable results are
-  obtained for varying X-ray statistics and effective focal spot sizes. As the
-  slit width is increased, the expected reduction in the raw differential phase
-  peaks is observed, compensated for in the retrieval process by a broadened
-  sensitivity function. This leads to the same values being correctly
-  retrieved, but with a slightly larger error bar i.e. a reduction in phase
-  sensitivity. Concurrently, a slight increase in the dark-field signal is also
-  observed.%
-    }
-    \verb{doi}
-    \verb 10.1038/s41598-022-07376-0
+    \field{issn}{0004-6361, 1432-0746}
+    \field{pages}{A62}
+    \field{title}{Convective Characteristics of Fe I Lines Across the Solar
+  Disc}
+    \verb{url}
+    \verb https://www.aanda.org/articles/aa/abs/2023/12/aa47615-23/aa47615-23.h
+    \verb tml
     \endverb
-    \field{note}{Publisher: Nature Publishing Group}
-    \field{number}{1}
-    \field{pages}{3354}
-    \field{title}{The effect of a variable focal spot size on the contrast
-  channels retrieved in edge-illumination X-ray phase contrast imaging}
-    \field{volume}{12}
-    \field{langid}{english}
-    \verb{file}
-    \verb Full Text PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\3RU7TJRG\\Astolf
-    \verb o et al. - 2022 - The effect of a variable focal spot size on the con
-    \verb trast channels retrieved in edge-illumination X-r.pdf:application/pdf
-    \endverb
-    \field{day}{01}
-    \field{month}{03}
-    \field{year}{2022}
+    \field{volume}{680}
+    \field{journaltitle}{Astronomy and Astrophysics}
+    \field{month}{12}
+    \field{year}{2023}
   \endentry
 
-  \entry{yuan_single-shot_2025}{misc}{}{}
-    \name{author}{2}{}{%
-      {{hash=YJ}{%
-         family={Yuan},
-         familyi={Y\bibinitperiod},
-         given={Jingcheng},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=DM}{%
-         family={Das},
-         familyi={D\bibinitperiod},
-         given={Mini},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \keyw{Physics - Applied Physics, Physics - Instrumentation and Detectors,
-  Physics - Medical Physics, Physics - Optics}
-    \strng{namehash}{YJDM1}
-    \strng{fullhash}{YJDM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    X-ray imaging, traditionally relying on attenuation contrast, struggles to
-  differentiate materials with similar attenuation coefficients like soft
-  tissues. X-ray phase contrast imaging ({XPCI}) and dark-field ({DF}) imaging
-  provide enhanced contrast by detecting phase shifts and ultra-small-angle
-  X-ray scattering ({USAXS}). However, they typically require complex and
-  costly setups, along with multiple exposures to retrieve various contrast
-  features. In this study, we introduce a novel single-mask X-ray imaging
-  system design that simultaneously captures attenuation, differential phase
-  contrast ({DPC}), and dark-field images in a single exposure. Most
-  importantly, our proposed system design requires just a single mask alignment
-  with relatively low-resolution detectors. Using our novel light transport
-  models derived for these specific system designs, we show intuitive
-  understanding of contrast formation and retrieval method of different
-  contrast features. Our approach eliminates the need for highly coherent X-ray
-  sources, ultra-high-resolution detectors, spectral detectors or intricate
-  gratings. We propose three variations of the single-mask setup, each
-  optimized for different contrast types, offering flexibility and efficiency
-  in a variety of applications. The versatility of this single-mask approach
-  along with the use of befitting light transport models holds promise for
-  broader use in clinical diagnostics and industrial inspection, making
-  advanced X-ray imaging more accessible and cost-effective.%
-    }
-    \verb{doi}
-    \verb 10.48550/arXiv.2506.02427
-    \endverb
-    \verb{eprint}
-    \verb 2506.02427 [physics]
-    \endverb
-    \field{number}{{arXiv}:2506.02427}
-    \field{title}{Single-Shot, Single-Mask X-ray Dark-field and Phase Contrast
-  Imaging}
-    \verb{file}
-    \verb Preprint PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\M7QETRMA\\Yuan y
-    \verb Das - 2025 - Single-Shot, Single-Mask X-ray Dark-field and Phase Cont
-    \verb rast Imaging.pdf:application/pdf;Snapshot:C\:\\Users\\Rufuskty\\Zoter
-    \verb o\\storage\\Q9S32CB5\\2506.html:text/html
-    \endverb
-    \field{eprinttype}{arxiv}
-    \field{day}{03}
-    \field{month}{06}
-    \field{year}{2025}
-    \field{urlday}{16}
-    \field{urlmonth}{09}
-    \field{urlyear}{2025}
-  \endentry
-
-  \entry{yuan_transport--intensity_2024}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=YJ}{%
-         family={Yuan},
-         familyi={Y\bibinitperiod},
-         given={Jingcheng},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=DM}{%
-         family={Das},
-         familyi={D\bibinitperiod},
-         given={Mini},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{YJDM1}
-    \strng{fullhash}{YJDM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    X-ray phase contrast imaging holds great promise for improving the
-  visibility of light-element materials such as soft tissues and tumors. The
-  single-mask differential phase contrast imaging method stands out as a simple
-  and effective approach to yield differential phase contrast. In this work, we
-  introduce a model for a single-mask phase imaging system based on the
-  transport-of-intensity equation. Our model provides an accessible
-  understanding of signal and contrast formation in single-mask x-ray phase
-  imaging, offering a clear perspective on the image formation process, for
-  example, the origin of alternate bright and dark fringes in phase contrast
-  intensity images. Aided by our model, we present an efficient retrieval
-  method that yields differential phase contrast imagery in a single
-  acquisition step. Our model gives insight into the contrast generation and
-  its dependence on the system geometry and imaging parameters in both the
-  initial intensity image as well as retrieved images. The model validity as
-  well as the proposed retrieval method are demonstrated via both experimental
-  results on a system developed in house as well as Monte Carlo simulations. In
-  conclusion, our work not only provides a model for an intuitive visualization
-  of image formation but also offers a method to optimize differential phase
-  imaging setups, holding tremendous promise for advancing medical diagnostics
-  and other applications.%
-    }
-    \verb{doi}
-    \verb 10.1364/OPTICA.510537
-    \endverb
-    \field{number}{4}
-    \field{pages}{478}
-    \field{title}{Transport-of-intensity model for single-mask x-ray
-  differential phase contrast imaging}
-    \field{volume}{11}
-    \field{langid}{english}
-    \verb{file}
-    \verb PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\FTDZBUXD\\Yuan and Das - 2
-    \verb 024 - Transport-of-intensity model for single-mask x-ray differential
-    \verb  phase contrast imaging.pdf:application/pdf
-    \endverb
-    \field{day}{20}
-    \field{month}{04}
-    \field{year}{2024}
-    \field{urlday}{18}
-    \field{urlmonth}{04}
-    \field{urlyear}{2025}
-  \endentry
-
-  \entry{PhysRevApplied.19.054042}{article}{}{}
-    \name{author}{6}{}{%
-      {{hash=DA}{%
-         family={Doherty},
-         familyi={D\bibinitperiod},
-         given={Adam},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SS}{%
-         family={Savvidis},
-         familyi={S\bibinitperiod},
-         given={Savvas},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NLC}{%
-         family={Navarrete-Le\'on},
-         familyi={N\bibinithyphendelim L\bibinitperiod},
-         given={Carlos},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=GMF}{%
-         family={Gerli},
-         familyi={G\bibinitperiod},
-         given={Mattia\bibnamedelima F.M.},
-         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=OA}{%
-         family={Olivo},
-         familyi={O\bibinitperiod},
-         given={Alessandro},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=EM}{%
-         family={Endrizzi},
-         familyi={E\bibinitperiod},
-         given={Marco},
-         giveni={M\bibinitperiod},
+  \entry{Plaskett_1936}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=PHH}{%
+         family={Plaskett},
+         familyi={P\bibinitperiod},
+         given={H.\bibnamedelima H.},
+         giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {American Physical Society}%
+      {OUP}%
     }
-    \strng{namehash}{DA+1}
-    \strng{fullhash}{DASSNLCGMFOAEM1}
+    \strng{namehash}{PHH1}
+    \strng{fullhash}{PHH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevApplied.19.054042
+    \field{issn}{0035-8711}
+    \field{pages}{402}
+    \field{title}{Solar Granulation}
+    \verb{url}
+    \verb https://ui.adsabs.harvard.edu/abs/1936MNRAS..96..402P
     \endverb
-    \field{issue}{5}
-    \field{pages}{054042}
-    \field{title}{Edge-Illumination X-Ray Dark-Field Tomography}
-    \field{volume}{19}
-    \field{year}{2023}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{brombal_geant4_2022}{article}{}{}
-    \name{author}{5}{}{%
-      {{hash=BL}{%
-         family={Brombal},
-         familyi={B\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=RL}{%
-         family={Rigon},
-         familyi={R\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=AF}{%
-         family={Arfelli},
-         familyi={A\bibinitperiod},
-         given={F.},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=MR}{%
-         family={Menk},
-         familyi={M\bibinitperiod},
-         given={R.H.},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=BF}{%
-         family={Brun},
-         familyi={B\bibinitperiod},
-         given={F.},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BL+1}
-    \strng{fullhash}{BLRLAFMRBF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The {PEPI} project is developing a new experimental facility integrating a
-  chromatic photon-counting detector within an edge-illumination ({EI})
-  phase-contrast setup. In this context, a novel Geant4-based simulation tool
-  has been introduced with the aim of defining the optimal design of the
-  experimental setup. The code includes a custom X-ray refraction process and
-  allows simulating the whole {EI} system, comprising a polychromatic and
-  extended source, absorbing masks, substrates, their movement during
-  acquisition, and X-ray detection. In this paper, a realistic spectral
-  detector model is introduced and its energy response validated against
-  experimental data acquired with synchrotron radiation at energies between 26
-  and 50 {keV}. Moreover, refraction and transmission images of a plastic
-  phantom are reconstructed from simulation data and successfully compared with
-  theoretical predictions. Finally, an optimization study aiming at finding the
-  effect of the X-ray focal spot size (i.e. spatial coherence) on image quality
-  is presented; the results suggest that, in the considered configuration, the
-  system can tolerate source sizes up to 30 μm, while, for a fixed exposure
-  time, the best signal-to-noise ratio in refraction images is found for source
-  sizes in the order of 10 to 15 μm.%
-    }
-    \verb{doi}
-    \verb 10.1088/1748-0221/17/01/C01043
-    \endverb
-    \field{note}{Publisher: {IOP} Publishing}
-    \field{number}{1}
-    \field{pages}{C01043}
-    \field{title}{A Geant4 tool for edge-illumination X-ray phase-contrast
-  imaging}
-    \field{volume}{17}
-    \field{langid}{english}
-    \verb{file}
-    \verb Versión enviada:C\:\\Users\\Rufuskty\\Zotero\\storage\\44ID7454\\Bro
-    \verb mbal et al. - 2022 - A Geant4 tool for edge-illumination X-ray phase-
-    \verb contrast imaging.pdf:application/pdf
-    \endverb
-    \field{journaltitle}{J. Inst.}
-    \field{month}{01}
-    \field{year}{2022}
-  \endentry
-
-  \entry{brombal_pepi_2023}{article}{}{}
-    \name{author}{5}{}{%
-      {{hash=BL}{%
-         family={Brombal},
-         familyi={B\bibinitperiod},
-         given={Luca},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=AF}{%
-         family={Arfelli},
-         familyi={A\bibinitperiod},
-         given={Fulvia},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=MRH}{%
-         family={Menk},
-         familyi={M\bibinitperiod},
-         given={Ralf\bibnamedelima Hendrik},
-         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=RL}{%
-         family={Rigon},
-         familyi={R\bibinitperiod},
-         given={Luigi},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=BF}{%
-         family={Brun},
-         familyi={B\bibinitperiod},
-         given={Francesco},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \keyw{Design, Imaging techniques, synthesis and processing}
-    \strng{namehash}{BL+2}
-    \strng{fullhash}{BLAFMRHRLBF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    This paper presents a new flexible compact multi-modal imaging setup
-  referred to as {PEPI} (Photon-counting Edge-illumination Phase-contrast
-  imaging) Lab, which is based on the edge-illumination ({EI}) technique and a
-  chromatic detector. The system enables both X-ray phase-contrast ({XPCI}) and
-  spectral ({XSI}) imaging of samples on the centimeter scale. This work
-  conceptually follows all the stages in its realization, from the design to
-  the first imaging results. The setup can be operated in four different modes,
-  i.e. photon-counting/conventional, spectral, double-mask {EI}, and
-  single-mask {EI}, whereby the switch to any modality is fast, software
-  controlled, and does not require any hardware modification or lengthy
-  re-alignment procedures. The system specifications, ranging from the X-ray
-  tube features to the mask material and aspect ratio, have been quantitatively
-  studied and optimized through a dedicated Geant4 simulation platform, guiding
-  the choice of the instrumentation. The realization of the imaging setup, both
-  in terms of hardware and control software, is detailed and discussed with a
-  focus on practical/experimental aspects. Flexibility and compactness (66 cm
-  source-to-detector distance in {EI}) are ensured by dedicated motion stages,
-  whereas spectral capabilities are enabled by the Pixirad-1/Pixie-{III}
-  detector in combination with a tungsten anode X-ray source operating in the
-  range 40–100 {kVp}. The stability of the system, when operated in {EI},
-  has been verified, and drifts leading to mask misalignment of less than
-  1 \$\${\textbackslash}upmu\$\$m have been measured over a period of 54 h.
-  The first imaging results, one for each modality, demonstrate that the system
-  fulfills its design requirements. Specifically, {XSI} tomographic images of
-  an iodine-based phantom demonstrate the system’s quantitativeness and
-  sensibility to concentrations in the order of a few mg/ml. Planar {XPCI}
-  images of a carpenter bee specimen, both in single and double-mask modes,
-  demonstrate that refraction sensitivity (below
-  0.6 \$\${\textbackslash}upmu\$\$rad in double-mask mode) is comparable with
-  other {XPCI} systems based on microfocus sources. Phase {CT} capabilities
-  have also been tested on a dedicated plastic phantom, where the phase channel
-  yielded a 15-fold higher signal-to-noise ratio with respect to attenuation.%
-    }
-    \verb{doi}
-    \verb 10.1038/s41598-023-30316-5
-    \endverb
-    \field{note}{Publisher: Nature Publishing Group}
-    \field{number}{1}
-    \field{pages}{4206}
-    \field{shorttitle}{{PEPI} Lab}
-    \field{title}{{PEPI} Lab: a flexible compact multi-modal setup for X-ray
-  phase-contrast and spectral imaging}
-    \field{volume}{13}
-    \field{langid}{english}
-    \verb{file}
-    \verb Full Text PDF:C\:\\Users\\Rufuskty\\Zotero\\storage\\LINX9FN2\\Bromba
-    \verb l et al. - 2023 - PEPI Lab a flexible compact multi-modal setup for X
-    \verb -ray phase-contrast and spectral imaging.pdf:application/pdf
-    \endverb
-    \field{day}{14}
+    \field{volume}{96}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
     \field{month}{03}
+    \field{year}{1936}
+  \endentry
+
+  \entry{Foukal_1990}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=FP}{%
+         family={Foukal},
+         familyi={F\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Cambridge research}%
+      {instrumentation}%
+    }
+    \strng{namehash}{FP1}
+    \strng{fullhash}{FP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-3-527-40374-5}
+    \field{title}{Solar Astrophysics}
+    \field{year}{1990}
+  \endentry
+
+  \entry{Carroll_Ostlie_2006}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=CB}{%
+         family={Carroll},
+         familyi={C\bibinitperiod},
+         given={B.W.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OD}{%
+         family={Ostlie},
+         familyi={O\bibinitperiod},
+         given={D.A.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{CBOD1}
+    \strng{fullhash}{CBOD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9781108422161}
+    \field{title}{An Introduction to Modern Astrophysics}
+    \verb{url}
+    \verb https://books.google.com.co/booksid=PY0wDwAAQBAJ
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{Dalal_2023}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=DS}{%
+         family={Dalal},
+         familyi={D\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=HRD}{%
+         family={Haywood},
+         familyi={H\bibinitperiod},
+         given={R\bibnamedelima D},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mortier},
+         familyi={M\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=CWJ}{%
+         family={Chaplin},
+         familyi={C\bibinitperiod},
+         given={W\bibnamedelima J},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Meunier},
+         familyi={M\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press (OUP)}%
+    }
+    \strng{namehash}{DS+1}
+    \strng{fullhash}{DSHRDMACWJMN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{1365-2966}
+    \field{number}{3}
+    \field{pages}{3344–3353}
+    \field{title}{Predicting convective blueshift and radial-velocity
+  dispersion due to granulation for FGK stars}
+    \verb{url}
+    \verb http://dx.doi.org/10.1093/mnras/stad2393
+    \endverb
+    \field{volume}{525}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{month}{08}
     \field{year}{2023}
-    \field{urlday}{30}
-    \field{urlmonth}{03}
-    \field{urlyear}{2025}
+  \endentry
+
+  \entry{Gray_2009}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=GD}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{GD1}
+    \strng{fullhash}{GD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0004-637X}
+    \field{number}{2}
+    \field{pages}{1032}
+    \field{title}{The Third Signature of Stellar Granulation}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/0004-637X/697/2/1032
+    \endverb
+    \field{volume}{697}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{month}{05}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Liou_2002}{incollection}{}{}
+    \name{editor}{1}{}{%
+      {{hash=LK}{%
+         family={Liou},
+         familyi={L\bibinitperiod},
+         given={K.N.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic Press}%
+    }
+    \strng{namehash}{LK1}
+    \strng{fullhash}{LK1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{An Introduction to Atmospheric Radiation}
+    \field{issn}{0074-6142}
+    \field{pages}{1\bibrangedash 36}
+    \field{series}{International Geophysics}
+    \field{title}{Chapter 1 - Fundamentals of Radiation for Atmospheric
+  Applications}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S007461420280016X
+    \endverb
+    \field{volume}{84}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Hamilton_1999}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=HD}{%
+         family={Hamilton},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LJB}{%
+         family={Lester},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima B.},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{HDLJB1}
+    \strng{fullhash}{HDLJB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{1538-3873}
+    \field{number}{763}
+    \field{pages}{1132}
+    \field{title}{A Technique for the Study of Stellar Convection: The Visible
+  Solar Flux Spectrum}
+    \verb{url}
+    \verb https://iopscience.iop.org/article/10.1086/316421/meta
+    \endverb
+    \field{volume}{111}
+    \field{journaltitle}{Publications of the Astronomical Society of the
+  Pacific}
+    \field{month}{09}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Gray_Pugh_2012}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=GDF}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima F.},
+         giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pugh},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{GDFPT1}
+    \strng{fullhash}{GDFPT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{1538-3881}
+    \field{number}{4}
+    \field{pages}{92}
+    \field{title}{The Third Signature of Granulation in Bright-Giant and
+  Supergiant Stars}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/0004-6256/143/4/92
+    \endverb
+    \field{volume}{143}
+    \field{journaltitle}{The Astronomical Journal}
+    \field{month}{03}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Gray_Oostra_2018}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=GDF}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={D.\bibnamedelima F.},
+         giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=OB}{%
+         family={Oostra},
+         familyi={O\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GDFOB1}
+    \strng{fullhash}{GDFOB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0004-637X}
+    \field{pages}{42}
+    \field{title}{The Solar-Flux Third Granulation Signature}
+    \verb{url}
+    \verb https://ui.adsabs.harvard.edu/abs/2018ApJ...852...42G
+    \endverb
+    \field{volume}{852}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{month}{01}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Nave_1994}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=NG}{%
+         family={Nave},
+         familyi={N\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Johansson},
+         familyi={J\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LRCM}{%
+         family={Learner},
+         familyi={L\bibinitperiod},
+         given={R.\bibnamedelima C.\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=TAP}{%
+         family={Thorne},
+         familyi={T\bibinitperiod},
+         given={A.\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BJW}{%
+         family={Brault},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP}%
+    }
+    \strng{namehash}{NG+1}
+    \strng{fullhash}{NGJSLRCMTAPBJW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0067-0049}
+    \field{pages}{221}
+    \field{title}{A New Multiplet Table for Fe I}
+    \verb{url}
+    \verb https://ui.adsabs.harvard.edu/abs/1994ApJS...94..221N
+    \endverb
+    \field{volume}{94}
+    \field{journaltitle}{The Astrophysical Journal Supplement Series}
+    \field{month}{09}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Reiners_2016}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=RA}{%
+         family={Reiners},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mrotzek},
+         familyi={M\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LU}{%
+         family={Lemke},
+         familyi={L\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hinrichs},
+         familyi={H\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Reinsch},
+         familyi={R\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{RA+1}
+    \strng{fullhash}{RAMNLUHJRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0004-6361, 1432-0746}
+    \field{pages}{A65}
+    \field{title}{The IAG Solar Flux Atlas: Accurate Wavelengths and Absolute
+  Convective Blueshift in Standard Solar Spectra}
+    \verb{url}
+    \verb https://www.aanda.org/articles/aa/abs/2016/03/aa27530-15/aa27530-15.h
+    \verb tml
+    \endverb
+    \field{volume}{587}
+    \field{journaltitle}{Astronomy and Astrophysics}
+    \field{month}{03}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Priest_1982}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=PE}{%
+         family={Priest},
+         familyi={P\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Kluwer}%
+    }
+    \strng{namehash}{PE1}
+    \strng{fullhash}{PE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-3-527-40374-5}
+    \field{title}{Solar Magnetohydrodynamics}
+    \field{year}{1982}
+  \endentry
+
+  \entry{Allende_Garcia_1998}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=APC}{%
+         family={Allende\bibnamedelima Prieto},
+         familyi={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GLRJ}{%
+         family={Garcia\bibnamedelima Lopez},
+         familyi={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={R.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EDP}%
+    }
+    \strng{namehash}{APCGLRJ1}
+    \strng{fullhash}{APCGLRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0365-0138}
+    \field{pages}{41\bibrangedash 44}
+    \field{title}{Fe I line shifts in the optical spectrum of the Sun}
+    \verb{url}
+    \verb https://ui.adsabs.harvard.edu/abs/1998AAS..129...41A
+    \endverb
+    \field{volume}{129}
+    \field{journaltitle}{Astronomy and Astrophysics Supplement Series}
+    \field{month}{04}
+    \field{year}{1998}
   \endentry
 \enddatalist
 \endinput

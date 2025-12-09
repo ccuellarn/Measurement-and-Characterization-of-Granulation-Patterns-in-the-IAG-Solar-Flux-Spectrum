@@ -333,6 +333,19 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-e
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-es.ini
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\tgpagella.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\tgpagella.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\eulerpx\eulerpx.sty
@@ -375,6 +388,14 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgf
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
@@ -386,8 +407,12 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.st
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-beamer.sto
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-beamer.sto
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-beamer.sto
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\physics\physics.sty
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\physics\physics.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss1095.tfm
@@ -397,6 +422,9 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerfontth
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerfontthemeprofessionalfonts.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\t1qpl.fd
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\t1qpl.fd
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\t1qpl.fd
@@ -435,28 +463,51 @@ OUTPUT main.out
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-basic-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-basic-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-basic-dictionary-English.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-basic-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-basic-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-basic-dictionary-Spanish.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-bibliography-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-bibliography-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-bibliography-dictionary-English.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-bibliography-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-bibliography-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-bibliography-dictionary-Spanish.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-environment-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-environment-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-environment-dictionary-English.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-environment-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-environment-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-environment-dictionary-Spanish.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-months-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-months-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-months-dictionary-English.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-months-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-months-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-months-dictionary-Spanish.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-numbers-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-numbers-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-numbers-dictionary-English.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-numbers-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-numbers-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-numbers-dictionary-Spanish.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-theorem-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-theorem-dictionary-English.dict
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-theorem-dictionary-English.dict
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-theorem-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-theorem-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator-theorem-dictionary-Spanish.dict
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 OUTPUT main-blx.bib
 INPUT main.bbl
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
 INPUT .\main.nav
 INPUT .\main.nav
 INPUT main.nav
@@ -468,12 +519,19 @@ INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplb.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplb.tfm
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ot1qpl.fd
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ot1qpl.fd
@@ -576,17 +634,66 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\eulervm\zeur
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplb.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplb.tfm
 INPUT C:\Users\clauw\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ec.enc
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newpx\px-lms.enc
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ec.enc
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT .\Images\Granulation pattern.jpg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT .\Images\Granulation pattern Ellwarth.jpg
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplri.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt0800.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr-sc.tfm
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-t1.enc
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ec-sc.enc
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\Images\Sun interior structure.jpg
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplri.tfm
+INPUT .\Images\Convective blueshift.png
+INPUT .\Images\Convective blueshift.png
+INPUT .\Images\Convective blueshift.png
+INPUT .\Images\Convective blueshift.png
+INPUT .\Images\Convective blueshift.png
+INPUT .\Images\Convective blueshift.png
+INPUT .\Images\Convective blueshift.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
@@ -599,6 +706,487 @@ INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
+INPUT .\images\doppler-broadening.png
+INPUT .\images\doppler-broadening.png
+INPUT .\images\doppler-broadening.png
+INPUT .\images\doppler-broadening.png
+INPUT .\images\doppler-broadening.png
+INPUT .\images\doppler-broadening.png
+INPUT .\images\doppler-broadening.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\vf\public\eulervm\zeurm10.vf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-rm.enc
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\vf\public\eulervm\zeurm7.vf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\vf\public\newpx\zplmia.vf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\pxmiaX.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaSTbb.tfm
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Results\Second signature\C_bisector_individual.pdf
+INPUT .\images\Results\Second signature\C_bisector_individual.pdf
+INPUT .\images\Results\Second signature\C_bisector_individual.pdf
+INPUT .\images\Results\Second signature\C_bisector_individual.pdf
+INPUT .\images\Results\Second signature\C_bisector_individual.pdf
+INPUT .\images\Results\Second signature\C_bisector_individual.pdf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\rm-qplr.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplmi.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsy.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplexx.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplmia.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsym.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsyc.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplexa.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\eulervm\zeurm7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\vf\public\newpx\zplexx.vf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxexx.vf
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txexs.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txex-bar.tfm
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Granulation pattern Ellwarth.jpg
+INPUT .\images\Granulation pattern Ellwarth.jpg
+INPUT .\images\Granulation pattern Ellwarth.jpg
+INPUT .\images\Granulation pattern Ellwarth.jpg
+INPUT .\images\Granulation pattern Ellwarth.jpg
+INPUT .\images\Granulation pattern Ellwarth.jpg
+INPUT .\images\Granulation pattern Ellwarth.jpg
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Standard curve gray.jpg
+INPUT .\Images\Standard curve gray.jpg
+INPUT .\Images\Standard curve gray.jpg
+INPUT .\Images\Standard curve gray.jpg
+INPUT .\Images\Standard curve gray.jpg
+INPUT .\Images\Standard curve gray.jpg
+INPUT .\Images\Standard curve gray.jpg
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\Images\Limb darkening.jpg
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\Images\Results\First signature\Curvature_ALL.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\Images\Results\First signature\Curvature_NIR.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\First signature\Curvature_VIS_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_VIS_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_VIS.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\First signature\Curvature_SPA_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_SPA_rectangle.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\Images\Results\First signature\Curvature_Slope_SPA.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector_NIR.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_VIS.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_NIR.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_NIR.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\Images\Results\Second signature\Bisector slope_SPA.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_VIS.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_SPA.pdf
+INPUT .\Images\Results\Second signature\Velocity bins bisector plot_SPA.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\GranulationPattern_VIS.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_VIS.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_VIS.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_VIS.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_VIS.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_VIS.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_NIR.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_NIR.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_NIR.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_NIR.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_NIR.pdf
+INPUT .\Images\Results\Third signature\GranulationPattern_NIR.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\Velocity bins NIR_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins NIR_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins NIR_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins NIR_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins NIR_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins NIR_plot.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins VIS_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins VIS_plot.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins SPA_plot.pdf
+INPUT .\Images\Results\Third signature\Velocity bins SPA_plot.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\velocity coeficients NIR.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients NIR.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients NIR.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients NIR.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients NIR.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients NIR.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\velocity coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\velocity coeficients SPA.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\Images\Results\Third signature\color curves VIS.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\Images\Results\Third signature\color curves NIR.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff VIS.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
+INPUT .\Images\Results\Third signature\color characterization coeff NIR.pdf
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
@@ -641,10 +1229,51 @@ INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
+INPUT .\images\Cute image.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\rm-qplr.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\rm-qplr.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\rm-qplr.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplmi.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplmi.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplmi.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsy.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsy.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsy.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplexx.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplexx.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplexx.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplmia.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplmia.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplmia.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsym.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsym.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsym.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsyc.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsyc.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplsyc.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplexa.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplexa.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplexa.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\eulervm\zeurm10.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\eulervm\zeurm7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\eulervm\zeurm7.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplb.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplb.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
@@ -653,6 +1282,18 @@ INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std VIS.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
+INPUT .\Images\Results\Statistics\variance std NIR.pdf
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
@@ -661,6 +1302,18 @@ INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes VIS.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
+INPUT .\Images\Results\Statistics\variance slopes NIR.pdf
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
@@ -669,6 +1322,18 @@ INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window VIS.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
+INPUT .\Images\Results\Statistics\optimal window NIR.pdf
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
@@ -677,6 +1342,13 @@ INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
+INPUT .\Images\CBS proof.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
@@ -713,15 +1385,146 @@ INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr-sc.tfm
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity lower potential_NIR.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_NIR.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\Images\Results\Third signature\Velocity bins energy plot_VIS.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients VIS.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\Images\Results\Third signature\energy coeficients SPA.pdf
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\Images\View_1st_visualizer.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\Images\View_2nd_visualizaer.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplri.tfm
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr-sc.tfm
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ec-sc.enc
-INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-t1.enc
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
+INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
 INPUT .\images\Logo_White.png
@@ -742,6 +1545,12 @@ INPUT .\main.out
 INPUT .\main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eurm10.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eurm10.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eurm7.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eurm7.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\newpx\pxmiaX.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\newpx\pxmiaX.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\newpx\pxsys.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\newpx\pxsys.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qplb.pfb
@@ -750,7 +1559,11 @@ INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\q
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qplr.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qplri.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qplri.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt0800.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt0800.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1095.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1095.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txexs.pfb
+INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txexs.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsym.pfb
 INPUT C:\Users\clauw\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsym.pfb

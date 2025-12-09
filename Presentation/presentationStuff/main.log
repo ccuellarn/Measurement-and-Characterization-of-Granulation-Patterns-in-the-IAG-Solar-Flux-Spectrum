@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  30 NOV 2025 22:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.26)  8 DEC 2025 22:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -781,7 +781,44 @@ Package biblatex Info: ... and expl3
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\tgpagella.sty
+)) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count485
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
+\U@D=\dimen302
+\l@unhyphenated=\language80
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read4
+LaTeX Info: Redefining \textlatin on input line 3930.
+\bbl@dirlevel=\count486
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 12.
+)
+\es@quottoks=\toks46
+\es@quotdepth=\count487
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 4.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 4.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\tgpagella.sty
 Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/eulerpx\eulerpx.sty
 Package: eulerpx 2022/07/14 v1.0
@@ -790,20 +827,20 @@ Package: `eulerpx' v1.0 <2022/07/14>
 (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks46
-\XKV@tempa@toks=\toks47
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
 )
-\XKV@depth=\count485
+\XKV@depth=\count488
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\newpxmath.sty
 Package: newpxmath 2025/06/07 v1.542 LaTeX math support for newpx (Michael Sharpe)
  `newpxmath' v1.542, 2025/06/07 Math macros based on pxfonts (msharpe) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\px@tA=\toks48
-\px@tB=\toks49
-\px@su=\read4
-\px@Isdigit=\count486
+\px@tA=\toks49
+\px@tB=\toks50
+\px@su=\read5
+\px@Isdigit=\count489
 
 amsthm NOT loaded
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 222.
@@ -885,9 +922,9 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \symlargesymbolsPXA=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `largesymbolsPXA' in version `bold'
 (Font)                  U/npxexa/m/n --> U/npxexa/b/n on input line 345.
-\px@cntz=\count487
-\px@IsAlNum=\count488
-\px@sbptoks=\toks50
+\px@cntz=\count490
+\px@IsAlNum=\count491
+\px@sbptoks=\toks51
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 500.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 501.
 LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 502.
@@ -1013,49 +1050,65 @@ File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen302
-\pgf@nodesepend=\dimen303
+\pgf@nodesepstart=\dimen303
+\pgf@nodesepend=\dimen304
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 )) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen304
-\pgffor@skip=\dimen305
-\pgffor@stack=\toks51
-\pgffor@toks=\toks52
+\pgffor@iter=\dimen305
+\pgffor@skip=\dimen306
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
 )) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count489
-\pgfplotmarksize=\dimen306
+\pgf@plot@mark@count=\count492
+\pgfplotmarksize=\dimen307
 )
-\tikz@lastx=\dimen307
-\tikz@lasty=\dimen308
-\tikz@lastxsaved=\dimen309
-\tikz@lastysaved=\dimen310
-\tikz@lastmovetox=\dimen311
-\tikz@lastmovetoy=\dimen312
-\tikzleveldistance=\dimen313
-\tikzsiblingdistance=\dimen314
+\tikz@lastx=\dimen308
+\tikz@lasty=\dimen309
+\tikz@lastxsaved=\dimen310
+\tikz@lastysaved=\dimen311
+\tikz@lastmovetox=\dimen312
+\tikz@lastmovetoy=\dimen313
+\tikzleveldistance=\dimen314
+\tikzsiblingdistance=\dimen315
 \tikz@figbox=\box79
 \tikz@figbox@bg=\box80
 \tikz@tempbox=\box81
 \tikz@tempbox@bg=\box82
-\tikztreelevel=\count490
-\tikznumberofchildren=\count491
-\tikznumberofcurrentchild=\count492
-\tikz@fig@count=\count493
+\tikztreelevel=\count493
+\tikznumberofchildren=\count494
+\tikznumberofcurrentchild=\count495
+\tikz@fig@count=\count496
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count494
-\pgfmatrixcurrentcolumn=\count495
-\pgf@matrix@numberofcolumns=\count496
+\pgfmatrixcurrentrow=\count497
+\pgfmatrixcurrentcolumn=\count498
+\pgf@matrix@numberofcolumns=\count499
 )
-\tikz@expandcount=\count497
+\tikz@expandcount=\count500
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+))) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count501
+\csq@gtype=\count502
+\csq@glevel=\count503
+\csq@qlevel=\count504
+\csq@maxlvl=\count505
+\csq@tshold=\count506
+\csq@ltx@everypar=\toks54
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip89
 \RaggedLeftLeftskip=\skip90
@@ -1077,81 +1130,129 @@ Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen315
-\captionmargin=\dimen316
-\caption@leftmargin=\dimen317
-\caption@rightmargin=\dimen318
-\caption@width=\dimen319
-\caption@indent=\dimen320
-\caption@parindent=\dimen321
-\caption@hangindent=\dimen322
+\caption@tempdima=\dimen316
+\captionmargin=\dimen317
+\caption@leftmargin=\dimen318
+\caption@rightmargin=\dimen319
+\caption@width=\dimen320
+\caption@indent=\dimen321
+\caption@parindent=\dimen322
+\caption@hangindent=\dimen323
 Package caption Info: beamer document class detected.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the beamer document classes (AR)
 ))
-\c@caption@flags=\count498
-\c@continuedfloat=\count499
+\c@caption@flags=\count507
+\c@continuedfloat=\count508
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count500
+\c@subfigure=\count509
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count501
-) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
-Package: physics 
-) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+\c@subtable=\count510
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count511
+\l__siunitx_number_exponent_fixed_int=\count512
+\l__siunitx_number_min_decimal_int=\count513
+\l__siunitx_number_min_integer_int=\count514
+\l__siunitx_number_round_precision_int=\count515
+\l__siunitx_number_lower_threshold_int=\count516
+\l__siunitx_number_upper_threshold_int=\count517
+\l__siunitx_number_group_first_int=\count518
+\l__siunitx_number_group_size_int=\count519
+\l__siunitx_number_group_minimum_int=\count520
+\l__siunitx_angle_tmp_dim=\dimen324
+\l__siunitx_angle_marker_box=\box83
+\l__siunitx_angle_unit_box=\box84
+\l__siunitx_compound_count_int=\count521
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box85
+\l__siunitx_table_tmp_dim=\dimen325
+\l__siunitx_table_column_width_dim=\dimen326
+\l__siunitx_table_integer_box=\box86
+\l__siunitx_table_decimal_box=\box87
+\l__siunitx_table_uncert_box=\box88
+\l__siunitx_table_before_box=\box89
+\l__siunitx_table_after_box=\box90
+\l__siunitx_table_before_dim=\dimen327
+\l__siunitx_table_carry_dim=\dimen328
+\l__siunitx_unit_tmp_int=\count522
+\l__siunitx_unit_position_int=\count523
+\l__siunitx_unit_total_int=\count524
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen329
+\ar@mcellbox=\box91
+\extrarowheight=\dimen330
+\NC@list=\toks55
+\extratabsurround=\skip103
+\backup@length=\skip104
+\ar@cellbox=\box92
+)) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemeserif.sty) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemeprofessionalfonts.sty) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-\@quotelevel=\count502
-\@quotereset=\count503
-LaTeX Font Info:    Trying to load font information for T1+qpl on input line 62.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'spanish'.
+LaTeX Font Info:    Trying to load font information for T1+qpl on input line 73.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qpl.fd
 File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
-) (main.aux)
+) (main.aux
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 15.
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 62.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 62.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 73.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 73.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 62.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 62.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 73.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 62.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 62.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 73.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 62.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 62.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 73.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    ... okay on input line 73.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1189,47 +1290,59 @@ LaTeX Font Info:    ... okay on input line 62.
 
 (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count504
-\scratchdimen=\dimen323
-\scratchbox=\box83
-\nofMPsegments=\count505
-\nofMParguments=\count506
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count507
-\MPscratchDim=\dimen324
-\MPnumerator=\count508
-\makeMPintoPDFobject=\count509
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count525
+\scratchdimen=\dimen331
+\scratchbox=\box93
+\nofMPsegments=\count526
+\nofMParguments=\count527
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count528
+\MPscratchDim=\dimen332
+\MPnumerator=\count529
+\makeMPintoPDFobject=\count530
+\everyMPtoPDFconversion=\toks57
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 73.
  (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-Spanish.dict
+Dictionary: translator-basic-dictionary, Language: Spanish 
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-Spanish.dict
+Dictionary: translator-bibliography-dictionary, Language: Spanish 
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-environment-dictionary-Spanish.dict
+Dictionary: translator-environment-dictionary, Language: Spanish 
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-months-dictionary-Spanish.dict
+Dictionary: translator-months-dictionary, Language: Spanish 
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-numbers-dictionary-Spanish.dict
+Dictionary: translator-numbers-dictionary, Language: Spanish 
 ) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
+) (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-Spanish.dict
+Dictionary: translator-theorem-dictionary, Language: Spanish 
 )
-LaTeX Info: Command `\dddot' is already robust on input line 62.
-LaTeX Info: Command `\ddddot' is already robust on input line 62.
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+LaTeX Info: Command `\dddot' is already robust on input line 73.
+LaTeX Info: Command `\ddddot' is already robust on input line 73.
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lbx
+File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1241,417 +1354,1364 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'PhysRevApplied.19.054042':
-(biblatex)                - Invalid format of field 'month'.
-
-)
-Package biblatex Info: Reference section=0 on input line 62.
-Package biblatex Info: Reference segment=0 on input line 62.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 73.
+Package biblatex Info: Reference segment=0 on input line 73.
+LaTeX Info: Redefining \sptext on input line 73.
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+ (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
+File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 73.
  (main.nav)
 <images/Logo_White.png, id=16, 186.6975pt x 62.48344pt>
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 62.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 73.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 92.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
-LaTeX Font Info:    Trying to load font information for OT1+qpl on input line 92.
+Package pdftex.def Info: images/Logo_White.png  used on input line 106.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<images/Cute image.png, id=18, 1422.81563pt x 509.65407pt>
+File: images/Cute image.png Graphic file (type png)
+<use images/Cute image.png>
+Package pdftex.def Info: images/Cute image.png  used on input line 106.
+(pdftex.def)             Requested size: 455.24408pt x 163.06929pt.
+LaTeX Font Info:    Trying to load font information for OT1+qpl on input line 106.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ot1qpl.fd
 File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
 )
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 106.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 7.3pt on input line 92.
+(Font)              scaled to size 7.3pt on input line 106.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 5.5pt on input line 92.
+(Font)              scaled to size 5.5pt on input line 106.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 106.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 7.3pt on input line 92.
+(Font)              scaled to size 7.3pt on input line 106.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 5.5pt on input line 92.
+(Font)              scaled to size 5.5pt on input line 106.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 106.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 7.3pt on input line 92.
+(Font)              scaled to size 7.3pt on input line 106.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 5.5pt on input line 92.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
+(Font)              scaled to size 5.5pt on input line 106.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 106.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 106.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 92.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 106.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 7.3pt on input line 92.
+(Font)              scaled to size 7.3pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 5.5pt on input line 92.
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 92.
+(Font)              scaled to size 5.5pt on input line 106.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 106.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 7.3pt on input line 92.
+(Font)              scaled to size 7.3pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 5.5pt on input line 92.
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 92.
+(Font)              scaled to size 5.5pt on input line 106.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 106.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/newpx\unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 7.3pt on input line 92.
+(Font)              scaled to size 7.3pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 5.5pt on input line 92.
+(Font)              scaled to size 5.5pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 7.3pt on input line 92.
+(Font)              scaled to size 7.3pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 5.5pt on input line 92.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 92.
+(Font)              scaled to size 5.5pt on input line 106.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 106.
  (C:\Users\clauw\AppData\Local\Programs\MiKTeX\tex/latex/eulervm\uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 7.3pt on input line 92.
+(Font)              scaled to size 7.3pt on input line 106.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 5.5pt on input line 92.
+(Font)              scaled to size 5.5pt on input line 106.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 6.5pt on input line 92.
+(Font)              scaled to size 6.5pt on input line 106.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 6.5pt on input line 92.
+(Font)              scaled to size 6.5pt on input line 106.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 6.5pt on input line 92.
+(Font)              scaled to size 6.5pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 6.5pt on input line 92.
+(Font)              scaled to size 6.5pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 6.5pt on input line 92.
+(Font)              scaled to size 6.5pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 6.5pt on input line 92.
+(Font)              scaled to size 6.5pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 6.5pt on input line 92.
+(Font)              scaled to size 6.5pt on input line 106.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 6.5pt on input line 92.
+(Font)              scaled to size 6.5pt on input line 106.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 106.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 106.
 LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
-(Font)              scaled to size 6.1pt on input line 92.
+(Font)              scaled to size 6.1pt on input line 106.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 106.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 106.
 LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
-(Font)              scaled to size 6.1pt on input line 92.
+(Font)              scaled to size 6.1pt on input line 106.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 106.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 106.
 LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
-(Font)              scaled to size 6.1pt on input line 92.
+(Font)              scaled to size 6.1pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
-(Font)              scaled to size 6.1pt on input line 92.
+(Font)              scaled to size 6.1pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
-(Font)              scaled to size 6.1pt on input line 92.
+(Font)              scaled to size 6.1pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
-(Font)              scaled to size 6.1pt on input line 92.
+(Font)              scaled to size 6.1pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
-(Font)              scaled to size 6.1pt on input line 92.
+(Font)              scaled to size 6.1pt on input line 106.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 106.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 106.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 6.1pt on input line 92.
+(Font)              scaled to size 6.1pt on input line 106.
 
 
 [1
 
-{C:/Users/clauw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/px-lms.enc}]
+{C:/Users/clauw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/px-lms.enc}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc} <./images/Cute image.png>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 104.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 129.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Granulation pattern.jpg, id=51, 242.70676pt x 92.7465pt>
+File: Images/Granulation pattern.jpg Graphic file (type jpg)
+<use Images/Granulation pattern.jpg>
+Package pdftex.def Info: Images/Granulation pattern.jpg  used on input line 129.
+(pdftex.def)             Requested size: 164.91345pt x 63.01866pt.
+<Images/Granulation pattern Ellwarth.jpg, id=54, 855.195pt x 528.17325pt>
+File: Images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
+<use Images/Granulation pattern Ellwarth.jpg>
+Package pdftex.def Info: Images/Granulation pattern Ellwarth.jpg  used on input line 129.
+(pdftex.def)             Requested size: 183.23842pt x 113.16818pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 104.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 129.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [2
 
- <./images/Logo_White.png>]
+{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec-sc.enc} <./images/Logo_White.png> <./Images/Granulation pattern.jpg> <./Images/Granulation pattern Ellwarth.jpg>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 113.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 156.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Sun interior structure.jpg, id=91, 539.616pt x 476.982pt>
+File: Images/Sun interior structure.jpg Graphic file (type jpg)
+<use Images/Sun interior structure.jpg>
+Package pdftex.def Info: Images/Sun interior structure.jpg  used on input line 156.
+(pdftex.def)             Requested size: 151.36584pt x 133.79422pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 113.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 156.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [3
 
-]
+ <./Images/Sun interior structure.jpg>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 125.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 172.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Convective blueshift.png, id=123, 1027.84pt x 452.69125pt>
+File: Images/Convective blueshift.png Graphic file (type png)
+<use Images/Convective blueshift.png>
+Package pdftex.def Info: Images/Convective blueshift.png  used on input line 172.
+(pdftex.def)             Requested size: 211.11896pt x 92.98189pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 125.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 172.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [4
 
-]
+ <./Images/Convective blueshift.png>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 137.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 205.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 137.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 205.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [5
 
 ]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 152.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 239.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<images/doppler-broadening.png, id=184, 456.70625pt x 344.28625pt>
+File: images/doppler-broadening.png Graphic file (type png)
+<use images/doppler-broadening.png>
+Package pdftex.def Info: images/doppler-broadening.png  used on input line 239.
+(pdftex.def)             Requested size: 135.434pt x 102.09415pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 152.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 239.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [6
 
-]
+{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.enc} <./images/doppler-broadening.png>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 169.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 268.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<images/Results/Second signature/C_bisector_individual.pdf, id=220, 988.98047pt x 563.87225pt>
+File: images/Results/Second signature/C_bisector_individual.pdf Graphic file (type pdf)
+<use images/Results/Second signature/C_bisector_individual.pdf>
+Package pdftex.def Info: images/Results/Second signature/C_bisector_individual.pdf  used on input line 268.
+(pdftex.def)             Requested size: 191.20518pt x 109.01251pt.
+LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
+(Font)              scaled to size 6.2pt on input line 268.
+LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
+(Font)              scaled to size 6.2pt on input line 268.
+LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
+(Font)              scaled to size 6.2pt on input line 268.
+LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
+(Font)              scaled to size 6.2pt on input line 268.
+LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
+(Font)              scaled to size 6.2pt on input line 268.
+LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
+(Font)              scaled to size 6.2pt on input line 268.
+LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
+(Font)              scaled to size 6.2pt on input line 268.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 6.2pt on input line 268.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 169.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 268.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [7
 
-]
+ <./images/Results/Second signature/C_bisector_individual.pdf>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 179.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 295.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<images/Granulation pattern Ellwarth.jpg, id=311, 855.195pt x 528.17325pt>
+File: images/Granulation pattern Ellwarth.jpg Graphic file (type jpg)
+<use images/Granulation pattern Ellwarth.jpg>
+Package pdftex.def Info: images/Granulation pattern Ellwarth.jpg  used on input line 295.
+(pdftex.def)             Requested size: 169.2951pt x 104.55283pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 179.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 295.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [8
 
-]
+ <./images/Granulation pattern Ellwarth.jpg>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 187.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 325.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+Underfull \hbox (badness 1147) in paragraph at lines 325--325
+\T1/qpl/m/n/10.95 lí-nea so-bre la mis-ma cur-va de
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 325--325
+[]\T1/qpl/m/n/10.95 El he-cho ob-ser-va-cio-nal de que
+ []
+
+<Images/Standard curve gray.jpg, id=341, 615.4995pt x 533.5935pt>
+File: Images/Standard curve gray.jpg Graphic file (type jpg)
+<use Images/Standard curve gray.jpg>
+Package pdftex.def Info: Images/Standard curve gray.jpg  used on input line 325.
+(pdftex.def)             Requested size: 155.35216pt x 134.67633pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 187.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 325.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [9
 
-]
+ <./Images/Standard curve gray.jpg>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 195.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 337.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 195.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 337.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [10
 
 ]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 206.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 353.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+File: images/Cute image.png Graphic file (type png)
+<use images/Cute image.png>
+Package pdftex.def Info: images/Cute image.png  used on input line 353.
+(pdftex.def)             Requested size: 455.24408pt x 163.06929pt.
 
 
-File: images/Logo_White.png Graphic file (type png)
-<use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 206.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 [11
 
 ]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 216.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 365.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 216.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 365.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [12
 
 ]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 227.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 398.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 227.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 398.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [13
 
 ]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 236.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 415.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Limb darkening.jpg, id=481, 673.3155pt x 551.661pt>
+File: Images/Limb darkening.jpg Graphic file (type jpg)
+<use Images/Limb darkening.jpg>
+Package pdftex.def Info: Images/Limb darkening.jpg  used on input line 415.
+(pdftex.def)             Requested size: 139.42093pt x 114.22762pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 236.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 415.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [14
 
-]
+ <./Images/Limb darkening.jpg>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 246.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 427.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 246.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 427.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [15
 
 ]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 254.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 443.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+File: images/Cute image.png Graphic file (type png)
+<use images/Cute image.png>
+Package pdftex.def Info: images/Cute image.png  used on input line 443.
+(pdftex.def)             Requested size: 455.24408pt x 163.06929pt.
 
 
-File: images/Logo_White.png Graphic file (type png)
-<use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 254.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
 [16
 
 ]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 261.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 452.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/First signature/Curvature_ALL.pdf, id=562, 831.93207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_ALL.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_ALL.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_ALL.pdf  used on input line 452.
+(pdftex.def)             Requested size: 278.83578pt x 161.67447pt.
+
+Overfull \vbox (1.82642pt too high) detected at line 452
+ []
+
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 261.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 452.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [17
 
-]
+ <./Images/Results/First signature/Curvature_ALL.pdf>]
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 266.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 469.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/First signature/Curvature_VIS.pdf, id=635, 823.90207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_VIS.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_VIS.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_VIS.pdf  used on input line 469.
+(pdftex.def)             Requested size: 191.20082pt x 111.93414pt.
+<Images/Results/First signature/Curvature_NIR.pdf, id=636, 819.88707pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_NIR.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_NIR.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_NIR.pdf  used on input line 469.
+(pdftex.def)             Requested size: 191.20082pt x 112.48616pt.
 
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 266.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 469.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [18
 
-{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+ <./Images/Results/First signature/Curvature_VIS.pdf> <./Images/Results/First signature/Curvature_NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 488.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/First signature/Curvature_VIS_rectangle.pdf, id=761, 823.90207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_VIS_rectangle.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_VIS_rectangle.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_VIS_rectangle.pdf  used on input line 488.
+(pdftex.def)             Requested size: 191.20082pt x 111.93414pt.
+<Images/Results/First signature/Curvature_Slope_VIS.pdf, id=762, 823.90207pt x 501.10837pt>
+File: Images/Results/First signature/Curvature_Slope_VIS.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_Slope_VIS.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_Slope_VIS.pdf  used on input line 488.
+(pdftex.def)             Requested size: 191.20082pt x 116.28474pt.
+
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 266.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 488.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [19
 
+ <./Images/Results/First signature/Curvature_VIS_rectangle.pdf> <./Images/Results/First signature/Curvature_Slope_VIS.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 506.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/First signature/Curvature_SPA_rectangle.pdf, id=893, 831.93207pt x 482.36023pt>
+File: Images/Results/First signature/Curvature_SPA_rectangle.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_SPA_rectangle.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_SPA_rectangle.pdf  used on input line 506.
+(pdftex.def)             Requested size: 191.20082pt x 110.85954pt.
+<Images/Results/First signature/Curvature_Slope_SPA.pdf, id=894, 823.90207pt x 501.10837pt>
+File: Images/Results/First signature/Curvature_Slope_SPA.pdf Graphic file (type pdf)
+<use Images/Results/First signature/Curvature_Slope_SPA.pdf>
+Package pdftex.def Info: Images/Results/First signature/Curvature_Slope_SPA.pdf  used on input line 506.
+(pdftex.def)             Requested size: 191.20082pt x 116.28474pt.
 
-]
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 266.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
+Package pdftex.def Info: images/Logo_White.png  used on input line 506.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
 [20
 
+ <./Images/Results/First signature/Curvature_SPA_rectangle.pdf> <./Images/Results/First signature/Curvature_Slope_SPA.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 525.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 525.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[21
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 542.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Second signature/Bisector_VIS.pdf, id=1054, 820.24779pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector_VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector_VIS.pdf  used on input line 542.
+(pdftex.def)             Requested size: 191.20082pt x 112.43463pt.
+<Images/Results/Second signature/Bisector_NIR.pdf, id=1055, 828.27779pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector_NIR.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector_NIR.pdf  used on input line 542.
+(pdftex.def)             Requested size: 191.20082pt x 111.34532pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 542.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[22
+
+ <./Images/Results/Second signature/Bisector_VIS.pdf> <./Images/Results/Second signature/Bisector_NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 559.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Second signature/Bisector slope_VIS.pdf, id=1182, 832.29279pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector slope_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector slope_VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector slope_VIS.pdf  used on input line 559.
+(pdftex.def)             Requested size: 191.20082pt x 110.80803pt.
+<Images/Results/Second signature/Bisector slope_NIR.pdf, id=1183, 828.27779pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector slope_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector slope_NIR.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector slope_NIR.pdf  used on input line 559.
+(pdftex.def)             Requested size: 191.20082pt x 111.34532pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 559.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[23
+
+ <./Images/Results/Second signature/Bisector slope_VIS.pdf> <./Images/Results/Second signature/Bisector slope_NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 578.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Second signature/Bisector_SPA.pdf, id=1321, 820.24779pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector_SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector_SPA.pdf  used on input line 578.
+(pdftex.def)             Requested size: 191.20082pt x 112.43463pt.
+<Images/Results/Second signature/Bisector slope_SPA.pdf, id=1322, 840.32278pt x 482.36023pt>
+File: Images/Results/Second signature/Bisector slope_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Bisector slope_SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Bisector slope_SPA.pdf  used on input line 578.
+(pdftex.def)             Requested size: 191.20082pt x 109.74815pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 578.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[24
+
+ <./Images/Results/Second signature/Bisector_SPA.pdf> <./Images/Results/Second signature/Bisector slope_SPA.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 587.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf, id=1457, 2121.93118pt x 948.76173pt>
+File: Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf  used on input line 587.
+(pdftex.def)             Requested size: 378.42044pt x 169.19176pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 587.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[25
+
+ <./Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 598.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Second signature/Velocity bins bisector plot_SPA.pdf, id=1544, 2121.93118pt x 954.78423pt>
+File: Images/Results/Second signature/Velocity bins bisector plot_SPA.pdf Graphic file (type pdf)
+<use Images/Results/Second signature/Velocity bins bisector plot_SPA.pdf>
+Package pdftex.def Info: Images/Results/Second signature/Velocity bins bisector plot_SPA.pdf  used on input line 598.
+(pdftex.def)             Requested size: 378.42044pt x 170.26573pt.
+
+Overfull \vbox (0.91768pt too high) detected at line 598
+ []
+
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 598.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[26
+
+ <./Images/Results/Second signature/Velocity bins bisector plot_SPA.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 606.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 606.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[27
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 626.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/GranulationPattern_VIS.pdf, id=1657, 836.32347pt x 482.36023pt>
+File: Images/Results/Third signature/GranulationPattern_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/GranulationPattern_VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_VIS.pdf  used on input line 626.
+(pdftex.def)             Requested size: 191.20082pt x 110.27809pt.
+<Images/Results/Third signature/GranulationPattern_NIR.pdf, id=1658, 844.35347pt x 482.36023pt>
+File: Images/Results/Third signature/GranulationPattern_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/GranulationPattern_NIR.pdf>
+Package pdftex.def Info: Images/Results/Third signature/GranulationPattern_NIR.pdf  used on input line 626.
+(pdftex.def)             Requested size: 191.20082pt x 109.22559pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 626.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[28
+
+ <./Images/Results/Third signature/GranulationPattern_VIS.pdf> <./Images/Results/Third signature/GranulationPattern_NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 635.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/Velocity bins NIR_plot.pdf, id=1792, 1480.5277pt x 804.35468pt>
+File: Images/Results/Third signature/Velocity bins NIR_plot.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins NIR_plot.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins NIR_plot.pdf  used on input line 635.
+(pdftex.def)             Requested size: 298.75394pt x 162.30408pt.
+
+Overfull \vbox (2.45602pt too high) detected at line 635
+ []
+
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 635.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[29
+
+ <./Images/Results/Third signature/Velocity bins NIR_plot.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 644.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/Velocity bins VIS_plot.pdf, id=1877, 1874.8951pt x 922.66068pt>
+File: Images/Results/Third signature/Velocity bins VIS_plot.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins VIS_plot.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins VIS_plot.pdf  used on input line 644.
+(pdftex.def)             Requested size: 318.67209pt x 156.82208pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 644.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[30
+
+ <./Images/Results/Third signature/Velocity bins VIS_plot.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 654.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/Velocity bins SPA_plot.pdf, id=1965, 1884.93259pt x 922.66068pt>
+File: Images/Results/Third signature/Velocity bins SPA_plot.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins SPA_plot.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins SPA_plot.pdf  used on input line 654.
+(pdftex.def)             Requested size: 318.67209pt x 155.97736pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 654.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[31
+
+ <./Images/Results/Third signature/Velocity bins SPA_plot.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 663.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/velocity coeficients NIR.pdf, id=2055, 1281.11435pt x 705.31816pt>
+File: Images/Results/Third signature/velocity coeficients NIR.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/velocity coeficients NIR.pdf>
+Package pdftex.def Info: Images/Results/Third signature/velocity coeficients NIR.pdf  used on input line 663.
+(pdftex.def)             Requested size: 298.75394pt x 164.47984pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 663.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[32
+
+ <./Images/Results/Third signature/velocity coeficients NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 683.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/velocity coeficients VIS.pdf, id=2144, 983.99431pt x 705.31816pt>
+File: Images/Results/Third signature/velocity coeficients VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/velocity coeficients VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/velocity coeficients VIS.pdf  used on input line 683.
+(pdftex.def)             Requested size: 191.20082pt x 137.0468pt.
+<Images/Results/Third signature/velocity coeficients SPA.pdf, id=2145, 992.03436pt x 705.31816pt>
+File: Images/Results/Third signature/velocity coeficients SPA.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/velocity coeficients SPA.pdf>
+Package pdftex.def Info: Images/Results/Third signature/velocity coeficients SPA.pdf  used on input line 683.
+(pdftex.def)             Requested size: 191.20082pt x 135.93828pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 683.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[33
+
+ <./Images/Results/Third signature/velocity coeficients VIS.pdf> <./Images/Results/Third signature/velocity coeficients SPA.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 692.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 692.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[34
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 702.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/color curves VIS.pdf, id=2315, 1431.66191pt x 847.17064pt>
+File: Images/Results/Third signature/color curves VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/color curves VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/color curves VIS.pdf  used on input line 702.
+(pdftex.def)             Requested size: 290.78546pt x 172.06818pt.
+
+Overfull \vbox (2.72012pt too high) detected at line 702
+ []
+
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 702.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[35
+
+ <./Images/Results/Third signature/color curves VIS.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 711.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/color curves NIR.pdf, id=2410, 1423.3131pt x 847.17064pt>
+File: Images/Results/Third signature/color curves NIR.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/color curves NIR.pdf>
+Package pdftex.def Info: Images/Results/Third signature/color curves NIR.pdf  used on input line 711.
+(pdftex.def)             Requested size: 290.78546pt x 173.07648pt.
+
+Overfull \vbox (3.72842pt too high) detected at line 711
+ []
+
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 711.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[36
+
+ <./Images/Results/Third signature/color curves NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 731.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/color characterization coeff VIS.pdf, id=2503, 961.69603pt x 845.55835pt>
+File: Images/Results/Third signature/color characterization coeff VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/color characterization coeff VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/color characterization coeff VIS.pdf  used on input line 731.
+(pdftex.def)             Requested size: 187.21962pt x 164.60582pt.
+<Images/Results/Third signature/color characterization coeff NIR.pdf, id=2504, 1000.0744pt x 562.25996pt>
+File: Images/Results/Third signature/color characterization coeff NIR.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/color characterization coeff NIR.pdf>
+Package pdftex.def Info: Images/Results/Third signature/color characterization coeff NIR.pdf  used on input line 731.
+(pdftex.def)             Requested size: 187.21962pt x 105.25189pt.
+
+Overfull \vbox (5.75777pt too high) detected at line 731
+ []
+
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 731.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[37
+
+ <./Images/Results/Third signature/color characterization coeff VIS.pdf> <./Images/Results/Third signature/color characterization coeff NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 747.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 747.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[38
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 775.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 775.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[39
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 788.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 788.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[40
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 800.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 800.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[41
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 817.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+File: images/Cute image.png Graphic file (type png)
+<use images/Cute image.png>
+Package pdftex.def Info: images/Cute image.png  used on input line 817.
+(pdftex.def)             Requested size: 455.24408pt x 163.06929pt.
+
+
+[42
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 828.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 828.
+LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 828.
+LaTeX Font Info:    Font shape `OML/npxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 828.
+LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 828.
+LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 828.
+LaTeX Font Info:    Font shape `LMS/npxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 828.
+LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 828.
+LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 828.
+LaTeX Font Info:    Font shape `LMX/npxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 828.
+LaTeX Font Info:    Font shape `U/npxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 828.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 12.0pt on input line 828.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 8.8pt on input line 828.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 6.6pt on input line 828.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 828.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[43
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 851.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Statistics/variance std VIS.pdf, id=2805, 990.46239pt x 633.02936pt>
+File: Images/Results/Statistics/variance std VIS.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/variance std VIS.pdf>
+Package pdftex.def Info: Images/Results/Statistics/variance std VIS.pdf  used on input line 851.
+(pdftex.def)             Requested size: 191.20082pt x 122.199pt.
+<Images/Results/Statistics/variance std NIR.pdf, id=2806, 982.4009pt x 562.20476pt>
+File: Images/Results/Statistics/variance std NIR.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/variance std NIR.pdf>
+Package pdftex.def Info: Images/Results/Statistics/variance std NIR.pdf  used on input line 851.
+(pdftex.def)             Requested size: 199.1693pt x 113.9745pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 851.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[44
+
+ <./Images/Results/Statistics/variance std VIS.pdf> <./Images/Results/Statistics/variance std NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 871.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Statistics/variance slopes VIS.pdf, id=2942, 988.62912pt x 703.90915pt>
+File: Images/Results/Statistics/variance slopes VIS.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/variance slopes VIS.pdf>
+Package pdftex.def Info: Images/Results/Statistics/variance slopes VIS.pdf  used on input line 871.
+(pdftex.def)             Requested size: 191.20082pt x 136.12857pt.
+<Images/Results/Statistics/variance slopes NIR.pdf, id=2943, 989.64432pt x 703.90915pt>
+File: Images/Results/Statistics/variance slopes NIR.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/variance slopes NIR.pdf>
+Package pdftex.def Info: Images/Results/Statistics/variance slopes NIR.pdf  used on input line 871.
+(pdftex.def)             Requested size: 191.20082pt x 135.98894pt.
+
+Overfull \vbox (0.64088pt too high) detected at line 871
+ []
+
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 871.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[45
+
+ <./Images/Results/Statistics/variance slopes VIS.pdf> <./Images/Results/Statistics/variance slopes NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 894.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Statistics/optimal window VIS.pdf, id=3081, 989.24268pt x 349.73097pt>
+File: Images/Results/Statistics/optimal window VIS.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/optimal window VIS.pdf>
+Package pdftex.def Info: Images/Results/Statistics/optimal window VIS.pdf  used on input line 894.
+(pdftex.def)             Requested size: 195.1881pt x 69.00572pt.
+<Images/Results/Statistics/optimal window NIR.pdf, id=3082, 989.24268pt x 349.73097pt>
+File: Images/Results/Statistics/optimal window NIR.pdf Graphic file (type pdf)
+<use Images/Results/Statistics/optimal window NIR.pdf>
+Package pdftex.def Info: Images/Results/Statistics/optimal window NIR.pdf  used on input line 894.
+(pdftex.def)             Requested size: 195.1881pt x 69.00572pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 894.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[46
+
+ <./Images/Results/Statistics/optimal window VIS.pdf> <./Images/Results/Statistics/optimal window NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 913.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/CBS proof.png, id=3202, 1033.61156pt x 254.45062pt>
+File: Images/CBS proof.png Graphic file (type png)
+<use Images/CBS proof.png>
+Package pdftex.def Info: Images/CBS proof.png  used on input line 913.
+(pdftex.def)             Requested size: 219.08743pt x 53.93317pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 913.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[47
+
+ <./Images/CBS proof.png>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 927.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 927.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[48
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 940.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 940.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[49
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 950.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 950.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[50
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 966.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 966.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[51
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 986.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/Velocity lower potential_VIS.pdf, id=3330, 836.32347pt x 502.50421pt>
+File: Images/Results/Third signature/Velocity lower potential_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity lower potential_VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_VIS.pdf  used on input line 986.
+(pdftex.def)             Requested size: 191.20082pt x 114.88345pt.
+<Images/Results/Third signature/Velocity lower potential_NIR.pdf, id=3331, 844.35347pt x 502.50421pt>
+File: Images/Results/Third signature/Velocity lower potential_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity lower potential_NIR.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity lower potential_NIR.pdf  used on input line 986.
+(pdftex.def)             Requested size: 191.20082pt x 113.78699pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 986.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[52
+
+ <./Images/Results/Third signature/Velocity lower potential_VIS.pdf> <./Images/Results/Third signature/Velocity lower potential_NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 996.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/Velocity bins energy plot_VIS.pdf, id=3472, 1169.2684pt x 696.38293pt>
+File: Images/Results/Third signature/Velocity bins energy plot_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins energy plot_VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy plot_VIS.pdf  used on input line 996.
+(pdftex.def)             Requested size: 298.75394pt x 177.93126pt.
+
+Overfull \vbox (8.5832pt too high) detected at line 996
+ []
+
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 996.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[53
+
+ <./Images/Results/Third signature/Velocity bins energy plot_VIS.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1006.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/Velocity bins energy plot_NIR.pdf, id=3564, 1177.2984pt x 696.38293pt>
+File: Images/Results/Third signature/Velocity bins energy plot_NIR.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins energy plot_NIR.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy plot_NIR.pdf  used on input line 1006.
+(pdftex.def)             Requested size: 298.75394pt x 176.70929pt.
+
+Overfull \vbox (7.36124pt too high) detected at line 1006
+ []
+
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1006.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[54
+
+ <./Images/Results/Third signature/Velocity bins energy plot_NIR.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1016.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+File: Images/Results/Third signature/Velocity bins energy plot_VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/Velocity bins energy plot_VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/Velocity bins energy plot_VIS.pdf  used on input line 1016.
+(pdftex.def)             Requested size: 298.75394pt x 177.93126pt.
+
+Overfull \vbox (8.5832pt too high) detected at line 1016
+ []
+
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1016.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[55
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1037.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/Results/Third signature/energy coeficients VIS.pdf, id=3681, 991.68307pt x 563.66898pt>
+File: Images/Results/Third signature/energy coeficients VIS.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/energy coeficients VIS.pdf>
+Package pdftex.def Info: Images/Results/Third signature/energy coeficients VIS.pdf  used on input line 1037.
+(pdftex.def)             Requested size: 191.20082pt x 108.67218pt.
+<Images/Results/Third signature/energy coeficients SPA.pdf, id=3682, 991.68307pt x 563.66898pt>
+File: Images/Results/Third signature/energy coeficients SPA.pdf Graphic file (type pdf)
+<use Images/Results/Third signature/energy coeficients SPA.pdf>
+Package pdftex.def Info: Images/Results/Third signature/energy coeficients SPA.pdf  used on input line 1037.
+(pdftex.def)             Requested size: 191.20082pt x 108.67218pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1037.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[56
+
+ <./Images/Results/Third signature/energy coeficients VIS.pdf> <./Images/Results/Third signature/energy coeficients SPA.pdf>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1045.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1045.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[57
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1053.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1053.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[58
+
+]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1062.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/View_1st_visualizer.png, id=3854, 1444.64719pt x 808.52063pt>
+File: Images/View_1st_visualizer.png Graphic file (type png)
+<use Images/View_1st_visualizer.png>
+Package pdftex.def Info: Images/View_1st_visualizer.png  used on input line 1062.
+(pdftex.def)             Requested size: 298.75394pt x 167.20357pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1062.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[59
+
+ <./Images/View_1st_visualizer.png>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1071.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+<Images/View_2nd_visualizaer.png, id=3881, 1444.64719pt x 812.28468pt>
+File: Images/View_2nd_visualizaer.png Graphic file (type png)
+<use Images/View_2nd_visualizaer.png>
+Package pdftex.def Info: Images/View_2nd_visualizaer.png  used on input line 1071.
+(pdftex.def)             Requested size: 298.75394pt x 167.98198pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1071.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[60
+
+ <./Images/View_2nd_visualizaer.png>]
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1078.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1078.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[61
 
 ]
 
 File: images/Logo_White.png Graphic file (type png)
 <use images/Logo_White.png>
-Package pdftex.def Info: images/Logo_White.png  used on input line 266.
-(pdftex.def)             Requested size: 68.01155pt x 22.76228pt.
-[21
+Package pdftex.def Info: images/Logo_White.png  used on input line 1078.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[62
+
+
+]
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1078.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[63
+
+
+]
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1078.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[64
+
+
+]
+
+File: images/Logo_White.png Graphic file (type png)
+<use images/Logo_White.png>
+Package pdftex.def Info: images/Logo_White.png  used on input line 1078.
+(pdftex.def)             Requested size: 59.51082pt x 19.91684pt.
+[65
 
 
 ]
@@ -1664,29 +2724,42 @@ Package pdftex.def Info: images/Logo_White.png  used on input line 266.
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
- (main.aux)
+ (main.aux
+LaTeX Info: Redefining \sptext on input line 15.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AEA4B6A8AE45636C75679C2F0DFA4493;93.
+(rerunfilecheck)             Checksum: 4DA9D9096664261F8FF2D57C905AD89C;98.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36598 strings out of 468130
- 711646 string characters out of 5430633
- 1449703 words of memory out of 5000000
- 64510 multiletter control sequences out of 15000+600000
- 705046 words of font info for 132 fonts, out of 8000000 for 9000
+ 43143 strings out of 468130
+ 900316 string characters out of 5430633
+ 1577800 words of memory out of 5000000
+ 70886 multiletter control sequences out of 15000+600000
+ 768514 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,131p,1979b,1551s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxsys.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb>
-Output written on main.pdf (21 pages, 342154 bytes).
+ 128i,20n,131p,1959b,1816s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxmiaX.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxsys.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0800.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/clauw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb>
+Output written on main.pdf (65 pages, 3962511 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4142 PDF objects out of 4296 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 

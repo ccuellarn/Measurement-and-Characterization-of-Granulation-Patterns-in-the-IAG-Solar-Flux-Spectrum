@@ -1,13 +1,15 @@
-\documentclass[aspectratio=169]{beamer}
+\documentclass[aspectratio=169,spanish]{beamer}
 \usepackage[style=ieee,backend=bibtex]{biblatex}
+\usepackage[spanish]{babel}
 \usepackage{amsmath, tgpagella, eulerpx, eucal}
 \usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{xcolor}
+\usepackage{csquotes}
 \usepackage{ragged2e}
 \usepackage{subcaption}
-\usepackage{physics}
 \usepackage{amssymb}
+\usepackage{siunitx}
 \usepackage[T1]{fontenc}
 \usepackage[font=scriptsize]{caption}
 
@@ -20,29 +22,39 @@
 
 \usetikzlibrary{positioning}
 
-\definecolor{Miku}{HTML}{168282}
-\definecolor{Ado}{HTML}{000E4F}  
+\definecolor{Miku}{HTML}{009898}
+\definecolor{Ado}{HTML}{000E4F} 
+
+\newcommand\parens[1]{\left(#1 \right)}
 
 \newcommand{\MyFrameTitle}{}
-
 \setbeamertemplate{navigation symbols}[default]
 \setbeamertemplate{caption}[numbered]
 
-%Headline definition:
+\usetikzlibrary{positioning} 
+\usetikzlibrary{calc} 
+
+\setbeamertemplate{itemize item}{\textcolor{Ado}{$\bigstar$}}
+
+%---------------- DEFINE ANSGTROM
+\DeclareSIUnit\angstrom{\text{Å}}
+\DeclareSIUnit\miliangstrom{\text{mÅ}}
+
+
+%----------------------------------------------------- HEADLINE
 \setbeamercolor{headline}{bg=Miku, fg=white}
 \setbeamertemplate{headline}{
-  \begin{beamercolorbox}[wd = \paperwidth, ht=1cm, dp=0.2cm]{headline}
-    \hspace*{0.3cm}\includegraphics[height=0.8cm]{images/Logo_White.png}%
+  \begin{beamercolorbox}[wd = \paperwidth, ht=0.9cm, dp=0.2cm]{headline}
+    \hspace*{0.15cm}\includegraphics[height=0.7cm]{images/Logo_White.png}%
     \hfill
-    \raisebox{0.2cm}{\large\textcolor{white}{\MyFrameTitle}}%
+    \raisebox{0.2cm}{\textbf{\large\textcolor{Ado}{\textbf{\MyFrameTitle}}}}%
     \hspace*{0.3cm}
   \end{beamercolorbox}
 }
 
-
-% Footline definition:
-\newcommand{\myauthor}{Cuellar A.}
-\newcommand{\myfootertitle}{Medida y caracterización del patrón de granulación en el IAG Solar Flux Atlas}
+%----------------------------------------------------- FOOTLINE
+\newcommand{\myauthor}{Cuellar Nieto A.}
+\newcommand{\myfootertitle}{Medida y caracterización de los patrones de granulación del espectro solar IAG}
 
 \setbeamercolor{footline}{bg=Miku, fg=white}
 \setbeamertemplate{footline}{
@@ -53,24 +65,23 @@
       \color{white} 
       \insertframenumber{} / \inserttotalframenumber\hfill
       \myauthor\hfill
-      \myfootertitle
-    \end{beamercolorbox}%
+      \myfootertitle\end{beamercolorbox}%
   }%
   \vskip0pt%
 }
 
 \begin{document}
 
-\begin{frame}[plain] % Title section.
+%------------------------------------------------------------- TITLE
+\begin{frame}[plain] 
+  \begin{tikzpicture}[remember picture, overlay]
+        \node[opacity=1.0,anchor=north, yshift=2.5cm] at (current page.north) {
+            \includegraphics[width=\paperwidth]{images/Cute image.png}
+        };
+    \end{tikzpicture}
+
   \begin{tikzpicture}[remember picture,overlay]
-    \node[anchor=north east, xshift = -0.5cm, yshift = -0.15cm] at (current page.north east) {
-      \begin{minipage}[t]{0.45\textwidth}
-        \raggedleft
-        
-        {\Large \textcolor{Ado}{Universidad de los Andes}}\\
-        {\small \textcolor{Ado}{Departamento de Física}}
-      \end{minipage}
-    };
+    
     \node[anchor = south, xshift = -5cm , yshift = 0.10cm] at (current page.south) {
       \begin{minipage}{0.8\textwidth}
         \centering
@@ -80,189 +91,990 @@
       \end{minipage}
     };
   \end{tikzpicture}
-  \vspace{0.25cm}
+  \vspace{1.5cm}
   \begin{flushright}
     {\bfseries\LARGE \textcolor{Ado}{Medida y caracterización de los patrones de granulación del espectro solar IAG}}
     \noindent\color{Miku}\rule{\linewidth}{2pt}
     \par\vspace{0.5cm}
       
-    \bfseries\textcolor{Ado}{Claudia Alejandra Cuellar Nieto}$^{\ast}$ \\
-    \bfseries\textcolor{Ado}{Benjamin Oostra Vannopen}$^{\ast\ast}$
+    \bfseries\textcolor{Ado}{Universidad de los Andes-Departamento de Física}
+    \vspace{0.45cm}
+ 
+    \textcolor{Ado}{Claudia Alejandra Cuellar Nieto}$^{\ast}$ \\
+    \textcolor{Ado}{Benjamin Oostra Vannoppen}$^{\ast\ast}$
+  \end{flushright}
+\end{frame}
+%-------------------------------- INTRODUCTION
+\renewcommand{\MyFrameTitle}{¿Qué es un patrón de granulación?}
+\begin{frame}
+\justifying%
+Forma de caracterizar cómo el movimiento de convección afecta al espectro estelar, dado que este se presenta en forma de granulación en la fotosfera.
+  
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.46\textwidth}
+    \includegraphics[width=0.9\textwidth]{Images/Granulation pattern.jpg}
+    \caption{Estructura granular observada en la fotosfera solar. Imagen tomada de~\cite{Samir_pattern}.}
+  \end{subfigure}
+\hfill
+  \begin{subfigure}{0.46\textwidth}
+    \includegraphics[width=\textwidth]{Images/Granulation pattern Ellwarth.jpg}
+    \caption{Ejemplo del patrón de granulación para el tercer signo de convección en la fotsfera solar. Imagen tomada de~\cite{Ellwarth_2023}.}
+  \end{subfigure}
+\end{figure}
+
+\footnotetext[1]{\fullcite{Samir_pattern}}
+\footnotetext[2]{\fullcite{Ellwarth_2023}}
+
+\end{frame}
+%--------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Movimiento de convección en la fotosfera solar}
+\begin{frame}
+
+\begin{columns}
+\begin{column}{0.6\textwidth}  
+  \begin{block}{\textcolor{Ado}{¿Qué es el movimiento de convección?}}
+  \justifying%
+  Movimiento característico presente en fluidos sometidos a gradientes de temperatura y densidad, produciendo celdas de fluido caliente que ascienden a la superficie, transmitiendo calor~\cite{Plaskett_1936}.\\
+
+  \end{block}     
+\end{column}
+    
+\begin{column}{0.4\textwidth} 
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.95\linewidth]{Images/Sun interior structure.jpg}
+    \caption{Estructura interna del sol dividida en capas. Imagen tomada de~\cite{Foukal_1990}.}
+  \end{figure}
+\end{column}
+    
+\end{columns}
+
+\footnotetext[3]{\fullcite{Plaskett_1936}}
+\footnotetext[4]{\fullcite{Foukal_1990}}
+
+ \end{frame}
+%---------------------------------------------------------
+\renewcommand{\MyFrameTitle}{¿Cómo afecta el movimiento de convección al espectro?}
+\begin{frame}
+\justifying%
+La celda convectiva emitirá \textit{blueshift} al subir por la fotosfera. 
+A medida que el material se enfría y cae de vuelta a la base de la fotosfera, emite \textit{redshift} pero con menos luz, lo que hace al \textit{blueshift} dominante~\cite{Carroll_Ostlie_2006}.
+Este fenómeno es conocido como \textbf{blueshift convectivo}.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.53\linewidth]{Images/Convective blueshift.png}
+  \caption{Diagrama de la trayectoria de una celda convectiva a través de la fotosfera solar. Imagen tomada de~\cite{Dalal_2023}.}
+\end{figure}
+
+\footnotetext[5]{\fullcite{Carroll_Ostlie_2006}}
+\footnotetext[6]{\fullcite{Dalal_2023}}
+\end{frame}
+%------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Los tres signos de convección}
+\begin{frame}
+\justifying%
+El movimiento de convección ha sido extensamente documentado por David Gray, quien definió tres signos de convección para el espectro estelar~\cite{Gray_2009}.
+\vspace{0.5cm}
+\begin{columns}
+\begin{column}{0.32\textwidth}  
+  \begin{block}{\centering\textcolor{Ado}{Primer signo: Ensanchamiento de línea}}
+  \centering%
+\textbf{Curvatura}.
+  \end{block}     
+\end{column}
+    
+\begin{column}{0.32\textwidth}  
+  \begin{block}{\centering\textcolor{Ado}{Segundo signo: Asimetría en el perfil de línea}}
+  \centering
+\textbf{Pendiente} de la bisectriz en el núcleo de la línea. 
+  \end{block}     
+\end{column}
+
+\begin{column}{0.32\textwidth}  
+  \begin{block}{\centering\textcolor{Ado}{Tercer signo: Blueshift convectivo}}
+  \centering
+\textbf{Velocidad relativa}. 
+  \end{block}     
+\end{column}
+    
+\end{columns}
+\vspace{0.5cm}
+Evaluados en la longitud de onda observada y relacionados con la profundidad de la línea de absorción.
+\footnotetext[6]{\fullcite{Gray_2009}}
+ \end{frame}
+%-----------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Primer signo de convección}
+\begin{frame}
+\justifying%
+
+\begin{columns}
+\begin{column}{0.6\textwidth} 
+  \begin{block}{\textcolor{Ado}{Ecuación para curvatura:}}
+  \begin{equation}
+    \lambda_{obs}^2 f''(\lambda_{obs})
+    \label{eq:core curvature}
+\end{equation}
+  \end{block}
+
+  \begin{block}{\textcolor{Ado}{Relación teórica para curvatura y profundidad de la línea:}}
+  \begin{equation}
+    \frac{|f''(\lambda_{obs})|}{L_D}\lambda^2 = \frac{c^2}{\langle v_{\text{r}}^2 \rangle + \langle v_{\text{T}}^2 \rangle + \langle v_{\text{conv}}^2 \rangle}  
+\end{equation}
+  \end{block}
+  \centering 
+ 
+\end{column}
+    
+\begin{column}{0.4\textwidth} 
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.85\linewidth]{images/doppler-broadening.png}
+    \caption{Ilustración del efecto Doppler de ensanchamiento. Imagen tomada de~\cite{Liou_2002}.}
+  \end{figure}
+\end{column}
+    
+\end{columns}
+\footnotetext[7]{\fullcite{Liou_2002}}
+\end{frame}
+
+%------------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Segundo signo de convección}
+\begin{frame}
+\justifying%
+El fenómeno de blueshift convectivo hace que la bisectriz del perfil de línea obtenga una forma de C~\cite{Hamilton_1999}.
+
+
+\begin{columns}
+\begin{column}{0.4\textwidth} 
+  \centering 
+  \textcolor{Ado}{Pendiente para el núcleo de la longitud de onda observada:}
+\begin{equation}
+    -\frac{c}{\lambda_{obs}}\parens{\frac{f'''(\lambda_{obs})}{3 \parens{f''(\lambda_{obs})}^2 }}
+    \label{eq:third derivative relation}
+\end{equation}  
+\end{column}
+    
+\begin{column}{0.6\textwidth} 
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Results/Second signature/C_bisector_individual.pdf}
+    \caption{Bisectriz en forma de C para la línea $\SI{6254.2850}{\angstrom}$ del espectro de flujo solar IAG.}
+  \end{figure}
+\end{column}
+    
+\end{columns}
+\footnotetext[8]{\fullcite{Hamilton_1999}}
+\end{frame}
+%----------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Tercer signo de convección}
+\begin{frame}
+
+\begin{columns}
+\begin{column}{0.5\textwidth} 
+\begin{block}{\textcolor{Ado}{Velocidad relativa para el Sol:}}
+  \centering
+\begin{equation}
+    v_r = \parens{\frac{\lambda_{obs}}{\lambda_{em}}-1}c - 633m/s
+\end{equation}  
+\end{block}  
+\end{column}
+    
+\begin{column}{0.5\textwidth} 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.85\linewidth]{images/Granulation pattern Ellwarth.jpg}
+    \caption{Gráfico del tercer signo de convección para el espectro del centro del disco solar IAG. Imagen tomada de~\cite{Ellwarth_2023}.}
+\end{figure}
+\end{column}
+    
+\end{columns}
+
+\footnotetext[2]{\fullcite{Ellwarth_2023}}
+\footnotetext[9]{\fullcite{Gray_Pugh_2012}}
+\end{frame}
+%---------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Cromodependencia anómala.}
+\begin{frame}
+\begin{columns}
+\begin{column}{0.4\textwidth} 
+  \begin{block}{\textcolor{Ado}{Cromodependencia normal:}}
+    \justifying%
+  Tendencia de longitud de onda con respecto a la profundidad de línea sobre la misma curva de granulación.
+  \end{block}
+
+  \begin{block}{\textcolor{Ado}{Cromodependencia anómala:}}
+    \justifying%
+  El hecho observacional de que existan curvas de granulación individuales para rangos de longitud de onda.
+  \end{block}
+  \centering 
+ 
+\end{column}
+    
+\begin{column}{0.6\textwidth} 
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.65\linewidth]{Images/Standard curve gray.jpg}
+    \caption{Curva de granulación estándar propuesta por Gray y Oostra para el rango espectral de $\SI{6020}{\angstrom}$ al $\SI{6340}{\angstrom}$.Imagen tomada de~\cite{Gray_Oostra_2018}.}
+\end{figure}
+\end{column}
+    
+\end{columns}
+
+\footnotetext[10]{\fullcite{Gray_Oostra_2018}}
+\end{frame}
+%---------------------------------------------------------- OBJECTIVES AND QUESTION RESEARCH
+\renewcommand{\MyFrameTitle}{¿Cuál fue mi proyecto?}
+\begin{frame}
+  \justifying%
+
+Medir los patrones de granulación del espectro de flujo solar del \textit{Instituto de Astrofísica y Geofísica de Göttingen} IAG, 
+para calcular velocidades relativas de todo el rango espectral.
+A partir de ello, caracterizar los tres signos de convección, enfocándose en la cromodependencia anómala.\\
+\vspace{0.6cm}
+\textcolor{Ado}{¿Cuáles son las consecuencias espectroscópicas directas del movimiento de convección en el espectro solar?}
+
+\end{frame}
+%------------------------------------------------------
+\begin{frame}[plain] 
+  \begin{tikzpicture}[remember picture, overlay]
+        \node[opacity=1.0,anchor=north, yshift=2.5cm] at (current page.north) {
+            \includegraphics[width=\paperwidth]{images/Cute image.png}
+        };
+    \end{tikzpicture}
+
+  \vspace{1.5cm}
+  \begin{flushright}
+    {\bfseries\LARGE \textcolor{Ado}{Metodología}}
+    \noindent\color{Miku}\rule{\linewidth}{2pt}
+    \par\vspace{0.5cm}
+  
+  \end{flushright}
+\end{frame}
+%--------------------------------------------------- METHODOLOGY
+
+\renewcommand{\MyFrameTitle}{¿Cómo se calculó la longitud de onda observada?}
+\begin{frame}
+\justifying%
+  \begin{enumerate}
+    \item Selección de líneas de la lista de Nave libre de mezclas para Fe I~\cite{Nave_1994} en el espectro de flujo solar IAG y el espectro para el centro del disco solar IAG.
+    \item Separación del núcleo de la línea espectral con una ventana de $\SI{0.1}{\angstrom}$ alrededor del mismo.
+    \item Ajuste polinomial de grado cuatro a la ventana de observación y determinación de la longitud de onda observada como el mínimo.
+  \end{enumerate}
+\footnotetext[11]{\fullcite{Nave_1994}}
+\end{frame}
+%-----------------------------------------------------
+\renewcommand{\MyFrameTitle}{Espectros solares utilizados}
+
+\begin{frame}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{block}{\centering\textcolor{Ado}{Espectro de flujo solar IAG}}
+  \centering
+  \textcolor{Ado}{Reiners et.~al 2016}\\
+  \vspace{0.2cm}
+  \justifying%
+  Mayor precisión y resolución para el flujo solar hasta la fecha: Incertidumbre en la velocidad radial de $\pm 10$  m/s a lo largo del rango de $\SI{4050}{\angstrom}$ a $\SI{10650}{\angstrom}$~\cite{Reiners_2016}.
+\end{block} 
+
+\end{column}
+    
+\begin{column}{0.5\textwidth} 
+\begin{block}{\centering\textcolor{Ado}{Espectro espacialmente resuelto del disco solar IAG}}
+  \centering
+  \textcolor{Ado}{Ellwarth et.~al 2023}\\
+  \vspace{0.2cm}
+  \justifying%
+  Conjunto de espectros que cubre desde el centro del disco solar ($\mu = 1.0$) hasta el borde solar ($\mu = 0$), donde $\mu =\cos(\theta)$ con $\theta$ siendo el ángulo entre la normal a la superficie y la posición del observador~\cite{Ellwarth_2023}.
+
+\end{block}
+\end{column}
+    
+\end{columns}
+
+\footnotetext[12]{\fullcite{Reiners_2016}}
+\footnotetext[2]{\fullcite{Ellwarth_2023}}
+\end{frame}
+
+%-----------------------------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Efecto de oscurecimiento de borde}
+\begin{frame}
+
+  \justifying%
+Cerca del borde del disco solar, vemos menos profundo de las capas solares, por lo que la luz es más débil~\cite{Priest_1982}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.35\textwidth]{Images/Limb darkening.jpg}
+  \caption{Perfil cuadrado para la intensidad del disco al incrementar longitud de onda, donde $5\mu\text{m}$ se refiere al rango infrarrojo y $0.32\mu \text{m}$ all rongo violeta. Imagen tomada de~\cite{Foukal_1990}.}
+\end{figure}
+
+\footnotetext[4]{\fullcite{Foukal_1990}}
+\footnotetext[13]{\fullcite{Priest_1982}}
+\end{frame}
+%-----------------------------------------------------------------------------------------------
+\renewcommand{\MyFrameTitle}{La lista de Nave libre de mezclas para Fe I}
+\begin{frame}
+\justifying%
+En 1994 Nave y colaboradores publicaron la lista de valores de laboratorio para Fe I,
+estas líneas son ideales para calibrar el espectro solar debido a su abundancia en el espectro, bajo efecto de ensanchamiento térmico y
+disponibilidad de valores precisos de longitud de onda emitida~\cite{Nave_1994}.\\
+  \vspace{0.4cm}
+Para el proyecto, se seleccionaron líneas de calidad A pertenecientes al sol y sin mezclas en el espectro.
+
+\footnotetext[11]{\fullcite{Nave_1994}}
+\end{frame}
+%-------------------------------------------------------------RESULTS
+\begin{frame}[plain] 
+  \begin{tikzpicture}[remember picture, overlay]
+        \node[opacity=1.0,anchor=north, yshift=2.5cm] at (current page.north) {
+            \includegraphics[width=\paperwidth]{images/Cute image.png}
+        };
+    \end{tikzpicture}
+
+  \vspace{1.5cm}
+  \begin{flushright}
+    {\bfseries\LARGE \textcolor{Ado}{Patrones de granulación}}
+    \noindent\color{Miku}\rule{\linewidth}{2pt}
+    \par\vspace{0.5cm}
+  
+  \end{flushright}
+\end{frame}
+%-------------------------------------------------------------------- FIRST CONVECTION SIGN
+\renewcommand{\MyFrameTitle}{Primer signo de convección}
+\begin{frame}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{Images/Results/First signature/Curvature_ALL.pdf}
+    \caption{Curvaturas de longitudes de onda observadas para el espectro de flujo solar IAG. Mientras que la banda J del infrarrojo cercano se ajusta a la tendencia de cromodependencia general, la banda H sigue un comportamiento completamente diferente.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Primer signo de convección}
+\begin{frame}
+ \begin{figure}
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_VIS.pdf}
+         \caption{La curvatura de las líneas débiles es proporcional a la profundidad y las líneas profundas presentan una reducción en su curvatura con dependencia en la longitud de onda.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_NIR.pdf}
+         \caption{El gráfico muestra una separación de bandas naturales en $\SI{14000}{\angstrom}$.}
+     \end{subfigure}
+     \caption{Curvaturas de longitudes de onda observadas para el espectro de flujo solar IAG separado en rangos de longitudes de onda.}
+\end{figure}
+\end{frame}
+
+
+
+\renewcommand{\MyFrameTitle}{Primer signo de convección}
+\begin{frame}
+ \begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_VIS_rectangle.pdf}
+    \caption{Patrón de granulación del primer signo de convección.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_Slope_VIS.pdf}
+    \caption{Ajuste lineal aplicado al rango de $(0.0-0.1)$ de la profundidad de línea.}
+     \end{subfigure}
+     \caption{Rango visible del espectro de flujo solar IAG.}
+\end{figure}
+\end{frame}
+
+
+\renewcommand{\MyFrameTitle}{Primer signo de convección}
+\begin{frame}
+ \begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_SPA_rectangle.pdf}
+    \caption{Patrón de granulación del primer signo de convección.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/First signature/Curvature_Slope_SPA.pdf}
+    \caption{Ajuste lineal aplicado al rango de $(0.0-0.1)$ de la profundidad de línea.}
+     \end{subfigure}
+     \caption{Rango visible del espectro del centro del disco solar IAG.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Primer signo de convección: Conclusión}
+\begin{frame}
+  \justifying% 
+El ensanchamiento por convección es el factor principal, la varianza de la velocidad convectiva no es solo $600$ m/s de la curva de granulación.\\ \vspace{0.4cm}
+\textcolor{Ado}{Espectro de flujo solar IAG:}
+  \begin{equation}
+    \frac{|f''(0)|}{L_D}\lambda^2 = \frac{c^2}{0.90 {(\text{km/s})}^2 + 0.86 {(\text{km/s})}^2 + \langle v_{\text{conv}}^2 \rangle} \quad \rightarrow \quad \langle v_{\text{conv}}^2 \rangle=3.15 (\text{km/s})^2
+\end{equation}
+\centering
+
+\justifying% 
+\textcolor{Ado}{Espectro del centro del disco solar IAG:}
+\begin{equation}
+    \frac{|f''(0)|}{L_D}\lambda^2 = \frac{c^2}{ 0.86 {(\text{km/s})}^2 + \langle v_{\text{conv}}^2 \rangle}  \quad \rightarrow \quad \langle v_{\text{conv}}^2 \rangle=2.20 (\text{km/s})^2
+\end{equation}
+\centering
+
+\end{frame}
+%-------------------------------------------------------------------- SECOND CONVECTION SIGN
+\renewcommand{\MyFrameTitle}{Segundo signo de convección}
+\begin{frame}
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Second signature/Bisector_VIS.pdf}
+         \caption{Rango visible.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Second signature/Bisector_NIR.pdf}
+         \caption{Rango del infrarrojo cercano.}
+     \end{subfigure}
+     \caption{Pendientes del núcleo de longitudes de onda observadas para el espectro de flujo solar IAG.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Segundo signo de convección}
+\begin{frame}
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Second signature/Bisector slope_VIS.pdf}
+         \caption{Rango visible.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Second signature/Bisector slope_NIR.pdf}
+         \caption{Rango del infrarrojo cercano.}
+     \end{subfigure}
+     \caption{Ajuste lineal aplicado al rango $(0.3-0.6)$ de profundidad de línea en el espectro de flujo solar IAG, donde la cromodependencia anómala es evidente.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Segundo signo de convección}
+\begin{frame}
+
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Second signature/Bisector_SPA.pdf}
+         \caption{Patrón de granulación del segundo signo de convección.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Second signature/Bisector slope_SPA.pdf}
+         \caption{Ajuste lineal aplicado al rango $(0.3-0.6)$ de profundidad de línea, donde la cromodependencia anómala es evidente.}
+     \end{subfigure}
+     \caption{Rango visible para el espectro del centro del disco solar IAG.}
+\end{figure}
+
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Segundo signo de convección}
+\begin{frame}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Images/Results/Second signature/Velocity bins bisector plot_VIS.pdf}
+    \caption{Secciones de profundidad de línea de $0.1$ para el rango visible del espectro de flujo solar IAG.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Segundo signo de convección}
+\begin{frame}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Images/Results/Second signature/Velocity bins bisector plot_SPA.pdf}
+    \caption{Secciones de profundidad de línea de $0.1$ para el rango visible del espectro del centro del disco solar IAG.}
+\end{figure}
+
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Segundo signo de convección:Conclusión}
+\begin{frame}
+  \justifying%
+  Para el rango de profundidad de línea de $0.3-0.6$, las pendientes aumentan con la profundidad de línea en ambos espectros, pero con valores cuantitativos menores en el centro del disco solar.
+  Una posible causa es el efecto del oscurecimiento de borde.
+
+\end{frame}
+
+%-------------------------------------------------------------------- THIRD CONVECTION SIGN - VELOCITY
+
+\renewcommand{\MyFrameTitle}{Tercer signo de convección}
+\begin{frame}
+\begin{figure}
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/GranulationPattern_VIS.pdf}
+         \caption{Rango visible..}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/GranulationPattern_NIR.pdf}
+         \caption{Rango del infrarrojo cercano.}
+     \end{subfigure}
+
+        \caption{Patrón de granulación para el tercer signo de convección del espectro de flujo solar IAG, en ambos se observa que la velocidad relativa es dependiente de la longitud de onda.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Tercer signo de convección}
+\begin{frame}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\textwidth]{Images/Results/Third signature/Velocity bins NIR_plot.pdf}
+    \caption{Secciones de velocidad de $\pm 50$ m/s para la relación entre longitud de onda y profundidad de línea, para el rango del infrarrojo cercano donde es notable la separación en bandas naturales del espectro de flujo solar IAG.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Tercer signo de convección}
+\begin{frame}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/Results/Third signature/Velocity bins VIS_plot.pdf}
+    \caption{Secciones de velocidad de $\pm 50$ m/s para la relación entre longitud de onda y profundidad de línea, para el rango visible del espectro de flujo solar IAG, con su respectivo ajuste lineal para el rango de longitud de onda de $\SI{4300}{\angstrom}$-$\SI{5600}{\angstrom}$.}
+\end{figure}
+\end{frame}
+
+
+\renewcommand{\MyFrameTitle}{Tercer signo de convección}
+\begin{frame}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/Results/Third signature/Velocity bins SPA_plot.pdf}
+    \caption{Secciones de velocidad de $\pm 50$ m/s para la relación entre longitud de onda y profundidad de línea, para el rango visible del espectro del centro del disco solar IAG, con su respectivo ajuste lineal para el rango de longitud de onda de $\SI{4300}{\angstrom}$-$\SI{5600}{\angstrom}$.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Tercer signo de convección}
+\begin{frame}
+\begin{figure}
+    \centering
+ \includegraphics[width=0.75\textwidth]{Images/Results/Third signature/velocity coeficients NIR.pdf}
+    \caption{Coeficientes de cada ajuste lineal realizado en las secciones de velocidad separado por bandas naturales para el rango del infrarrojo cercano del espectro de flujo solar IAG.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Tercer signo de convección}
+\begin{frame}
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/velocity coeficients VIS.pdf}
+
+         \caption{Espectro de flujo solar IAG.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/velocity coeficients SPA.pdf}
+
+         \caption{Espectro del centro del disco espacial IAG.}
+     \end{subfigure}
+
+        \caption{Coeficientes de cada ajuste lineal realizado en las secciones de velocidad para el rango visible.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Tercer signo de convección:Conclusión}
+\begin{frame}
+    \justifying%
+Existe un fenómeno que genera la cromodependencia anómala, y no es despreciable en el espectro del centro del disco solar. 
+Se observó el desplazamiento de velocidad en ambos espectros, y la magnitud en el espectro del centro del disco resultó ser mayor que la del espectro de flujo.\\
+\vspace{0.4cm}
+\textbf{Se descarta la rotación del Sol como causa de cromodependencia anómala.}
+\end{frame}
+
+%------------------------------------------------------- CHROMODEPENDENCE CARACTERIZATION
+\renewcommand{\MyFrameTitle}{Caracterización de la cromodependencia en el tercer signo}
+\begin{frame}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{Images/Results/Third signature/color curves VIS.pdf}
+    \caption{Curvas de granulación ajustadas a rangos de longitud de onda específicos del patrón de granulación del tercer signo de convección para el rango visible del espectro de flujo solar IAG.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Caracterización de la cromodependencia en el tercer signo}
+\begin{frame}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{Images/Results/Third signature/color curves NIR.pdf}
+    \caption{Líneas de granulación ajustadas a rangos de longitud de onda específicos del patrón de granulación del tercer signo de convección para el rango del infrarrojo cercano del espectro de flujo solar IAG.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Caracterización de la cromodependencia en el tercer signo}
+\begin{frame}
+  \begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.47\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/color characterization coeff VIS.pdf}
+
+         \caption{Rango visible.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.47\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/color characterization coeff NIR.pdf}
+
+         \caption{Rango del infrarrojo cercano.}
+     \end{subfigure}
+
+        \caption{Coeficientes de cada curva de granulación para el espectro de flujo solar IAG.}
+\end{figure}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Caracterización de la cromodependencia en el tercer signo}
+\begin{frame}
+    \justifying%
+El rango del infrarrojo cercano presenta una tendencia linear entre ajustes lineales, por lo que su curva de granulación estándar es descrita por la ecuación~\eqref{eq:standard line NIR}.
+
+\begin{equation}
+    \frac{F}{F_c}(\lambda,v) = \parens{9.83 \times 10^{-8}\lambda - 1.86\times 10^{-3}} v + 3.93\times10^{-5} \lambda - 0.04
+    \label{eq:standard line NIR}
+\end{equation}
+En el caso del rango visible, se reportan curvas de granulación individuales mostradas en la ecuación~\eqref{eq:standard line VIS}, cuyos coeficientes que dependen de la longitud de onda son listados en la tabla~\ref{tab:coeff standard curves VIS}.
+\begin{equation}
+    \frac{F}{F_c}(\lambda,v) =  \alpha(\lambda) v^2 + \beta(\lambda) v + \gamma(\lambda)
+    \label{eq:standard line VIS}
+\end{equation}
+\end{frame}
+
+\renewcommand{\MyFrameTitle}{Caracterización de la cromodependencia en el tercer signo}
+\begin{frame}
+  \justifying%
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{||c|c|c|c|c|c|c||}
+        \hline
+        \textcolor{Miku}{Longitud de onda} & \textcolor{Miku}{$\alpha(\lambda)$} & \textcolor{Miku}{$\beta(\lambda)$} & \textcolor{Miku}{$\gamma(\lambda)$} & \textcolor{Miku}{$\sigma_{\alpha}$} & \textcolor{Miku}{$\sigma_{\beta}$} & \textcolor{Miku}{$\sigma_{\gamma}$} \\
+        \textcolor{Miku}{$(\SI{}{\angstrom})$} & \textcolor{Miku}{$(\times 10^{-6})$} & & & \textcolor{Miku}{$(\times 10^{-7})$} & & \\
+        \hline
+        3800-4270 & 0.654 & -0.0001 & 0.119 & 1.226 & 0.0004 & 0.0068 \\
+        \hline
+        4270-4760 & 1.132 & -0.0001 & 0.113 & 3.043 & 0.0001 & 0.0188 \\
+        \hline
+        4760-4970 & 1.030 & -0.0003 & 0.122 & 1.472 & 0.0001 & 0.0085 \\
+        \hline
+        4970-5700 & 1.339 & -0.0002 & 0.159 & 1.331 & 0.0001 & 0.0094 \\
+        \hline
+        5700-6180 & 1.306 & -0.0002 & 0.267 & 4.235 & 0.0002 & 0.0412 \\
+        \hline
+        6180-7800 & 1.307 & -0.0003 & 0.275 & 3.133 & 0.0001 & 0.0266 \\
+        \hline
+    \end{tabular}
+    \caption{Coeficientes correspondientes a cada curva de granulación para el rango visible del espectro de flujo solar IAG.}\label{tab:coeff standard curves VIS}
+\end{table}
+\end{frame}
+%----------------------------------------------------------------- CONCLUSIONS
+\renewcommand{\MyFrameTitle}{Conclusiones}
+\begin{frame}
+    \justifying%
+\begin{itemize}
+  \item Se describió y caracterizó los patrones de granulación que describen los tres signos de convección en el espectro de flujo solar IAG.
+  \item Con ayuda del espectro del centro del disco solar IAG se descarta a la rotación como una causa de la cromodependencia anómala.
+  \item Se reporta cromodependencia en el rango del infrarrojo cercano.
+  \item Se establecieron curvas de granulación para todo el rango espectral del espectro de flujo solar.
+  \item Se reporta una lista de líneas de Fe I libre de mezclas para el análisis de granulación en el Sol.
+\end{itemize}
+
+\end{frame}
+
+%------------------------------------------------------------------ FUTURE WORK
+\renewcommand{\MyFrameTitle}{Trabajo a futuro}
+\begin{frame}
+\justifying%
+\begin{itemize}
+\item Estudiar la universalidad del patrón de granulación del tercer signo de convección en estrellas como Aldebarán, Arturo y Antares.
+\item Comprobar el escalamiento en todo el rango espectral de las curvas de granulación.
+\item Estudiar efectos atómicos de ensanchamiento de línea.
+\item Optimizar el método de selección de líneas de Fe I.
+\end{itemize}
+\end{frame}
+%---------------------------------FINISH
+\begin{frame}[plain] 
+  \begin{tikzpicture}[remember picture, overlay]
+        \node[opacity=1.0,anchor=north, yshift=2.5cm] at (current page.north) {
+            \includegraphics[width=\paperwidth]{images/Cute image.png}
+        };
+    \end{tikzpicture}
+
+  \vspace{1.5cm}
+  \begin{flushright}
+    {\bfseries\LARGE \textcolor{Ado}{Muchas gracias por su atención}}
+    \noindent\color{Miku}\rule{\linewidth}{2pt}
+    \par\vspace{0.5cm}
+    \large\textcolor{Ado}{¿Preguntas?}
+  
   \end{flushright}
 \end{frame}
 
-%-------------------------------- CONTENT
-\renewcommand{\MyFrameTitle}{¿Qué es un patrón de granulación?}
-\begin{frame}
-  \justifying
-Es todo aquel comportamiento en el espectro producto del movimiento de convección.
-Ya sea asimetrías, Doppler shifts, o \textbf{Cromodependencia anómala}.
+%--------------------------------- BACKUP SLIDES
 
-Dicho movimiento de convección se ve presente en la granulación.
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\renewcommand{\MyFrameTitle}{Ventana de observación de $\SI{0.1}{\angstrom}$}
+\begin{frame}
+\justifying%
+En el proyecto se siguió la metodología de Allende y Garcia~\cite{Allende_Garcia_1998} para el cálculo de la longitud de onda observada. \\
+\vspace{0.7cm}
+Encontrar la ventana que asegurara la mínima varianza en los valores de longitud de onda calculada para todo el rango del espectro, incluyendo el infrarrojo cercano.
+\footnotetext[14]{\fullcite{Allende_Garcia_1998}}
+\end{frame}
+%---------------------------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Variación en la ventana de observación}
+\begin{frame}
+
+    \begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Statistics/variance std VIS.pdf}
+         \caption{Rango visible para el espectro del flujo solar IAG.}
+
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.5\textwidth}
+
+         \includegraphics[width=\textwidth]{Images/Results/Statistics/variance std NIR.pdf}
+         \caption{Rango del infrarrojo cercano para el espectro del flujo solar IAG.}
+
+     \end{subfigure}
+
+        \caption{Varianza y desviación estándar para algunas longitudes de onda observadas alterando la ventana de observación para el ajuste polinomial de grado cuatro.}
+\end{figure}
+
+\end{frame}
+%---------------------------------------------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Variación en la ventana de observación}
+\begin{frame}
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Images/Results/Statistics/variance slopes VIS.pdf}
+         \caption{Para ventanas de observación pequeñas del rango visible se puede observar un desplazamiento a lo largo de la longitud de onda emitida.}
+
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Images/Results/Statistics/variance slopes NIR.pdf}
+        \caption{Para ventanas de observación del rango del infrarrojo cercano no se observan desplazamientos pronunciados a lo largo de la longitud de onda emitida.}
+
+     \end{subfigure}
+
+        \caption{Gráficas para los residuales del ajuste lineal aplicado entre longitud de onda observada y emitida a o largo de la longitud de onda emitida.}
+\end{figure}
+\end{frame}
+%------------------------------------------------------------------------------
+\renewcommand{\MyFrameTitle}{Ventana de observación óptima}
+\begin{frame}
+  \justifying%
+Para el rango visible se encontró que la ventana de observación mínima que asegura consistencia a lo largo de todo el rango espectral es de $\SI{0.1}{\angstrom}$.
+Para el rango del infrarrojo cercano se encontró que no hay mucha diferencia entre tomar distintas ventanas, por consistencia se utilizó la misma del rango visible.
+\begin{figure}
+     \centering
+     \begin{subfigure}{0.49\textwidth}
+        \includegraphics[width=\textwidth]{Images/Results/Statistics/optimal window VIS.pdf}
+         \caption{Para el rango visible la ventana de observación mínima que asegura consistencia a lo largo de todo el rango espectral es de $\SI{0.1}{\angstrom}$.}
+
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.49\textwidth}
+        \includegraphics[width=\textwidth]{Images/Results/Statistics/optimal window NIR.pdf}
+        \caption{Para el rango visible no se encuentra una diferencia pornunciada para escoger algún valor óptimo de ventana de observación.}
+
+     \end{subfigure}
+
+        \caption{Gráficas de varianza de los residuales para cada ventana de observación en el espectro de flujo solar IAG.}
+\end{figure}
+\end{frame}
+%-------------------------------------------------
+\renewcommand{\MyFrameTitle}{La relación de la tercera derivada}
+\begin{frame}
+  \begin{equation}
+ CBS = \lim_{h\to 0} \frac{\frac{b+c}{2}-a}{h}
+\end{equation}
+\justifying%
+Siguiendo con una expansión en series de Taylor...
+\begin{equation}
+f(c) = f(a) + (c-a)f'(a) + \frac{1}{2}(c-a)^2f''(a) + \frac{1}{6}(c-a)^3f'''(a)...
+\end{equation}
+
+  \begin{figure}
+     \centering
+      \includegraphics[width=0.55\textwidth]{Images/CBS proof.png}
+    \caption{Ilustración para los puntos $a$, $b$, $c$ y la altura que definen para la línea observada la relación de la tercera derivada.}
+\end{figure}
+
+\end{frame}
+%-------------------------------------------------
+\renewcommand{\MyFrameTitle}{Obtención de la pendiente teórica del primer signo}
+\begin{frame}
+  \justifying%
+La distribución de Maxwell-Boltzmann para velocidades atómicas es:
+\begin{equation} 
+    f(v_{\text{rad}}) = \exp\left(\frac{-mv_{\text{rad}}^2}{2k_{B}T}\right)
+\end{equation}
+Su ancho $\sigma^2$ corresponde a la varianza térmica $\langle v_{\text{rad}}^2 \rangle = k_BT/m$. Combinando con el efecto Doppler, el perfil de línea resultante es:
+\begin{equation} 
+    f(\Delta \lambda) = L_D\exp\left(\frac{-mc^2}{2\lambda^2k_{B}T}\Delta \lambda^2\right)
+\end{equation}
+con $L_D$ como profundidad de línea y $c\Delta \lambda/\lambda$ representando la velocidad radial.
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{¿Qué es la granulación?}
+\renewcommand{\MyFrameTitle}{Obtención de la pendiente teórica del primer signo}
 \begin{frame}
-  \justifying
-Son celdas convectivas creadas en el movimiento de convección de plasma en la fotosfera solar.
-Esto hace que se genere cierto patrón visual en forma de panal, aunque yo prefiero verlo como...
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+  \justifying%
+La pendiente teórica $|f''(0)|\lambda^2/L_D$ se deduce del perfil de una distribución Gaussiana, obteniéndose para ensanchamiento puramente térmico:
+\begin{equation}
+    \frac{|f''(0)|\lambda^2}{L_D} = \frac{mc^2}{2k_{B}T}
+\end{equation}
+Generalizando para los tres efectos de ensanchamiento (térmico, rotacional y convectivo) considerados independientes, la pendiente teórica total es:
+\begin{equation}
+    \frac{|f''(0)|\lambda^2}{L_D} = \frac{c^2}{\langle v_{\text{r}}^2 \rangle + \langle v_{\text{T}}^2 \rangle + \langle v_{\text{conv}}^2 \rangle}
+\end{equation}
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{La natilla solar}
+\renewcommand{\MyFrameTitle}{Obtención de la pendiente teórica del primer signo}
 \begin{frame}
-  \justifying
-Foto recreada en casa, tranquilos, no es plasma
-Se puede entender como natilla, es un "gas" super denso el cual está sometido a un gradiente de temperatura "en escala".
-
-El cual genera que se forme el patrón característico de material enfriándose y calentándose en continuo movimiento.
-Este movimiento específico se llama convección donde las burbujas de natilla son celdas convectivas.
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+  \justifying%
+Usando la masa atómica del Fe ($55.85$ g/mol) y la temperatura efectiva solar ($5770$ K), se obtiene una varianza de velocidad térmica de $0.86$ $(\text{km}/\text{s})^2$.\\
+\vspace{0.5cm}
+La varianza de velocidad rotacional es $0.90$ $(\text{km}/\text{s})^2$, calculada mediante un modelo sólido y esférico del Sol. \\
+\vspace{0.5cm}
+En el espectro del centro del disco solar IAG, el valor de $\langle v_{\text{r}}^2 \rangle$ es despreciable.
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{¿Cuál es el recorrido de la celda convectiva?}
+
+%-------------------------------------------------
+\renewcommand{\MyFrameTitle}{Clasificación de las líneas de Fe I}
 \begin{frame}
-  \justifying
-Sube caliente, baja fría pero emitiendo radiación
-Solo que la relación de tamaños es muy grande 
+  \justifying%
+La lista de Nave para Fe I clasifica las líneas con un grado de calidad (A,B,C,D) basado en la incertidumbre de la longitud de onda.
 
-OJO: Tratamos granulos, no manchas.
+\begin{itemize}
+  \item Calidad A $\rightarrow$ incertidumbre menor a $0.005\text{cm}^{-1}$.
+  \item Calidad B $\rightarrow$ incertidumbre menor a $0.01\text{cm}^{-1}$.
+  \item Calidad C $\rightarrow$ incertidumbre menor a $0.02\text{cm}^{-1}$.
+  \item Calidad D $\rightarrow$ incertidumbre mayor a $0.02\text{cm}^{-1}$.
+\end{itemize}
 
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\end{frame}
+%-------------------------------------------------------------------- THIRD CONVECTION SIGN - EXCITATION
+\renewcommand{\MyFrameTitle}{Potencial de excitación}
+\begin{frame}
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity lower potential_VIS.pdf}
+
+         \caption{Rango visible.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=\textwidth]{Images/Results/Third signature/Velocity lower potential_NIR.pdf}
+
+         \caption{Rango del infrarrojo cercano.}
+     \end{subfigure}
+
+        \caption{Velocidad relativa contra potencial de excitación $(\chi)$ del espectro de flujo solar IAG.}
+\end{figure}
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{¿Cómo afecta la convección al espectro?}
+\renewcommand{\MyFrameTitle}{Potencial de excitación}
 \begin{frame}
-  \justifying
-Si sube caliente emite blueshift
-Se enfría, emite redshift
-Baja de nuevo con menos blueshift
-Pero como cuando sube el brillo es tanto, se ve más blueshift que redshift
+\begin{figure}[H]
+     \centering
+         \includegraphics[width=0.75\textwidth]{Images/Results/Third signature/Velocity bins energy plot_VIS.pdf}
+        \caption{Secciones de velocidad de $100$ m/s para el potencial de excitación de las longitudes de onda observadas para el rango visible del espectro de flujo solar IAG.}
+\end{figure}
 
-
-Se presentará un bluesfhift convectivo adicional.
-
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{¿Cómo identificar si su estrella sufre de convección?}
+\renewcommand{\MyFrameTitle}{Potencial de excitación}
 \begin{frame}
-  \justifying
-Receta para identificar si su estrella presenta convección (by David Gray)
-Tambien conocida en el mundo académico como los tres signos de convección:
-  \begin{itemize}
-    \item Asímetría en la línea (perfil de línea curvo)
-    \item Ensanchamiento de línea
-    \item Dependencia de la profundidad de línea con el blueshift convectivo
-  \end{itemize}
+\begin{figure}[H]
+     \centering
+         \includegraphics[width=0.75\textwidth]{Images/Results/Third signature/Velocity bins energy plot_NIR.pdf}
+        \caption{Secciones de velocidad de $100$ m/s para el potencial de excitación de las longitudes de onda observadas para el rango del infrarrojo cercano del espectro de flujo solar IAG.}
+\end{figure}
 
-El sol presenta estas tres, y de manera más pronunciada que otras estrellas,
-dada su cercanía con la tierra, tenemos mejor resolución para la estrella.
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{¿Cuál fue mi proyecto?}
+\renewcommand{\MyFrameTitle}{Potencial de excitación}
 \begin{frame}
-  \justifying
-Medir los patrones de granulación basados en los tres signos de convección a partir del espectro
-de flujo solar del Intituto de Astrofísica y Geofísica de Göttingen IAG, para caracterizar el fenómeno de
-cromodependencia anómala.
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\begin{figure}[H]
+     \centering
+         \includegraphics[width=0.75\textwidth]{Images/Results/Third signature/Velocity bins energy plot_VIS.pdf}
+        \caption{Secciones de velocidad de $100$ m/s para el potencial de excitación de las longitudes de onda observadas para el rango visible del espectro del centro del disco solar IAG.}
+\end{figure}
+
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{IAG solar flux atlas}
+
+\renewcommand{\MyFrameTitle}{Potencial de excitación}
 \begin{frame}
-  \justifying
-Espectro muy bueno y preciso tomado por Reiners en 2014
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/energy coeficients VIS.pdf}
+
+         \caption{Espectro del flujo solar IAG.}
+     \end{subfigure}
+\hfill
+     \begin{subfigure}{0.48\textwidth}
+         \includegraphics[width=1.0\linewidth]{Images/Results/Third signature/energy coeficients SPA.pdf}
+
+         \caption{Espectro del centro del disco solar IAG.}
+     \end{subfigure}
+
+        \caption{Coeficientes del ajuste lineal para cada sección de velocidad de ambos espectros, los valores muestran un incremento con la velocidad. En ambos espectros uno de los gráficos es el espejo del otro, esto es una consecuencia de la incertidumbre del ajuste.}
+\end{figure}
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{IAG spatially resolved quiet sun atlas}
+\renewcommand{\MyFrameTitle}{Potencial de excitación}
 \begin{frame}
-  \justifying
-Espectro muy bueno y preciso tomado por Elwarth en 2023
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+  \justifying%
+En el rango de potencial de excitación $(2.5$ - $5.0)$ eV se meustra un desplazamiento máximo a los $-200$ m/s para el espectro de flujo solar IAG, 
+y de $0$ m/s para el espectro del centro de disco solar IAG.
+Sin embargo, la cromodependencia hallada no es un fenómeno pronunciado, por lo que se recomendaría no estudiar. 
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{¿Por qué hay dos atlas?}
+\renewcommand{\MyFrameTitle}{Visualizador para proceso de selección}
 \begin{frame}
-  \justifying
-Nuestro objetivo es tomar al sol como cualquier otra estrella para que la caracterización que se haga sea 
-aplicable a otras estrellas de las cuales no se tiene tan buena resolución.
-PERO para entender dicha caracterización y hallar razones al compartamiento, es necesario usar el de Elwwarth, quien quita el efecto de 
-oscurecimiento de borde.
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+  \justifying%
+Para el proceso de selección de líneas de Fe I se creó un visualizador, utilizando la biblioteca Tkinter de Python, para ayudar a identificar líneas mezcladas o aquellas fuera del espectro. \\
+\vspace{0.5cm}
+Se crearon dos visualizadores con filtros distintos: El primero muestra la geometría del núcleo y perfil de la línea para preseleccionar líneas; el segundo, a partir de esa selección, visualiza los tres signos de convección junto con el ajuste realizado a cada línea observada.
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{¿Qué líneas se usaron para calibrar?}
+\renewcommand{\MyFrameTitle}{Visualizador para proceso de selección}
 \begin{frame}
-  \justifying
-Se utilizó la lista de Nave de Fe I, el cual nos sirve por muchas cosas importantes,
-esta lista digamos que fue depurada con líneas que no son mezclas en el sol y que pertenecen al sol.
-
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Images/View_1st_visualizer.png}
+    \caption{Vista general del visualizador para los resultados del primer filtro, donde se muestra el núcleo de la línea con su ajuste polinomial y la bisectriz del perfil de la línea.}
+\end{figure}
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{Metodología}
+\renewcommand{\MyFrameTitle}{Visualizador para proceso de selección}
 \begin{frame}
-  \justifying
-Agarro espectro y lineas limpias
-Identifico y tomo una ventada de 10mA
-Hallo mi longitud de onda observada con un fit de polinomio de grado 4
-Calculo cosas
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Images/View_2nd_visualizaer.png}
+    \caption{Vista general del visualizador para los resultados del segundo filtro, donde se muestran los tres signos de convección y el perfil de la línea espectral.}
+\end{figure}
 \end{frame}
 
-\renewcommand{\MyFrameTitle}{¿Por qué 10mA?}
-\begin{frame}
-  \justifying
-Porque lo probamos y es la que genera una ventana óptima de observación, cosa que no se hacia antes.
 
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
-\end{frame}
-
-\renewcommand{\MyFrameTitle}{¿Qué se encontró?}
-\begin{frame}
-  \justifying
-Se eoncontró cromodepdendencia hasta en la natilla, hay varias cosas sin razon alguna
-Leggamos a una caracterizacion mediocre por el tiempo
-NO logre completar casi nada GENIAL :D
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
-\end{frame}
-
-\renewcommand{\MyFrameTitle}{Conclusiones}
-\begin{frame}
-  \justifying
-Tenemos mejorías en el método pero sin explicaciones a nada
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
-\end{frame}
-\renewcommand{\MyFrameTitle}{¿Preguntas?}
-\begin{frame}
-  \justifying
-NO
-  % \footnotetext[3]{\fullcite{arfelli_low-dose_1998}}
-  % \footnotetext[4]{\fullcite{endrizzi_x-ray_2018}}
-\end{frame}
+%------------------------------------------ BIBLIOGRAPHY
 \renewcommand{\MyFrameTitle}{Bibliography}
 \begin{frame}[allowframebreaks]
-  \printbibliography
-  \nocite{*}
+  \printbibliography\nocite{*}
 \end{frame}
 
 \end{document}
